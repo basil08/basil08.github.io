@@ -11,7 +11,7 @@ Ethereal, heavenly, celestial, opulent, splendid, otherworldly - these adjective
 
 Yes! This is the story of when I was stuck by fandom for the very first time in my life.
 
-<!-- {% include image.html url="/assets/images/CT-New-2U-1982.jpg" description="Early days. Robin Guthrie and Elizabeth Fraser seen here with Will Heggie. Source: official site" %}  -->
+{{<figure src="/img/CT-New-2U-1982.jpg" caption="Early days. Robin Guthrie and Elizabeth Fraser seen here with Will Heggie. Source: official site" width="400px" height="600px">}}
 
 
 ## In the beginning... 
@@ -60,7 +60,9 @@ The band participated in 4AD's The Mortal Coil project in 1983, producing the sp
 The band members chose their paths relatively independent of each others. Simon Raymonde found his own music label [Bella Union Records][bella]. Elizabeth has lent her voice to various artist productions, most notable among them is perhaps on [Teardrop][teardrop] on Massive Attack's Mezzanine album. Robin recorded his solo album, _Imperial_ with Harold Budd, which went on to become the film score of Gregg Araki's _Mysterious Skin_.  
  
 ## Get what Cocteau Twins really are (and what they are not):
-<!-- {% include image.html url="/assets/images/CT-1983.jpg" description="(l-r): Robin Guthrie, Simon Raymonde and Elizabeth Fraser, pictured in 1983, a year before their signature album, Treasure. Source: Google Images" %}    -->
+
+{{<figure src="/img/CT-1983.jpg" caption="(l-r): Robin Guthrie, Simon Raymonde and Elizabeth Fraser, pictured in 1983, a year before their signature album, Treasure. Source: Google Images">}}
+
 
 **The soundscapes matter. Not the lyrics**. Liz uses her voice as an instrument which weaves that magnificent tapestry of acoustic grandeur alongside Robin Guthrie's guitar and Simon Raymonde's bass. It is _not conventional singing_ which one expects.
 
@@ -83,7 +85,7 @@ But please understand it leads to a shrewd perception of reality for whosoever c
 
 ## Closing Remarks   
 
-<!-- {% include  image.html url="/assets/images/Melody-Maker-Treasure-Review.jpg" description="Steven Sutherland's daring review of Treasure, 1984. Notice the last sentence. Source: official site" %} -->
+{{<figure src="/img/Melody-Maker-Treasure-Review.jpg" caption="Steven Sutherland's daring review of Treasure, 1984. Notice the last sentence. Source: official site" width="400px" height="600px">}}
 
 And just like that the Cocteaus shot into limelight suffusing our lives with joy and yearning. And as swiftly, they dispersed. Be whatever it may, as [Trash Theory][tt] puts it, _"for those who listened, they meant everything"_.
 

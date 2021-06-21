@@ -134,10 +134,10 @@ Just on a random pandemic day, I read about 400 in my news feed and gosh, do I w
 For me, 2020 has been a year of self-revelation and realization. I am, therefore, most excited to apply what I have learned and realize the dreams that I have lived. 2021 will hopefully be my year of expression.  
 
 [bookshelf]: /bookshelf  
-[ct]: /stuck-by-fandom-for-the-first-time-in-my-life
-[hackathon]: /my-first-digital-hackathon
-[hacktoberfest]: /my-first-open-source-excursion
+[ct]: /post/stuck-by-fandom-for-the-first-time-in-my-life
+[hackathon]: /post/my-first-digital-hackathon
+[hacktoberfest]: /post/my-first-open-source-excursion
 [hacktoberfestofficial]: https://hacktoberfest.digitalocean.com/
 [mayhem]: https://github.com/basil08/mayhem  
 [discordjsguide]: https://discordjs.guide/
-[musicbuy]: /my-music-order-arrived  
+[musicbuy]: /post/my-music-order-arrived  

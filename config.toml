@@ -4,7 +4,7 @@ theme ="hugo-theme-basic"
 languageCode = "en-us"
 googleAnalytics = ""
 enableEmoji = true 
-copyright = "© 2020 <a href='https://twitter.com/BasilLabib'>Basil Labib</a> | Built on <a href='https://gohugo.io'>Hugo</a> - Theme <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a> by <a href='https://twitter.com/seigerts'>@seigerts</a>"
+copyright = "© 2020 <a href='https://twitter.com/BasilLabib'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> - Theme <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
 [taxonomies]

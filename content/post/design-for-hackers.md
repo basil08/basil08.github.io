@@ -40,6 +40,6 @@ You can read a [book summary I prepared][0] for more or better yet read the book
 I would love to go to art exhibitions and develop a taste for art as I can now appreciate the ideas latent therein with more fervour.
 
 
-[0]: /notes-design
+[0]: /post/notes-design-for-hackers-by-david-kadavy
 [1]: http://www.catb.org/~esr/faqs/hacker-howto.html
 [2]: https://letsgolarval.wordpress.com/

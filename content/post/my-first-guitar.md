@@ -13,7 +13,8 @@ At this point, I am not clear whether the pandemic screwed me or I screwed mysel
 
 Isn't this post supposed to be about the goddamn guitar? Did you expect me to ramble about its beauty and quality and price and dimension? Okay, let's do it. I must say that _it is indeed beautiful_. A Yamaha F280 Acoustic. I can play "Ode to Joy", "Yankee Doodle" and "Aura Lee" albeit, not fluently. I am practising finger coordination at a daily basis. I have a really generous classmate who guides me a lot and I am grateful to him. After much research and negotiation, I think *Hal Leonard's Guitar Book (Complete Volume)* is an ideal book (there are actually 3 books. I have a compilation edition) for me because I am in sync with the pedagogy professed in that book. I highly recommend it to anyone who is a total beginner and a self-learner like me.   
 
-{% include image.html url="../../assets/images/guitar-1.jpg" width="300px" height="400px" description="A Yamaha F280. My first guitar" %}  
+
+{{< figure src="/img/yamaha-guitar.jpg" caption="My first guitar. A Yamaha F280" width="300px" height="400px">}}
 
 Pardon my admittedly mediocre photography skills and the mess on the left. I don't feel like cleaning up.  
 
