@@ -1,0 +1,9 @@
+[submodule "kiss"]
+	path = kiss
+	url = https://github.com/ribice/kiss.git
+[submodule "themes/kiss"]
+	path = themes/kiss
+	url = https://github.com/ribice/kiss.git
+[submodule "themes/hugo-theme-basic"]
+	path = themes/hugo-theme-basic
+	url = https://github.com/siegerts/hugo-theme-basic.git
