@@ -2,6 +2,7 @@
 title: "Paint the Blue Sky, Pink"
 tags:
 categories: 
+draft: true
 date: 2021-06-10
 ---
 

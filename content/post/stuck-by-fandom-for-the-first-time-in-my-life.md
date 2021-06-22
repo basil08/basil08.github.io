@@ -1,6 +1,6 @@
 ---
 title: "Stuck by Fandom for the First Time in My Life"
-tags:
+tags: ['cocteau twins', 'personal']
 categories: 
 date: 2020-10-07
 ---

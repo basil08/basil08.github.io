@@ -1,11 +1,10 @@
 ---
 title: "Insomnia"
 tags:
-categories: 
+categories:
+draft: true 
 date: 2021-06-04
 ---
-
-
 
 It's exactly 03:37 AM as I am writing this. ["Free Fallin'" by Tom Petty][0] blasting through my earphones. I feel enraged, suffocated and insanely alone. It's wonderful how I can identify these emotions because all I feel is numb.   
 

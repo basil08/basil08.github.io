@@ -1,6 +1,6 @@
 ---
-title: "The Sun After a Thuderstorm"
-tags:
+title: "The Sun After A Thuderstorm"
+tags: ['prose', 'personal', 'thoughts']
 categories: 
 date: 2021-06-17
 ---

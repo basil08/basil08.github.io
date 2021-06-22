@@ -1,6 +1,6 @@
 ---
 title: "My First Open Source Excursion"
-tags:
+tags: ['open source','hacktoberfest', 'Karl Fogel', 'personal']
 categories: 
 date: 2020-10-28
 ---

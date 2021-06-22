@@ -1,6 +1,6 @@
 ---
 title: "Notes: Habits by James Clear"
-tags:
+tags: ['notes','habits', 'James Clear', 'psychology']
 categories: 
 date: 2021-02-26
 ---

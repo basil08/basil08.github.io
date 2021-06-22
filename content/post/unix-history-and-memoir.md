@@ -1,6 +1,6 @@
 ---
 title: "Thoughts: UNIX - History and Memoir (Book)"
-tags:
+tags: ['book', 'interpretations', 'thoughts', 'UNIX']
 categories: 
 date: 2021-03-30
 ---

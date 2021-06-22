@@ -1,6 +1,6 @@
 ---
 title: "Notes: Design for Hackers by David Kadavy"
-tags:
+tags: ['notes', 'design', 'David Kadavy', 'hackers']
 categories: 
 date: 2021-03-14
 ---

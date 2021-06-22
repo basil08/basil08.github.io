@@ -1,6 +1,6 @@
 ---
 title: "Think, Wait and Fast"
-tags:
+tags: ['book', 'interpretations', 'philosophy']
 categories: 
 date: 2021-06-06
 ---

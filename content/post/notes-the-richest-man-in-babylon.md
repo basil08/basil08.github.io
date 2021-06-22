@@ -1,6 +1,6 @@
 ---
 title: "Notes: The Richest Man in Babylon by George S. Clason"
-tags:
+tags: ['notes', 'wisdom', 'finance', George S. Clason']
 categories: 
 date: 2021-06-08
 ---

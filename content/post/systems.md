@@ -1,6 +1,6 @@
 ---
 title: "Systems and Everything Else"
-tags:
+tags: ['psychology']
 categories: 
 date: 2021-02-17
 ---

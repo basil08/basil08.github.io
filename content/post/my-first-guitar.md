@@ -1,6 +1,6 @@
 ---
 title: "My First Guitar"
-tags:
+tags: ['guitar','personal']
 categories: 
 date: 2021-05-30
 ---

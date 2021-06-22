@@ -1,6 +1,6 @@
 ---
 title: "My Music Order Arrived"
-tags:
+tags: ['personal','music','cocteau twins','CD']
 categories: 
 date: 2020-12-20
 ---

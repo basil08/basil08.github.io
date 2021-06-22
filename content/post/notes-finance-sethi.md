@@ -1,6 +1,6 @@
 ---
 title: "Notes: I Will Teach You To Be Rich by Ramit Sethi"
-tags:
+tags: ['notes', 'finance', 'money', 'Ramit Sethi']
 categories: 
 date: 2021-06-15
 ---

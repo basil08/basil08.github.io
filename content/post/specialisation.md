@@ -1,6 +1,6 @@
 ---
 title: "Specialisation"
-tags:
+tags: ['psychology', 'principal agent problem']
 categories: 
 date: 2021-02-22
 ---

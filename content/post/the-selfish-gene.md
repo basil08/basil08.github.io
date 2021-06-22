@@ -1,6 +1,6 @@
 ---
 title: "Thoughts: The Selfish Gene (Book)"
-tags:
+tags: ['book', 'thoughts', 'interpretations']
 categories: 
 date: 2020-12-30
 ---

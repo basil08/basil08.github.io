@@ -1,6 +1,6 @@
 ---
 title: "Thoughts: Ready Player Two (Book)"
-tags:
+tags: ['book', 'thoughts', 'interpretations']
 categories: 
 date: 2021-04-09
 ---

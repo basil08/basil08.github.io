@@ -5,8 +5,6 @@ categories:
 date: 2021-02-20
 ---
 
-
-
 A concave disposition I figured.  
 
 Living in the now, the present versus living for the future. This is **not** a mutually exclusive choice. One must possess both qualities and be able to switch back and forth effortlessly between them.    

@@ -1,7 +1,8 @@
 ---
 title: "My First Digital Hackathon"
 tags:
-categories: 
+categories:
+draft: true 
 date: 2020-10-17
 ---
 
@@ -28,7 +29,7 @@ I ended up with 3 other people from around the world collaborating on a project 
 
 Everyone didn't really dispelled their identities but I could place some reasonable guesses.   
  
-`thatrobotdev` (James Kerrane) was a high school freshman. He had quite a few interesting ideas (and we eventually went ahead with one of his). He was in MST which puts him 2 hours ahead of EST and somewhere in North America. 
+`thatrobotdev` (James) was a high school freshman. He had quite a few interesting ideas (and we eventually went ahead with one of his). He was in MST which puts him 2 hours ahead of EST and somewhere in North America. 
 
 `sameem` Sameem was a CS freshman from Pakistan. She was the closest mate I had in terms of proximity.  
 
@@ -58,7 +59,7 @@ Maybe, I'll also mention not studying for school and JEE under regret, though it
 
 * **Keep things simple**. Get a working something running. And then improve bits of it one at a time.(KISS, anyone? :))
 
-* **Remember to have fun!** Cause life is too short to be lost in anxiety!
+* **Remember to have fun!** Cause life is too short to be lost in contemplation!
 
 ## Closing thoughts
 

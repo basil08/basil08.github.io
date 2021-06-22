@@ -1,6 +1,6 @@
 ---
-title: "Turn Down the Music"
-tags:
+title: "Turn Down The Music"
+tags: ['poetry', 'personal']
 categories: 
 date: 2021-06-07
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Year in Review 2020"
-tags:
+tags: ['review', 'personal']
 categories: 
+draft: true
 date: 2021-01-01
 ---
 
