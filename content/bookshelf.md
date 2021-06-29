@@ -76,7 +76,10 @@ Non-fiction, Wealth, Finance, Advice, Classic, Wisdom, Knowledge
 Fiction, Antihero, Employee, Experience   
 
 21. > **I Will Teach You To Be Rich | Ramit Sethi**  
-Non-fiction, Personal Finance, Howto  
+Non-fiction, Personal Finance, Howto   
+
+22. > **The Adventures of Sherlock Holmes | Sir Arthur C. Doyle**  
+Fiction, Detective, Short stories, Classic   
 
 
 ## Unfinished   

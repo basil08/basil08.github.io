@@ -5,8 +5,6 @@ categories:
 date: 2021-04-09
 ---
 
-
-
 _WARNING: Literally the entire story is told. Proceed at your own risk._
 
 ## TLDR   

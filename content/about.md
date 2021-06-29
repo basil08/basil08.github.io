@@ -7,7 +7,7 @@ date: 2021-06-20T22:12:10+05:30
 
 ## What should you expect from this blog?  
 
-This is a blog about psychology, philosophy, economics, technology, science, art and design. It is not proper to believe this blog is limited to a handful of subjects listed above because it is not. To understand our lives require a multidisciplinary stance.   
+This is a blog about psychology, philosophy, economics, technology, science, art and design. It is not proper to believe this blog is limited to the handful of subjects listed above because it is not. To understand our lives demands a multidisciplinary stance.   
 
 In brief, it is about every subject encompassing human existence.  
 

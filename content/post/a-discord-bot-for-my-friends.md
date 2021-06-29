@@ -7,8 +7,6 @@ series: "Discord Bot with discord.js"
 date: 2020-11-17
 ---
 
-
-
 ## Abstract   
 
 # WARNING: This tutorial is not complete. Needs work.
