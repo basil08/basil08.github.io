@@ -27,7 +27,7 @@ Non-fiction, Biography, Monk, Vedanta, Philosophy, Inspiration
 4. > **The Three Body Problem | Cixin Liu**  
 Fiction, Hard SF (science fiction), Contact, Classic   
 
-5. > **Transform your Habits | James Clear** [more][1]    
+5. > **Transform your Habits | James Clear**    
 Non-fiction, Psychology, Self-help, Habits, Short  
 
 6. > **The Almanack of Naval Ravikant | Eric Jorgenson (via Naval Ravikant)**   
@@ -66,7 +66,7 @@ Fiction, Young Adult, Realism, Prodigy, Romance
 17. > **Soon I will be Invincible | Austin Grossman**  
 Fiction, Fantasy, Superhero, Comedy, Generic    
 
-18. > **Naked Economics | Charles Wheelan** [more][5]    
+18. > **Naked Economics | Charles Wheelan**    
 Non-fiction, Economics, Fundamentals, Layman, Essential   
 
 19. > **The Richest Man in Babylon | George S. Clason** [more][6]     
@@ -119,12 +119,11 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 [mailto]: mailto:g454236@gmail.com
 [current]: /bookshelf/current-reading.md
 [yib2020]: /bs/yib2020
-<!-- [0]: /ready-player-two
-[1]: /habits
-[2]: /design-for-hackers
-[3]: /notes-design
-[4]: /unix-history-and-memoir
-[5]: /notes-naked-economics
-[6]: /notes-the-richest-man-in-babylon -->
-
+[0]: /post/thoughts-ready-player-two-book/
+<!-- [1]: /habits -->
+[2]: /post/thoughts-design-for-hackers-book
+[3]: /post/notes-design-for-hackers-by-david-kadavy
+[4]: /post/thoughts-unix-history-and-memoir-book/
+<!-- [5]: /notes-naked-economics -->
+[6]: /post/notes-the-richest-man-in-babylon-by-george-s.-clason/
 
