@@ -81,6 +81,9 @@ Non-fiction, Personal Finance, Howto
 22. > **The Adventures of Sherlock Holmes | Sir Arthur C. Doyle**  
 Fiction, Detective, Short stories, Classic   
 
+23. > **The Millionaire Fastlane | MJ DeMarco**  
+Non-fiction, Finance, Wealth, Advice, Entrepreneurship   
+
 
 ## Unfinished   
 
