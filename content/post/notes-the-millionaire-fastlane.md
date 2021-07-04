@@ -5,7 +5,7 @@ categories:
 date: 2021-07-03T21:02:21+05:30
 ---    
 
-Are you able to successfully leverage the opportunities at your disposal? That is the question that this book tries to answer and provides advice backed by the author's own experiences. The book is written in a comfortable conversational style, including way too many metaphors and analogies. Oh, and it may occassionally crack you up with cute acronyms such as SUCS &ndash; Superiorly Unexpected Customer Service (!)    
+Are you able to successfully leverage the opportunities at your disposal? That is the question that this book tries to answer and provides advice backed by the author's own experiences. The book is written in a comfortable conversational style, including _way too many_ metaphors and analogies.   
 
 The author, himself, has a remarkable lifestyle: starting a tech company during the dot-com bubble, growing it, selling it and so on. Below I have aggregated few core ideas from the book. Enjoy!   
 
@@ -109,6 +109,11 @@ The author, himself, has a remarkable lifestyle: starting a tech company during 
 
 3. Look big to impress customers and intimidate competitors. 
 
+4. When supply exceeds demand, prices must drop, suddenly, the product becomes commoditized. _Avoid such industries entirely_.  
+
+5. Differentiation. Force innovation.    
+
+6. Be copied, never copy. (mine)  
 --- 
 ### Partners:
 
@@ -117,12 +122,6 @@ The author, himself, has a remarkable lifestyle: starting a tech company during 
 2. Verify first, trust later
 
 3. Spectacular product features cannot overcome poor services.  
-
-4. When supply exceeds demand, prices must drop, suddenly, the product becomes commoditized. _Avoid such industries entirely_.  
-
-5. Differentiation. Force innovation.    
-
-6. Be copied, never copy. (mine)  
 
 ---
 ### Branding   
