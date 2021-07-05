@@ -27,7 +27,7 @@ date: 2021-07-04T12:59:51+05:30
 
 11. > **Jumanji The Next Level (2019)**   
 
-12. > **Ready Player One (2018)**   
+12. > **Ready Player One (2018) | Steven Speilberg**   
 
 13. > **Jumanji Welcome to the Jungle (2017)**   
 
@@ -41,13 +41,13 @@ date: 2021-07-04T12:59:51+05:30
 
 18. > **Knives Out (2019)**   
 
-19. > **Jurassic Park (1993)**   
+19. > **Jurassic Park (1993) | Steven Spielberg**   
 
 20. > **Jurassic Park The Lost World (1997)**   
 
 21. > **Jurassic Park 3 (2001)**   
 
-22. > **Se7en (1995)**   
+22. > **Se7en (1995) | David Finch**   
 
 23. > **Home Alone (1990)**  
 
@@ -59,13 +59,13 @@ date: 2021-07-04T12:59:51+05:30
 
 27. > **Eternal Sunshine of the Spotless Mind (2004)**     
 
-28. > **The Dark Knight (2008)**    
+28. > **The Dark Knight (2008) | Christopher Nolan**    
 
-29. > **Pulp Fiction (1994)**     
+29. > **Pulp Fiction (1994) | Quentin Tarantino**     
 
 30. > **Night At The Museum (2006)**     
 
-31. > **Requiem for a Dream Director's Cut (2000)**     
+31. > **Requiem for a Dream Director's Cut (2000) | Darren Aronfonsky**     
 
 32. > **The Social Network (2010)**     
 
@@ -73,13 +73,13 @@ date: 2021-07-04T12:59:51+05:30
 
 34. > **The Shawshank Redemption (1994)**    
 
-35. > **Fight Club (1999)**   
+35. > **Fight Club (1999) | David Finch**   
 
 36. > **The Silence of the Lambs (1991)**   
 
 37. > **The Godfather (1972)**   
 
-38. > **Spider Man: Into the Spider Verse (2018)**   
+38. > **Spider Man: Into the Spider Verse (2018) | Kevin Smith**   
 
 39. > **Blade Runner (1997)**    
 
@@ -89,7 +89,7 @@ date: 2021-07-04T12:59:51+05:30
 
 42. > **The Fifth Element (1997)**   
 
-43. > **Tenet (2020)**    
+43. > **Tenet (2020) | Christopher Nolan**    
 
 44. > **Four Weddings and a Funeral (1997)**   
 
@@ -122,7 +122,7 @@ date: 2021-07-04T12:59:51+05:30
 10. > **Helvetica (2007)**   
 (first watch: Feb 18, 2021)
 
-11. > **Black Swan (2010)**    
+11. > **Black Swan (2010) | Darren Aronfonsky**    
 
 12. > **Marriage Story (2019)**  
 (first watch: Feb 21, 2021)  
@@ -136,16 +136,16 @@ date: 2021-07-04T12:59:51+05:30
 15. > **Amelie (2001)**  
 (first watch: Mar 03, 2021)  
 
-16. > **The Wolf of Wall Street (2013)**   
+16. > **The Wolf of Wall Street (2013) | Martin Scorsese**   
 (first watch: Mar 12, 2021)  
 
 17. > **The Dictator (2012)**   
 (first watch: Mar 17, 2021)   
 
-18. > **Before Sunrise (1995)**   
+18. > **Before Sunrise (1995) | Richard Linklater**   
 (first watch: Mar 28, 2021)   
 
-19. > **Before Sunset (2004)**   
+19. > **Before Sunset (2004) | Richard Linklater**   
 (first watch: Mar 29, 2021)   
 
 20. > **Moneyball (2011)**  
@@ -175,10 +175,10 @@ date: 2021-07-04T12:59:51+05:30
 28. > **Mean Girls (2004)**   
 (first watch: Apr 14, 2021)    
 
-29. > **Before Midnight (2013)**   
+29. > **Before Midnight (2013) | Richard Linklater**   
 (first watch: Apr 14, 2021)   
 
-30. > **Parasite (2019)**    
+30. > **Parasite (2019) | Boon Jung-Ho**    
 (first watch: Apr 19, 2021)   
 
 31. > **Gone Girl (2014)**  
@@ -210,7 +210,7 @@ date: 2021-07-04T12:59:51+05:30
 40. > **The Graduate (1967)**   
 (first watch: May 10th, 2021)   
 
-41. > **Memories of Murder (2003)**   
+41. > **Memories of Murder (2003) | Boon Jung-Ho**   
 (first watch: May 11th, 2021)   
 
 42. > **Pretty in Pink (1986)**  
@@ -226,16 +226,16 @@ date: 2021-07-04T12:59:51+05:30
 
 46. > **Dark Season 2 (2019) :tv:**  
 
-47. > **The Dark Knight Rises (2012)**  
+47. > **The Dark Knight Rises (2012) | Christopher Nolan**  
 (first watch: Insufficient Information) 
 
 48. > **Bruce Almighty (2003)**  
 (first watch: Jun 4th, 2021)   
 
-49. > **Avengers: Endgame (2019)**  
+49. > **Avengers: Endgame (2019) | Russo Brothers**  
 (first watch: Jun 9th, 2021)    
 
-50. > **Perfect Blue (1997)**   
+50. > **Perfect Blue (1997) | Satoshi Kon**   
 (first watch: Jun 23rd, 2021)   
 
 51. > **Sherlock (BBC) :tv:**  
@@ -251,4 +251,5 @@ date: 2021-07-04T12:59:51+05:30
 55. > **La La Land (2016)**    
 (first watch: Jul 1st, 2021) 
 
-
+56. > **It's A Wonderful Life (1946) | Frank Capra**  
+(first watch: Jul 5th, 2021)   

@@ -82,7 +82,10 @@ Non-fiction, Personal Finance, Howto
 Fiction, Detective, Short stories, Classic   
 
 23. > **The Millionaire Fastlane | MJ DeMarco**  
-Non-fiction, Finance, Wealth, Advice, Entrepreneurship   
+Non-fiction, Finance, Wealth, Advice, Entrepreneurship    
+
+24. > **A Thousand Splendid Suns | Khaled Hosseini**  (Reread)   
+Fiction, Human relationships, Afghanistan, Historical fiction   
 
 
 ## Unfinished   
