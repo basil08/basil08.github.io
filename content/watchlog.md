@@ -252,4 +252,7 @@ date: 2021-07-04T12:59:51+05:30
 (first watch: Jul 1st, 2021) 
 
 56. > **It's A Wonderful Life (1946) | Frank Capra**  
+(first watch: Jul 4th, 2021)   
+
+57. > **Dazed And Confused (1993) | Richard Linklater**  
 (first watch: Jul 5th, 2021)   
