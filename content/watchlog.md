@@ -255,4 +255,19 @@ date: 2021-07-04T12:59:51+05:30
 (first watch: Jul 4th, 2021)   
 
 57. > **Dazed And Confused (1993) | Richard Linklater**  
-(first watch: Jul 5th, 2021)   
+(first watch: Jul 5th, 2021)    
+
+58. > **Making Dazed (2003)**  
+(first watch: Jul 8th, 2021)  
+
+59. > **Titanic (1997) | James Cameron**  
+(first watch: )  
+
+60. > **Top Gun (1987)**   
+
+61. > **Remember The Titans (2000)**  
+
+62. > **Baby Driver (2017)**  
+
+63. > **Life is Beautiful (1997)**  
+
