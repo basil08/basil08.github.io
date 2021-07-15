@@ -24,3 +24,5 @@ Writing for public invariably means to write what they want. It is impossible to
 I am making my blog public. Public is a just a silly euphemism for "my handful of friends". I am looking forward to making it an unforgettable experience for everyone and myself.   
 
 So long.
+
+{{<card>}}

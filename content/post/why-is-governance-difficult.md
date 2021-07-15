@@ -63,4 +63,6 @@ I was motivated to think about incentives while reading the newspaper today. Hil
   
 I found sharing these scenarios fruitful because they concisely highlight how is it not obvious to anticipate human behavior.    
 
-**It is buffoonery to criticise someone without prior knowledge of all facets relevant to the case.** With that note, governments (good governments at least) always optimize their decisions in the long-run. And at the hazard of sounding obvious, behavioral economics is a fucking awesome subject to study!    
+**It is buffoonery to criticise someone without prior knowledge of all facets relevant to the case.** With that note, governments (good governments at least) always optimize their decisions in the long-run. And at the hazard of sounding obvious, behavioral economics is a fucking awesome subject to study!   
+
+{{<card>}}

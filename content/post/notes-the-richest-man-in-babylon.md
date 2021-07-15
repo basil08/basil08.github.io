@@ -98,3 +98,4 @@ Where the determination is, the way can be found.
  
 1. Work is your best friend. 
 
+{{<card>}}

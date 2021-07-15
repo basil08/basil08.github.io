@@ -45,7 +45,4 @@ I read multiple books together. So, I devised a so-called "reader's portfolio" &
 
 All these elaborate schemes are far from perfect and I know it. But at least, it's a start. These crude ideas give me a basic idea of where I should be headed so that I don't go crazy.  
 
-
-
-
-
+{{<card>}}

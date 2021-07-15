@@ -136,5 +136,7 @@ As always, [suggestions][1] are welcome.
 
 To infinity and beyond.   
 
+{{<card>}}
+
 [0]: https://jamesclear.com/wp-content/uploads/2013/09/habits-v2.pdf
 [1]: mailto:gs454236@gmail.com

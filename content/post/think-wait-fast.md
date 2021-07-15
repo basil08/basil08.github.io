@@ -46,3 +46,4 @@ To perpetual learning.
 
 **Footnote 2:** And today, more than ever in our history, it is possible to achieve that. 
 
+{{<card>}}
