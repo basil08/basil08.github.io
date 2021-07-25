@@ -1,0 +1,48 @@
+baseURL = "https://basil08.github.io/"
+title = "The Personal Blog of Basil Labib"
+theme ="hugo-theme-basic"
+languageCode = "en-us"
+googleAnalytics = "UA-171640245-1"
+enableEmoji = true 
+copyright = "© 2020 <a href='https://twitter.com/BasilLabib'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
+description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ""
+  # change this!
+  twitter = "BasilLabib"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "post/"
+
+[[params.menu]]
+  name = "bookshelf"
+  url = "bookshelf/"
+
+[[params.menu]]
+  name = "tags"
+  url = "tags/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+  
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
