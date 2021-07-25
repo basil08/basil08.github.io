@@ -2,7 +2,7 @@
 title: "Freakonomics: Should you read it? (Book)"
 tags: ['book', 'economics','psychology', 'behavior']
 categories: 
-date: 2021-07-10T12:53:32+05:30
+date: 2021-07-25T11:14:14+05:30
 ---
 
 > "Why do drug-dealers still live with their mothers?"  
