@@ -1,6 +1,6 @@
 ---
 title: "My Reading Portfolio"
-tags: ['books','reading','habits', 'personal']
+tags: ['book','reading','habits', 'personal']
 categories: 
 date: 2021-07-05T12:00:15+05:30
 ---
