@@ -1,5 +1,5 @@
 ---
-title: "Freakonomics: Should you read it? (Book)"
+title: "Freakonomics: Should you read it?"
 tags: ['book', 'economics','psychology', 'behavior']
 categories: 
 date: 2021-07-25T11:14:14+05:30
