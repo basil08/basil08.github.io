@@ -1,6 +1,6 @@
 ---
 title: "Rereading 'A Thousand Splendid Suns'"
-tags: ['books','thoughts', 'personal']
+tags: ['book','thoughts', 'personal']
 categories: 
 date: 2021-07-18T18:37:19+05:30
 ---
