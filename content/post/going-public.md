@@ -25,4 +25,3 @@ I am making my blog public. Public is a just a silly euphemism for "my handful o
 
 So long.
 
-{{<card>}}

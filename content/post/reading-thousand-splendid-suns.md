@@ -16,5 +16,3 @@ I want to know how Herati accent is different from Kabuli. I want to see vineyar
 > And I want to learn, not only from books but from life itself. Yes, that is what I want to do.   
 
 I find life so worthy of living. Is there anyone out there who can hear my cry? Who knows exactly how I feel?      
-
-{{<card>}}

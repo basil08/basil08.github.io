@@ -73,7 +73,6 @@ Having the option to do both is powerful. Since Bob is the default, learn to be 
 
 
 Don't listen to anything I said here. Look at the system that led me to these ideas and exploit the system. Then you'll have followed what I said. :)   
-{{<card>}}
 
 [kakkar]: https://neilkakkar.com/
 [kakkarpost]: https://neilkakkar.com/powerful-life-skills.html 

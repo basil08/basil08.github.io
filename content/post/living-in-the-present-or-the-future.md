@@ -13,4 +13,3 @@ Living for the future is stressful in the present but generally blissful for the
 
 Living in the now is equally perilous as we live in modern times and there are certain expectations from me and you. One must (against all our innate desires) give in to planning and long term goals. Today, having a plan is peace of mind (Unless you are in an uncanny profession such as sainthood).
 
-{{<card>}}

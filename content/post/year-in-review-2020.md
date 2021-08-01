@@ -133,7 +133,6 @@ Just on a random pandemic day, I read about 400 in my news feed and gosh, do I w
 ## Looking forward to 2021    
 
 For me, 2020 has been a year of self-revelation and realization. I am, therefore, most excited to apply what I have learned and realize the dreams that I have lived. 2021 will hopefully be my year of expression.  
-{{<card>}}
 
 [bookshelf]: /bookshelf  
 [ct]: /post/stuck-by-fandom-for-the-first-time-in-my-life

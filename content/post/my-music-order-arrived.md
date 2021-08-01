@@ -52,6 +52,5 @@ I haven't torn the seals of HOLV and Stars _yet_. I think they are too precious 
 I plan to buy Blue Bell Knoll and am eyeing the 4 CD Treasure Hiding boxset for next year.   
 
 It sure has been a hell of a ride and I enjoyed every bit of it!
-{{<card>}}
 
 [norman]: https://normanrecords.com

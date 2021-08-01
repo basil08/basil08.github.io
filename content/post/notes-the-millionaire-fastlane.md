@@ -137,5 +137,4 @@ The author, himself, has a remarkable lifestyle: starting a tech company during 
 
 ---
 
-{{<card>}}
 

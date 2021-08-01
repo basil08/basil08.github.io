@@ -31,4 +31,3 @@ And he did all that in his usual mix of humour and nostalgia which is heart-warm
 
 This was a (relatively) short book and I think I completed it in three to four sittings. I finished it on Mar 30, 2021 though I'm sure to dig into the myriad of resources Brian has linked to. I also want to get my hands on the Unix src (6th edition) preferably with Lions' commentary.  
    
-{{<card>}}

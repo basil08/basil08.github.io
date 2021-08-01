@@ -153,7 +153,6 @@ date: 2021-03-14
 6. `&hyphen;` (&hyphen;), `&ndash;` (&ndash;) and `&mdash;` (&mdash;) 
 7. Ligatures but not widely supported.
 
-{{<card>}}
 
 [1]: www.colorschemer.com
 [2]: http://colorschemedesigner.com

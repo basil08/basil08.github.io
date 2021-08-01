@@ -119,7 +119,6 @@ Maybe, just maybe, I would have been better off reading a classic.
 2. [/r/IndiaInvestments wiki][1] - great resource for Indian investors. Check "Recommended Reading" page (Another great collection of resources).  
 3. [Zerodha Varsity][2] - resource for investors. Newbie friendly.  
 
-{{<card>}}
 
 [0]: https://www.getrichslowly.org/blog
 [1]: https://indiainvestments.wiki/

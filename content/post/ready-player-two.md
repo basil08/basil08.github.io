@@ -55,4 +55,3 @@ Needless to say, this book like it's predecessor is a literal trove of reference
 
 I thought Cline would craft a jaw droppingly unique adventure, one that will be subtle and imposing that after it will be over, I'd still be under its daze for a long time. And that's all I'm disappointed about. I'm to blame somewhere myself for having read this inspite of all the warning out here on the Internet. I'll pretend this sequel never existed.  
 
-{{<card>}}

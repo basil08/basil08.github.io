@@ -16,5 +16,4 @@ existence undisputed; its radiance best enjoyed, not beheld directly."
 
 ~A Thousand Splendid Suns, Khaled Hosseini
 
-{{<card>}}
 

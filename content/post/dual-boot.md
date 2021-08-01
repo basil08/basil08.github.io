@@ -21,4 +21,3 @@ It's all beautifully captured in my all-time favourite quote by Marcus Aurelius,
 Everything you see is a perspective and not the truth."
 
 I have become more powerful.
-{{<card>}}

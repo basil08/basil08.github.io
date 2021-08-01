@@ -52,7 +52,6 @@ I'm fiddling with writing a client myself but shhh...
 * This is a great repo which is comprehensive enough to get you running (wild): [Awesome Gemini][3]. 
 * This is a gemlog site I found, that is hosting a site in gemini space and providing a nice proxied HTTP interface to users (possibly for convenience or to attract less tech-savvy people) which IMO is very cool. It doesn't ask for all my details and does what it should: maintain my anonymity and let me log. [gemlog.blue][4]. Definitely check it out!   
 
-{{<card>}}
 
 [0]: https://gemini.circumlunar.space
 [1]: https://gemini.circumlunar.space/docs/specification.html
