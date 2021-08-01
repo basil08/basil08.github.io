@@ -5,7 +5,7 @@ categories:
 date: 2021-08-01T15:28:23+05:30
 ---  
 
-Recent unravelling of the Raj Kundra porn video business on online streaming platforms has raised many tantalizing questions on the effectiveness of the Indian judiciary. It is indeed shameful and comical to know that the judiciary is confused as to the definition of "pornography" and "obscene" and specific laws under which to prosecution Kundra and Co.
+Recent unravelling of the Raj Kundra porn video business on online streaming platforms has raised many tantalizing questions on the effectiveness of the Indian judiciary. It is indeed shameful and comical to know that the judiciary is confused as to the definition of "pornography" and "obscene" and specific laws under which to prosecute Kundra and Co.
 
 ## Why do porn industries flourish?  
 
@@ -18,11 +18,11 @@ What kind of precedence are we setting for posterity? What kind of environment t
 
 ## All the damage we don't see  
 
-Our culture has encouraged us being tight lipped about our own sexual pleasures and desires. That has led to grown-up adults believing it is safer to consume obscenity in the privacy of our rooms than to garner social disapproval by acknowledging them. What we don't see, in our myopic decision, is the larger, grimmer reality behind our insecurity. A base like India creates immense demand in the  industry and we don't turn to think for once the trafficking rackets and porn industries that we are feeding. Videos are virtually indestructible. What about the dignity of those girls? **What we don't see is the hundreds of Kundras operating today stashinig cash in their foreign bank accounts, feeding on our desires and the helplessness of those girls**. What we see is the bluish screen, the comfortable privacy and a pack of tissue nearby. And that to me is outright cowardice.
+Our culture has encouraged us being tight lipped about our own sexual pleasures and desires. That has led to grown-up adults believing it is safer to consume obscenity in the privacy of our rooms than to garner social disapproval by acknowledging them. What we don't see, in our myopic decision, is the larger, grimmer reality behind our insecurity. A base like India creates immense demand in the  industry and we don't turn to think for once the trafficking rackets and porn industries that we are feeding. Videos are virtually indestructible. What about the dignity of those girls? **What we don't see is the hundreds of Kundras operating today stashing cash in their foreign bank accounts, feeding on our desires and the helplessness of those girls**. What we see is the bluish screen, the comfortable privacy and a pack of tissue nearby. And that to me is outright cowardice.
 
 ## Can we do anything?  
 
-Markets are fed by scarcity of resources. Porn sells because people are unwilling to talk about it. To borrow from the 1998 Pepsi commercial, _ye dil maange more_.    
+Markets are fed by scarcity of resources. Sex sells because people are unwilling to talk about it. To borrow from the 1998 Pepsi commercial, _ye dil maange more_.    
 
 I can seriously go on and on about the destructive and depraved nature of porn. Creating fantastical expectations from real sex and women. Patronising women. Creating unrealistic mental images for what a woman is like. One of the reasons of rising crime rates against women. You get the point. It's a keystone demon in society. I strongly believe that once we **de-stigmatise sex in the Indian mind** (Not an easy task), people will turn away from these nefarious services and reach out to real people in the real world with a sound understanding of responsibilities and expectations involved. 
 
