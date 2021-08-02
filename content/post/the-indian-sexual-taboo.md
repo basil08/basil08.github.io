@@ -1,6 +1,6 @@
 ---
 title: "The Indian Sexual Taboo"
-tags:
+tags: ['taboo', 'india', 'porn']
 categories: 
 date: 2021-08-01T15:28:23+05:30
 ---  
