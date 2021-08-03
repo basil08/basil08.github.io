@@ -35,7 +35,7 @@ My school life would have been bland and monotonous had it not been for my frien
 
 ## I hate school 
 
-After all the sugar-coated talk out of the way, let's get to the real deal. I hate school. Really hate it. I have felt suffocated for all these years. One of the most effective ways to ensure destruction of originality and value. Those loathesome memorization and regurgitation regimes. The utter helpnessless of kids dancing to the tune to get those "sacred marks". People didn't learn for learning's sake, for the love of learning. All they ever bothered was with marks, a fictitious magnitude they can measure and compare. Real learning was met with awkwardness, even ridicule. Deep down, good grades was a reassurance to their hearts, a misplaced sense of safety. And I am just happy it's all over. I am hopeful that learning is valued where I am going. And I can't f*cking wait to get out of here.    
+After all the sugar-coated talk out of the way, let's get to the real deal. I hate school. Really hate it. I have felt suffocated for all these years. One of the most effective ways to ensure destruction of originality and value. Those loathesome memorization and regurgitation regimes. The utter helplessness of kids dancing to the tune to get those "sacred marks". People didn't learn for learning's sake, for the love of learning. All they ever bothered was with marks, a fictitious magnitude they can measure and compare. Real learning was met with awkwardness, even ridicule. Deep down, good grades was a reassurance to their hearts, a misplaced sense of safety. And I am just happy it's all over. I am hopeful that learning is valued where I am going. And I can't f*cking wait to get out of here.    
 
 ## Regrets   
 
