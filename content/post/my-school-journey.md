@@ -1,8 +1,7 @@
 ---
 title: "My School Journey"
-tags:
+tags: ['school', 'personal']
 categories: 
-draft: true
 date: 2021-08-02T23:34:27+05:30
 ---
 
