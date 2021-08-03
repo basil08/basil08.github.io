@@ -16,6 +16,10 @@ Not every teacher was co-operative so to speak. I guess some people just take sc
 
 ## The most delightful and terrifying time  
 
+
+
+{{<figure src="/img/my-school-journey/0.jpeg" width="300px" caption="Birla High School, Kolkata. Picture: David">}}
+
 The change of school after 10th was a seminal shift in my life. It was a period of intense self-doubt, anxiety and skepticism. What was I doing around these kids from hotshot families? Our habits, manners, ideals were different. Imagine a kid who is known throughout the school thrown into a situation where he is a nobody &ndash; an outsider. All these seemingly unreachable toppers looked daunting to me for the first time. I had no place, no status. I used to sit in a corner and nobody bothered. I was both elated and terrified at the same time. Somebody had hit the reset button. It was one of the best times of my life. But I wasn't deterred. I had a plan. After the first test assessments came in, I regained my composure. Teachers began to remember my name. And I reinstituted myself at the place I like to be. Winning is always a function of one's own capabilities.  
 
 
@@ -25,19 +29,22 @@ BHS gave me perspective. It offered me a different vantage point to assess mysel
 
 ## Friends  
 
-My school life would have been bland and monotonous had it not been for my friends. As I am sitting here recalling all those mischiefs that we committed together, I have a silent smirk on my face. If teachers made me who I am, then my friends made the process less painful, more memorable. All memories, painful or joyous in the face of time become just memories &ndash; souvenirs to be cherished. I am glad I had my share of fun.  
+My school life would have been bland and monotonous had it not been for my friends. As I am sitting here recalling all those mischiefs that we committed together, I have a silent smirk on my face. If teachers made me who I am, then my friends made the process less painful, more memorable. All memories, painful or joyous in the face of time become just memories &ndash; souvenirs to be cherished. I am glad I had my share of fun. 
+
+{{<figure src="/img/my-school-journey/1.jpg" caption="School Picnic, 2020.">}}
+
 
 ## I hate school 
 
-After all the sugar-coated talk out of the way, let's get to the real deal. I hate school. Really hate it. I have felt suffocated for all these years. One of the most effective ways to ensure destruction of originality and value. Those loathesome memorization and regurgitation regimes. The utter helpnessless of kids dancing to the tune to get those "sacred marks". People didn't learn for learning's sake, for the love of learning. All they ever bothered was with marks, a fictitious magnitude they can measure and compare. Deep down, good grades was a reassurance to their hearts, a misplaced sense of safety. I have seen extreme incentive skewness at these places. And I am just happy it's all over. I am hopeful that learning is valued where I am going. And I can't f*cking wait to get out of here.    
+After all the sugar-coated talk out of the way, let's get to the real deal. I hate school. Really hate it. I have felt suffocated for all these years. One of the most effective ways to ensure destruction of originality and value. Those loathesome memorization and regurgitation regimes. The utter helpnessless of kids dancing to the tune to get those "sacred marks". People didn't learn for learning's sake, for the love of learning. All they ever bothered was with marks, a fictitious magnitude they can measure and compare. Real learning was met with awkwardness, even ridicule. Deep down, good grades was a reassurance to their hearts, a misplaced sense of safety. And I am just happy it's all over. I am hopeful that learning is valued where I am going. And I can't f*cking wait to get out of here.    
 
 ## Regrets   
 
-Ah, regrets. Of course, my life hasn't always been all success and medals and wins. When I look back (few will scoff at this phrase because how old am I? They think there is a minimum age bar to _qualified_ to talk about responsibility, to take a third person stance and judge your life for what it's worth) I have tons of regrets.  
+Ah, regrets. Of course, my life hasn't been all success and medals and wins. When I look back (few will scoff at this phrase because how old am I? They think there is a minimum age bar to _qualified_ to talk about responsibility, to take a third person stance and judge your life for what it's worth) I have tons of regrets.  
 
 
 ### Gender inclusivity  
-I wish our school had been more gender inclusive. I wish I had been more exposed to the other gender. It is preposterous to segregate people during the formative years of one's life ideals and then throw them together in the real world and expect them to fend off for themselves. I would have been more confident in myself. I would have had a much clearer picture of what girls are. All I had to "fend off" during my teenage was...nothing. I began patronising girls, elevating them to unrealistic expectations (not physical, ok) and I still have that scar mark, I guess. I look at other boys and I wish that it had all just been normal.   
+I wish our school had been more gender inclusive. I wish I had been more exposed to the other gender. It is preposterous to segregate people during the formative years of one's life ideals and then throw them together in the real world and expect them to fend off for themselves. I would have been more confident in myself. I would have had a much clearer picture of what girls are. I wish I knew what it is like to know a girl. All that I had to "fend off" during my teenage was...nothing. I began patronising girls, elevating them to unrealistic expectations (not physical, ok) and I still have that scar mark, I guess. I look at other boys and I wish that it had all just been normal.   
 
 ### Skills  
 
@@ -51,3 +58,4 @@ I am not at all emotional or crying or anything. In fact, good riddance. But I a
 
 I leave here becoming more than what I came here being.  
 
+{{<figure src="/img/my-school-journey/2.jpeg" caption="Batch of 2020-21, BHS">}}
