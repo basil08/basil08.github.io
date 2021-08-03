@@ -20,7 +20,16 @@
           {{ partial "card.html"}}
       </article>
 
-      <section class="isso-comments" id="isso-thread"></section>
+      <!-- <section class="isso-comments" id="isso-thread"></section> -->
+      <div id="vcomment"></div>
+    <script>
+        new Valine({
+            el: '#vcomment' ,
+            appId: 'feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI',
+            appKey: 'z1UFShUc40oPkqO8v8nKXG2a',
+            lang: 'en'
+        });
+    </script>
 
       <!-- last modified note -->
       <span class="f6 gray mv3" title="Lastmod: {{ .Lastmod.Format "January 2, 2006" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
