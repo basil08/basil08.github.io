@@ -88,7 +88,10 @@ Non-fiction, Finance, Wealth, Advice, Entrepreneurship
 Fiction, Human relationships, Afghanistan, Historical fiction  
 
 25. > **Freakonomics | Dubner and Levitt**   
-Non-fiction, Economics, Psychology, Human behavior  
+Non-fiction, Economics, Psychology, Human behavior   
+
+26. > **The Tragedy of Hamlet | William Shakespeare**  
+Fiction, Classic, Language, Tragedy    
 
 
 ## Unfinished   
