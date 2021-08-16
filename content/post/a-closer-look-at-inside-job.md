@@ -5,6 +5,8 @@ categories:
 date: 2021-08-12T16:56:47+05:30
 ---  
 
+<!-- {{<spotify type="playlist" id="4XVLECplZwd2OrHFkfy6Te">}} -->
+
 "Inside Job" is a 2010 documentary written, directed and produced by Charles Ferguson on the 2008 global financial crisis. It won the Oscar in the "Best Documentary Feature" category in 2011. Notwithstanding, it makes for an enlightening and thrilling watch that every citizen, who cares about where their hard earned money goes, should watch.  
 
 This documentary is not an easy watch that one can grab on a lazy afternoon comfortable on their couch. It has complex sounding terms and concepts that should keep one on the edge of their seat. As those financial experts makes the layman believe, "What we do is far more complicated for you to understand so you better leave us alone as we do it." They are soft-headed people who will make one feel witless and run away with their money. That is exactly what happened in 2008.   
@@ -73,9 +75,9 @@ People said $x was wiped out from the economy. But that is absurd. How can money
 
 Iceland went bust. Millions of migrant workers in China lost their jobs. Americans lost their savings, jobs, homes. Lehman Brothers dissolved. Stock markets around the world plunged. Nobody was lending any money. The financial system came to a stand still. Yes, pretty horrible for misaligned incentives, ghost value, and people not knowing what the hell they were doing.      
 
-## Who were accountable? What happened to them?  
-
 {{<figure src="/img/inside-job/3.jpeg" width="400px" caption="From left: **Henry Paulson**, Chairman of Goldman Sachs and later Secretary of Treasury, US, **Ben Bernanke**, Chair of the Federal Reserve, and **Timothy Geithner**, President of Fed Reserve Bank of NY followed by Secretary of Treasury">}}
+
+## Who were accountable? What happened to them?  
 
 All of them walked home smiling with severance, reimbursements and damages running in the millions. Most still serve on advisory boards, and board of directors of major companies.   
 
