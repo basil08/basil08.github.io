@@ -127,6 +127,10 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 12. > **Zen and The Art of Motorcycle Maintainence | Robert M. Pirsig**   
 
 13. > **The man who knew infinity | Robert Kanigel**   
+
+14. > **Poems on Love and Other Difficulties | Rainer Maria Rilke**  
+
+15. > **The art of electronics | Paul Horowitz and Winfield Hill**  
    
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com

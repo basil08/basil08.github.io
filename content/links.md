@@ -12,12 +12,12 @@ date: 2021-08-02T10:10:48+05:30
 
 ## movies on economics 
 
-- Inside Job 8.2
+- ~~Inside Job 8.2~~
 - Too Big To Fail 7.3 
 - Margin Call 7.1
 - Money Monster 
 - The Company Men 
-- Big Short 7.8
+- ~~Big Short 7.8~~
 - 99 Homes 
 
 [0]: http://thejh.net/misc/website-terminal-copy-paste
