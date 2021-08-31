@@ -1,10 +1,9 @@
 ---
-title: "A Modern Take On The Prince of Denmark"
+title: "To be or not to be: Understanding Hamlet"
 tags: ['literature', 'Shakespeare', 'thoughts', 'interpretations']
 categories: 
-draft: true
-date: 2021-08-17T09:33:26+05:30
----  
+date: 2021-08-31T10:20:23+05:30
+---
 
 Volumes have been written on the "meaning" of Hamlet (the play) by more qualified people than me. I do not seek to compete with them. What follows is my perception of Hamlet, a sketch so if you will, from a modern day perspective.   
 
@@ -12,7 +11,7 @@ Hamlet is a complex character. I have strived to deduce Hamlet strictly from the
 
 
 ## Act 1, Scene 2
-> Hamlet  
+> **Hamlet**  
 Seems,madam! nay it is; I know not “seems.”    
 ’Tis not alone my inky cloak, good mother,   
 Nor customary suits of solemn black,   
@@ -26,7 +25,7 @@ But I have that within which passeth show;
 These but the trappings and the suits of woe.   
 
 Paraphrase:
-> Hamlet   
+> **Hamlet**   
 Seems? No, it is. I do not know how to "seem".  
 It is not my inky coat, mother,     
 nor the conventional black suits,    
@@ -39,7 +38,7 @@ like actions that man may act upon,
 But I feel and that feeling surpasses show   
 of these frowning and crying and black suits.      
 
-Hamlet's first speech in response to her mother who suggests that his father's demise shouldn't affect him in such grave manners. Multiple facets of Hamlet can be deduced from this text itself. The first striking observation that a reader will make (in retrospect to the characters so far) is his superior choice of words, usage of similies and eloquence in speech all indicating an educated, civilized mind, and a modest upbringing. He sharply criticises his mother for asking him to "move on" which suggest an authoritative, disciplined prince capable of experiencing deep emotions and who mourns his father's death with sincere remorse.  
+Hamlet's first speech in the play in response to her mother who suggests that his father's demise shouldn't affect him in such grave manners. Multiple facets of Hamlet can be deduced from this text itself. The first striking observation that a reader will make (in retrospect to the characters so far) is his superior choice of words, usage of similies and eloquence in speech all indicating an educated, civilized mind, and a modest upbringing. He sharply criticises his mother for asking him to "move on" which suggest an authoritative, disciplined prince capable of experiencing deep emotions and who mourns his father's death with sincere remorse.  
 
 ## Act 1, Scene 4
 
@@ -57,9 +56,9 @@ Makes Denmark slandered/looked down upon by other nations
 They call us drunkards, with gross/coarse phrases.  
 Malign our titles, and injures  
 our achievements, though accomplished at the highest level,  
-The essence and vital part of our reputation...   
+which are an essential and vital part of our reputation...   
 
-Hamlet's uncle, the present King of Denmark, is having a debaucherous party. Hamlet's personality befitting a king shines through before his coronation. He is concerned about the reputation of Denmark in the eyes of other nations and how they perceive his kingdom.    
+Hamlet's uncle, the present King of Denmark, is having a debaucherous party. Hamlet's personality befitting a king shines through before his coronation. He is concerned about the reputation of Denmark in the eyes of other nations and how they perceive his kingdom. He succintly criticises his uncle and doesn't mince words in pointing out the malicious at a time when aristocracy was generally wary of their opinions and words.       
 
 ## Act 1, Scene 5
 > **Hamlet**    
@@ -93,7 +92,7 @@ This is a long scene and a lot of different plots progresses through it.
 
 3. > The devil hath power T' assume a pleasing shape...  
 
-> Analytical and thoughtful. Judges a situation from every aspect. Cunning to setup experiments to test his postulates. Wants to ascertain the guilt of his uncle. 
+> Hamlet is analytical and thoughtful. He judges a situation from every aspect. He is cunning enough to setup experiments to test his postulates and wants to ascertain the guilt of his uncle before seeking revenge. He is aware that the devil might assume a pleasing shape (for instance, the ghost of his father) and exploit his youthful passion to make him commit a sin and hence damn him.  
 
 ## Act 3, Scene 1 
 
@@ -179,7 +178,7 @@ And thus lose the effectiveness of action/being acted upon...
 > **Ophelia** Tis brief, my lord.   
 **Hamlet** As woman's love.   
 
-Quick witted and a presence of mind.   
+Quick witted and a presence of mind. Ophelia, Polonius' daughter and the play's heroine, is describing the short preamble to the play being enacted for the King (Yes, a play within a play).    
 
 
 > **Hamlet**   
@@ -193,7 +192,7 @@ speak. ’Sblood, do you think I am easier to be played on than
 a pipe? Call me what instrument you will, though you can    
 fret me, yet you cannot play upon me.
 
-Here, Hamlet is criticizing his friend Rosencrantz for secretly conspiring with the King to extract from him the true nature of his "madness". Hamlet is prompt in pointing out what people are trying to do. He can handle confrontations well when the need arises. He isn't easily manipulated.   
+Here, Hamlet is criticizing his friend Rosencrantz for secretly conspiring with the King to spy upon him and extract from him the true nature of his "madness". Hamlet is prompt in pointing out what people are trying to do. He can handle confrontations well when the need arises. He isn't easily manipulated.   
 
 ## Act 4, Scene 3   
 
@@ -219,24 +218,58 @@ king, and eat of the fish that hath fed of that worm."
 
 > A man may fish with a worm that has fed on a king and then eat of the fish that was caught by the worm.    
 
-In essence, how a comman man can eat the king.  
+In essence, how a comman man can eat the king.   
 
+## Act 5, Scene 1   
+
+This is a very interesting and tense scene. The different subplots have developed to a climax and are yearning to be resolved. Perhaps the most dramatic is Laertes' hatred towards Hamlet for the death of Polonius and his sister. He fearlessly proclaims, "The devil take thy soul!". The first half of the scene has many interesting monologues by Hamlet emphasising on the transitory nature of life and privileges. For example:   
+
+> **Hamlet** To what base uses we may return, Horatio! Why may not imagination trace the noble dust of Alexander, till he find it stopping a bing-hole?   
+
+> **Hamlet** To what degraded use we may return, Horatio! Why may not thoughts trace the ash of Alexander from its grave to stopping the bottle of liquor (that is, become a cork)?       
+
+The ash is washed into the soil, that soil is used to make loam and eventually corks which sit on top of liquor bottles. To think so critically and speak so liberally does require a confident and thoughtful mind. This part is littered by Hamlet justifying the meaninglessness of property, fame and worldly possessions for after all, everyone has to inevitably return to the same dirt.    
+
+Laertes is a figure in himself to be reckoned with. I have only been quoting Hamlet so for a change, 
+
+> **Laertes** Now pile your dust upon the quick and dead   
+Till of this flat a mountain you have made   
+To o'ertop old Pelion or the skyish head   
+Of blue Olympus.   
+
+Laertes, Polonius' son, is overcome with extreme grief at his sister's death (probably a suicide as may be inferred from the discussion on her method and ceremony of burial). The Olympians were said to live on Mount Olympus, the highest mountain unreachable by mortals. Often, the giants tried to reach and overthrow it by stacking mountains on top of others. Pelion was one such mountain stacked on Mount Ossa. This is quite a striking manner of expressing sadness and hints at the learned, chivalric nature of Laertes.   
 
 ## Thoughtful dialogues   
 
-> **Hamlet** ...For there is nothing either good or bad but thinking makes it so.
+1. > **Hamlet** ...For there is nothing either good or bad but thinking makes it so.  
 
-> **Player King** (to Player Queen) What to ourselves in passion we propose,   
-The passion ending, doth the purpose lose.   
+2. > **Player King** (to Player Queen) What to ourselves in passion we propose,   
+The passion ending, doth the purpose lose.  
+**Player King** (to Player Queen) What we claim/propose in moments of ecstasy/passion,
+Loses its potency when that moment of passion recedes.   
 
-> **Player King**  This world is not for aye, nor ’tis not strange    
+3. > **Player King**  This world is not for aye, nor ’tis not strange    
 That even our loves should with our fortunes change,   
 For ’tis a question left us yet to prove,     
 Whether love lead fortune, or else fortune love.   
-
-> **Player King**  This world/the condition that prevails is not forever and it is not strange  
+**Player King**  This world/the condition that prevails is not forever and it is not strange  
 If we change our lovers with our fortunes,   
 For it is a question still unproven,   
-Whether love guides fortune, or fortune leads love.   
+Whether love guides fortune, or fortune leads love.    
 
-In essence asking: Is love a morality or an economic convenience?   
+In essence asking: Is love a morality or an economic convenience?     
+
+4. > **Ophelia** ...we know what we are, but know not what we may be.   
+
+5. > **Hamlet** ...The hand of little employment hath the daintier sense.   
+**Hamlet** ...Those who work little and know little about hardship (the aristocracy) have much delicate feelings/interpretations of life.        
+
+## How relevant is Hamlet today?  
+
+And a more practical question, should you read Hamlet today? Yes, by all means. The hype and reverance that enshrouds Hamlet is justified. Being one of the most significant plays by argubly the greatest playwright in English literature, it justifies its position with its brilliance. The language, the symbolism, the metaphors, analogies are potent, coherent and dramatic.    
+
+Hamlet, the prince, who we started out to understand, is without doubt a prominent and poignant Shakespearean prince. He is learned and thoughtful. Analytical, witty and cunning, he understands diplomacy and social interactions well. But to clarify, I think Hamlet is flawed too. He did hesitate and waver when he could have easily revenged his father's death. He was in a constant conflict with his conscience and the people without. His brilliance shines in handling them well, both within and without but he lost sight of his objective and became something else. He couldn't confess his love for Ophelia when she was alive and only naively did so at her funeral. He is a hero and an antihero at the same time. 
+
+
+
+
