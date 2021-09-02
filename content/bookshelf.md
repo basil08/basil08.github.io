@@ -94,7 +94,10 @@ Non-fiction, Economics, Psychology, Human behavior
 Fiction, Classic, Language, Tragedy   
 
 27. > **Losing My Virginity: An Autobiography | Sir Richard Branson**  
-Non-fiction, Autobiography, Business, Family, Inspiration   
+Non-fiction, Autobiography, Business, Family, Inspiration    
+
+28. > **Why is Sex Fun? | Jared Diamond**   
+Non-fiction, Popular Science, Sexuality, Evolution   
 
 
 
