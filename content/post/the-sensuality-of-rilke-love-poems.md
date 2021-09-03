@@ -1,5 +1,5 @@
 ---
-title: "The Sensuality of Rilke Love Poems"
+title: "The Sensuality of Rilke's Love Poems"
 tags:
 categories: 
 draft: true
