@@ -99,6 +99,8 @@ Non-fiction, Autobiography, Business, Family, Inspiration
 28. > **Why is Sex Fun? | Jared Diamond**   
 Non-fiction, Popular Science, Sexuality, Evolution   
 
+29. > **When Dimple Met Rishi | Sandhya Menon**   
+Fiction, Romance    
 
 
 ## Unfinished   
@@ -133,7 +135,9 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 14. > **Poems on Love and Other Difficulties | Rainer Maria Rilke**  
 
-15. > **The art of electronics | Paul Horowitz and Winfield Hill**  
+15. > **The art of electronics | Paul Horowitz and Winfield Hill**   
+
+16. > **Hyperbole and a Half | Allie Brosh**  
    
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com
