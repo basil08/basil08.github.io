@@ -16,6 +16,7 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
   # change this!
   twitter = "BasilLabib"
   googleAnalyticsID = "G-T8HDQQNE6X"
+  custom_css = ["mycss/custom.css"]
 
 [Permalinks]
   post = "post/:slug"
