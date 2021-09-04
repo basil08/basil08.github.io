@@ -1,9 +1,8 @@
 ---
 title: "The Sensuality of Rilke's Love Poems"
-tags:
+tags: ['love','rilke','poetry', 'solitude']
 categories: 
-draft: true
-date: 2021-08-31T10:35:08+05:30
+date: 2021-09-04T09:04:40+05:30
 ---
 
  {{<ql>}} I tell you that I have a long way to go before I am &ndash; where one begins...  
@@ -144,3 +143,4 @@ Probably, I shouldn't be reading depressing poems? But I can allow myself to pai
 {{<spotify type="track" id="1oNfCMHwcVQtQPwpBqj49O">}}
 
 [0]: https://www.youtube.com/watch?v=lkvmjniEW0E
+
