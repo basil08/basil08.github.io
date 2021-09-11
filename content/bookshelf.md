@@ -102,6 +102,9 @@ Non-fiction, Popular Science, Sexuality, Evolution
 29. > **When Dimple Met Rishi | Sandhya Menon**   
 Fiction, Romance    
 
+30. > **Hyperbole and a Half | Allie Brosh**    
+Biographical Fiction, Comic, Humorous, Sarcasm   
+
 
 ## Unfinished   
 
@@ -137,7 +140,10 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 15. > **The art of electronics | Paul Horowitz and Winfield Hill**   
 
-16. > **Hyperbole and a Half | Allie Brosh**  
+16. > **Crafting Interpreters | Robert Nystrom**  
+
+17. > **The 4 Hour Body | Tim Ferriss**   
+
    
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com

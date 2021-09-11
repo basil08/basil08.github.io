@@ -70,9 +70,9 @@ Though, Rilke tactly pointed out what one must be, he doesn't say anything on ho
 
 +++  
 
- {{<ql>}} They must not forget, when they love, that they are beginners, binglers of life, apprentices in love &ndash; must _learn_ love, and that (like all learning) wants peace, patience, and composure!   
+ {{<ql>}} They must not forget, when they love, that they are beginners, bunglers of life, apprentices in love &ndash; must _learn_ love, and that (like all learning) wants peace, patience, and composure!   
 
-Only if philanders of today could understand the nobility of love. It is not an easy enterprise to be undertaken soley to get rid of boredom or to have pleasure or fun or for any other self-vested interests because to love is not to have but to give. 
+Only if philanders of today could understand the nobility of love. It is not an easy enterprise to be undertaken solely to get rid of boredom or to have pleasure or fun or for any other self-vested interests because to love is not to have but to give. 
 
 ## The sensual nature of Rilke's poems   
 
