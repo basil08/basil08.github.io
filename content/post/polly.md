@@ -31,7 +31,7 @@ To put out the blow torch"
 
 The lyrics get extremely vivid and explicit, the imagery are very disturbing as it goes on to describe everything that happens to the girl as the rapist sees it. A 14-year old girl was kidnapped from a local rock concert by a man with a history of such crimes. She was raped and tortured with a blow torch while hanging upside down. 
 
-> "Isn't me, have a seed
+> "Isn't me, have a seed   
 Let me clip your dirty wings"   
 
 We can listen to the rapist's mind screaming in a state of confusion and delusion, asking itself what to do next. He is in a deliberation with himself if he should bring the girl some water or whether he should untie her.    
@@ -69,11 +69,14 @@ There is a sweet parallel as Nirvana were seen as the spokesmen for the 90s gene
 
 In fact, art supercedes musics, generations and even other disciplines. I cringe when teachers and educators profess and segregate students. What is a microprocessor's cricuit diagram if not art? Or the traverse section of a human heart? **Anyone bold enough to express himself is an artist.**  
 
-## Notes and Footnotes
+## Notes, Footnotes and Credits  
 
 0. Nevermind was released on September 24th, 1991. In a couple of weeks, the album will turn 30 (Oh boy, it's almost twice my age!). This post is my tribute to the band who spoke for a generation I have never known. Perhaps, there are more posts to come.  
 
 1. **Footnote 1**: Umm, Basil, why are there no weird he/she, him/her in this artice? Are the girls not represented? Good question. Please read this to understand the [inherent limitation of the language I an working under][0].
 
+2. I would like to thank [Nerdwriter1][1] on YouTube. Check out his video for an audio visual experience. Also, I'd like to thank Micheal Azerrad for his book, "Come as you are: The story of Nirvana". 
 
 [0]: https://www.economist.com/books-and-arts/2021/09/03/the-best-and-worst-ways-to-tackle-linguistic-sexism
+
+[1]: https://www.youtube.com/watch?v=NJ97KdTQFww
