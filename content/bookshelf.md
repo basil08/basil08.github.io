@@ -105,6 +105,9 @@ Fiction, Romance
 30. > **Hyperbole and a Half | Allie Brosh**    
 Biographical Fiction, Comic, Humorous, Sarcasm   
 
+31. > **Galatea | Madeline Miller**  
+Mythological Fiction, Short story, Pygmalion, Galatea 
+
 
 ## Unfinished   
 
