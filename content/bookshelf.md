@@ -108,6 +108,9 @@ Biographical Fiction, Comic, Humorous, Sarcasm
 31. > **Galatea | Madeline Miller**  
 Mythological Fiction, Short story, Pygmalion, Galatea 
 
+32. > **Romeo and Juliet | William Shakespeare**   
+Fiction, Classic, Play, Romance, Tragedy   
+
 
 ## Unfinished   
 
