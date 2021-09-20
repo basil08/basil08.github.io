@@ -31,7 +31,6 @@ My father (predictably) didn't agree with my decision. It was quite a show durin
 I am really looking forward to playing ["Wonderwall"][0], ["Iris"][1] and ["Free Fallin"][2]. Let me just say, these songs are very close to me. Of course, I have many miles to go before I sleep and I cannot wait!
 
 To infinity and beyond.    
-{{<card>}}
 
 [0]: https://www.youtube.com/watch?v=6hzrDeceEKc
 [1]: https://www.youtube.com/watch?v=NdYWuo9OFAw

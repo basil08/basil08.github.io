@@ -88,7 +88,28 @@ Non-fiction, Finance, Wealth, Advice, Entrepreneurship
 Fiction, Human relationships, Afghanistan, Historical fiction  
 
 25. > **Freakonomics | Dubner and Levitt**   
-Non-fiction, Economics, Psychology, Human behavior  
+Non-fiction, Economics, Psychology, Human behavior   
+
+26. > **The Tragedy of Hamlet | William Shakespeare**  
+Fiction, Classic, Language, Tragedy   
+
+27. > **Losing My Virginity: An Autobiography | Sir Richard Branson**  
+Non-fiction, Autobiography, Business, Family, Inspiration    
+
+28. > **Why is Sex Fun? | Jared Diamond**   
+Non-fiction, Popular Science, Sexuality, Evolution   
+
+29. > **When Dimple Met Rishi | Sandhya Menon**   
+Fiction, Romance    
+
+30. > **Hyperbole and a Half | Allie Brosh**    
+Biographical Fiction, Comic, Humorous, Sarcasm   
+
+31. > **Galatea | Madeline Miller**  
+Mythological Fiction, Short story, Pygmalion, Galatea 
+
+32. > **Romeo and Juliet | William Shakespeare**   
+Fiction, Classic, Play, Romance, Tragedy   
 
 
 ## Unfinished   
@@ -120,6 +141,15 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 12. > **Zen and The Art of Motorcycle Maintainence | Robert M. Pirsig**   
 
 13. > **The man who knew infinity | Robert Kanigel**   
+
+14. > **Poems on Love and Other Difficulties | Rainer Maria Rilke**  
+
+15. > **The art of electronics | Paul Horowitz and Winfield Hill**   
+
+16. > **Crafting Interpreters | Robert Nystrom**  
+
+17. > **The 4 Hour Body | Tim Ferriss**   
+
    
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com

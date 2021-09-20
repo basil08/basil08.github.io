@@ -65,4 +65,3 @@ I found sharing these scenarios fruitful because they concisely highlight how is
 
 **It is buffoonery to criticise someone without prior knowledge of all facets relevant to the case.** With that note, governments (good governments at least) always optimize their decisions in the long-run. And at the hazard of sounding obvious, behavioral economics is a fucking awesome subject to study!   
 
-{{<card>}}

@@ -49,4 +49,3 @@ PS: This book is under the open copyright and available to [read online](https:/
 ## Closing remarks
 
 It was kinda obvious from the beginning but for the records, I think this dabble will soon turn into a deep dive! 
-{{<card>}}

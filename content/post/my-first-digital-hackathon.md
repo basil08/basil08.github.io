@@ -64,4 +64,3 @@ Maybe, I'll also mention not studying for school and JEE under regret, though it
 ## Closing thoughts
 
 I would be better off slowing down along this path and investing more time in learning and building more personal projects. Then when I am more equipped, I would surely be looking forward to my first in-person hackathon!
-{{<card>}}

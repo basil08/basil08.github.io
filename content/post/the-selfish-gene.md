@@ -28,4 +28,3 @@ If there is to be a list of books I'd like to revisit every year (and I'm active
 ## Log    
 
 I started around Dec 17 and completed on Dec 28, so around 1.5 weeks. 
-{{<card>}}

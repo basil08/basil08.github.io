@@ -64,7 +64,6 @@ On a second thought, I thought using the more neutral 'it' but refused as it fel
 
 Jan 30, 2021 - First draft written.  
 Feb 22, 2021 - Edited and added a bit more material.    
-{{<card>}}
 
 [1]: https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem
 [2]: https://navalmanack.com

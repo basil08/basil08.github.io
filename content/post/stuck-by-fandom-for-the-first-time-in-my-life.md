@@ -98,7 +98,6 @@ And just like that the Cocteaus shot into limelight suffusing our lives with joy
 
 2. There is no higher clearing house than the [official website][officialwebsite] when it comes to discrepancies or tracking rarities. Check out "News and Press"; it was particularly enthralling for a 17 y/o in 2020 reading band interviews and album reviews of the 80s.    
     
-{{<card>}}
 
 [perks]: /
 [officialwebsite]: https://cocteautwins.com 

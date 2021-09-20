@@ -24,5 +24,4 @@ I'm never angry or annoyed at anyone. Simply _because there is no time to waste!
 
 Think about it. All the greatest inventions, the grand conquers, the brutal massacres, the glorious tales, the most passionate love, the deepest resentment. Every aspect of every man was unleashed in their present. **How can you be stupid enough to spend yours being anything less than your best?**     
 
-{{<card>}}
 

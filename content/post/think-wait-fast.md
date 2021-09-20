@@ -45,5 +45,3 @@ To perpetual learning.
 **Footnote 1:** The pace at which modern society has evolved is blistening. Since the Information Age, we have developed far faster than we are capable of comprehending. This blinding growth (both numerical and technological) is at its worse, a recipe for disaster. Ignorance is evil, it always has been. But today, how to make sense of the information explosion? So most people don't. What hurts most is not the absence of knowledge but partial knowledge. That is indeed the case today. Access to information should be coupled with education in order to yield it effectively. Impulsive youth can easily be swayed by baseless arguments and stage upheaval. Prudent assessment of all facts is key to survival and flourishment of us. Today, it makes us both vulnerable and powerful than ever before. 
 
 **Footnote 2:** And today, more than ever in our history, it is possible to achieve that. 
-
-{{<card>}}

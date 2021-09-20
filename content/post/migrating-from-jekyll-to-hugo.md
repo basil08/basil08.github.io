@@ -21,7 +21,6 @@ The only hindrance (so to speak) was the choice of a decent theme which, as you 
 It is quite obvious, migration is neither a quick nor an exciting task. This will take time. I plan to complete it in parts over multiple days. So don't freak out if some link is broken or you find _"gibberish text"_ written midway through a post. And, I am looking into alternatives to Disqus.   
 
 To infinity and beyond. :rocket:
-{{<card>}}
 
 [0]: https://jekyllrb.com
 [1]: https://gohugo.io 

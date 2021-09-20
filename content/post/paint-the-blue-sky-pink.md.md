@@ -20,4 +20,3 @@ All this time, I had been such a fool, searching for comfort desperately, cursin
 
 That night, the muse sang to me. I wrote my hearts out, like a man possessed. Yes, I felt the tickle. And somehow, the idea of interlacing information of the music I was listening to back then adds an unusual sense of spontaneity to it. The midsentence abrupt disruptions to the flow of thoughts just to talk about the song that started playing is reminiscient of how thoughts were playing out in my head that night. The haphazard thoughts that came in quick succession all found articulation as such. I can feel that night rushing through me each time I read that post and that is incredible. **I think the work is untidy and nonconformist. And that is art.**        
 
-{{<card>}}

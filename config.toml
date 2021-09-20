@@ -2,7 +2,6 @@ baseURL = "https://basil08.github.io/"
 title = "The Personal Blog of Basil Labib"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
-googleAnalytics = "UA-171640245-1"
 enableEmoji = true 
 copyright = "© 2020 <a href='https://twitter.com/BasilLabib'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
@@ -16,6 +15,8 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
   titleEmoji = ""
   # change this!
   twitter = "BasilLabib"
+  googleAnalyticsID = "G-T8HDQQNE6X"
+  custom_css = ["mycss/custom.css"]
 
 [Permalinks]
   post = "post/:slug"
