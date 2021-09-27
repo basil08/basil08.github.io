@@ -111,6 +111,9 @@ Mythological Fiction, Short story, Pygmalion, Galatea
 32. > **Romeo and Juliet | William Shakespeare**   
 Fiction, Classic, Play, Romance, Tragedy   
 
+33. > **The Bell Jar | Sylvia Plath**  
+Fiction, Autobiographical, Feminism, Mental health, Rights   
+
 
 ## Unfinished   
 
