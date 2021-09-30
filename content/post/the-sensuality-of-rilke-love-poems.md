@@ -5,7 +5,7 @@ categories:
 date: 2021-09-04T09:04:40+05:30
 ---
 
- {{<ql>}} I tell you that I have a long way to go before I am &ndash; where one begins...  
+ {{<bq>}} I tell you that I have a long way to go before I am &ndash; where one begins...  {{</bq>}} 
 
 These are Rilke's first words that I read. I had no prior acquaintance with either the man or his writings, save for a curious Google search on a Cocteau Twins' song called [Rilkean Heart][0]. And yet, I immediately felt a tug towards these words, gyrating around them, twisting and turning them in my head, trying to make sense of it. Perhaps, just perhaps, Rilke would know the storm that was raging in me?   
 
@@ -26,15 +26,18 @@ Probably the third point is the most relevant.
 
 ## On loneliness   
 
- {{<ql>}} At bottom no one in life can help anyone else in life;    
+ {{<bq>}} At bottom no one in life can help anyone else in life;    
 this one experiences over and over in every conflict and every perplexity;    
-that one is alone.    
+that one is alone.
+{{</bq>}}   
 
 Oh. Brutal but true AF.   
 
 +++
 
- {{<ql>}} The more one is, the richer is all that one experiences.   
+ {{<bq>}} The more one is, the richer is all that one experiences.   
+{{</bq>}}   
+
 
 What exactly does he mean by "more one is"? More in what respect? I think more knowledge, more wealth, more authority. Poetry comes late to a hungry stomach. As beautiful as it might be to assume the idealistic projections of life that are conjured in stories and films plays out in the real world, they don't. But to strive to inch closer to those projections is an essential element to fulfilling one's life which must begin with the objective of security and abundance. In those silent moments, man would be more able to experience thus making him richer and not vice versa.    
 
@@ -42,27 +45,32 @@ What exactly does he mean by "more one is"? More in what respect? I think more k
 
 In the summer of 1909, he wrote:  
 
- {{<ql>}} ........ these soft   
+ {{<bq>}} ........ these soft   
 nights hold me like themselves aloft   
 and I lie without a lover.    
+{{</bq>}}   
+
 
 Yes, yes, yes, yes, yes. These ravenous nights filled with hollow sounds and subdued whimpers. 
 
 ## On the labor of love    
 
- {{<ql>}} There is scarcely anything more difficult than to love one another. That it is work, day labor...God knows there is no other word for it.    
+ {{<bq>}} There is scarcely anything more difficult than to love one another. That it is work, day labor...God knows there is no other word for it.    
+ {{</bq>}}   
 
 Day labor. Remember.  
 
 +++  
 
- {{<ql>}} There is nothing happier than work, and love, just because it is the extreme happiness, can be nothing else but work.     
+{{<bq>}}  There is nothing happier than work, and love, just because it is the extreme happiness, can be nothing else but work.     
+{{</bq>}}  
 
 "There is nothing happier than work". For what is an idle mind if not the devil's workshop?  
 
 ## Advice to young lovers   
 
- {{<ql>}} There are such relationships which must be a very great, almost unbearable happiness, but they can occur only between very rich natures and between those who, each for himself, are **richly ordered and composed**, they can unite only two, wide, deep, individual worlds.    
+ {{<bq>}} There are such relationships which must be a very great, almost unbearable happiness, but they can occur only between very rich natures and between those who, each for himself, are **richly ordered and composed**, they can unite only two, wide, deep, individual worlds.    
+ {{</bq>}}   
 
 (Bold text mine own)   
 
@@ -70,7 +78,8 @@ Though, Rilke tactly pointed out what one must be, he doesn't say anything on ho
 
 +++  
 
- {{<ql>}} They must not forget, when they love, that they are beginners, bunglers of life, apprentices in love &ndash; must _learn_ love, and that (like all learning) wants peace, patience, and composure!   
+ {{<bq>}} They must not forget, when they love, that they are beginners, bunglers of life, apprentices in love &ndash; must _learn_ love, and that (like all learning) wants peace, patience, and composure!   
+ {{</bq>}}   
 
 Only if philanders of today could understand the nobility of love. It is not an easy enterprise to be undertaken solely to get rid of boredom or to have pleasure or fun or for any other self-vested interests because to love is not to have but to give. 
 
@@ -78,7 +87,8 @@ Only if philanders of today could understand the nobility of love. It is not an 
 
 Sensuality, longing, solitude and an open discussion of sexuality especially the feminine is a glaring element in Rilke's poems. His symbolism and metaphors are far from subtle and generally borders on the obvious. Yet, how he manages to express his exasperation with such ease and lyric is a source of marvel for me. Take for instance the question he asked at the beginning of a poem,
 
- {{<ql>}} What fields are fragrant as your hands?   
+ {{<bq>}} What fields are fragrant as your hands?   
+ {{</bq>}}   
 
 Those are perhaps the most tightly woven seven words that captures the masculine attitude. I have this idea that though physically it seems like the female submits to the male in union, again society has strongly influenced this mindset, yet psychologically it is the male who submits to the female. What else does a man want but to keep his wife satisfied? It is not uncommon for young lovers to patronise their partners in passion or awe or a mixture thereof, which IMHO has merits and demerits. Like everything in the matter of love, answers are not straightforward or even existent.   
 
@@ -86,8 +96,9 @@ Those are perhaps the most tightly woven seven words that captures the masculine
 
 And then in a moment of defiance, out of sheer desire, he commands:  
 
- {{<ql>}} Give me your mouth to soften, love  
+ {{<bq>}} Give me your mouth to soften, love  
 ah, your hair is all in idleness.   
+{{</bq>}}   
 
 "your hair is all in idleness". Ah. 
 
@@ -95,16 +106,17 @@ ah, your hair is all in idleness.
 
 The following poem caught my attention for it's sheer explicitness:  
 
- {{<ql>}} How I called you. This is the mute call   
+ {{<bq>}} How I called you. This is the mute call   
 which within me has grown sweet awhile.   
 Now step after step into you I thrust all   
 and my semen climbs gladly like a child...    
+{{</bq>}}   
 
 +++  
 
 And then in the July of 1924,   
 
- {{<ql>}} (Since I wrote you, sap sprang free   
+ {{<bq>}} (Since I wrote you, sap sprang free   
 in the masculine blooming,    
 which is rich and puzzling   
 to my very humanity.    
@@ -113,12 +125,13 @@ to my very humanity.
 since you are reading me,   
 what sweetness fuses willingly   
 in the feminine chalice?)   
+{{</bq>}}   
 
 +++   
 
 In the October of 1915, he wrote probably my favourite of his so-called "Seven Phallic Poems":  
 
- {{<ql>}} You don't know towers, with your diffidence.  
+ {{<bq>}} You don't know towers, with your diffidence.  
 Yet now you'll become aware    
 of a tower in that wonderful rare   
 space in you. Hide your countenance.   
@@ -130,13 +143,15 @@ Coax me to come forth to the summit:
 so as to fling into your soft night,   
 with the soaring of a womb-dazzling rocket,   
 more feeling than I am quite.    
+{{</bq>}}   
 
 ## Of failing love   
 
- {{<ql>}} How the too ample space has weakened you and me.   
+ {{<bq>}} How the too ample space has weakened you and me.   
 Superfluity recollects itself suddenly.   
 Now wormwood and absinthe trickle through silent   
 sieves of kisses of bitter essence.   
+{{</bq>}}   
 
 Probably, I shouldn't be reading depressing poems? But I can allow myself to pain a bit I think.  
 
