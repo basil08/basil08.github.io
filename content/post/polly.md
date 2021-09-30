@@ -29,7 +29,7 @@ Kurt puts us straight into the shoes of the rapist. This choice of perspective i
 > "I think she wants some water  
 To put out the blow torch"   
 
-The lyrics get extremely vivid and explicit, the imagery are very disturbing as it goes on to describe everything that happens to the girl as the rapist sees it. A 14-year old girl was kidnapped from a local rock concert by a man with a history of such crimes. She was raped and tortured with a blow torch while hanging upside down. 
+The lyrics get extremely vivid and explicit, the imagery are very disturbing as it goes on to describe everything that happens to the girl as the rapist sees it. A 14-year old girl was kidnapped from a local rock concert in Tacoma, Washington in the August of 1987 by a man with a history of such crimes. She was raped and tortured with a blow torch while hanging upside down. 
 
 > "Isn't me, have a seed   
 Let me clip your dirty wings"   
