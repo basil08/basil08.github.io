@@ -26,6 +26,8 @@ I am Basil Labib. A student expecting to graduate (maybe, maybe not) this year f
 
 This blog has been up for a year so relatively it is quite young. You can check out my [posts][0] and [series][1] (in progress, but will mainly be tech series). I also keep a log of my [readings][2].  
 
+<!-- Beach House, Cocteau Twins, Led Zeppelin, U2,  -->
+
 Have fun. :smile:
 
 ## Contact me  
