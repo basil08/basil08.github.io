@@ -11,13 +11,13 @@
 <meta name=keywords content>
 <meta property="og:type" content="article">
 <meta property="og:description" content>
-<meta property="og:title" content="Build a Discord bot: A definitive guide – Part 1">
+<meta property="og:title" content="Tutorial: Mayhem bot – Part 1">
 <meta property="og:site_name" content="The Personal Blog of Basil Labib">
 <meta property="og:image" content>
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content>
 <meta property="og:image:height" content>
-<meta property="og:url" content="https://basil08.github.io/post/build-a-discord-bot-a-definitive-guide-part-1/">
+<meta property="og:url" content="https://basil08.github.io/post/tutorial-mayhem-bot-part-1/">
 <meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2021-10-08
 "> <meta property="article:modified_time" content="2021-10-08
@@ -25,13 +25,13 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:site content="@BasilLabib">
 <meta name=twitter:creator content="@BasilLabib">
-<meta name=twitter:title content="Build a Discord bot: A definitive guide – Part 1 | The Personal Blog of Basil Labib">
+<meta name=twitter:title content="Tutorial: Mayhem bot – Part 1 | The Personal Blog of Basil Labib">
 <meta name=twitter:description content="In this guide, I will be building a Discord bot from scratch using only discord.js and a few open public APIs. I&rsquo;ll also explain each step and discuss the reason for preference of a particular way of implementation over others. So, let&rsquo;s get started.
 WHAT ARE WE BUILDING? Mayhem is a simple Discord bot that is aimed for entertainment and fun. It queries external public APIs for images, jokes, facts and definitions.|">
 <meta name=twitter:image:src content>
-<meta name=twitter:domain content="https://basil08.github.io/post/build-a-discord-bot-a-definitive-guide-part-1/">
-<title>Build a Discord bot: A definitive guide – Part 1</title>
-<link rel=canonical href=https://basil08.github.io/post/build-a-discord-bot-a-definitive-guide-part-1/>
+<meta name=twitter:domain content="https://basil08.github.io/post/tutorial-mayhem-bot-part-1/">
+<title>Tutorial: Mayhem bot – Part 1</title>
+<link rel=canonical href=https://basil08.github.io/post/tutorial-mayhem-bot-part-1/>
 <link rel=stylesheet href=https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css>
 <link rel=stylesheet href=https://basil08.github.io/css/style.css>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css>
@@ -47,7 +47,7 @@ WHAT ARE WE BUILDING? Mayhem is a simple Discord bot that is aimed for entertain
 <span class=b> / </span>
 <a href=/post class="b bb bw1 pb1 no-underline black">blog</a>
 <section id=main class=mt5>
-<h1 itemprop=name id=title>Build a Discord bot: A definitive guide – Part 1</h1>
+<h1 itemprop=name id=title>Tutorial: Mayhem bot – Part 1</h1>
 <span class="f6 gray">October 8, 2021</span>
 <article itemprop=articleBody id=content class="w-90 lh-copy">
 <p>In this guide, I will be building a Discord bot from scratch using only <a href=https://discord.js.org>discord.js</a> and a few open public APIs. I&rsquo;ll also explain each step and discuss the reason for preference of a particular way of implementation over others. So, let&rsquo;s get started.</p>
@@ -56,27 +56,27 @@ WHAT ARE WE BUILDING? Mayhem is a simple Discord bot that is aimed for entertain
 <p>Moreover, these commands are chosen and designed in a way to demonstrate capabilities of the Discord API. Thus, features such as exclusive commands, cooldown periods, pre-fetching etc. are also discussed.</p>
 <h3 id=code-repository>CODE REPOSITORY</h3>
 <p>The latest version of the codebase can be found <a href=https://github.com/basil08/mayhem>here</a>. Instructions for installation on your Discord server can be found in the <a href=https://github.com/basil08/mayhem/blob/main/README.md>README.md</a>.</p>
-<p>For options to host the bot, see <a href=#deployment-options>Deployment Options</a> below.</p>
+<p>For options to host the bot, see <a href=#deployment-options>Deployment Options</a> in the README.</p>
 <h2 id=js-pre-requisite-check>JS PRE-REQUISITE CHECK</h2>
 <p>You should be familiar with JavaScript and computer programming concepts such as loops and conditionals. But JS is a particularly notorious language as it is continuously being modified to suit the industry. You should know at least ES6 or ES7. If not, no worries! Below I cover few JS concepts we&rsquo;ll be using in this project.</p>
 <h3 id=arrow-functions>ARROW FUNCTIONS</h3>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript>[<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>].<span style=color:#a6e22e>map</span>(<span style=color:#a6e22e>elem</span> =&gt; 
-	{ <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#39;doubling!&#39;</span>);
-	 <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>2</span><span style=color:#f92672>*</span><span style=color:#a6e22e>elem</span>; 
+<pre tabindex=0><code>[1,2,3].map(elem =&gt; 
+	{ console.log('doubling!');
+	 return 2*elem; 
 });
-</code></pre></div><p>A syntactic-sugar to reduct clutter. Nothing more but highly convenient for writing chained promises (If you ever found yourself in such a situation that is).</p>
+</code></pre><p>A syntactic-sugar to reduct clutter. Nothing more but highly convenient for writing chained promises (If you ever found yourself in such a situation that is).</p>
 <h3 id=promises>PROMISES</h3>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>data</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>fetch</span>(<span style=color:#a6e22e>URI</span>)
-	.<span style=color:#a6e22e>then</span>(<span style=color:#a6e22e>res</span> =&gt; <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>text</span>())
-	.<span style=color:#a6e22e>then</span>(<span style=color:#a6e22e>tex</span> =&gt; <span style=color:#a6e22e>JSON</span>.<span style=color:#a6e22e>parse</span>(<span style=color:#a6e22e>tex</span>))
-	.<span style=color:#66d9ef>catch</span>(<span style=color:#a6e22e>err</span> =&gt; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>err</span>));
-</code></pre></div><p>A fix to execute asynchoronous statements synchoronously. Think of these commands as being executed <em>one after the other</em> and not all together because they can&rsquo;t as the data are dependent on successful execution of previous steps. I never liked it much.</p>
+<pre tabindex=0><code>const data = fetch(URI)
+	.then(res =&gt; res.text())
+	.then(tex =&gt; JSON.parse(tex))
+	.catch(err =&gt; console.log(err));
+</code></pre><p>A fix to execute asynchoronous statements synchoronously. Think of these commands as being executed <em>one after the other</em> and not all together because they can&rsquo;t as the data are dependent on successful execution of previous steps. I never liked it much.</p>
 <h3 id=awaitasync-functions><code>await</code>/<code>async</code> FUNCTIONS</h3>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>async</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>nano</span>(<span style=color:#a6e22e>args</span>){
-	<span style=color:#66d9ef>const</span> <span style=color:#ae81ff>_</span><span style=color:#a6e22e>r</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>fs</span>.<span style=color:#a6e22e>readFile</span>(<span style=color:#e6db74>&#39;stuff.json&#39;</span>);
-	<span style=color:#75715e>// more code
-</span><span style=color:#75715e></span>}
-</code></pre></div><p>Successor to Promises. Cleaner, more logical syntax. As opposed to being an API like Promises, async/await are keywords in JS now.</p>
+<pre tabindex=0><code>async function nano(args){
+	const _r = await fs.readFile('stuff.json');
+	// more code
+}
+</code></pre><p>Successor to Promises. Cleaner, more logical syntax. As opposed to being an API like Promises, async/await are keywords in JS now.</p>
 <p>If you want to gain more insights into these constructs, it is recommended to check out <a href=https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript>MDN JavaScript module</a>.</p>
 <h2 id=installation>INSTALLATION</h2>
 <p>You need <a href=https://nodejs.org>Node.js</a> and a package manager such as <a href=https://npmjs.com><code>npm</code></a> or <a href=https://yarnpkg.com><code>yarn</code></a>. <code>npm</code> comes packaged with Node.</p>
@@ -157,10 +157,19 @@ This blog is his passion project.
 </div>
 </div>
 </article>
+<span class="f6 gray mv3" title="Lastmod:  October 8, 2021. Published at: 2021-10-08.">
+</span>
+<section class=mt4>
+<h3>👋 Related posts in the <a href=/series/build-a-discord-bot-a-definitive-guide class="b bb bw1 pb1 no-underline black">Build a Discord bot: A definitive guide</a> series...</h3>
+<ul class="list pl0">
+<li class="list pl0 lh-copy">
+<a class="f4 b dib black no-underline" href=https://basil08.github.io/post/tutorial-mayhem-bot-part-2/>Tutorial: Mayhem bot – Part 2</a>
+<span class="f6 gray">October 9, 2021</span>
+</li>
+</ul>
+</section>
 <div id=vcomment></div>
 <script>new Valine({el:'#vcomment',appId:'feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI',appKey:'z1UFShUc40oPkqO8v8nKXG2a',lang:'en'})</script>
-<span class="f6 gray mv3" title="Lastmod: October 8, 2021. Published at: 2021-10-08.">
-</span>
 </section>
 <footer>
 <div>

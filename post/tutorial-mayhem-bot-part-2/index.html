@@ -1,0 +1,235 @@
+<!doctype html><html lang=en-us prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+<meta charset=utf-8>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8HDQQNE6X"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-T8HDQQNE6X')</script>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=description content>
+<meta name=HandheldFriendly content="True">
+<meta name=MobileOptimized content="320">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=keywords content>
+<meta property="og:type" content="article">
+<meta property="og:description" content>
+<meta property="og:title" content="Tutorial: Mayhem bot – Part 2">
+<meta property="og:site_name" content="The Personal Blog of Basil Labib">
+<meta property="og:image" content>
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content>
+<meta property="og:image:height" content>
+<meta property="og:url" content="https://basil08.github.io/post/tutorial-mayhem-bot-part-2/">
+<meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2021-10-09
+"> <meta property="article:modified_time" content="2021-10-09
+">
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content="@BasilLabib">
+<meta name=twitter:creator content="@BasilLabib">
+<meta name=twitter:title content="Tutorial: Mayhem bot – Part 2 | The Personal Blog of Basil Labib">
+<meta name=twitter:description content="In Part 1 of this tutorial, we had finished logging our bot into our server. In this post, we plan to give it some interactivity with human users. Moreover, we will organize our code in a modular pattern to facilitate modification and addition of more commands easily.
+FIRST COMMAND & bot.js // New file: /bot.js const Discord = require('discord.js'); const {prefix, token} = require('./config.json'); const client = new Discord.Client(); client.once('ready', () => { console.|">
+<meta name=twitter:image:src content>
+<meta name=twitter:domain content="https://basil08.github.io/post/tutorial-mayhem-bot-part-2/">
+<title>Tutorial: Mayhem bot – Part 2</title>
+<link rel=canonical href=https://basil08.github.io/post/tutorial-mayhem-bot-part-2/>
+<link rel=stylesheet href=https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css>
+<link rel=stylesheet href=https://basil08.github.io/css/style.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css>
+<link rel=stylesheet href=https://basil08.github.io/mycss/custom.css>
+<link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<script src=//cdn1.lncld.net/static/js/3.0.4/av-min.js></script>
+<script src=//unpkg.com/valine/dist/Valine.min.js></script>
+</head>
+<body lang=en-us class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns" itemscope itemtype=http://schema.org/Article>
+<span class=b>/ </span>
+<a href=https://basil08.github.io/ class="b bb bw1 pb1 no-underline black">The Personal Blog of Basil Labib</a>
+<span class=b> / </span>
+<a href=/post class="b bb bw1 pb1 no-underline black">blog</a>
+<section id=main class=mt5>
+<h1 itemprop=name id=title>Tutorial: Mayhem bot – Part 2</h1>
+<span class="f6 gray">October 9, 2021</span>
+<article itemprop=articleBody id=content class="w-90 lh-copy">
+<p>In <a href=/post/tutorial-mayhem-bot-part-1>Part 1</a> of this tutorial, we had finished logging our bot into our server. In this post, we plan to give it some interactivity with human users. Moreover, we will organize our code in a modular pattern to facilitate modification and addition of more commands easily.</p>
+<h2 id=first-command-amp-botjs>FIRST COMMAND & <code>bot.js</code></h2>
+<pre tabindex=0><code>// New file: /bot.js
+const Discord = require('discord.js');
+const {prefix, token} = require('./config.json');
+
+const client = new Discord.Client();
+
+client.once('ready', () =&gt; {
+	console.log('Ready!');
+});
+
+client.on('message', (message) =&gt; {
+	console.log(`[${message.channel.name}] ${message.author.username}: ${message.content}`);
+
+	// Don't interfere when you are not required and don't be dumb enough to reply to your own msgs.
+	if(!message.content.startsWith(prefix) || message.author.bot) return;
+
+	const args = message.content.slice(prefix.length).trim().split(/ +/);
+	const cmdname = args.shift().toLowerCase();
+
+	try{
+		if (cmdname == 'hi') {
+			message.channel.send(&quot;Hi ${message.author}! I'm Mayhem. Nice to meet you!&quot;);
+		}
+	} catch(err){
+		console.error(err);
+		message.reply('Oops. There was an error while executing that command.');
+	}
+});
+
+client.login(token);
+
+</code></pre><p>The code is fairly straightforward to understand. We import the required modules and secrets. The prefix is a special character you use to invoke commands on this bot for eg: <code>/</code>, <code>.</code>, <code>--</code> etc. After instantiating an instance of <code>Discord.Client()</code>, we log simple text when bot is ready i.e. the ready event is triggered.</p>
+<p>Then, for every message sent to a channel, the <code>'message'</code> event is triggered which is handled by the function we supply to <code>client.on(...)</code>. The code parses the message and sends a hi message to the user for messages of the form <code>&lt;PREFIX>hi</code>. Finally, we login with the bot token we generated before.</p>
+<pre tabindex=0><code>// /config.json  
+{
+	&quot;prefix&quot;: &quot;YOUR-PREFERRED-BOT-PREFIX&quot;,
+	&quot;token&quot;: 0123456789
+}
+
+</code></pre><p>Run <code>npm start</code> or <code>node bot.js</code> and your bot is online!</p>
+<p>For now, the bot doesn&rsquo;t do much and only sends the &lsquo;hi&rsquo; message rather annoyingly.</p>
+<p>The code structure as such is not very robust or versatile. We&rsquo;ll organize it to be modular to facilitate that. The idea is we keep code logic for each command in a seperate file in the <code>/commands</code> directory and load them into the client upon instantiation of the client object. Then, adding a new command will be as clean as adding a new file to this directory.</p>
+<h2 id=modularization>MODULARIZATION</h2>
+<pre tabindex=0><code>$ cd /path/to/mayhem
+$ mkdir commands
+$ cd commands
+</code></pre><pre tabindex=0><code>// New file: /commands/hi.js
+const {bot_name} = require('../config.json');
+const Discord = require('discord.js');
+
+module.exports = {
+	name: 'hi',
+	description: 'A nice introduction is the gentleman\'s way.',
+	usage: '',
+	execute(message, args){
+		const embed = new Discord.MessageEmbed()
+			.setColor('#00ebc7')
+			.setTitle(`Hello! ${message.author.username}`)
+			.addFields(
+				{name: `${bot_name} bot says...`, value: `Yo! Nice to meet you!`},
+			)
+			.setTimestamp();
+
+		message.channel.send(embed);
+	}
+}
+</code></pre><p>As you may notice, we export few other handy metadata apart from the function <code>execute(...)</code> which contains the main logic. We will be adding other fields for unique commands as we need them. This approach was highlighted in <a href=https://discordjs.guide>discordjs.guide</a>.</p>
+<p>Now, make the following changes to <code>bot.js</code>.</p>
+<pre tabindex=0><code>// /bot.js
+const fs = require('fs');
+const Discord = require('discord.js');
+const {prefix, token} = require('./config.json');
+
+const client = new Discord.Client();
+
+client.commands = new Discord.Collection();
+const cooldowns = new Discord.Collection();
+
+const files = fs.readdirSync('./commands').filter(name =&gt; name.endsWith('.js'));
+
+for(const f of files){
+	const command = require(`./commands/${f}`);
+	// According to Discord API, Discord.Collection is a JS Map Object with more convenience methods
+	// Set the record with key as the command name and value as the command itself
+	client.commands.set(command.name, command);
+}
+
+client.once('ready', () =&gt; {
+	console.log('Ready!');
+});
+
+client.on('message', (message) =&gt; {
+	console.log(`[${message.channel.name}] ${message.author.username}: ${message.content}`);
+
+	// Don't interfere when you are not required and don't be dumb enough to reply to your own msgs.
+	if(!message.content.startsWith(prefix) || message.author.bot) return;
+
+	// basic parsing
+	const args = message.content.slice(prefix.length).trim().split(/ +/);
+	const cmdname = args.shift().toLowerCase();
+
+	// get the cmd object
+	const cmd = client.commands.get(cmdname);
+	if(!cmd) {
+		return message.channel.send('Oops! No such command ;-;');
+	}
+
+	try{
+		cmd.execute(message, args);
+	}catch(err){
+		console.error(err);
+		message.reply('Oops. There was an error while executing that command.');
+	}
+});
+
+client.login(token);
+</code></pre><p>Most of the code is intact. The <code>Discord.Collection()</code> is a wrapper around the JS Map Object with few added convenient methods. We read the <code>/commands</code> directory using <code>fs</code> and set the object using <code>client.commands.set(..., ...)</code>. Inside the handler, we parse the incoming message, try to get a command object and execute it. At any stage, if we have an exception, gracefully inform the user.</p>
+<p>Run the bot again via <code>npm start</code>. Though, we cannot detect any visible changes, we have refactored the code into much more tangible form. Let me talk about one more thing that I have ignored till now.</p>
+<figure><img src=/img/may2/0.jpg alt="First command of Mayhem"><figcaption>
+<p>First command of Mayhem</p>
+</figcaption>
+</figure>
+<h2 id=embed-messages>EMBED MESSAGES</h2>
+<p>Currently, the messages sent by the bot to the channel are simple text messages which are unattractive and less appealing to our users. If you have experience with Discord bots, you maybe aware of colourful, sprawling messages with many fields, formatted texts and images. The <code>Discord.MessageEmbed</code> object in <code>discord.js</code> allows us to construct such messages. If you see the logic of the <code>hi</code> command, we are indeed constructing one.</p>
+<pre tabindex=0><code>// /commands/hi.js
+...
+	execute(message, args){
+		const embed = new Discord.MessageEmbed()
+			.setColor('#00ebc7')
+			.setTitle(`Hello! ${message.author.username}`)
+			.addFields(
+				{name: `${bot_name} bot says...`, value: `Yo! Nice to meet you!`},
+			)
+			.setTimestamp();
+
+		message.channel.send(embed);
+	}
+...
+</code></pre><p>These are all obvious imperative methods that adds a particular field one at a time. For eg: You should deliberate on a color theme because it conveys your bot&rsquo;s purpose and &ldquo;vibe&rdquo; to your users. The <code>setColor()</code> can be used to set a color. <code>setTitle()</code> adds a bold title to the message. The <code>addFields()</code> take up a JSON object and add all key-value pairs to the message body. The <code>setTimestamp()</code>, as expected, adds a timestamp field to the message.</p>
+<h2 id=upcoming>UPCOMING</h2>
+<p>In summary, we have executed our first command, modularized our codebase and paved the way to breezy development and we know how <code>discord.js</code> handles channel events (via handlers) and about <code>Discord.Collection()</code>, <code>Discord.Client()</code> and <code>Discord.MessageEmbed()</code>.</p>
+<p>In the next post, we&rsquo;ll add a command to fetch data from an external API and another to interact with the user personally over direct message.</p>
+<div style="border-top:1px solid gray;border-bottom:1px solid gray;padding:1rem;padding-top:0">
+<div>
+<p>
+<span style=font-size:larger;font-weight:700>Basil</span>
+| <a href=https://twitter.com/BasilLabib>@BasilLabib</a>
+</p>
+<p style=margin:0%;color:#1a1818>
+Tech, Science, Design, Economics, Finance, Books, Philosophy, Psychology.<br>
+Basil blogs about complex topics in simple words.<br>
+This blog is his passion project.
+</p>
+</div>
+</div>
+</article>
+<span class="f6 gray mv3" title="Lastmod:  October 9, 2021. Published at: 2021-10-09.">
+</span>
+<section class=mt4>
+<h3>👋 Related posts in the <a href=/series/build-a-discord-bot-a-definitive-guide class="b bb bw1 pb1 no-underline black">Build a Discord bot: A definitive guide</a> series...</h3>
+<ul class="list pl0">
+<li class="list pl0 lh-copy">
+<a class="f4 b dib black no-underline" href=https://basil08.github.io/post/tutorial-mayhem-bot-part-1/>Tutorial: Mayhem bot – Part 1</a>
+<span class="f6 gray">October 8, 2021</span>
+</li>
+</ul>
+</section>
+<div id=vcomment></div>
+<script>new Valine({el:'#vcomment',appId:'feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI',appKey:'z1UFShUc40oPkqO8v8nKXG2a',lang:'en'})</script>
+</section>
+<footer>
+<div>
+<p class="f6 gray mt6 lh-copy">
+© 2020 <a href=https://twitter.com/BasilLabib>Basil Labib</a> | Made with ❤️ using <a href=https://gohugo.io>Hugo</a> & <a href=https://github.com/siegerts/hugo-theme-basic>Basic</a>
+</p>
+</div>
+</footer>
+<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>
