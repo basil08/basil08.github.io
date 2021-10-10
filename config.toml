@@ -30,6 +30,10 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
   url = "bookshelf/"
 
 [[params.menu]]
+  name = "series"
+  url = "series/"
+  
+[[params.menu]]
   name = "tags"
   url = "tags/"
 
