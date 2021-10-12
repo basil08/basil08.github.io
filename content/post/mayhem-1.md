@@ -12,13 +12,13 @@ date: 2021-10-08T08:02:54+05:30
 <!-- hi command and modularisation
 <!-- meow and api fetching -->
 <!-- help command and DM -->
-cat command and pre-fetching
-whatis command and cooldowns
-rm command and exclusive commands
-..other commands
-deployment options
-further development ideas
-acknowledgements -->
+<!-- cat command and pre-fetching -->
+<!-- whatis command and cooldowns -->
+<!-- rm command and exclusive commands -->
+<!-- ..other commands -->
+<!-- deployment options -->
+<!-- further development ideas -->
+<!-- acknowledgements --> -->
 
 In this guide, I will be building a Discord bot from scratch using only [discord.js][0] and a few open public APIs. I'll also explain each step and discuss the reason for preference of a particular way of implementation over others. So, let's get started. 
 
