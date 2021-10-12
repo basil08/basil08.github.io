@@ -10,8 +10,8 @@ date: 2021-10-08T08:02:54+05:30
 <!-- Installation -->
 <!-- Basic setup and login -->
 <!-- hi command and modularisation
-meow and api fetching
-help command and DM
+<!-- meow and api fetching -->
+<!-- help command and DM -->
 cat command and pre-fetching
 whatis command and cooldowns
 rm command and exclusive commands

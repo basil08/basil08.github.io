@@ -153,6 +153,8 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 17. > **The 4 Hour Body | Tim Ferriss**   
 
+18. > **Permutation City | Greg Egan**  
+
    
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com
