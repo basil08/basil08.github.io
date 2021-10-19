@@ -155,7 +155,10 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 18. > **Permutation City | Greg Egan**  
 
-   
+19. > **The Brothers Karamazov | Fyodor Dostoevsky**      
+
+20. > **In the Footsteps of the Prophet | Tariq Ramadan**  
+
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com
 [current]: /bookshelf/current-reading.md
