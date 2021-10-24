@@ -112,7 +112,10 @@ Mythological Fiction, Short story, Pygmalion, Galatea
 Fiction, Classic, Play, Romance, Tragedy   
 
 33. > **The Bell Jar | Sylvia Plath**  
-Fiction, Autobiographical, Feminism, Mental health, Rights   
+Fiction, Autobiographical, Feminism, Mental health, Rights  
+
+34. > **Arcadia | Tom Stoppard**  
+Fiction, Play, Metaphysics, Determinism, Mathematics   
 
 
 ## Unfinished   
