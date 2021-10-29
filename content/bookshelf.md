@@ -117,6 +117,8 @@ Fiction, Autobiographical, Feminism, Mental health, Rights
 34. > **Arcadia | Tom Stoppard**  
 Fiction, Play, Metaphysics, Determinism, Mathematics   
 
+35. > **Tristan and Iseult | Rosemary Sutcliff**  
+Fiction, Arthurian, Legend   
 
 ## Unfinished   
 
