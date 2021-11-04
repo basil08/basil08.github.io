@@ -120,6 +120,15 @@ Fiction, Play, Metaphysics, Determinism, Mathematics
 35. > **Tristan and Iseult | Rosemary Sutcliff**  
 Fiction, Arthurian, Legend   
 
+36. > {{<ds sum="**In My Skin | Kate Holden**">}}
+
+Stark, bare, welcoming, wholehearted, and honest. This is a memoir of an Australian prostitute and heroine addict. An arts graduate, Kate became a heroin "user" early, eventually kicked from her house and forced to take to the streets to support herself. Repeated failed attempts to get out of the dark abyss of "scoring", lost loves, and stained respect, she tells us her story with utmost courage and finesse.    
+
+Her most private thoughts about baring herself in front of stranger men, wondering whether she could ever love someone again, and finding empowerment and solace in her job, speaks eloquently for how a woman truly feels, beyond the object or act that society tries to reduce her to. Packed with explicit imageries, brutal truths, and heart-wrenching emotions, Kate is delicate and unfazed at the same time.  
+
+Few of my books are frivolous, compulsive choices made in haste. This was one of them. It cropped up in a web surfing sessions and I thought it was cool and I dived in. Glad I did.
+{{</ds>}}
+
 ## Unfinished   
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
