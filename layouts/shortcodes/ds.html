@@ -1,0 +1,21 @@
+<details>
+  <summary style="
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  transition: .3s;
+  border-bottom: 1px solid;
+  user-select: none; 
+  ">{{ .Get "sum" | markdownify }}</summary>
+  <div style="
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100%;
+  user-select: none;
+  padding: 0 20px;
+  line-height: 1.5;
+  ">
+    {{ .Inner }}
+  </div>
+</details>

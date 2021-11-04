@@ -6,6 +6,9 @@ enableEmoji = true
 copyright = "© 2020 <a href='https://twitter.com/BasilLabib'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [taxonomies]
   category = "categories"
   series = "series"
