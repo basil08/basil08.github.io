@@ -114,11 +114,19 @@ Fiction, Classic, Play, Romance, Tragedy
 33. > **The Bell Jar | Sylvia Plath**  
 Fiction, Autobiographical, Feminism, Mental health, Rights  
 
-34. > **Arcadia | Tom Stoppard**  
-Fiction, Play, Metaphysics, Determinism, Mathematics   
+34. {{<ds sum="**Arcadia | Tom Stoppard**">}}
+A seven scene erudite play about romance, metaphysics, determinism, Byron, and mathematics. The events jostle between two different time periods &ndash; the 18th century and the late 20th century in the same room. The magic lies in the manner these characters are connected and the dialogues interweaved as they solve the "murder" mystery of Mr. Chater.   
 
-35. > **Tristan and Iseult | Rosemary Sutcliff**  
-Fiction, Arthurian, Legend   
+Generously humorours and witty throughout, Tom ruminates on human progress and the natures of mathematics and genius and time. Widely acclaimed as the greatest play of our age (though, I won't count on that), this play is actually ingenious, chaotic and yet coherent.   
+
+Saw a [production](https://www.youtube.com/playlist?list=PL6-Gpuptr59cugzVIfMp7hu-P0n0gsviS) on YT. Really cool.   
+{{</ds>}}
+
+35. {{<ds sum="**Tristan and Iseult | Rosemary Sutcliff**">}}
+Ancient classic Celtic romance legend, retold hundreds of times by different people. This is one of them. Also of note is Wagner's opera [Tristan und Isolde](https://en.wikipedia.org/wiki/Tristan_und_Isolde) because of its influence on Western operatic status quo and avart-grande usage of chromatics and dissonant harmonies.  
+
+What draws me more is the inspiration that feeds man's mind. How a millenia old legend can invigorate an old guy to compose a magnificent piece of soul moving music that is heralded as a new avenue in what operas ought to be. The nature of value, though elusive, is this. 
+{{</ds>}} 
 
 36. {{<ds sum="**In My Skin | Kate Holden**">}}
 
