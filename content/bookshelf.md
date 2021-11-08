@@ -102,17 +102,28 @@ Non-fiction, Popular Science, Sexuality, Evolution
 29. > **When Dimple Met Rishi | Sandhya Menon**   
 Fiction, Romance    
 
-30. > **Hyperbole and a Half | Allie Brosh**    
-Biographical Fiction, Comic, Humorous, Sarcasm   
+30. {{<ds sum="**Hyperbole and a Half | Allie Brosh**">}}
 
-31. > **Galatea | Madeline Miller**  
-Mythological Fiction, Short story, Pygmalion, Galatea 
+A collection of comics inspired by Allie's own life experiences similar to a biographical fiction. Dripping with sarcasm and humour. I was laughing so hard.   
 
-32. > **Romeo and Juliet | William Shakespeare**   
-Fiction, Classic, Play, Romance, Tragedy   
+{{</ds>}}
 
-33. > **The Bell Jar | Sylvia Plath**  
-Fiction, Autobiographical, Feminism, Mental health, Rights  
+31. {{<ds sum="**Galatea | Madeline Miller**">}}
+
+A very short story by the author of "The Song of Achilles" about the myth of Galatea, the living statue and Pygmalion, the sculptor-king. Mythological fiction. Miller took her liberty to fictionalize the story in a feminist light as most of her other works.  
+
+{{</ds>}}
+
+32. {{<ds sum="**Romeo and Juliet | William Shakespeare**">}}
+A play about perhaps the most famous star-crossed lovers in Western culture. Quintessential Shakespearean in character, wonderful metaphors, witty, humorous, dark, with many literary devices, and complex characters. A dictionary is recommended. Didn't disappoint but I still like the legend of Tristan and Iseulte more.  
+
+{{</ds>}}
+
+33. {{<ds sum="**The Bell Jar | Sylvia Plath**">}}
+A fictional first-person account of a Ms. Esther Greenwood, an aspiring writer, lover of poetry, and a victim of mental degradation. Events were inspired by Plath's own life experiences thus, making the book semi-autobiographical in nature.   
+
+Published in 1963, it is one of the finest texts on feminism and womanhood. I wrote more [here](/post/sylvia-plath-the-bell-jar-and-feminism/). 
+{{</ds>}}
 
 34. {{<ds sum="**Arcadia | Tom Stoppard**">}}
 A seven scene erudite play about romance, metaphysics, determinism, Byron, and mathematics. The events jostle between two different time periods &ndash; the 18th century and the late 20th century in the same room. The magic lies in the manner these characters are connected and the dialogues interweaved as they solve the "murder" mystery of Mr. Chater.   
@@ -125,7 +136,7 @@ Saw a [production](https://www.youtube.com/playlist?list=PL6-Gpuptr59cugzVIfMp7h
 35. {{<ds sum="**Tristan and Iseult | Rosemary Sutcliff**">}}
 Ancient classic Celtic romance legend, retold hundreds of times by different people. This is one of them. Also of note is Wagner's opera [Tristan und Isolde](https://en.wikipedia.org/wiki/Tristan_und_Isolde) because of its influence on Western operatic status quo and avart-grande usage of chromatics and dissonant harmonies.  
 
-What draws me more is the inspiration that feeds man's mind. How a millenia old legend can invigorate an old guy to compose a magnificent piece of soul moving music that is heralded as a new avenue in what operas ought to be. The nature of value, though elusive, is this. 
+What drew me more is the inspiration that feeds man's mind. How a millenia old legend can invigorate an old guy to compose a magnificent piece of soul moving music that is heralded as a new avenue in what operas ought to be. The nature of value, though elusive, is this. 
 {{</ds>}} 
 
 36. {{<ds sum="**In My Skin | Kate Holden**">}}
