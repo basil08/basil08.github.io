@@ -20,7 +20,7 @@ Perhaps, a better explanation is given by ACX which I quote:
 
 Hi there! 
 
-I am Basil Labib. A student expecting to graduate this year from [Birla High School](https://birlahighschool.com), Kolkata.    
+I am Basil Labib.   
 
 ## Where do I start?   
 

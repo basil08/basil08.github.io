@@ -3,7 +3,7 @@ title = "The Personal Blog of Basil Labib"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
 enableEmoji = true 
-copyright = "© 2020 <a href='https://twitter.com/BasilLabib'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
+copyright = "© 2020 <a href='https://twitter.com/itbwtsh'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
 [markup.goldmark.renderer]
@@ -17,7 +17,7 @@ unsafe= true
 [params]
   titleEmoji = ""
   # change this!
-  twitter = "BasilLabib"
+  twitter = "itbwtsh"
   googleAnalyticsID = "G-T8HDQQNE6X"
   custom_css = ["mycss/custom.css"]
 
