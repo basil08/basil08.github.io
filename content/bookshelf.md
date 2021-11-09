@@ -93,14 +93,26 @@ Non-fiction, Economics, Psychology, Human behavior
 26. > **The Tragedy of Hamlet | William Shakespeare**  
 Fiction, Classic, Language, Tragedy   
 
-27. > **Losing My Virginity: An Autobiography | Sir Richard Branson**  
-Non-fiction, Autobiography, Business, Family, Inspiration    
+27. {{<ds sum="**Losing My Virginity: An Autobiography | Sir Richard Branson**">}}
+An autobiography of one of UK's most successful businessman, enterpreneur and humanitarian. I first heard about him mentioned in Peter Thiel's _Zero To One_ and then saw this book in my local library. Truly inspiration and mind boggling.  
 
-28. > **Why is Sex Fun? | Jared Diamond**   
-Non-fiction, Popular Science, Sexuality, Evolution   
+Branson, born in a middle class family, had an average school life, started a magazine in his teens, then a record shop called "Virgin Records", and then "Virgin Airlines", and then... (Iykyk). Most people view him as flamboyant and frivolous for his around the world hot-air balloon trips and walking around with super models. Yes, he is eccentric but here, he bares himself for us. Beyond all that, he is a responsible family man. A lover and a doting father. The very incarnate of what every man wants to be.   
 
-29. > **When Dimple Met Rishi | Sandhya Menon**   
-Fiction, Romance    
+Branson inspired me to start a magazine and I learnt so much about desktop publishing and the nuances of publishing. And, got introduced to Mike Oilfield's _beautiful_ album _["Tubular Bells"](https://open.spotify.com/album/0a3YQpBnRzJzNktOjb6Dum)_ (highly recommended). His Necker Island resort is _love_.  
+
+{{</ds>}}
+
+28. {{<ds sum="**Why is Sex Fun? | Jared Diamond**">}}
+A rational enquiry into the nature and anomaly of human sexuality, its evolution, and social and cultural repercussions by the author of "Guns, Germs, and Steel". Eloquent, argumentative, and witty reasoning.    
+
+I wrote a blog post [here](/post/love-as-an-illegitimate-byproduct/). He talks about a variety of aspects of human sexuality that humans take for granted but are in fact, errors with respect to the animal kingdom such as monogamy, concealed ovulation, and even recreational sex. If you have read _The Selfish Gene_ (which I highly recommend), then this book is a toned-down, more subjectively focussed form of it, but essentially in the same spirit. Biology folks are gonna dig it. Definitely revisitable. 
+
+
+{{</ds>}}
+
+29. {{<ds sum="**When Dimple Met Rishi | Sandhya Menon**">}}
+Romantic fiction. They adapted it for a series called "Mismatched". 
+{{</ds>}}
 
 30. {{<ds sum="**Hyperbole and a Half | Allie Brosh**">}}
 
