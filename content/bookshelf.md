@@ -96,7 +96,7 @@ Fiction, Classic, Language, Tragedy
 27. {{<ds sum="**Losing My Virginity: An Autobiography | Sir Richard Branson**">}}
 An autobiography of one of UK's most successful businessman, enterpreneur and humanitarian. I first heard about him mentioned in Peter Thiel's _Zero To One_ and then saw this book in my local library. Truly inspiration and mind boggling.  
 
-Branson, born in a middle class family, had an average school life, started a magazine in his teens, then a record shop called "Virgin Records", and then "Virgin Airlines", and then... (Iykyk). Most people view him as flamboyant and frivolous for his around the world hot-air balloon trips and walking around with super models. Yes, he is eccentric but here, he bares himself for us. Beyond all that, he is a responsible family man. A lover and a doting father. The very incarnate of what every man wants to be.   
+Branson, born in a middle class family, had an average school life, started a magazine in his teens, then a record shop called "Virgin Records", and then "Virgin Atlantic", and then... (Iykyk). Most people view him as flamboyant and frivolous for his around the world hot-air balloon trips and walking around with super models. Yes, he is eccentric but here, he bares himself for us. Beyond all that, he is a responsible family man. A lover and a doting father. The very incarnate of what every man wants to be.   
 
 Branson inspired me to start a magazine and I learnt so much about desktop publishing and the nuances of publishing. And, got introduced to Mike Oilfield's _beautiful_ album _["Tubular Bells"](https://open.spotify.com/album/0a3YQpBnRzJzNktOjb6Dum)_ (highly recommended). His Necker Island resort is _love_.  
 
@@ -149,6 +149,9 @@ Saw a [production](https://www.youtube.com/playlist?list=PL6-Gpuptr59cugzVIfMp7h
 Ancient classic Celtic romance legend, retold hundreds of times by different people. This is one of them. Also of note is Wagner's opera [Tristan und Isolde](https://en.wikipedia.org/wiki/Tristan_und_Isolde) because of its influence on Western operatic status quo and avart-grande usage of chromatics and dissonant harmonies.  
 
 What drew me more is the inspiration that feeds man's mind. How a millenia old legend can invigorate an old guy to compose a magnificent piece of soul moving music that is heralded as a new avenue in what operas ought to be. The nature of value, though elusive, is this. 
+
+It was listed as required reading for a MIT OCW course called "The Philosophy of Love" ([CC.112](https://ocw.mit.edu/courses/concourse/cc-112-philosophy-of-love-spring-2013/)). Quite interesting.   
+
 {{</ds>}} 
 
 36. {{<ds sum="**In My Skin | Kate Holden**">}}
@@ -158,6 +161,14 @@ Stark, bare, welcoming, wholehearted, and honest. This is a memoir of an Austral
 Her most private thoughts about baring herself in front of stranger men, wondering whether she could ever love someone again, and finding empowerment and solace in her job, speaks eloquently for how a woman truly feels, beyond the object or act that society tries to reduce her to. Packed with explicit imageries, brutal truths, and heart-wrenching emotions, Kate is delicate and unfazed at the same time.  
 
 Few of my books are frivolous, compulsive choices made in haste. This was one of them. It cropped up in a web surfing sessions and I thought it was cool so I dived in. Glad I did.
+{{</ds>}}
+
+37. {{<ds sum="**The Psychology of Money | Morgan Housel**">}}
+
+A collection of wise ideas aimed at inculcating healthy habits in managing money. The author believes that managing finance should be learned more from history and psychology, rather than economics or mathematics because the people playing the game are not robots but humans.  
+
+With that sensible assumption, Housel draws from history, talking about what to do and what not to do in varied circumstances. Filled with anecdotes and quotes and knowledge, I enjoyed this book. Besides, it's concise and not painfully boring. I wrote more about it [here](/post/thoughts-the-psychology-of-money-book/).  
+
 {{</ds>}}
 
 ## Unfinished   
