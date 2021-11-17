@@ -19,5 +19,16 @@ Always had trouble with men because of her height.
 
 Then she starts on how people around her have been awful and nasty to her. 
 Buddy Willward, the two-faced Janus.
-Constantin, who didn't find her suitable to seduce.  
+Constantin, who didn't find her suitable to seduce makes her doubt herself as a woman.  
+ 
+Encounter with a misogynist, Marco at last day in New York. 
+She can conjure incredible metaphors and similes from simple everyday objects and turn them into grosteque, vocal representatives of her own hidden voice. Letting her wardrobe fly in the NYC night wind.  
+
+Authoritative throughout.  
+I decided to junk my thesis. 
+Children made me sick.  
+
+No wonder this text is considered a seminal work in feminism and for igniting the imagination of women. 
+It has impressive wordplay, original ruminations and witty protests against the civilities of the time and it was published way back in the 50s.  
+
 
