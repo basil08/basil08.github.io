@@ -22,7 +22,7 @@ My name is Basil Labib and I'm an undergrad at [IIT Delhi][0].
 
 ## Brief Intro     
 
-It is difficult to express exactly what I like because they encompass a lot of things. It was, perhaps, because of the precocious habit of reading books that I was lucky to develop.    
+It is difficult to express exactly what I like because they encompass a lot of things. It is, perhaps, because of the precocious habit of reading books that I was lucky to develop.    
 
 I want to be better than what other people think other people ought to be. Recently, I jokingly began describing myself as a cross between an autodidactic polymath and a Romantic. And that's a good working definition.   
 
