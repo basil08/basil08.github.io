@@ -7,7 +7,7 @@ date: 2021-11-09T19:54:34+05:30
 
 There is a shot in Steven Spielberg's 2018 science fiction ["Ready Player One"][1] where the protagonist, Wade, sitting in a shack in Columbus puts on a VR headset and is transported to the planet of Incipio where all avatars are born when they enter the OASIS. They can morph into any characters, cartoon, or monster. Customise how they look and sound and smell. Buy virtual assets and fight in hunts on a planet called Doom (Watch the movie if this is lost on you). Although these are mere imagination spewed from the mind of a 80s culture maniac, how would you feel if I tell you this is exactly the place we are headed?  
 
-{{<figure src="/img/metaverse/0.jpeg" width="300px" caption="**The future?**. Credits: [@sama](https://twitter.com/sama)">}}
+{{<figure src="/img/metaverse/0.jpeg" width="300px" caption="**The future?** Credits: [@sama](https://twitter.com/sama)">}}
 
 ## Definition and background   
 
