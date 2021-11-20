@@ -171,6 +171,13 @@ With that sensible assumption, Housel draws from history, talking about what to 
 
 {{</ds>}}
 
+38. {{<ds sum="**How to Win at College | Cal Newport**">}}
+Cal explains in the introduction how he talked to outstanding and overachieving students to figure out how they do what they do. The book is a collection of 75 do's and do not's that he thinks college students should practise to gain more than just a degree.   
+
+To be honest, most of the ideas do make sense and one can always cherry pick what suits their particular situation. The book doesn't beat around the bush or turn into a tomb. It gets straight to business. It was a quick and good read. Not sure if I would read it again but [here's a book summary](/post/notes-how-to-win-at-college-by-cal-newport/) to indulge you!   
+
+{{</ds>}}
+
 ## Unfinished   
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
