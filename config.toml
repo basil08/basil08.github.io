@@ -28,18 +28,21 @@ unsafe= true
   name = "blog"
   url = "post/"
 
+#  
+# [[params.menu]]
+#  name = "univ"
+#  url = "/univ"
+# [[params.menu]]
+#  name = "travel"
+#  url = "/travel"
+#
 [[params.menu]]
   name = "bookshelf"
   url = "bookshelf/"
-  
-[[params.menu]]
-  name = "tags"
-  url = "tags/"
 
 [[params.menu]]
   name = "about"
   url = "about/"
-  
 
 [privacy]
   [privacy.googleAnalytics]

@@ -178,6 +178,14 @@ To be honest, most of the ideas do make sense and one can always cherry pick wha
 
 {{</ds>}}
 
+39. {{<ds sum="**The JWT Handbook | Auth0**">}}
+
+Quite in-depth treatment of algorithms. JavaScript implementation of SHA256, RSA, and others. Short and effective initiation into the subject. Found it to be losing narrative at points.  
+
+Read [article on JWT](/post/a-deep-dive-into-json-web-tokens-jwts/). 
+{{</ds>}}  
+
+
 ## Unfinished   
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
