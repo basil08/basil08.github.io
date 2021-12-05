@@ -230,6 +230,12 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 20. > **In the Footsteps of the Prophet | Tariq Ramadan**  
 
+21. > **Infinite Powers | Steven Strogatz**  
+
+22. > **The First World War | VSI**  
+
+23. > **Broken Ladders | Anirudh Krishna**  
+
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com
 [current]: /bookshelf/current-reading.md
