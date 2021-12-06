@@ -1,0 +1,31 @@
+<div>
+  {{ $droplets := getJSON "https://yxqukb.deta.dev" "/payload"}}
+  <ul style=" padding: 0;">
+    {{ range sort $droplets "ts" "desc" }}
+    <li style="
+    list-style: none;
+    border: 1px grey solid;
+    padding: 0.5em;
+    margin: 0.5em;
+    ">
+      <div style="display: grid;
+      grid-template-columns: 3fr 1fr;
+      ">
+        <div>
+          {{ if .title}}
+          <div>
+            >> <strong>{{ .title }} <br /></strong>
+          </div>
+          {{ end }}
+          {{ .body }}
+        </div>
+        <div>
+          <small>
+            {{ .ts }}
+          </small>
+        </div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
