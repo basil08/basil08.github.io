@@ -5,6 +5,7 @@
     <li style="
     list-style: none;
     border: 1px grey solid;
+    background-color: rgb(240, 240, 255);
     padding: 0.5em;
     margin: 0.5em;
     ">
@@ -14,16 +15,23 @@
         <div>
           {{ if .title}}
           <div>
-            >> <strong>{{ .title }} <br /></strong>
+            <strong>{{ .title | markdownify }}<br /></strong>
           </div>
           {{ end }}
-          {{ .body }}
+          {{ .body | markdownify }}
         </div>
         <div>
           <small>
             {{ .ts }}
           </small>
         </div>
+        {{ if .imgs }}
+        <div class="image-drawer">
+          {{ range .imgs }}
+            <img src="{{ . }}">
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
     </li>
     {{ end }}

@@ -48,4 +48,4 @@ Prepping at a mind numbing pace, in a matter of three to four days of stressful 
 
 And then, just like that, on an ordinary pleasant morning, I clicked the "JOIN" button into my first mock APL100 class and ushered the new life ahead of me.   
 
-PS: I am a timid boy so how was I supposed to cope in a different city all by my own? I asked a question boldly in Delhi accent in one of the classes and surprised myself. Then, I thought to myself, Eh, I'll be fine. I was fitting in.   
+PS: I asked a question boldly in Delhi accent in one of the classes and surprised myself. I was fitting in. And then, I thought to myself, "Eh, I'll be fine".   
