@@ -1,5 +1,5 @@
 <div>
-  {{ $droplets := getJSON "http://localhost:10100" "/payload"}}
+  {{ $droplets := getJSON "https://vera.deta.dev" "/payload"}}
   <ul style=" padding: 0;">
     {{ range sort $droplets "ts" "desc" }}
     <li style="
