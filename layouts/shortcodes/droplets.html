@@ -15,10 +15,10 @@
         <div>
           {{ if .title}}
           <div>
-            <strong>{{ .title | markdownify }}<br /></strong>
+            <strong>{{ .title | emojify | markdownify }}<br /></strong>
           </div>
           {{ end }}
-          {{ .body | markdownify }}
+          {{ .body | emojify | markdownify }}
         </div>
         <div>
           <small>
