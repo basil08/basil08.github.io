@@ -5,7 +5,7 @@ on:
     branches:
       - main  # Set a branch to deploy
   pull_request:
-  request_dispatch:
+  repository_dispatch:
 
 jobs:
   deploy:
