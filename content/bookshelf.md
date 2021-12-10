@@ -185,6 +185,12 @@ Quite in-depth treatment of algorithms. JavaScript implementation of SHA256, RSA
 Read [article on JWT](/post/a-deep-dive-into-json-web-tokens-jwts/). 
 {{</ds>}}  
 
+40. {{<ds sum="**The First World War | Michael Howard**">}}
+
+Fascinating first introduction to the bird's eye view of the events of WW1. History is _so_ important to understand how we got where we are. Well, here's to a life-long learning process!   
+
+And as usual, I wrote a [post](/post/the-war-to-end-all-wars-the-first-world-war/).
+{{</ds>}}
 
 ## Unfinished   
 
@@ -232,9 +238,7 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 21. > **Infinite Powers | Steven Strogatz**  
 
-22. > **The First World War | VSI**  
-
-23. > **Broken Ladders | Anirudh Krishna**  
+22. > **Broken Ladders | Anirudh Krishna**  
 
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com
