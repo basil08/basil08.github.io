@@ -1,5 +1,5 @@
 <div>
-  {{ $droplets := getJSON "https://vera.deta.dev" "/payload"}}
+  {{ $droplets := getJSON "http://localhost:10100" "/payload"}}
   <ul style=" padding: 0;">
     {{ range sort $droplets "ts" "desc" }}
     <li style="
@@ -22,7 +22,7 @@
         </div>
         <div>
           <small>
-            {{ .ts }}
+          {{ (time .ts).Local | time.Format "15:04 | Jan 02, 2006" }}
           </small>
         </div>
         {{ if .imgs }}
