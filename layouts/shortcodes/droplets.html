@@ -22,7 +22,7 @@
         </div>
         <div>
           <small>
-          {{ (time .ts).Local | time.Format "15:04 | Jan 02, 2006" }}
+          {{ (time .ts "Asia/Kolkata") | time.Format "15:04 | Jan 02, 2006" }}
           </small>
         </div>
         {{ if .imgs }}

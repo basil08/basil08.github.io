@@ -22,9 +22,7 @@ My name is Basil Labib and I'm an undergrad at [IIT Delhi][0].
 
 ## Brief Intro     
 
-It is difficult to express exactly what I like because they encompass a lot of things. It is, perhaps, because of the precocious habit of reading books that I was lucky to develop.    
-
-I want to be better than what other people think other people ought to be. Recently, I jokingly began describing myself as a cross between an autodidactic polymath and a Romantic. And that's a good working definition.   
+I'm interested in STEM and building solutions. I love to read. I'm crazy about learning even the craziest, most challenging things (!) I'm a Kup 1 in Taekwondo, I love generosity and kindness, and have become a film buff recently. I jokingly began describing myself as a cross between an autodidactic polymath and a Romantic. And that's a good working definition.   
 
 This blog is an attempt to make learning rewarding for others. It is also partly my scratchpad to note thoughts and ideas. I hold empowerment and freedom as two fundamental human rights and strive to make them accessible and actionable through my work.  
   
