@@ -218,7 +218,7 @@ king, and eat of the fish that hath fed of that worm."
 
 > A man may fish with a worm that has fed on a king and then eat of the fish that was caught by the worm.    
 
-In essence, how a comman man can eat the king.   
+In essence, how a common man can eat the king.   
 
 ## Act 5, Scene 1   
 
