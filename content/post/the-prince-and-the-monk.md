@@ -9,7 +9,7 @@ date: 2021-12-12T17:50:54+05:30
 
 The following is a short story of an unnamed young prince of an unknown country in an unspecified time. The story involves just one conversation with a monk and how that unravels the personality of the prince and his hazardous life ahead.   
 
-For a future me when he feels too broken.   
+_To a future me when he feels too broken._   
 
 ---
 
