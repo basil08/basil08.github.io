@@ -9,7 +9,7 @@ date: 2021-06-20T22:24:36+05:30
 
 Inspired by Patrick Collison's luscious [bookshelf][bookshelf], this page is the list of books I have read in the current year (whichever year you are reading it). Most of these are plucked from other people's recommendation lists, popular choices, stuff I find interesting or just a random topic I want to learn about on a Saturday evening. Suggestions? Drop me a [line][mailto]!
 
-I read somewhere (probably in an Umberto Eco article) that one can understand a man by going through his bookshelf. I believe this is true (with one caveat I don't want to go into now). In any case, this is my bookshelf and I leave you to judge me at my worth. Happy browsing!    
+I read somewhere (probably in an Umberto Eco article) that one can understand a man by going through his bookshelf. In any case, this is my bookshelf and I leave you to judge me at my worth. Happy browsing!    
 
 1. My year in books: [2020][yib2020]!  
 
