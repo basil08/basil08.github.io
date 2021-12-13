@@ -10,8 +10,14 @@
     margin: 0.5em;
     ">
       <div style="display: grid;
-      grid-template-columns: 3fr 1fr;
+      grid-template-rows: auto 1fr;
       ">
+        <div>
+          <small style="
+          ">
+          {{ (time .ts "Asia/Kolkata") | time.Format "15:04 | Jan 02, 2006" }}
+          </small>
+        </div>
         <div>
           {{ if .title}}
           <div>
@@ -19,11 +25,6 @@
           </div>
           {{ end }}
           {{ .body | emojify | markdownify }}
-        </div>
-        <div>
-          <small>
-          {{ (time .ts "Asia/Kolkata") | time.Format "15:04 | Jan 02, 2006" }}
-          </small>
         </div>
         {{ if .imgs }}
         <div class="image-drawer">
