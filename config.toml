@@ -28,7 +28,7 @@ unsafe= true
   name = "blog"
   url = "post/"
 
-#  
+#
 # [[params.menu]]
 #  name = "univ"
 #  url = "/univ"

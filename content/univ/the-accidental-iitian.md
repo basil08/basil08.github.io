@@ -2,7 +2,6 @@
 title: "The Accidental IITian"
 tags:
 categories: 
-draft: true
 date: 2021-11-25T18:43:35+05:30
 ---
 
