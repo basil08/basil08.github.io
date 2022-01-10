@@ -7,7 +7,7 @@ date: 2021-12-22T19:19:40+05:30
 
 ## Abstract   
 
-This post is a penned down expression of my personal experience. It is considerably less "lean" and "unpolished". That is by choice, as I wanted to capture the spontaneity of the moments. What you're about to read is argubly personal so be considerate! Have fun!     
+This post is a penned down expression of my personal experience. It is considerably less "lean" and "unpolished". That is by choice, as I wanted to capture the spontaneity of the moments. What you're about to read is arguably personal so be considerate! Have fun!     
 
 ---
 

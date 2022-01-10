@@ -15,7 +15,7 @@ My legs have turned noodles from the amount of buying and walking through market
 ## People around      
 
 Coming to the more interesting part, I met some of my relatives and teachers &mdash; those who I'm close with. My primary objective was to gather as many viewpoints and perspectives as possible, then analyse, and cherry pick the most over arching, fundamental ideas as the basis of a "philosophy of life" in college.
-
+<!-- 
 Let me summarise my family doctor's advice who has been extremely supportive of me and whom I respect immensely.
 
 Friends
@@ -36,9 +36,9 @@ Parents
 Life
 - choose a _good_ spouse. Bad choice can screw your life.
 - pass it on. That's how the world works.
-- less material != less happiness
+- less material != less happiness -->
 
-Lastly, **no panic in times of crises** and **no nervousness**.
+<!-- Lastly, **no panic in times of crises** and **no nervousness**. -->
 
 Yesterday, I had visited my middle school geography teacher who adores me a lot and who supported me immensely during my 
 school days.   
