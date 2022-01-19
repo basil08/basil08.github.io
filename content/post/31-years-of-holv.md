@@ -19,14 +19,16 @@ It is quite a task to decipher the meaning of the lyrics. Most of what Liz wrote
 
 I remember my very first CT song was _"Fotzepolitic"_ (Ok, it was _"Perly Dewdrops-drop"_ technically but shhh...) and I still relive that moment everytime I listen to the song. The shimmering guitars, rhythm, the unusual melody and Liz's angelic vocals almost made it an auditory painting &mdash; not to be seen, but listened. I remember going like, "What on earth is this?!" because it was so different from the rock that I had expected.   
 
-> My dreams are alone,   
+{{<bq>}} My dreams are alone,   
 They're sick and must be dross.        
 They're young girls dreams...   
 ~verse 1, Fotzepolitic  
+{{</bq>}}
 
 and then the refrain which she loops over and over again in the outro,   
 
-> See and saw bounce me back to you.
+{{<bq>}} See and saw bounce me back to you.
+{{</bq>}}
 
 To say HOLV is my favorite CT album is not a outrageous thing to say but it is certainly not accurate. I love HOLV (I even have their CDs bought with the first money I earned!). I also love Treasure and some of BBK, Milk and Kises, Four Calendar which is nothing to say of their large and equally magnificent EP produce (Check out _"The Spangle Maker"_ or _"Domino"_).      
 

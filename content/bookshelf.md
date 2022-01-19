@@ -9,108 +9,19 @@ date: 2021-06-20T22:24:36+05:30
 
 Inspired by Patrick Collison's luscious [bookshelf][bookshelf], this page is the list of books I have read in the current year (whichever year you are reading it). Most of these are plucked from other people's recommendation lists, popular choices, stuff I find interesting or just a random topic I want to learn about on a Saturday evening. Suggestions? Drop me a [line][mailto]!
 
-I read somewhere (probably in an Umberto Eco article) that one can understand a man by going through his bookshelf. I believe this is true (with one caveat I don't want to go into now). In any case, this is my bookshelf and I leave you to judge me at my worth. Happy browsing!    
+I read somewhere (probably in an Umberto Eco article) that one can understand a man by going through his bookshelf. In any case, this is my bookshelf and I leave you to judge me at my worth. Happy browsing!    
 
-1. My year in books: [2020][yib2020]!  
+1. My year in books: [2020][yib2020]  
+2. My year in books: [2021][yib2021]
 
-## Let's Get Started      
+## Let's Get Started        
 
-1. > **Zero to One | Peter Thiel**    
-Non-fiction, Startup, Essential, Vision, Principles 
+1. {{<ds sum="**Fierce People | Dirk Wittenhorn**">}}
 
-2. > **Rosemary's baby | Ira Levine**  
-Fiction, Fantasy, Witchcraft, Classic   
+A good first read of the year. A thriller, romance, and coming-of-age novel all wrapped in one.  
 
-3. > **Vivekananda's Biography | Swami Nikhelananda**  
-Non-fiction, Biography, Monk, Vedanta, Philosophy, Inspiration  
-
-4. > **The Three Body Problem | Cixin Liu**  
-Fiction, Hard SF (science fiction), Contact, Classic   
-
-5. > **Transform your Habits | James Clear**    
-Non-fiction, Psychology, Self-help, Habits, Short  
-
-6. > **The Almanack of Naval Ravikant | Eric Jorgenson (via Naval Ravikant)**   
-Non-fiction, Life, Philosophy, Habits, Mental Models, Productivity, Wisdom  
-
-7. > **Design for Hackers | David Kadavy** [more][2] and [more][3]    
-Non-fiction, Design, Beginner, Practical, Advice, Hacker, Product, Business 
-
-8. > **The Song of Achilles | Madeline Miller**   
-Fiction, Mythological Fiction, Trojan War, Achilles, Patroclus, Romance, War   
-
-9. > **UNIX: History and Memoir | Brian W. Kernighan** [more][4]   
-Non-fiction, History, Unix, Computer Science, C, Bell Labs    
-
-10. > **Lord of the Flies | William Golding**   
-Fiction, Human Psychology, Dark, Human Behavior, Stranded, Savage    
-
-11. > **Ready Player Two | Ernst Cline** [more][0]   
-Fiction, Dystopia, VR, Pop culture trivia, OASIS    
-
-12. > **Steve Jobs | Walter Isaacson**   
-Non-fiction, Biography, Technology, Art, Inspiration    
-
-13. > **Looking For Alaska | John Green**    
-Fiction, Young Adult, Death, Romance  
-
-14. > **Turtles All the Way Down | John Green**   
-Fiction, Young Adult, Existential Crisis, Romance    
-
-15. > **Siddhartha | Hermann Hesse**   
-Fiction, Happiness, Wisdom, Learning, Purpose, Principles, Essential    
-
-16. > **An Abundance of Katherines | John Green**   
-Fiction, Young Adult, Realism, Prodigy, Romance   
-
-17. > **Soon I will be Invincible | Austin Grossman**  
-Fiction, Fantasy, Superhero, Comedy, Generic    
-
-18. > **Naked Economics | Charles Wheelan**    
-Non-fiction, Economics, Fundamentals, Layman, Essential   
-
-19. > **The Richest Man in Babylon | George S. Clason** [more][6]     
-Non-fiction, Wealth, Finance, Advice, Classic, Wisdom, Knowledge   
-
-20. > **Post Office | Charles Bukowski**   
-Fiction, Antihero, Employee, Experience   
-
-21. > **I Will Teach You To Be Rich | Ramit Sethi**  
-Non-fiction, Personal Finance, Howto   
-
-22. > **The Adventures of Sherlock Holmes | Sir Arthur C. Doyle**  
-Fiction, Detective, Short stories, Classic   
-
-23. > **The Millionaire Fastlane | MJ DeMarco**  
-Non-fiction, Finance, Wealth, Advice, Entrepreneurship    
-
-24. > **A Thousand Splendid Suns | Khaled Hosseini**  (Reread)   
-Fiction, Human relationships, Afghanistan, Historical fiction  
-
-25. > **Freakonomics | Dubner and Levitt**   
-Non-fiction, Economics, Psychology, Human behavior   
-
-26. > **The Tragedy of Hamlet | William Shakespeare**  
-Fiction, Classic, Language, Tragedy   
-
-27. > **Losing My Virginity: An Autobiography | Sir Richard Branson**  
-Non-fiction, Autobiography, Business, Family, Inspiration    
-
-28. > **Why is Sex Fun? | Jared Diamond**   
-Non-fiction, Popular Science, Sexuality, Evolution   
-
-29. > **When Dimple Met Rishi | Sandhya Menon**   
-Fiction, Romance    
-
-30. > **Hyperbole and a Half | Allie Brosh**    
-Biographical Fiction, Comic, Humorous, Sarcasm   
-
-31. > **Galatea | Madeline Miller**  
-Mythological Fiction, Short story, Pygmalion, Galatea 
-
-32. > **Romeo and Juliet | William Shakespeare**   
-Fiction, Classic, Play, Romance, Tragedy   
-
+I'm glad I read the book before I'm going to watch the movie. I couldn't put it down once I started. I wrote an in-depth [post](/post/fierce-people/) so I won't bore you here. 
+{{</ds>}}
 
 ## Unfinished   
 
@@ -150,11 +61,21 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 
 17. > **The 4 Hour Body | Tim Ferriss**   
 
-   
+18. > **Permutation City | Greg Egan**  
+
+19. > **The Brothers Karamazov | Fyodor Dostoevsky**      
+
+20. > **In the Footsteps of the Prophet | Tariq Ramadan**  
+
+21. > **Infinite Powers | Steven Strogatz**  
+
+22. > **Broken Ladders | Anirudh Krishna**  
+
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:g454236@gmail.com
 [current]: /bookshelf/current-reading.md
 [yib2020]: /bs/yib2020
+[yib2021]: /bs/yib2021
 [0]: /post/thoughts-ready-player-two-book/
 <!-- [1]: /habits -->
 [2]: /post/thoughts-design-for-hackers-book

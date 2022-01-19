@@ -39,7 +39,7 @@ Aech and Z spends soooo much metered time on the "Afterworld" doing completely w
 During the Quest for the Sixth Shard on Arda I, Cline gladly spares an entire paragraph to describe to us in vivid detail the ferocity of Morgoth, the invulnerable and blah blah. Morgoth was literally supposed to be the bad guy who couldn't be defeated. Probably, I have read more superlatives in this book than all the others I have read _combined_. At least, I had hoped this will be respected but I knew I was in deep shit already. The epic battle was literally wrapped up in four lines with Arty casting a sleep spell, Z yanking out the gem and both of them heading straight for the exit. There was not even a _hello_ from Morgoth, let alone a battlecry dialogue. This is next level imbalanced narration. 
 
 
-After the Shards are assembled and Kira's AI copy is awakened, she hands Z the Rod of Resurrection. He brings Og back to digital consciousness and he reunites with Kira aka Leucosia. Sure enough. Then all of a suddent, he revives Samatha's grandmother. WTF?   
+After the Shards are assembled and Kira's AI copy is awakened, she hands Z the Rod of Resurrection. He brings Og back to digital consciousness and he reunites with Kira aka Leucosia. Sure enough. Then all of a sudden, he revives Samatha's grandmother. WTF?   
 
 ### Wade, Sam and ehm..their romance  
 

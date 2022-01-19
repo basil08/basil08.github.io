@@ -3,7 +3,6 @@ title: "A Discord Bot for My Friends"
 tags:
 categories: 
 draft: true
-series: "Discord Bot with discord.js"
 date: 2020-11-17
 ---
 

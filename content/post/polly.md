@@ -29,7 +29,7 @@ Kurt puts us straight into the shoes of the rapist. This choice of perspective i
 > "I think she wants some water  
 To put out the blow torch"   
 
-The lyrics get extremely vivid and explicit, the imagery are very disturbing as it goes on to describe everything that happens to the girl as the rapist sees it. A 14-year old girl was kidnapped from a local rock concert by a man with a history of such crimes. She was raped and tortured with a blow torch while hanging upside down. 
+The lyrics get extremely vivid and explicit, the imagery are very disturbing as it goes on to describe everything that happens to the girl as the rapist sees it. A 14-year old girl was kidnapped from a local rock concert in Tacoma, Washington in the August of 1987 by a man with a history of such crimes. She was raped and tortured with a blow torch while hanging upside down. 
 
 > "Isn't me, have a seed   
 Let me clip your dirty wings"   
@@ -42,7 +42,7 @@ Perhaps, the most disconcerting is the last line of the chorus. It bares before 
 
 ## When and how I was introduced to Nirvana
 
-I was born more than a decade after Nevermind first hit the shelves of record stores. Moreover, I was born into the era of online streaming. I haven't seen a record player, let alone held a vinyl record in my hands! I was introduced to Nirvana quite late in my music exploration journey. I was mostly into rock those days and tried "Lithium" for the first time. The "Yeah" chorus sent me into a semi trance-like state. It was the embodiment of nonchalance, angst and everything teenager. The quirky lyrics and the instantly recognizable riff. I liked it. However, it was much later that I actually listened to "Smells Like Teen Spirit" and didn't like it that much at first. On a second revisit, it became one of my favorite songs. And that's how I listened to Nevermind. PS: I am still yet to listen to their entire discography which I have constantly procrastinated telling myself that I'm waiting for that perfect moment to listen to them!  
+I was born more than a decade after Nevermind first hit the shelves of record stores. Moreover, I was born into the era of online streaming. I haven't seen a record player, let alone held a vinyl record in my hands! (Not very happy about it, though) I was introduced to Nirvana quite late in my music exploration journey. I was mostly into rock those days and tried "Lithium" for the first time. The "Yeah" chorus sent me into a semi trance-like state. It was the embodiment of nonchalance, angst and everything teenager. The quirky lyrics and the instantly recognizable riff. I liked it. However, it was much later that I actually listened to "Smells Like Teen Spirit" and didn't like it that much at first. On a second revisit, it became one of my favourite songs. And that's how I listened to Nevermind. PS: I am still yet to listen to their entire discography which I have constantly procrastinated telling myself that I'm waiting for that perfect moment to listen to them!  
 
 ## Nirvana was a feminist band and why that's important   
 
@@ -63,7 +63,7 @@ As you stroll through Nirvana's song palace, one feature is consistently recurre
 > "I don't mean to stare, we don't have to breed"  
 ~Breed, Nevermind (1991)  
 
-So, when he heard about the crime, it was inevitable that he would leverage his position to get people talking. He often combined the freedom and expertise of his art with the prevailing social conditions and norms. Bob Dylan once remarked after listening to Polly, "The kid has got a heart". Dylan was a folk singer-songwriter and widely acclaimed for his protest songs of the 50s-60s and his role in shaping American history and minds.    
+So, when he heard about the crime, it was inevitable that he would leverage his position to get people talking. He often combined the freedom and expertise of his art with the prevailing social conditions and norms. Bob Dylan once remarked after listening to Polly, "The kid has got a heart". Dylan was a folk singer-songwriter and widely acclaimed for his protest songs (_"Times They Are A' Changing"_) of the 50s-60s and his role in shaping American history and minds.    
 
 There is a sweet parallel as Nirvana were seen as the spokesmen for the 90s generation to whom the squaling guitars and deafening sounds bore testimony to their inner angst and anger. Though, Kurt pioneered a completely different music genre called _"Grunge Rock"_, he was praised by a folk singer which goes on to say that art is ultimately a unified form.    
 
@@ -71,7 +71,7 @@ In fact, art supercedes musics, generations and even other disciplines. I cringe
 
 ## Notes, Footnotes and Credits  
 
-0. Nevermind was released on September 24th, 1991. In a couple of weeks, the album will turn 30 (Oh boy, it's almost twice my age!). This post is my tribute to the band who spoke for a generation I have never known. Perhaps, there are more posts to come.  
+0. Nevermind was released on September 24th, 1991. In a couple of weeks, the album will turn 30 (Oh boy, it's almost twice my age!). This post is my tribute to the band who spoke for a generation I have never known.    
 
 1. **Footnote 1**: Umm, Basil, why are there no weird he/she, him/her in this artice? Are the girls not represented? Good question. Please read this to understand the [inherent limitation of the language I an working under][0].
 

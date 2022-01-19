@@ -1,0 +1,40 @@
+<div>
+  {{ $droplets := getJSON "https://vera.deta.dev" "/payload"}}
+  <ul style=" padding: 0;">
+    {{ range sort $droplets "ts" "desc" }}
+    <li style="
+    list-style: none;
+    border: 1px grey solid;
+    background-color: rgb(240, 240, 255);
+    padding: 0.5em;
+    margin: 0.5em;
+    ">
+      <div style="display: grid;
+      grid-template-rows: auto 1fr;
+      ">
+        <div>
+          <small style="
+          ">
+          {{ (time .ts "Asia/Kolkata") | time.Format "15:04 | Jan 02, 2006" }}
+          </small>
+        </div>
+        <div>
+          {{ if .title}}
+          <div>
+            <strong>{{ .title | emojify | markdownify }}<br /></strong>
+          </div>
+          {{ end }}
+          {{ .body | emojify | markdownify }}
+        </div>
+        {{ if .imgs }}
+        <div class="image-drawer">
+          {{ range .imgs }}
+            <img src="{{ . }}">
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
