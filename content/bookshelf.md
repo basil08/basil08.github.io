@@ -21,6 +21,14 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 A good first read of the year. A thriller, romance, and coming-of-age novel all wrapped in one.  
 
 I'm glad I read the book before I'm going to watch the movie. I couldn't put it down once I started. I wrote an in-depth [post](/post/fierce-people/) so I won't bore you here. 
+{{</ds>}}  
+
+2. {{<ds sum="**Bright Lights, Big City | Jay McInerney**">}}
+
+This book presents one of the most elucidated, explicit, and candid portrayals of eighties New York. The protagonist works at the Department of Factual Verification at a reputed magazine in NYC, has a beautiful model wife and lives a life of vain and vanity with his dramatic friend, Tad. But just when one begins to think he has achieved it all, his life begins to fall apart.    
+The book explores the gray region of materialistic wants and possessions and how detached it is from what one truly seeks in life.     
+PS: The peculiar narration perspective of the prose was slightly disorienting for me.  
+
 {{</ds>}}
 
 ## Unfinished   
