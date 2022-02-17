@@ -29,6 +29,13 @@ This book presents one of the most elucidated, explicit, and candid portrayals o
 The book explores the gray region of materialistic wants and possessions and how detached it is from what one truly seeks in life.     
 PS: The peculiar narration perspective of the prose was slightly disorienting for me.  
 
+{{</ds>}}  
+
+3. {{<ds sum="**Kari | Amruta Patil**">}}
+A poignant braindump enveloped in grosteque and charming visuals. Introspective, deep, and witty. Given the fact that I don't read much graphic novels, this was a welcome change.   
+
+PS: Got recommended from a bookclub group. I'm allowing myself the freedom to change and that is important.   
+ 
 {{</ds>}}
 
 ## Unfinished   
