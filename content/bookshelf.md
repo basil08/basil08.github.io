@@ -36,6 +36,16 @@ A poignant braindump enveloped in grosteque and charming visuals. Introspective,
 
 PS: Got recommended from a bookclub group. I'm allowing myself the freedom to change and that is important.   
  
+{{</ds>}}  
+
+4. {{<ds sum="**The Man Who Solved the Market | Gregory Zuckerman**">}}
+
+
+A biographic narrative of Jim Simons, the mathematician who founded Renaissance Tech and kickstarted the quant revolution. His Medallion fund continues to be one of the greatest successes of investment trading. This is a thoroughly researched account doesn't simply boast of the genius Simons deserves but also reveals his human side. How he managed employees and interacted with them. How he suffered two tragedies in his life when he lost two sons. 
+
+An extravagant spender, left-inclined rational who, in later life, focused his money into combating disease, math education, and space exploration. This is the story of how one man went against the odds and challenges and paved the way for a totally radical method of trading changing forever the face of investment trading.    
+
+Wow, this one took me more time than I expected, partially due to acad work and partially due to the biographical nature of the text. I wrote a post inspired by the book [here](/post/the-quant-frenzy-a-crude-forecast/).  
 {{</ds>}}
 
 ## Unfinished   

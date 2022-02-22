@@ -16,6 +16,9 @@ thought you knew is wrong.
 — Tom Stoppard, Arcadia
 {{</bq>}}
 
+
+It is a defect of God's humor that he directs our hearts everywhere but to those who have a right to them.”
+
 Arcadia is a seven scene play written by the prolific English playwright Tom Stoppard, writer of several plays performed by renowned play companies like the Royal Shakespeare Company and _______. Published in 1993, Arcadia builds on no theme _in particular_ and doesn't attempt to reach a cohesive resolution. Instead, it draws its magical potency and appeal from a peculiar feature of itself. The play shuttles back and forth between two time periods &mdash; the nineteenth century county of Derbyshire in England inside the "stately house" of Lady Croom and the modern day, that is, the late twentieth century inside the same room in the same house.   
 
 Arcadia is about romance, mathematics, determinism, God, literature, metaphysics, and Byron. The central theme that coalesces the two time periods together is a scandal and a purported murder mystery supposed to have taken place in 1810s and is now being discovered in 1990s. Present day occupants of the house (Valentine, Gus, Chloe) and in-house researchers (Bernard and Hannah) go through catalogues, game books, and archives to piece together what happened back in the 1810s. Arcadia stands apart because of the manner in which it effortlessly tells the story of two different timelines, resolve a murder mystery, and manage to comment on the meaning of time, and mathematics and so forth. 
