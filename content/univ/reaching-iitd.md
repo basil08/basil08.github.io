@@ -13,11 +13,11 @@ This post is a penned down expression of my personal experience. It is considera
 
 #### Dec 21, 2021 8:17
 
-I look out the scratched glass window out at the receding landscape. it's buildings and bridges. The sun is above my head, looking directly down at me, kissing me gently. And the railway tracks meander and merge like serpents and timelines, streaks of solid steel gleaming in the sun, hypnotizing the wry traveller like the sirens of Messina.    
+I look out the scratched glass window out at the receding landscape. it's buildings and bridges. The sun is above my head, looking directly down at me, kissing me gently. And the railway tracks meander and merge like serpents and timelines, streaks of solid steel gleaming in the sun, hypnotizing the wry traveler like the sirens of Messina.    
 
 #### Dec 21, 2021 9:27
 
-Kinda irritated by my perpetually dripping nose. Since I'm putting my mask on, all the allergy germs are trapped inside and hence agravating the condition. Feeling very tired and sleepy. Managed to download important material for Wednesday's calculus exam. The landscape outside is testimony to our capacity as savages, marring the natural habitat with electric lines and power grids and distant concrete cages. Quite smoggy. 
+Kinda irritated by my perpetually dripping nose. Since I'm putting my mask on, all the allergy germs are trapped inside and hence aggravating the condition. Feeling very tired and sleepy. Managed to download important material for Wednesday's calculus exam. The landscape outside is testimony to our capacity as savages, marring the natural habitat with electric lines and power grids and distant concrete cages. Quite smoggy. 
 
 {{<figure src="/img/journey_iitd/0.jpg" width="500px" caption="Slanting sunrays on a lazy smoggy landscape">}}
 
@@ -31,7 +31,7 @@ A quick nap rejuvenated my body. Found little internet connectivity at Asansol.
 
 #### Dec 21, 2021 11:23
 
-I remembered this poem I read a long long time ago:
+I remembered this poem I read a long, long time ago:
 
 {{<bq>}}
 "Faster than fairies, faster than witches    

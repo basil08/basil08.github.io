@@ -12,6 +12,9 @@ The place where things get done.
 Must be a problem with all premier institutions. 
 Collection of the best.
 
+Walking down mess, looking at these people.
+Notice .github.io domain in my blog URL. These people have already done what I'm planning to do.  
+
 **Personal:**
 Hitting me really hard
 First time experiencing inferiority complex
