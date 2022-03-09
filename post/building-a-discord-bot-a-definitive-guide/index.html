@@ -2,7 +2,7 @@
 <head>
 <meta charset=utf-8>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T8HDQQNE6X"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-T8HDQQNE6X')</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-T8HDQQNE6X")</script>
 <meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
 <meta name=description content>
 <meta name=HandheldFriendly content="True">
@@ -40,8 +40,7 @@ javascript,
 This may seem like a long post because it is. I suggest you to follow along in chunks so you don&rsquo;t get overwhelmed.|">
 <meta name=twitter:image:src content>
 <meta name=twitter:domain content="https://basil08.github.io/post/building-a-discord-bot-a-definitive-guide/">
-<title>Building a Discord bot: A definitive guide</title>
-<link rel=canonical href=https://basil08.github.io/post/building-a-discord-bot-a-definitive-guide/>
+<title>Building a Discord bot: A definitive guide</title><link rel=canonical href=https://basil08.github.io/post/building-a-discord-bot-a-definitive-guide/>
 <link rel=stylesheet href=https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css>
 <link rel=stylesheet href=https://basil08.github.io/css/style.css>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css>
@@ -50,168 +49,95 @@ This may seem like a long post because it is. I suggest you to follow along in c
 <link rel=apple-touch-icon href=/apple-touch-icon.png>
 <script src=//cdn1.lncld.net/static/js/3.0.4/av-min.js></script>
 <script src=//unpkg.com/valine/dist/Valine.min.js></script>
-</head>
-<body lang=en-us class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns" itemscope itemtype=http://schema.org/Article>
+</head><body lang=en-us class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns" itemscope itemtype=http://schema.org/Article>
 <span class=b>/ </span>
 <a href=https://basil08.github.io/ class="b bb bw1 pb1 no-underline black">The Personal Blog of Basil Labib</a>
 <span class=b> / </span>
 <a href=/post class="b bb bw1 pb1 no-underline black">blog</a>
 <section id=main class=mt5>
-<h1 itemprop=name id=title>Building a Discord bot: A definitive guide</h1>
-<span class="f6 gray">October 16, 2021</span>
+<h1 itemprop=name id=title>Building a Discord bot: A definitive guide</h1><span class="f6 gray">October 16, 2021</span>
 <article itemprop=articleBody id=content class="w-90 lh-copy">
-<p>In this guide, I will be building a Discord bot from scratch using only <a href=https://discord.js.org>discord.js</a> and a few open public APIs. I&rsquo;ll also explain each step and discuss the reason for preference of a particular way of implementation over others. Unlike other &ldquo;recipes&rdquo; on the web, this will give you insight into the workflow of building software.</p>
-<p>This may seem like a long post because it is. I suggest you to follow along in chunks so you don&rsquo;t get overwhelmed. The tutorial is divided into chapters. So, let&rsquo;s get started.</p>
-<h2 id=what-are-we-building>WHAT ARE WE BUILDING?</h2>
-<p><strong>Mayhem</strong> is a simple Discord bot that is aimed for entertainment and fun. It queries external public APIs for images, jokes, facts and definitions. Few commands are <code>meow</code>, <code>cat</code>, <code>whatis</code>, <code>whoami</code>, <code>ls</code>, <code>help</code>, <code>whereami</code> and so on. There is a subtle shoutout to UNIX if you&rsquo;re familiar ;).</p>
-<p>Moreover, these commands are chosen and designed in a way to demonstrate capabilities of the Discord API. Thus, features such as exclusive commands, cooldown periods, pre-fetching etc. are also discussed.</p>
-<h3 id=code-repository>CODE REPOSITORY</h3>
-<p>The latest version of the codebase can be found <a href=https://github.com/basil08/mayhem>here</a>. Instructions for installation on your Discord server can be found in the <a href=https://github.com/basil08/mayhem/blob/main/README.md>README.md</a>.</p>
-<p>For options to host the bot, see <a href=#deployment-options>Deployment Options</a> in the README.</p>
-<h2 id=js-pre-requisite-check>JS PRE-REQUISITE CHECK</h2>
-<p>You should be familiar with JavaScript and computer programming concepts such as loops and conditionals. But JS is a particularly notorious language as it is continuously being modified to suit the industry. You should know at least ES6 or ES7. If not, no worries! Below I cover few JS concepts we&rsquo;ll be using in this project.</p>
-<h3 id=arrow-functions>ARROW FUNCTIONS</h3>
-<pre tabindex=0><code>[1,2,3].map(elem =&gt; 
-	{ console.log('doubling!');
+<p>In this guide, I will be building a Discord bot from scratch using only <a href=https://discord.js.org>discord.js</a> and a few open public APIs. I&rsquo;ll also explain each step and discuss the reason for preference of a particular way of implementation over others. Unlike other &ldquo;recipes&rdquo; on the web, this will give you insight into the workflow of building software.</p><p>This may seem like a long post because it is. I suggest you to follow along in chunks so you don&rsquo;t get overwhelmed. The tutorial is divided into chapters. So, let&rsquo;s get started.</p><h2 id=what-are-we-building>WHAT ARE WE BUILDING?</h2><p><strong>Mayhem</strong> is a simple Discord bot that is aimed for entertainment and fun. It queries external public APIs for images, jokes, facts and definitions. Few commands are <code>meow</code>, <code>cat</code>, <code>whatis</code>, <code>whoami</code>, <code>ls</code>, <code>help</code>, <code>whereami</code> and so on. There is a subtle shoutout to UNIX if you&rsquo;re familiar ;).</p><p>Moreover, these commands are chosen and designed in a way to demonstrate capabilities of the Discord API. Thus, features such as exclusive commands, cooldown periods, pre-fetching etc. are also discussed.</p><h3 id=code-repository>CODE REPOSITORY</h3><p>The latest version of the codebase can be found <a href=https://github.com/basil08/mayhem>here</a>. Instructions for installation on your Discord server can be found in the <a href=https://github.com/basil08/mayhem/blob/main/README.md>README.md</a>.</p><p>For options to host the bot, see <a href=#deployment-options>Deployment Options</a> in the README.</p><h2 id=js-pre-requisite-check>JS PRE-REQUISITE CHECK</h2><p>You should be familiar with JavaScript and computer programming concepts such as loops and conditionals. But JS is a particularly notorious language as it is continuously being modified to suit the industry. You should know at least ES6 or ES7. If not, no worries! Below I cover few JS concepts we&rsquo;ll be using in this project.</p><h3 id=arrow-functions>ARROW FUNCTIONS</h3><pre tabindex=0><code>[1,2,3].map(elem =&gt; 
+	{ console.log(&#39;doubling!&#39;);
 	 return 2*elem; 
 });
-</code></pre><p>A syntactic-sugar to reduct clutter. Nothing more but highly convenient for writing chained promises (If you ever found yourself in such a situation that is).</p>
-<h3 id=promises>PROMISES</h3>
-<pre tabindex=0><code>const data = fetch(URI)
+</code></pre><p>A syntactic-sugar to reduct clutter. Nothing more but highly convenient for writing chained promises (If you ever found yourself in such a situation that is).</p><h3 id=promises>PROMISES</h3><pre tabindex=0><code>const data = fetch(URI)
 	.then(res =&gt; res.text())
 	.then(tex =&gt; JSON.parse(tex))
 	.catch(err =&gt; console.log(err));
-</code></pre><p>A fix to execute asynchoronous statements synchoronously. Think of these commands as being executed <em>one after the other</em> and not all together because they can&rsquo;t as the data are dependent on successful execution of previous steps. I never liked it much.</p>
-<h3 id=awaitasync-functions><code>await</code>/<code>async</code> FUNCTIONS</h3>
-<pre tabindex=0><code>async function nano(args){
-	const _r = await fs.readFile('stuff.json');
+</code></pre><p>A fix to execute asynchoronous statements synchoronously. Think of these commands as being executed <em>one after the other</em> and not all together because they can&rsquo;t as the data are dependent on successful execution of previous steps. I never liked it much.</p><h3 id=awaitasync-functions><code>await</code>/<code>async</code> FUNCTIONS</h3><pre tabindex=0><code>async function nano(args){
+	const _r = await fs.readFile(&#39;stuff.json&#39;);
 	// more code
 }
-</code></pre><p>Successor to Promises. Cleaner, more logical syntax. As opposed to being an API like Promises, async/await are keywords in JS now.</p>
-<p>If you want to gain more insights into these constructs, it is recommended to check out <a href=https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript>MDN JavaScript module</a>.</p>
-<h2 id=installation>INSTALLATION</h2>
-<p>You need <a href=https://nodejs.org>Node.js</a> and a package manager such as <a href=https://npmjs.com><code>npm</code></a> or <a href=https://yarnpkg.com><code>yarn</code></a>. <code>npm</code> comes packaged with Node.</p>
-<p>We will be using these npm packages:</p>
-<ol>
-<li><code>discord.js@12.4.1</code> or above (Note: The code is tested with this version only)</li>
-<li><code>node-fetch@2.6.1</code></li>
-</ol>
-<h3 id=basic-setup>BASIC SETUP</h3>
-<p>To make a new <code>node</code> project, run the following in your terminal:</p>
-<pre tabindex=0><code>$ mkdir mayhem
+</code></pre><p>Successor to Promises. Cleaner, more logical syntax. As opposed to being an API like Promises, async/await are keywords in JS now.</p><p>If you want to gain more insights into these constructs, it is recommended to check out <a href=https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript>MDN JavaScript module</a>.</p><h2 id=installation>INSTALLATION</h2><p>You need <a href=https://nodejs.org>Node.js</a> and a package manager such as <a href=https://npmjs.com><code>npm</code></a> or <a href=https://yarnpkg.com><code>yarn</code></a>. <code>npm</code> comes packaged with Node.</p><p>We will be using these npm packages:</p><ol>
+<li><code>discord.js@12.4.1</code> or above (Note: The code is tested with this version only)</li><li><code>node-fetch@2.6.1</code></li></ol><h3 id=basic-setup>BASIC SETUP</h3><p>To make a new <code>node</code> project, run the following in your terminal:</p><pre tabindex=0><code>$ mkdir mayhem
 $ cd mayhem
 $ npm init -y     # -y to say yes to all defaults
 $ npm install discordjs@12.4.1 node-fetch@2.6.1
 $ touch bot.js
-</code></pre><p>Then, open <code>package.json</code> and add a new script for convenience:</p>
-<pre tabindex=0><code>...
- &quot;main&quot;: &quot;index.js&quot;,
-  &quot;scripts&quot;: {
-    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;,
-    &quot;start&quot;: &quot;node bot.js&quot;
+</code></pre><p>Then, open <code>package.json</code> and add a new script for convenience:</p><pre tabindex=0><code>...
+ &#34;main&#34;: &#34;index.js&#34;,
+  &#34;scripts&#34;: {
+    &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;,
+    &#34;start&#34;: &#34;node bot.js&#34;
   },
 ...
-</code></pre><h2 id=create-bot-application-and-generate-token>CREATE BOT APPLICATION AND GENERATE TOKEN</h2>
-<p>Now, we have to create a bot application through your <a href=https://discord.com>Discord account</a> (Make one, we need it!). The steps are as follows:</p>
-<ol>
-<li>Login and open the <a href=https://discord.com/developers/applications>Discord Developer Portal</a>.</li>
-<li>Click on the &ldquo;New Application&rdquo; button.</li>
-<li>Enter a name and click &ldquo;Create&rdquo; button to confirm.</li>
-</ol>
-<figure><img src=/img/mayhem/0.jpg alt="Created New Application in Discord Developer Portal"><figcaption>
-<p>Created New Application in Discord Developer Portal</p>
-</figcaption>
-</figure>
-<p>You are free to edit other information as you wish on this page. We&rsquo;ll leave it to defaults. Then navigate to the &ldquo;Bots&rdquo; tab and click &ldquo;Add Bot&rdquo; button.</p>
-<figure><img src=/img/mayhem/1.jpg alt="Created new bot and customized with a name and image icon"><figcaption>
-<p>Created new bot and customized with a name and image icon</p>
-</figcaption>
-</figure>
-<p>Clicking on &ldquo;Reveal Token&rdquo; will show your bot token. A <strong>Token</strong> is a unique identifier for your bot application and is used by Discord to authorize your bot to actually log in and appear online in a server.</p>
-<p><strong>CAUTION</strong>: It is very important that you keep your token safe and secret. You must not mistakenly commit it to a public repo or such. The consequences can be disastrous. If the key got leaked by mistake, immediately click on &ldquo;Regenerate token&rdquo; to generate a new token and invalidate all previous tokens.</p>
-<p><strong>WARNING</strong>: Make sure you copy the &ldquo;Bot Token&rdquo; and not the &ldquo;Client Secret&rdquo; or the &ldquo;Client Key&rdquo; which are on the Applications page.</p>
-<h2 id=generate-bot-invite-link>GENERATE BOT INVITE LINK</h2>
-<h3 id=bot-invite-links-explained>Bot invite links explained</h3>
-<p>A typical invite link looks like this:</p>
-<pre tabindex=0><code>https://discord.com/api/oauth2/authorize?client_id=123456789012345678&amp;permissions=0&amp;scope=bot%20applications.commands
-</code></pre><p>The fields that need elaboration are the query parameters which are as follows:</p>
-<ul>
-<li><code>client_id</code>: The client id is the application that is authorized.</li>
-<li><code>permissions</code>: an integers which encodes the bot&rsquo;s permissions on the server in binary.</li>
-<li><code>scope=bot</code>: Yes, this is a bot invite link.</li>
-<li><code>applications.commands</code>: To enable Discord to allow <code>/</code> (slash) to invoke bot commands.</li>
-</ul>
-<p>Head over to the OAuth2 page, scroll down and select <code>applications.commands</code> and <code>bot</code>. Then, choose permissions that you want your bot to have. The page handily generates the link for you.</p>
-<figure><img src=/img/mayhem/2.jpg alt="Permissions for Mayhem"><figcaption>
-<p>Permissions for Mayhem</p>
-</figcaption>
-</figure>
-<p>Here, I show the permissions for our bot. As you can see, it is a fairly less-demanding bot in terms of administrative privileges.</p>
-<figure><img src=/img/mayhem/3.jpg alt="Authorizing your bot into a server"><figcaption>
-<p>Authorizing your bot into a server</p>
-</figcaption>
-</figure>
-<p>Paste the generated link and you will be asked to authorize the server. Note: You can add them to servers in which <em>you</em> have admin access only. If successful, you&rsquo;re greeted by a confirmation dialog. Congratulations, now you can see Mayhem online with a &ldquo;BOT&rdquo; tag!</p>
-<h1 id=chapter-2>CHAPTER 2</h1>
-<p>In <a href=#what-are-we-building>Chapter 1</a> of this tutorial, we had finished logging our bot into our server. In this post, we plan to give it some interactivity with human users. Moreover, we will organize our code in a modular pattern to facilitate modification and addition of more commands easily.</p>
-<h2 id=first-command-amp-botjs>FIRST COMMAND & <code>bot.js</code></h2>
-<pre tabindex=0><code>// New file: /bot.js
-const Discord = require('discord.js');
-const {prefix, token} = require('./config.json');
+</code></pre><h2 id=create-bot-application-and-generate-token>CREATE BOT APPLICATION AND GENERATE TOKEN</h2><p>Now, we have to create a bot application through your <a href=https://discord.com>Discord account</a> (Make one, we need it!). The steps are as follows:</p><ol>
+<li>Login and open the <a href=https://discord.com/developers/applications>Discord Developer Portal</a>.</li><li>Click on the &ldquo;New Application&rdquo; button.</li><li>Enter a name and click &ldquo;Create&rdquo; button to confirm.</li></ol><figure><img src=/img/mayhem/0.jpg alt="Created New Application in Discord Developer Portal"><figcaption>
+<p>Created New Application in Discord Developer Portal</p></figcaption></figure><p>You are free to edit other information as you wish on this page. We&rsquo;ll leave it to defaults. Then navigate to the &ldquo;Bots&rdquo; tab and click &ldquo;Add Bot&rdquo; button.</p><figure><img src=/img/mayhem/1.jpg alt="Created new bot and customized with a name and image icon"><figcaption>
+<p>Created new bot and customized with a name and image icon</p></figcaption></figure><p>Clicking on &ldquo;Reveal Token&rdquo; will show your bot token. A <strong>Token</strong> is a unique identifier for your bot application and is used by Discord to authorize your bot to actually log in and appear online in a server.</p><p><strong>CAUTION</strong>: It is very important that you keep your token safe and secret. You must not mistakenly commit it to a public repo or such. The consequences can be disastrous. If the key got leaked by mistake, immediately click on &ldquo;Regenerate token&rdquo; to generate a new token and invalidate all previous tokens.</p><p><strong>WARNING</strong>: Make sure you copy the &ldquo;Bot Token&rdquo; and not the &ldquo;Client Secret&rdquo; or the &ldquo;Client Key&rdquo; which are on the Applications page.</p><h2 id=generate-bot-invite-link>GENERATE BOT INVITE LINK</h2><h3 id=bot-invite-links-explained>Bot invite links explained</h3><p>A typical invite link looks like this:</p><pre tabindex=0><code>https://discord.com/api/oauth2/authorize?client_id=123456789012345678&amp;permissions=0&amp;scope=bot%20applications.commands
+</code></pre><p>The fields that need elaboration are the query parameters which are as follows:</p><ul>
+<li><code>client_id</code>: The client id is the application that is authorized.</li><li><code>permissions</code>: an integers which encodes the bot&rsquo;s permissions on the server in binary.</li><li><code>scope=bot</code>: Yes, this is a bot invite link.</li><li><code>applications.commands</code>: To enable Discord to allow <code>/</code> (slash) to invoke bot commands.</li></ul><p>Head over to the OAuth2 page, scroll down and select <code>applications.commands</code> and <code>bot</code>. Then, choose permissions that you want your bot to have. The page handily generates the link for you.</p><figure><img src=/img/mayhem/2.jpg alt="Permissions for Mayhem"><figcaption>
+<p>Permissions for Mayhem</p></figcaption></figure><p>Here, I show the permissions for our bot. As you can see, it is a fairly less-demanding bot in terms of administrative privileges.</p><figure><img src=/img/mayhem/3.jpg alt="Authorizing your bot into a server"><figcaption>
+<p>Authorizing your bot into a server</p></figcaption></figure><p>Paste the generated link and you will be asked to authorize the server. Note: You can add them to servers in which <em>you</em> have admin access only. If successful, you&rsquo;re greeted by a confirmation dialog. Congratulations, now you can see Mayhem online with a &ldquo;BOT&rdquo; tag!</p><h1 id=chapter-2>CHAPTER 2</h1><p>In <a href=#what-are-we-building>Chapter 1</a> of this tutorial, we had finished logging our bot into our server. In this post, we plan to give it some interactivity with human users. Moreover, we will organize our code in a modular pattern to facilitate modification and addition of more commands easily.</p><h2 id=first-command-amp-botjs>FIRST COMMAND & <code>bot.js</code></h2><pre tabindex=0><code>// New file: /bot.js
+const Discord = require(&#39;discord.js&#39;);
+const {prefix, token} = require(&#39;./config.json&#39;);
 
 const client = new Discord.Client();
 
-client.once('ready', () =&gt; {
-	console.log('Ready!');
+client.once(&#39;ready&#39;, () =&gt; {
+	console.log(&#39;Ready!&#39;);
 });
 
-client.on('message', (message) =&gt; {
+client.on(&#39;message&#39;, (message) =&gt; {
 	console.log(`[${message.channel.name}] ${message.author.username}: ${message.content}`);
 
-	// Don't interfere when you are not required and don't be dumb enough to reply to your own msgs.
+	// Don&#39;t interfere when you are not required and don&#39;t be dumb enough to reply to your own msgs.
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
 	const cmdname = args.shift().toLowerCase();
 
 	try{
-		if (cmdname == 'hi') {
-			message.channel.send(&quot;Hi ${message.author}! I'm Mayhem. Nice to meet you!&quot;);
+		if (cmdname == &#39;hi&#39;) {
+			message.channel.send(&#34;Hi ${message.author}! I&#39;m Mayhem. Nice to meet you!&#34;);
 		}
 	} catch(err){
 		console.error(err);
-		message.reply('Oops. There was an error while executing that command.');
+		message.reply(&#39;Oops. There was an error while executing that command.&#39;);
 	}
 });
 
 client.login(token);
-
-</code></pre><p>The code is fairly straightforward to understand. We import the required modules and secrets. The prefix is a special character you use to invoke commands on this bot for eg: <code>/</code>, <code>.</code>, <code>--</code> etc. After instantiating an instance of <code>Discord.Client()</code>, we log simple text when bot is ready i.e. the ready event is triggered.</p>
-<p>Then, for every message sent to a channel, the <code>'message'</code> event is triggered which is handled by the function we supply to <code>client.on(...)</code>. The code parses the message and sends a hi message to the user for messages of the form <code>&lt;PREFIX>hi</code>. Finally, we login with the bot token we generated before.</p>
-<pre tabindex=0><code>// /config.json  
+</code></pre><p>The code is fairly straightforward to understand. We import the required modules and secrets. The prefix is a special character you use to invoke commands on this bot for eg: <code>/</code>, <code>.</code>, <code>--</code> etc. After instantiating an instance of <code>Discord.Client()</code>, we log simple text when bot is ready i.e. the ready event is triggered.</p><p>Then, for every message sent to a channel, the <code>'message'</code> event is triggered which is handled by the function we supply to <code>client.on(...)</code>. The code parses the message and sends a hi message to the user for messages of the form <code>&lt;PREFIX>hi</code>. Finally, we login with the bot token we generated before.</p><pre tabindex=0><code>// /config.json  
 {
-	&quot;prefix&quot;: &quot;YOUR-PREFERRED-BOT-PREFIX&quot;,
-	&quot;token&quot;: 0123456789
+	&#34;prefix&#34;: &#34;YOUR-PREFERRED-BOT-PREFIX&#34;,
+	&#34;token&#34;: 0123456789
 }
-
-</code></pre><p>Run <code>npm start</code> or <code>node bot.js</code> and your bot is online!</p>
-<p>For now, the bot doesn&rsquo;t do much and only sends the &lsquo;hi&rsquo; message rather annoyingly.</p>
-<p>The code structure as such is not very robust or versatile. We&rsquo;ll organize it to be modular to facilitate that. The idea is we keep code logic for each command in a seperate file in the <code>/commands</code> directory and load them into the client upon instantiation of the client object. Then, adding a new command will be as clean as adding a new file to this directory.</p>
-<h2 id=modularization>MODULARIZATION</h2>
-<pre tabindex=0><code>$ cd /path/to/mayhem
+</code></pre><p>Run <code>npm start</code> or <code>node bot.js</code> and your bot is online!</p><p>For now, the bot doesn&rsquo;t do much and only sends the &lsquo;hi&rsquo; message rather annoyingly.</p><p>The code structure as such is not very robust or versatile. We&rsquo;ll organize it to be modular to facilitate that. The idea is we keep code logic for each command in a seperate file in the <code>/commands</code> directory and load them into the client upon instantiation of the client object. Then, adding a new command will be as clean as adding a new file to this directory.</p><h2 id=modularization>MODULARIZATION</h2><pre tabindex=0><code>$ cd /path/to/mayhem
 $ mkdir commands
 $ cd commands
 </code></pre><pre tabindex=0><code>// New file: /commands/hi.js
-const {bot_name} = require('../config.json');
-const Discord = require('discord.js');
+const {bot_name} = require(&#39;../config.json&#39;);
+const Discord = require(&#39;discord.js&#39;);
 
 module.exports = {
-	name: 'hi',
-	description: 'A nice introduction is the gentleman\'s way.',
-	usage: '',
+	name: &#39;hi&#39;,
+	description: &#39;A nice introduction is the gentleman\&#39;s way.&#39;,
+	usage: &#39;&#39;,
 	execute(message, args){
 		const embed = new Discord.MessageEmbed()
-			.setColor('#00ebc7')
+			.setColor(&#39;#00ebc7&#39;)
 			.setTitle(`Hello! ${message.author.username}`)
 			.addFields(
 				{name: `${bot_name} bot says...`, value: `Yo! Nice to meet you!`},
@@ -221,12 +147,10 @@ module.exports = {
 		message.channel.send(embed);
 	}
 }
-</code></pre><p>As you may notice, we export few other handy metadata apart from the function <code>execute(...)</code> which contains the main logic. We will be adding other fields for unique commands as we need them. This approach was highlighted in <a href=https://discord.js.org>discordjs.guide</a>.</p>
-<p>Now, make the following changes to <code>bot.js</code>.</p>
-<pre tabindex=0><code>// /bot.js
-const fs = require('fs');
-const Discord = require('discord.js');
-const {prefix, token} = require('./config.json');
+</code></pre><p>As you may notice, we export few other handy metadata apart from the function <code>execute(...)</code> which contains the main logic. We will be adding other fields for unique commands as we need them. This approach was highlighted in <a href=https://discord.js.org>discordjs.guide</a>.</p><p>Now, make the following changes to <code>bot.js</code>.</p><pre tabindex=0><code>// /bot.js
+const fs = require(&#39;fs&#39;);
+const Discord = require(&#39;discord.js&#39;);
+const {prefix, token} = require(&#39;./config.json&#39;);
 
 const client = new Discord.Client();
 
@@ -235,7 +159,7 @@ client.commands = new Discord.Collection();
 // will be used later
 const cooldowns = new Discord.Collection();
 
-const files = fs.readdirSync('./commands').filter(name =&gt; name.endsWith('.js'));
+const files = fs.readdirSync(&#39;./commands&#39;).filter(name =&gt; name.endsWith(&#39;.js&#39;));
 
 for(const f of files){
 	const command = require(`./commands/${f}`);
@@ -244,14 +168,14 @@ for(const f of files){
 	client.commands.set(command.name, command);
 }
 
-client.once('ready', () =&gt; {
-	console.log('Ready!');
+client.once(&#39;ready&#39;, () =&gt; {
+	console.log(&#39;Ready!&#39;);
 });
 
-client.on('message', (message) =&gt; {
+client.on(&#39;message&#39;, (message) =&gt; {
 	console.log(`[${message.channel.name}] ${message.author.username}: ${message.content}`);
 
-	// Don't interfere when you are not required and don't be dumb enough to reply to your own msgs.
+	// Don&#39;t interfere when you are not required and don&#39;t be dumb enough to reply to your own msgs.
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 
 	// basic parsing
@@ -261,31 +185,24 @@ client.on('message', (message) =&gt; {
 	// get the cmd object
 	const cmd = client.commands.get(cmdname);
 	if(!cmd) {
-		return message.channel.send('Oops! No such command ;-;');
+		return message.channel.send(&#39;Oops! No such command ;-;&#39;);
 	}
 
 	try{
 		cmd.execute(message, args);
 	}catch(err){
 		console.error(err);
-		message.reply('Oops. There was an error while executing that command.');
+		message.reply(&#39;Oops. There was an error while executing that command.&#39;);
 	}
 });
 
 client.login(token);
-</code></pre><p>Most of the code is intact. The <code>Discord.Collection()</code> is a wrapper around the JS Map Object with few added convenient methods. We read the <code>/commands</code> directory using <code>fs</code> and set the object using <code>client.commands.set(..., ...)</code>. Inside the handler, we parse the incoming message, try to get a command object and execute it. At any stage, if we have an exception, gracefully inform the user.</p>
-<p>Run the bot again via <code>npm start</code>. Though, we cannot detect any visible changes, we have refactored the code into much more tangible form. Let me talk about one more thing that I have ignored till now.</p>
-<figure><img src=/img/may2/0.jpg alt="First command of Mayhem"><figcaption>
-<p>First command of Mayhem</p>
-</figcaption>
-</figure>
-<h2 id=embed-messages>EMBED MESSAGES</h2>
-<p>Currently, the messages sent by the bot to the channel are simple text messages which are unattractive and less appealing to our users. If you have experience with Discord bots, you maybe aware of colourful, sprawling messages with many fields, formatted texts and images. The <code>Discord.MessageEmbed</code> object in <code>discord.js</code> allows us to construct such messages. If you see the logic of the <code>hi</code> command, we are indeed constructing one.</p>
-<pre tabindex=0><code>// /commands/hi.js
+</code></pre><p>Most of the code is intact. The <code>Discord.Collection()</code> is a wrapper around the JS Map Object with few added convenient methods. We read the <code>/commands</code> directory using <code>fs</code> and set the object using <code>client.commands.set(..., ...)</code>. Inside the handler, we parse the incoming message, try to get a command object and execute it. At any stage, if we have an exception, gracefully inform the user.</p><p>Run the bot again via <code>npm start</code>. Though, we cannot detect any visible changes, we have refactored the code into much more tangible form. Let me talk about one more thing that I have ignored till now.</p><figure><img src=/img/may2/0.jpg alt="First command of Mayhem"><figcaption>
+<p>First command of Mayhem</p></figcaption></figure><h2 id=embed-messages>EMBED MESSAGES</h2><p>Currently, the messages sent by the bot to the channel are simple text messages which are unattractive and less appealing to our users. If you have experience with Discord bots, you maybe aware of colourful, sprawling messages with many fields, formatted texts and images. The <code>Discord.MessageEmbed</code> object in <code>discord.js</code> allows us to construct such messages. If you see the logic of the <code>hi</code> command, we are indeed constructing one.</p><pre tabindex=0><code>// /commands/hi.js
 ...
 	execute(message, args){
 		const embed = new Discord.MessageEmbed()
-			.setColor('#00ebc7')
+			.setColor(&#39;#00ebc7&#39;)
 			.setTitle(`Hello! ${message.author.username}`)
 			.addFields(
 				{name: `${bot_name} bot says...`, value: `Yo! Nice to meet you!`},
@@ -295,29 +212,19 @@ client.login(token);
 		message.channel.send(embed);
 	}
 ...
-</code></pre><p>These are all obvious imperative methods that adds a particular field one at a time. For eg: You should deliberate on a color theme because it conveys your bot&rsquo;s purpose and &ldquo;vibe&rdquo; to your users. The <code>setColor()</code> can be used to set a color. <code>setTitle()</code> adds a bold title to the message. The <code>addFields()</code> take up a JSON object and add all key-value pairs to the message body. The <code>setTimestamp()</code>, as expected, adds a timestamp field to the message.</p>
-<h2 id=summary>SUMMARY</h2>
-<p>In summary, we have executed our first command, modularized our codebase and paved the way to breezy development and we know how <code>discord.js</code> handles channel events (via handlers) and about <code>Discord.Collection()</code>, <code>Discord.Client()</code> and <code>Discord.MessageEmbed()</code>.</p>
-<h1 id=chapter-3>CHAPTER 3</h1>
-<p>In the <a href=#chapter-2>last chapter</a> of this guide, we looked at creating our first command, <code>Discord.MessageEmbed()</code>, and modularization. In this part, we&rsquo;ll demonstrate API fetching and command aliases, while adding two new commands to our bot!</p>
-<h2 id=meow-amp-node-fetch><code>meow</code> & <code>node-fetch</code></h2>
-<p>The <code>meow</code> command is a simple command that queries a public API of cat pictures and sends one random, cute cat picture down in the channel. We will use the following endpoint:</p>
-<pre tabindex=0><code>https://aws.random/cat/meow
-</code></pre><p><strong>NOTE</strong>: If you wish to use an API that requires some kind of authorization, then you have to generate a secret key from a dashboard usually and feed this credential to your <code>.env</code> file (this step is more or less platform-dependent. For eg: <a href=https://replit.com>replit</a> provides a key-value based secret storage feature). Then, you can read that value via <code>process.env.API_SECRET_KEY</code> or likewise. Consult your API documentation and hosting provider documentation.</p>
-<p>But to fetch on the server-side, we have to install a <code>fetch</code>-equivalent module on our server. This is achieved by the <code>node-fetch</code> package.</p>
-<pre tabindex=0><code>yarn add node-fetch # or npm install node-fetch
-</code></pre><p>Now, let us implement the <code>meow</code> command.</p>
-<pre tabindex=0><code>// New file: /commands/meow.js 
-const fetch = require('node-fetch');
-const {prefix} = require('../config.json');
+</code></pre><p>These are all obvious imperative methods that adds a particular field one at a time. For eg: You should deliberate on a color theme because it conveys your bot&rsquo;s purpose and &ldquo;vibe&rdquo; to your users. The <code>setColor()</code> can be used to set a color. <code>setTitle()</code> adds a bold title to the message. The <code>addFields()</code> take up a JSON object and add all key-value pairs to the message body. The <code>setTimestamp()</code>, as expected, adds a timestamp field to the message.</p><h2 id=summary>SUMMARY</h2><p>In summary, we have executed our first command, modularized our codebase and paved the way to breezy development and we know how <code>discord.js</code> handles channel events (via handlers) and about <code>Discord.Collection()</code>, <code>Discord.Client()</code> and <code>Discord.MessageEmbed()</code>.</p><h1 id=chapter-3>CHAPTER 3</h1><p>In the <a href=#chapter-2>last chapter</a> of this guide, we looked at creating our first command, <code>Discord.MessageEmbed()</code>, and modularization. In this part, we&rsquo;ll demonstrate API fetching and command aliases, while adding two new commands to our bot!</p><h2 id=meow-amp-node-fetch><code>meow</code> & <code>node-fetch</code></h2><p>The <code>meow</code> command is a simple command that queries a public API of cat pictures and sends one random, cute cat picture down in the channel. We will use the following endpoint:</p><pre tabindex=0><code>https://aws.random/cat/meow
+</code></pre><p><strong>NOTE</strong>: If you wish to use an API that requires some kind of authorization, then you have to generate a secret key from a dashboard usually and feed this credential to your <code>.env</code> file (this step is more or less platform-dependent. For eg: <a href=https://replit.com>replit</a> provides a key-value based secret storage feature). Then, you can read that value via <code>process.env.API_SECRET_KEY</code> or likewise. Consult your API documentation and hosting provider documentation.</p><p>But to fetch on the server-side, we have to install a <code>fetch</code>-equivalent module on our server. This is achieved by the <code>node-fetch</code> package.</p><pre tabindex=0><code>yarn add node-fetch # or npm install node-fetch
+</code></pre><p>Now, let us implement the <code>meow</code> command.</p><pre tabindex=0><code>// New file: /commands/meow.js 
+const fetch = require(&#39;node-fetch&#39;);
+const {prefix} = require(&#39;../config.json&#39;);
 
 module.exports = {
-	name: 'meow',
-	description: 'Coz everyone likes cats!',
+	name: &#39;meow&#39;,
+	description: &#39;Coz everyone likes cats!&#39;,
 	usage: `${prefix}meow`,
 	cooldown: 10,
 	execute(message, args){
-		const file = fetch('https://aws.random.cat/meow')
+		const file = fetch(&#39;https://aws.random.cat/meow&#39;)
 			.then(file =&gt; file.text())
 			.catch(err =&gt; { 
 				console.error(err);
@@ -328,21 +235,14 @@ module.exports = {
 	}
 }
 </code></pre><figure><img src=/img/may3/1.jpg alt="The meow command"><figcaption>
-<p>The meow command</p>
-</figcaption>
-</figure>
-<p>Once again, the code is obvious and there is no element that requires an explanation as such. The &ldquo;cooldown&rdquo; parameter will be dealt with in another command. But, you can probably guess it is to prevent a indirect DDoS attack on the cat server by bad actors and/or bots.</p>
-<h2 id=help><code>help</code></h2>
-<p>Good UI/UX don&rsquo;t require a manual to be used. So, like every good software, we will provide a handy help command for potentially new users of our bot. This command will demonstrate sending personal direct messages and command aliases.</p>
-<p>The design of the messages is decoupled from the logic. Feel free to make your bot as snazzy as possible.</p>
-<pre tabindex=0><code>// New file: /commands/help.js
-const {prefix, version,bot_name, bot_author} = require('../config.json');
-const Discord = require('discord.js');
+<p>The meow command</p></figcaption></figure><p>Once again, the code is obvious and there is no element that requires an explanation as such. The &ldquo;cooldown&rdquo; parameter will be dealt with in another command. But, you can probably guess it is to prevent a indirect DDoS attack on the cat server by bad actors and/or bots.</p><h2 id=help><code>help</code></h2><p>Good UI/UX don&rsquo;t require a manual to be used. So, like every good software, we will provide a handy help command for potentially new users of our bot. This command will demonstrate sending personal direct messages and command aliases.</p><p>The design of the messages is decoupled from the logic. Feel free to make your bot as snazzy as possible.</p><pre tabindex=0><code>// New file: /commands/help.js
+const {prefix, version,bot_name, bot_author} = require(&#39;../config.json&#39;);
+const Discord = require(&#39;discord.js&#39;);
 
 module.exports = {
-	name: 'help',
-	description: 'Display all available commands',
-	aliases: ['h','?'],
+	name: &#39;help&#39;,
+	description: &#39;Display all available commands&#39;,
+	aliases: [&#39;h&#39;,&#39;?&#39;],
 	execute(message, args){
 		const data = [];
 		const {commands} = message.client;
@@ -350,7 +250,7 @@ module.exports = {
 		if(!args.length){
 			// show all commands
 			data.push(`This is the ${bot_name} Bot version ${version}`);
-			data.push(commands.map(command =&gt; command.name).join(', '));
+			data.push(commands.map(command =&gt; command.name).join(&#39;, &#39;));
 			data.push(`Use ${prefix}help [command name] to get details about [command name]`);
 			data.push(`All commands are prefixed by the ${prefix}`);
 			data.push(`\n\nSend your love to ${bot_author} ;)`);
@@ -358,18 +258,16 @@ module.exports = {
 			// split: true splits the message into separate messages if char count &gt; 2000
 			return message.author.send(data, {split: true})
 				.then(() =&gt; {	// DM as help message can get messy
-					if(message.channel.type === 'dm') return;
-					message.reply('I\'ve sent you a DM');
+					if(message.channel.type === &#39;dm&#39;) return;
+					message.reply(&#39;I\&#39;ve sent you a DM&#39;);
 				})
 				.catch(error =&gt; {  // the case when user has DM disabled must be gracefully handled
 					console.error(`Could not send help DM to ${message.author.tag}.\n`,error);
-					message.reply('I can\'t DM you. Do you have DMs disabled?');
+					message.reply(&#39;I can\&#39;t DM you. Do you have DMs disabled?&#39;);
 				});
 		}else{
       ...
-</code></pre><p>As you can see, <code>message.author.send(...)</code> is used to send a message to the original message author&rsquo;s DM. If a bare <code>help</code> is invoked, we inform the user of our commands personally and ask them to explore more by using the format <code>help [command name]</code>.</p>
-<p>Once again, the aliases field will come handy in the next part of this function.</p>
-<pre tabindex=0><code>...
+</code></pre><p>As you can see, <code>message.author.send(...)</code> is used to send a message to the original message author&rsquo;s DM. If a bare <code>help</code> is invoked, we inform the user of our commands personally and ask them to explore more by using the format <code>help [command name]</code>.</p><p>Once again, the aliases field will come handy in the next part of this function.</p><pre tabindex=0><code>...
 	}else{
 			const name = args[0].toLowerCase();
 
@@ -377,17 +275,17 @@ module.exports = {
 			const command = commands.get(name) || commands.find(c =&gt; c.aliases &amp;&amp; c.aliases.includes(name));
 
 			if(!command){
-				return message.reply('Not a valid command -_-');
+				return message.reply(&#39;Not a valid command -_-&#39;);
 			}
 
 			const embed = new Discord.MessageEmbed()
 			.setTitle(`Help for ${command.name}`)
-			.setColor('#02fede')
+			.setColor(&#39;#02fede&#39;)
 			.addFields(
-				{name: 'Aliases', value: (command.aliases) ? `${command.aliases.join(', ')}`: 'There are no aliases for this command!'},
-				{name: 'Description', value: (command.description) ? `${command.description}`: 'Currently no description available!'},
-				{name: 'Usage', value: (command.usage) ? `${command.usage}`:'Currently no usage available!'},
-				{name: 'Cooldown', value: (command.cooldown) ? `${command.cooldown} second(s)`: 'This command has no cooldown!'}
+				{name: &#39;Aliases&#39;, value: (command.aliases) ? `${command.aliases.join(&#39;, &#39;)}`: &#39;There are no aliases for this command!&#39;},
+				{name: &#39;Description&#39;, value: (command.description) ? `${command.description}`: &#39;Currently no description available!&#39;},
+				{name: &#39;Usage&#39;, value: (command.usage) ? `${command.usage}`:&#39;Currently no usage available!&#39;},
+				{name: &#39;Cooldown&#39;, value: (command.cooldown) ? `${command.cooldown} second(s)`: &#39;This command has no cooldown!&#39;}
 			)
 			.setTimestamp();
 
@@ -395,34 +293,20 @@ module.exports = {
 		}
 	}
 }
-
 </code></pre><figure><img src=/img/may3/0.jpg alt="help meow command execution"><figcaption>
-<p><code>help meow</code> command execution</p>
-</figcaption>
-</figure>
-<p>You can probably understand the workflow that <code>discord.js</code> promulgates. Here it is:</p>
-<blockquote>
-<p>PARSE ➡ EXECUTE ➡ SEND</p>
-</blockquote>
-<h2 id=summary-1>SUMMARY</h2>
-<p>In this post, we finally made an API call from our bot and served some cute cat pictures to our users. Now, the sky&rsquo;s the limit for you! Moreover, we added a help command to be more organized.</p>
-<h1 id=chapter-4>CHAPTER 4</h1>
-<p>In the <a href=#chapter-3>last</a> part of this guide, we implemented the <code>meow</code> and <code>help</code> commands. Now, we will look at leveraging the API exposed by discord.js to implement <code>cat</code>, <code>whatis</code>, and <code>rm</code> commands.</p>
-<h2 id=cat-amp-pre-fetching><code>cat</code> & PRE-FETCHING</h2>
-<p>The <code>cat</code> command makes a query to another free <a href=https://rapidapi.com/brianiswu/api/cat-facts>API</a> and displays interesting cat facts to our users. However, the API has only one endpoint and due to performance reasons, we cannot query the entire database each time a user makes request. So, the idea is to fetch the resource at startup time of the boot and save the data locally on the disk. This, though makes our bot more efficient and performant, has obvious disadvantages: What if the data on the API server mutates? But, we shall ignore such concerns as it is basically a database API.</p>
-<p>Fire up your text editor and create this new file: <code>fetcher.js</code>.</p>
-<pre tabindex=0><code># New file: /fetcher.js 
-const fs = require('fs');
-const fetch = require('node-fetch');
-const {CAT_API_KEY} = require('./config.json');
+<p><code>help meow</code> command execution</p></figcaption></figure><p>You can probably understand the workflow that <code>discord.js</code> promulgates. Here it is:</p><blockquote>
+<p>PARSE ➡ EXECUTE ➡ SEND</p></blockquote><h2 id=summary-1>SUMMARY</h2><p>In this post, we finally made an API call from our bot and served some cute cat pictures to our users. Now, the sky&rsquo;s the limit for you! Moreover, we added a help command to be more organized.</p><h1 id=chapter-4>CHAPTER 4</h1><p>In the <a href=#chapter-3>last</a> part of this guide, we implemented the <code>meow</code> and <code>help</code> commands. Now, we will look at leveraging the API exposed by discord.js to implement <code>cat</code>, <code>whatis</code>, and <code>rm</code> commands.</p><h2 id=cat-amp-pre-fetching><code>cat</code> & PRE-FETCHING</h2><p>The <code>cat</code> command makes a query to another free <a href=https://rapidapi.com/brianiswu/api/cat-facts>API</a> and displays interesting cat facts to our users. However, the API has only one endpoint and due to performance reasons, we cannot query the entire database each time a user makes request. So, the idea is to fetch the resource at startup time of the boot and save the data locally on the disk. This, though makes our bot more efficient and performant, has obvious disadvantages: What if the data on the API server mutates? But, we shall ignore such concerns as it is basically a database API.</p><p>Fire up your text editor and create this new file: <code>fetcher.js</code>.</p><pre tabindex=0><code># New file: /fetcher.js 
+const fs = require(&#39;fs&#39;);
+const fetch = require(&#39;node-fetch&#39;);
+const {CAT_API_KEY} = require(&#39;./config.json&#39;);
 
 async function writeData(){
-	const data = await fetch(&quot;https://brianiswu-cat-facts-v1.p.rapidapi.com/facts&quot;, 
+	const data = await fetch(&#34;https://brianiswu-cat-facts-v1.p.rapidapi.com/facts&#34;, 
 		{
-			&quot;method&quot;: &quot;GET&quot;,
-			&quot;headers&quot;: {
-				&quot;x-rapidapi-key&quot;: CAT_API_KEY, 
-				&quot;x-rapidapi-host&quot;: &quot;brianiswu-cat-facts-v1.p.rapidapi.com&quot;
+			&#34;method&#34;: &#34;GET&#34;,
+			&#34;headers&#34;: {
+				&#34;x-rapidapi-key&#34;: CAT_API_KEY, 
+				&#34;x-rapidapi-host&#34;: &#34;brianiswu-cat-facts-v1.p.rapidapi.com&#34;
 				   }
 		})
 		.then(response =&gt; response.text())
@@ -433,34 +317,31 @@ async function writeData(){
 
 	let raw_data = JSON.stringify(data, null, 2);
 	console.log(raw_data);
-	fs.writeFileSync('./static/data/cat_data.json', raw_data);
+	fs.writeFileSync(&#39;./static/data/cat_data.json&#39;, raw_data);
 
-	console.log('written.');
+	console.log(&#39;written.&#39;);
 }
 writeData();
-</code></pre><p>To get your API Key, go <a href=https://rapidapi.com/brianiswu/api/cat-facts>here</a> and follow the steps and put the key in your <code>config.json</code> likewise.</p>
-<pre tabindex=0><code>// FILE: /config.json
+</code></pre><p>To get your API Key, go <a href=https://rapidapi.com/brianiswu/api/cat-facts>here</a> and follow the steps and put the key in your <code>config.json</code> likewise.</p><pre tabindex=0><code>// FILE: /config.json
 {
-  &quot;CAT_API_KEY&quot;: &quot;kjsalkjwRlkjVNLKKJASHLl2l49SF2qlkjS&quot;,
+  &#34;CAT_API_KEY&#34;: &#34;kjsalkjwRlkjVNLKKJASHLl2l49SF2qlkjS&#34;,
 }
-</code></pre><p>The steps are obvious. We request the cat server with a /GET request and fetch all the data. If succeeded, parse and write that to a JSON file on the disk using <code>fs.writeFileSync()</code>. For convenience, we can update the yarn scripts to run this file before running <code>bot.js</code> on <code>yarn start</code>.</p>
-<pre tabindex=0><code>// FILE: /package.json
+</code></pre><p>The steps are obvious. We request the cat server with a /GET request and fetch all the data. If succeeded, parse and write that to a JSON file on the disk using <code>fs.writeFileSync()</code>. For convenience, we can update the yarn scripts to run this file before running <code>bot.js</code> on <code>yarn start</code>.</p><pre tabindex=0><code>// FILE: /package.json
 ...
-  &quot;start&quot;: &quot;node fetcher.js &amp;&amp; node bot.js&quot;,
+  &#34;start&#34;: &#34;node fetcher.js &amp;&amp; node bot.js&#34;,
 ...
-</code></pre><p>Now, we will add a new command <code>cat</code> to <code>/commands</code>. The basic structure remains the same. We export a JSON object with a <code>execute(...)</code> function and few other metadata.</p>
-<pre tabindex=0><code>// NEW FILE: /commands/cat.js
-const Discord = require('discord.js');
-const fs = require('fs');
-const {prefix} = require('../config.json');
+</code></pre><p>Now, we will add a new command <code>cat</code> to <code>/commands</code>. The basic structure remains the same. We export a JSON object with a <code>execute(...)</code> function and few other metadata.</p><pre tabindex=0><code>// NEW FILE: /commands/cat.js
+const Discord = require(&#39;discord.js&#39;);
+const fs = require(&#39;fs&#39;);
+const {prefix} = require(&#39;../config.json&#39;);
 
 module.exports = {
-	name: 'cat',
-	description: 'An enlightening piece of cat fact that will change your life.',
+	name: &#39;cat&#39;,
+	description: &#39;An enlightening piece of cat fact that will change your life.&#39;,
 	usage: `${prefix}cat`,
 	cooldown: 5,
 	async execute(message, args){
-		let data_file_name = '\\cat_data.json';
+		let data_file_name = &#39;\\cat_data.json&#39;;
 		let data = JSON.parse(fs.readFileSync(__dirname + data_file_name));
 
     // choose a random cat fact from data
@@ -469,12 +350,12 @@ module.exports = {
 		const upVotes = parseInt(data.all[index].upvotes);
 
 		const payload = new Discord.MessageEmbed()
-		.setTitle('Who wants a cat fact?')
-		.setColor('#ffa500')
+		.setTitle(&#39;Who wants a cat fact?&#39;)
+		.setColor(&#39;#ffa500&#39;)
 		.addFields(
-			{name: 'Fact', value: factText},
-			{name: '\u200b', value: '\u200b'},
-			{name: 'Upvotes', value: upVotes}
+			{name: &#39;Fact&#39;, value: factText},
+			{name: &#39;\u200b&#39;, value: &#39;\u200b&#39;},
+			{name: &#39;Upvotes&#39;, value: upVotes}
 		)
 		.setTimestamp();
 
@@ -482,26 +363,20 @@ module.exports = {
 
 	}
 }
-</code></pre><p>Restart your app and test your new command!</p>
-<figure><img src=/img/may4/0.png alt="Testing the cat command"><figcaption>
-<p>Testing the cat command</p>
-</figcaption>
-</figure>
-<h2 id=whatis-amp-cooldowns><code>whatis</code> & COOLDOWNS</h2>
-<p><a href=https://www.urbandictionary.com/>Urban Dictionary</a> provides a free API to query its database. Furthermore, there is no need to generate a key or authorization token. We will be using this API to give our bot a sarcastic nature (you&rsquo;ll soon see what I mean 😉). The overall pattern remains the same. We construct the request using the <code>querystring</code> package. Just do <code>yarn add querystring</code>. The rest of the execute function handles exceptions such as zero-element list, network error during fetching, etc. Here is the code:</p>
-<pre tabindex=0><code>// NEW FILE: /commands/whatis.js  
+</code></pre><p>Restart your app and test your new command!</p><figure><img src=/img/may4/0.png alt="Testing the cat command"><figcaption>
+<p>Testing the cat command</p></figcaption></figure><h2 id=whatis-amp-cooldowns><code>whatis</code> & COOLDOWNS</h2><p><a href=https://www.urbandictionary.com/>Urban Dictionary</a> provides a free API to query its database. Furthermore, there is no need to generate a key or authorization token. We will be using this API to give our bot a sarcastic nature (you&rsquo;ll soon see what I mean 😉). The overall pattern remains the same. We construct the request using the <code>querystring</code> package. Just do <code>yarn add querystring</code>. The rest of the execute function handles exceptions such as zero-element list, network error during fetching, etc. Here is the code:</p><pre tabindex=0><code>// NEW FILE: /commands/whatis.js  
 
-const querystring = require('querystring');
-const fetch = require('node-fetch');
-const Discord = require('discord.js');
-const {prefix} = require('../config.json');
+const querystring = require(&#39;querystring&#39;);
+const fetch = require(&#39;node-fetch&#39;);
+const Discord = require(&#39;discord.js&#39;);
+const {prefix} = require(&#39;../config.json&#39;);
 
 module.exports = {
-	name: 'whatis',
-	description: 'Your own dictionary utility on Discord.\n\nNo googling or changing tabs :)',
+	name: &#39;whatis&#39;,
+	description: &#39;Your own dictionary utility on Discord.\n\nNo googling or changing tabs :)&#39;,
 	cooldown: 10,
 	usage: `${prefix}whatis &lt;search-term&gt;`,
-	aliases: ['def','define'],
+	aliases: [&#39;def&#39;,&#39;define&#39;],
 	async execute(message, args){
 		if(!args.length){
 			message.reply(`fatal! You need to specify a search term.`);
@@ -509,7 +384,7 @@ module.exports = {
 		}
 
     // See: https://www.npmjs.com/package/query-string
-		const query = querystring.stringify({term: args.join(' ')});
+		const query = querystring.stringify({term: args.join(&#39; &#39;)});
 		
     // helper function to trim message to sizable chunks
 		const trim = (str, max) =&gt; ((str.length &gt; max) ? `${str.slice(0, max-3)}...`: str);
@@ -523,7 +398,7 @@ module.exports = {
 			});
 		
 		if(!list.length){
-			message.channel.send(`No results found for &quot;${args.join(' ')}&quot;`);
+			message.channel.send(`No results found for &#34;${args.join(&#39; &#39;)}&#34;`);
 			return;
 		}
 
@@ -532,31 +407,25 @@ module.exports = {
 		const [answer] = list;
 
 		const embed = new Discord.MessageEmbed()
-			.setColor('#EFFF00')
+			.setColor(&#39;#EFFF00&#39;)
 			.setTitle(answer.word)
 			.setURL(answer.permalink)
 			.addFields(
-				{name: 'Description', value: (answer.definition) ? trim(answer.definition, 1024): 'No description available!' },
-				{name: 'Example', value: (answer.example) ? trim(answer.example, 1024) : 'No example available' },
-				{name: 'Rating', value: (answer.thumbs_up &amp;&amp; answer.thumbs_down) ?`${answer.thumbs_up} thumps up. ${answer.thumbs_down} thumbs down`: 'No rating available' }
+				{name: &#39;Description&#39;, value: (answer.definition) ? trim(answer.definition, 1024): &#39;No description available!&#39; },
+				{name: &#39;Example&#39;, value: (answer.example) ? trim(answer.example, 1024) : &#39;No example available&#39; },
+				{name: &#39;Rating&#39;, value: (answer.thumbs_up &amp;&amp; answer.thumbs_down) ?`${answer.thumbs_up} thumps up. ${answer.thumbs_down} thumbs down`: &#39;No rating available&#39; }
 			);
 
 		message.channel.send(embed);
 	}
 }
 </code></pre><figure><img src=/img/may4/1.png alt="Testing the whatis command. Aliases include: def and define"><figcaption>
-<p>Testing the whatis command. Aliases include: def and define</p>
-</figcaption>
-</figure>
-<h3 id=cooldowns>Cooldowns</h3>
-<p>You may have noticed the <code>cooldown</code> field. (In fact, it was introduced much earlier but I asked you to ignore it back then). Here, we will use it to add cooldown to our commands. As it is obvious, Indirect DDoS on external servers by repeatedly executing this command is obvious so we must prevent that for susceptible commands such as this.</p>
-<p>Update your <code>bot.js</code> with the following code:</p>
-<pre tabindex=0><code>// FILE: /bot.js
+<p>Testing the whatis command. Aliases include: def and define</p></figcaption></figure><h3 id=cooldowns>Cooldowns</h3><p>You may have noticed the <code>cooldown</code> field. (In fact, it was introduced much earlier but I asked you to ignore it back then). Here, we will use it to add cooldown to our commands. As it is obvious, Indirect DDoS on external servers by repeatedly executing this command is obvious so we must prevent that for susceptible commands such as this.</p><p>Update your <code>bot.js</code> with the following code:</p><pre tabindex=0><code>// FILE: /bot.js
 
 ...
   // use command.usage to improve UI/UX
 	if(cmd.args &amp;&amp; !args.length){
-		let reply = 'You must provide arguments for this command';
+		let reply = &#39;You must provide arguments for this command&#39;;
 
 		if(cmd.usage){
 			reply += `\nThe correct usage of this command is:\n${prefix}${cmd.name} ${cmd.usage}`;
@@ -592,84 +461,73 @@ module.exports = {
 	}
 ...
 </code></pre><figure><img src=/img/may4/2.png alt="Testing cooldown for whatis command"><figcaption>
-<p>Testing cooldown for whatis command</p>
-</figcaption>
-</figure>
-<h2 id=rm-amp-exclusive-commands><code>rm</code> & EXCLUSIVE COMMANDS</h2>
-<p>Finally, I will show you how to implement exclusive commands using basic Discord ID and some workarounds.</p>
-<p>We will write the <code>rm</code> command which (obviously) deletes messages from the channel. It expects an integer argument.</p>
-<p>Each Discord user has a UserID. We will allow the command to succeed if the message author is authorized to use the command, else it will result in a failure.</p>
-<pre tabindex=0><code>// NEW FILE: /commands/rm.js
-const {prefix} = require(&quot;../config.json&quot;);
+<p>Testing cooldown for whatis command</p></figcaption></figure><h2 id=rm-amp-exclusive-commands><code>rm</code> & EXCLUSIVE COMMANDS</h2><p>Finally, I will show you how to implement exclusive commands using basic Discord ID and some workarounds.</p><p>We will write the <code>rm</code> command which (obviously) deletes messages from the channel. It expects an integer argument.</p><p>Each Discord user has a UserID. We will allow the command to succeed if the message author is authorized to use the command, else it will result in a failure.</p><pre tabindex=0><code>// NEW FILE: /commands/rm.js
+const {prefix} = require(&#34;../config.json&#34;);
 
 module.exports = {
-	name: 'rm',
-	description: 'Prunes that many messages from current channel. (Reserved)',
+	name: &#39;rm&#39;,
+	description: &#39;Prunes that many messages from current channel. (Reserved)&#39;,
 	args: true,
 	usage: `${prefix}rm &lt;number&gt;`,
 	cooldown: 5,
-	aliases: ['remove','prune','del','clear','cls'],
-	permissions: [ '&lt;AUTHORIZED_USER_ID&gt;' ],
+	aliases: [&#39;remove&#39;,&#39;prune&#39;,&#39;del&#39;,&#39;clear&#39;,&#39;cls&#39;],
+	permissions: [ &#39;&lt;AUTHORIZED_USER_ID&gt;&#39; ],
 	execute(message, args){
 		const count = parseInt(args[0]);
 
 		if(isNaN(count)){ 
-			message.reply(`${args[0]}: That doesn't look like a number to me`);
+			message.reply(`${args[0]}: That doesn&#39;t look like a number to me`);
 		} 
 		else{
 			// +1 to also delete the delete command
 			message.channel.bulkDelete(count + 1, true).catch(err =&gt; {
 				console.log(err);
-				message.channel.send('Sorry, there was a problem encountered while pruning this channel');
+				message.channel.send(&#39;Sorry, there was a problem encountered while pruning this channel&#39;);
 			});
 		}
 	}
 }
-</code></pre><p>Finally, add a check in <code>bot.js</code> to use the permissions array.</p>
-<pre tabindex=0><code>// FILE: /bot.js
+</code></pre><p>Finally, add a check in <code>bot.js</code> to use the permissions array.</p><pre tabindex=0><code>// FILE: /bot.js
 // permissions
 // Uses the message.author.id to determine if author has privileges to use this command
 	if(cmd.permissions){
 		if(!(cmd.permissions[0] === message.author.id)){
-				message.channel.send(`fatal: you can't use this command.\nDo you have enough privileges?`);
+				message.channel.send(`fatal: you can&#39;t use this command.\nDo you have enough privileges?`);
 				return;
 		}
 	}
-</code></pre><p>Phew, that has been a lot of concepts and coding! I hope you learnt something interesting and more importantly, got motivated to try out ideas of your own. Below are few commands that I added to my bot. None of them require any special explanation so I have only provided the code. You can also check this in the bot&rsquo;s Github repo.</p>
-<h2 id=ls--list-all-commands><code>ls</code> | LIST ALL COMMANDS</h2>
-<pre tabindex=0><code>// NEW FILE: /commands/ls.js 
-const {version, bot_name, bot_author, prefix} = require('../config.json');
-const Discord = require('discord.js');
+</code></pre><p>Phew, that has been a lot of concepts and coding! I hope you learnt something interesting and more importantly, got motivated to try out ideas of your own. Below are few commands that I added to my bot. None of them require any special explanation so I have only provided the code. You can also check this in the bot&rsquo;s Github repo.</p><h2 id=ls--list-all-commands><code>ls</code> | LIST ALL COMMANDS</h2><pre tabindex=0><code>// NEW FILE: /commands/ls.js 
+const {version, bot_name, bot_author, prefix} = require(&#39;../config.json&#39;);
+const Discord = require(&#39;discord.js&#39;);
 		const data = [];
 		const {commands} = message.client;
 
 		if(!args.length){
 			const embed = new Discord.MessageEmbed()
 			.setTitle(`This is the ${bot_name} Bot version ${version}`)
-			.setColor('#fa5246')
-			.addFields({name: 'Commands available', value: commands.map(command =&gt; '\t\t'+command.name).join('\n')})
+			.setColor(&#39;#fa5246&#39;)
+			.addFields({name: &#39;Commands available&#39;, value: commands.map(command =&gt; &#39;\t\t&#39;+command.name).join(&#39;\n&#39;)})
 			.setTimestamp();
 
 			return message.channel.send(embed);
 		}
 		else {
-			return message.channel.send(`ls doesn't support arguments now`);
+			return message.channel.send(`ls doesn&#39;t support arguments now`);
 		}
 	}
 }
-</code></pre><h2 id=whereami--basic-info-practically-useless><code>whereami</code> | BASIC INFO (practically useless)</h2>
-<pre tabindex=0><code>// NEW FILE: /commands/whereami.js
-const Discord = require('discord.js');
+</code></pre><h2 id=whereami--basic-info-practically-useless><code>whereami</code> | BASIC INFO (practically useless)</h2><pre tabindex=0><code>// NEW FILE: /commands/whereami.js
+const Discord = require(&#39;discord.js&#39;);
 
 module.exports = {
-	name: 'whereami',
-	description: 'Tells you where you currently are. Immensely useful after a booze party ;)',
-	usage: '',
+	name: &#39;whereami&#39;,
+	description: &#39;Tells you where you currently are. Immensely useful after a booze party ;)&#39;,
+	usage: &#39;&#39;,
 	execute(message, args){
 		
 		const embed = new Discord.MessageEmbed()
-		.setTitle('Where are you?')
-		.setColor('#ff5470')
+		.setTitle(&#39;Where are you?&#39;)
+		.setColor(&#39;#ff5470&#39;)
 		.addFields(
 			{name: `Channel name`,value: `${message.channel.name}`},
 			{name: `Server name`, value: `${message.guild.name}`}
@@ -679,20 +537,19 @@ module.exports = {
 		message.channel.send(embed);
 	}
 }
-</code></pre><h2 id=whoami--basic-info-practically-useless><code>whoami</code> | BASIC INFO (practically useless)</h2>
-<pre tabindex=0><code>// NEW FILE: /commands/whoami.js
-const Discord = require('discord.js');
+</code></pre><h2 id=whoami--basic-info-practically-useless><code>whoami</code> | BASIC INFO (practically useless)</h2><pre tabindex=0><code>// NEW FILE: /commands/whoami.js
+const Discord = require(&#39;discord.js&#39;);
 
 module.exports = {
-	name: 'whoami',
-	description: '...Well, if it was a particularly cool booze party (For context: see whereami)',
-	usage: '',
+	name: &#39;whoami&#39;,
+	description: &#39;...Well, if it was a particularly cool booze party (For context: see whereami)&#39;,
+	usage: &#39;&#39;,
 	execute(message, args){
 		// message.channel.send(`Your username is: ${message.author.username}\nYour ID: ${message.author.id}`);
 
 		const embed = new Discord.MessageEmbed()
-		.setTitle('Who are you?')
-		.setColor('#ff5470')
+		.setTitle(&#39;Who are you?&#39;)
+		.setColor(&#39;#ff5470&#39;)
 		.addFields(
 			{name: `Your username`,value: `${message.author.username}`},
 			{name: `Your ID`, value: `${message.author.id}`}
@@ -702,50 +559,23 @@ module.exports = {
 		message.channel.send(embed);
 	}
 }
-</code></pre><h2 id=further-development-ideas>FURTHER DEVELOPMENT IDEAS</h2>
-<p>One can, in principle, go on and on, adding commands and polishing their bot but we have to stop somewhere. I think this will be a suitable time for me to stop. I built this Discord bot and thought it would be fun sharing the learning / building process. It suffices to say the bot is anything from &ldquo;complete&rdquo; or &ldquo;presentable&rdquo;. Here are few ideas that you can explore:</p>
-<ol start=0>
-<li>Use <code>dotenv</code> package to hide API keys in <code>.env</code> instead of <code>config.json</code>.</li>
-<li>Implement an add/delete command to modify permissions.</li>
-<li>Implement a modifier command to control cooldowns.</li>
-<li>Explore Sockets (persistant TCP connections as in music bots, etc).</li>
-<li>Polish the user interface.</li>
-<li>Use better APIs.</li>
-<li>Use a database somewhere in a creative manner.</li>
-</ol>
-<h2 id=deployment-options>DEPLOYMENT OPTIONS</h2>
-<p>Initially, I hosted the bot on heroku free tier and configured a ping to keep the instance alive but heroku stopped that so I had to find a solution quickly. <a href=https://replit.com>replit</a> is an innovative and exicting platform for young creators and developers. It is a delight to work in a repl, they have group programming, an in-house database, and so much more. Most importantly, they allow their instances to be pinged so my bot is basically online since a year with as little downtime as ~1 day! If you are passionate about your bot and want more power, consider joining their Hacker plan.</p>
-<p>You can program directly in the replit web UI or connect a Github repo and import your code from there.</p>
-<h2 id=acknowledgements>ACKNOWLEDGEMENTS</h2>
-<p>This is my first tech guide / tutorial on the web. What things worked for you? What did you not like? I would like to <a href=mailto:gs454236@gmail.com>hear from you</a>!</p>
-<p>For the development of Mayhem, I heavily relied upon <a href=https://discord.js.org>discordjs.guide</a>, a well-explained document and the official <a href=https://docs.discordapi.com>Discord API docs</a>.</p>
-<div style="border-top:1px solid gray;border-bottom:1px solid gray;padding:1rem;padding-top:0">
+</code></pre><h2 id=further-development-ideas>FURTHER DEVELOPMENT IDEAS</h2><p>One can, in principle, go on and on, adding commands and polishing their bot but we have to stop somewhere. I think this will be a suitable time for me to stop. I built this Discord bot and thought it would be fun sharing the learning / building process. It suffices to say the bot is anything from &ldquo;complete&rdquo; or &ldquo;presentable&rdquo;. Here are few ideas that you can explore:</p><ol start=0>
+<li>Use <code>dotenv</code> package to hide API keys in <code>.env</code> instead of <code>config.json</code>.</li><li>Implement an add/delete command to modify permissions.</li><li>Implement a modifier command to control cooldowns.</li><li>Explore Sockets (persistant TCP connections as in music bots, etc).</li><li>Polish the user interface.</li><li>Use better APIs.</li><li>Use a database somewhere in a creative manner.</li></ol><h2 id=deployment-options>DEPLOYMENT OPTIONS</h2><p>Initially, I hosted the bot on heroku free tier and configured a ping to keep the instance alive but heroku stopped that so I had to find a solution quickly. <a href=https://replit.com>replit</a> is an innovative and exicting platform for young creators and developers. It is a delight to work in a repl, they have group programming, an in-house database, and so much more. Most importantly, they allow their instances to be pinged so my bot is basically online since a year with as little downtime as ~1 day! If you are passionate about your bot and want more power, consider joining their Hacker plan.</p><p>You can program directly in the replit web UI or connect a Github repo and import your code from there.</p><h2 id=acknowledgements>ACKNOWLEDGEMENTS</h2><p>This is my first tech guide / tutorial on the web. What things worked for you? What did you not like? I would like to <a href=mailto:gs454236@gmail.com>hear from you</a>!</p><p>For the development of Mayhem, I heavily relied upon <a href=https://discord.js.org>discordjs.guide</a>, a well-explained document and the official <a href=https://docs.discordapi.com>Discord API docs</a>.</p><div style="border-top:1px solid gray;border-bottom:1px solid gray;padding:1rem;padding-top:0">
 <div>
 <p>
 <span style=font-size:larger;font-weight:700>Basil</span>
 | <a href=https://twitter.com/itbwtsh>@itbwtsh</a>
-</p>
-<p style=margin:0%;color:#1a1818>
+</p><p style=margin:0%;color:#1a1818>
 Tech, Science, Design, Economics, Finance, and Books.<br>
 Basil blogs about complex topics in simple words.<br>
 This blog is his passion project.
-</p>
-</div>
-</div>
-</article>
-<span class="f6 gray mv3" title="Lastmod:  October 16, 2021. Published at: 2021-10-16.">
+</p></div></div></article><span class="f6 gray mv3" title="Lastmod:  October 16, 2021. Published at: 2021-10-16.">
 </span>
-<div id=vcomment></div>
-<script>new Valine({el:'#vcomment',appId:'feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI',appKey:'z1UFShUc40oPkqO8v8nKXG2a',lang:'en'})</script>
-</section>
-<footer>
+<div id=vcomment></div><script>new Valine({el:"#vcomment",appId:"feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI",appKey:"z1UFShUc40oPkqO8v8nKXG2a",lang:"en"})</script>
+</section><footer>
 <div>
 <p class="f6 gray mt6 lh-copy">
 © 2020 <a href=https://twitter.com/itbwtsh>Basil Labib</a> | Made with ❤️ using <a href=https://gohugo.io>Hugo</a> & <a href=https://github.com/siegerts/hugo-theme-basic>Basic</a>
-</p>
-</div>
-</footer>
-<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js></script>
+</p></div></footer><script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js></script>
 <script>hljs.initHighlightingOnLoad()</script>
-</body>
-</html>
+</body></html>

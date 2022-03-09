@@ -2,7 +2,7 @@
 <head>
 <meta charset=utf-8>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T8HDQQNE6X"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-T8HDQQNE6X')</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-T8HDQQNE6X")</script>
 <meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
 <meta name=description content>
 <meta name=HandheldFriendly content="True">
@@ -29,8 +29,7 @@
 <meta name=twitter:description content="Table Of Contents  What is JWT? Why use JWT? Why understand it? How do JWTs work?  User authentication: Walkthrough   Structure of a JWT  The header The payload   Hash functions HMAC + SHA256 = HS256 RSA + SHA256 = RS256 Other algorithms Common pitfalls and mitigation techniques  Unsecured tokens via alg: none Signature stripping Cross Site Resource Forgery (CSRF) Cross Site Scripting (XSS)   References License    What is JWT?|">
 <meta name=twitter:image:src content>
 <meta name=twitter:domain content="https://basil08.github.io/post/a-deep-dive-into-json-web-tokens-jwts/">
-<title>A deep dive into JSON Web Tokens (JWTs)</title>
-<link rel=canonical href=https://basil08.github.io/post/a-deep-dive-into-json-web-tokens-jwts/>
+<title>A deep dive into JSON Web Tokens (JWTs)</title><link rel=canonical href=https://basil08.github.io/post/a-deep-dive-into-json-web-tokens-jwts/>
 <link rel=stylesheet href=https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css>
 <link rel=stylesheet href=https://basil08.github.io/css/style.css>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css>
@@ -39,208 +38,81 @@
 <link rel=apple-touch-icon href=/apple-touch-icon.png>
 <script src=//cdn1.lncld.net/static/js/3.0.4/av-min.js></script>
 <script src=//unpkg.com/valine/dist/Valine.min.js></script>
-</head>
-<body lang=en-us class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns" itemscope itemtype=http://schema.org/Article>
+</head><body lang=en-us class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns" itemscope itemtype=http://schema.org/Article>
 <span class=b>/ </span>
 <a href=https://basil08.github.io/ class="b bb bw1 pb1 no-underline black">The Personal Blog of Basil Labib</a>
 <span class=b> / </span>
 <a href=/post class="b bb bw1 pb1 no-underline black">blog</a>
 <section id=main class=mt5>
-<h1 itemprop=name id=title>A deep dive into JSON Web Tokens (JWTs)</h1>
-<span class="f6 gray">November 22, 2021</span>
+<h1 itemprop=name id=title>A deep dive into JSON Web Tokens (JWTs)</h1><span class="f6 gray">November 22, 2021</span>
 <article itemprop=articleBody id=content class="w-90 lh-copy">
 <aside style="border:1px gray solid;padding:1em;margin:1em">
-<h4>Table Of Contents</h4>
-<nav id=TableOfContents>
+<h4>Table Of Contents</h4><nav id=TableOfContents>
 <ul>
-<li><a href=#what-is-jwt>What is JWT?</a></li>
-<li><a href=#why-use-jwt>Why use JWT?</a></li>
-<li><a href=#why-understand-it>Why understand it?</a></li>
-<li><a href=#how-do-jwts-work>How do JWTs work?</a>
+<li><a href=#what-is-jwt>What is JWT?</a></li><li><a href=#why-use-jwt>Why use JWT?</a></li><li><a href=#why-understand-it>Why understand it?</a></li><li><a href=#how-do-jwts-work>How do JWTs work?</a>
 <ul>
-<li><a href=#user-authentication-walkthrough>User authentication: Walkthrough</a></li>
-</ul>
-</li>
-<li><a href=#structure-of-a-jwt>Structure of a JWT</a>
+<li><a href=#user-authentication-walkthrough>User authentication: Walkthrough</a></li></ul></li><li><a href=#structure-of-a-jwt>Structure of a JWT</a>
 <ul>
-<li><a href=#the-header>The header</a></li>
-<li><a href=#the-payload>The payload</a></li>
-</ul>
-</li>
-<li><a href=#hash-functions>Hash functions</a></li>
-<li><a href=#hmac--sha256--hs256>HMAC + SHA256 = HS256</a></li>
-<li><a href=#rsa--sha256--rs256>RSA + SHA256 = RS256</a></li>
-<li><a href=#other-algorithms>Other algorithms</a></li>
-<li><a href=#common-pitfalls-and-mitigation-techniques>Common pitfalls and mitigation techniques</a>
+<li><a href=#the-header>The header</a></li><li><a href=#the-payload>The payload</a></li></ul></li><li><a href=#hash-functions>Hash functions</a></li><li><a href=#hmac--sha256--hs256>HMAC + SHA256 = HS256</a></li><li><a href=#rsa--sha256--rs256>RSA + SHA256 = RS256</a></li><li><a href=#other-algorithms>Other algorithms</a></li><li><a href=#common-pitfalls-and-mitigation-techniques>Common pitfalls and mitigation techniques</a>
 <ul>
-<li><a href=#unsecured-tokens-via-alg-none>Unsecured tokens via <code>alg: none</code></a></li>
-<li><a href=#signature-stripping>Signature stripping</a></li>
-<li><a href=#cross-site-resource-forgery-csrf14><a href=https://owasp.org/www-community/attacks/csrf>Cross Site Resource Forgery (CSRF)</a></a></li>
-<li><a href=#cross-site-scripting-xss15><a href=https://owasp.org/www-community/attacks/xss/>Cross Site Scripting (XSS)</a></a></li>
-</ul>
-</li>
-<li><a href=#references>References</a></li>
-<li><a href=#license>License</a></li>
-</ul>
-</nav>
-</aside>
-<h2 id=what-is-jwt>What is JWT?</h2>
-<p>A JSON Web Token or a JWT (pronounced <em>&ldquo;jot&rdquo;</em>) is a plaintext, human readable piece of data that enables authentication and trust between two unknown entities.</p>
-<h2 id=why-use-jwt>Why use JWT?</h2>
-<p>There are alternative competing standards such as <a href=https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language>SAML (Security Assertion Markup Language)</a> that cater to the same needs like a JWT but JWT has certain advantages that has made it quite common, almost <em>de facto</em> in securing modern web applications.</p>
-<ol>
+<li><a href=#unsecured-tokens-via-alg-none>Unsecured tokens via <code>alg: none</code></a></li><li><a href=#signature-stripping>Signature stripping</a></li><li><a href=#cross-site-resource-forgery-csrf14><a href=https://owasp.org/www-community/attacks/csrf>Cross Site Resource Forgery (CSRF)</a></a></li><li><a href=#cross-site-scripting-xss15><a href=https://owasp.org/www-community/attacks/xss/>Cross Site Scripting (XSS)</a></a></li></ul></li><li><a href=#references>References</a></li><li><a href=#license>License</a></li></ul></nav></aside><h2 id=what-is-jwt>What is JWT?</h2><p>A JSON Web Token or a JWT (pronounced <em>&ldquo;jot&rdquo;</em>) is a plaintext, human readable piece of data that enables authentication and trust between two unknown entities.</p><h2 id=why-use-jwt>Why use JWT?</h2><p>There are alternative competing standards such as <a href=https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language>SAML (Security Assertion Markup Language)</a> that cater to the same needs like a JWT but JWT has certain advantages that has made it quite common, almost <em>de facto</em> in securing modern web applications.</p><ol>
 <li>
-<p>It is <strong>stateless</strong>. It means the server or the client don&rsquo;t have to maintain any piece of data in-memory in between requests for it to work.</p>
-</li>
-<li>
-<p>It can be <strong>delegated</strong>. It means the task of generating and issuing a JWT can be completely disjoint from the core application itself, which can be delegated the task of only validated them. Less complexity leads to more robust and bug-free applications.</p>
-</li>
-<li>
-<p>It is <strong>simple</strong>. In terms of the complexity of data (and hence the size of a JWT) which makes them ideal for low-bandwidth regions.</p>
-</li>
-<li>
-<p>It is <strong>efficient</strong> to compute. A JWT is generated and validated. Both these processes can take place without considerable constraints on resources, making them ideal for hardware critical applications.</p>
-</li>
-</ol>
-<h2 id=why-understand-it>Why understand it?</h2>
-<p>Most developers and builders can get away without truly understanding the underlying mathematics or algorithms that makes JWT works and that&rsquo;s. . . fine. There are tons of battle-tested, production ready libraries that enable JWT generation and validation, even third-party services like <a href=https://auth0.com>Auth0</a>, to whom one can delegate the entire process of authenticaing via JWT for their applications.</p>
-<p>But, superficial knowledge gets one only so far. A thorough understanding of this technology will equip you to make sound decisions when designing an architecture or troubleshoot elusive JWT errors. It will empower you with a sense of self-assurance and confidence that one gets by mastery.</p>
-<h2 id=how-do-jwts-work>How do JWTs work?</h2>
-<p>JWTs combine concepts from cryptography and web technologies to create a standard that allows user authentication and session management among other things. In general, it allows one to say with confidence about the authenticity of a piece of data. This has been adapted to provide security on the modern web.</p>
-<p>A JWT is human readable, encoded JSON objects concatenated by periods (<code>.</code>). Here&rsquo;s an example (newline added for readability):</p>
-<pre tabindex=0><code>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+<p>It is <strong>stateless</strong>. It means the server or the client don&rsquo;t have to maintain any piece of data in-memory in between requests for it to work.</p></li><li>
+<p>It can be <strong>delegated</strong>. It means the task of generating and issuing a JWT can be completely disjoint from the core application itself, which can be delegated the task of only validated them. Less complexity leads to more robust and bug-free applications.</p></li><li>
+<p>It is <strong>simple</strong>. In terms of the complexity of data (and hence the size of a JWT) which makes them ideal for low-bandwidth regions.</p></li><li>
+<p>It is <strong>efficient</strong> to compute. A JWT is generated and validated. Both these processes can take place without considerable constraints on resources, making them ideal for hardware critical applications.</p></li></ol><h2 id=why-understand-it>Why understand it?</h2><p>Most developers and builders can get away without truly understanding the underlying mathematics or algorithms that makes JWT works and that&rsquo;s. . . fine. There are tons of battle-tested, production ready libraries that enable JWT generation and validation, even third-party services like <a href=https://auth0.com>Auth0</a>, to whom one can delegate the entire process of authenticaing via JWT for their applications.</p><p>But, superficial knowledge gets one only so far. A thorough understanding of this technology will equip you to make sound decisions when designing an architecture or troubleshoot elusive JWT errors. It will empower you with a sense of self-assurance and confidence that one gets by mastery.</p><h2 id=how-do-jwts-work>How do JWTs work?</h2><p>JWTs combine concepts from cryptography and web technologies to create a standard that allows user authentication and session management among other things. In general, it allows one to say with confidence about the authenticity of a piece of data. This has been adapted to provide security on the modern web.</p><p>A JWT is human readable, encoded JSON objects concatenated by periods (<code>.</code>). Here&rsquo;s an example (newline added for readability):</p><pre tabindex=0><code>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.
 TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
-</code></pre><p>There are three pieces of strings:</p>
-<ol>
-<li>Header</li>
-<li>Payload</li>
-<li>Signature</li>
-</ol>
-<p>The header and payload are Base64-URL encoded JSON objects. Their contents can be decoded and read. Note: <strong>A JWT is not encrypted</strong>. However, there are standards for encryption <a href=https://tools.ietf.org/html/rfc7516>(JWE) RFC 7516</a>. A JWT with only the header and payload is called an <em>unsecured JWT</em> and is generally not used except to store data on the client side in special use cases.</p>
-<p>The signature is used by applications to verify the authenticity of the payload. There are many recommended algorithms to achieve the same but the most popular are <code>HS256</code> (<code>HMAC</code> and <code>SHA-256</code>) and <code>RS256</code> (<code>RSA</code> and <code>SHA-256</code>). Signed JWTs are defined in <a href=https://tools.ietf.org/html/rfc7515>RFC 7515</a>. We will look at signing and verifying later.</p>
-<h3 id=user-authentication-walkthrough>User authentication: Walkthrough</h3>
-<figure><img src=/img/jwt/0.png alt="User authentication workflow using JWTs." width=400px><figcaption>
-<p>User authentication workflow using JWTs.</p>
-</figcaption>
-</figure>
-<p>In this section, we will walkthrough a process of user authentication using JWT. The outlined process is agnostic of the algorithm used upon which the process might slightly differ.</p>
-<ol>
+</code></pre><p>There are three pieces of strings:</p><ol>
+<li>Header</li><li>Payload</li><li>Signature</li></ol><p>The header and payload are Base64-URL encoded JSON objects. Their contents can be decoded and read. Note: <strong>A JWT is not encrypted</strong>. However, there are standards for encryption <a href=https://tools.ietf.org/html/rfc7516>(JWE) RFC 7516</a>. A JWT with only the header and payload is called an <em>unsecured JWT</em> and is generally not used except to store data on the client side in special use cases.</p><p>The signature is used by applications to verify the authenticity of the payload. There are many recommended algorithms to achieve the same but the most popular are <code>HS256</code> (<code>HMAC</code> and <code>SHA-256</code>) and <code>RS256</code> (<code>RSA</code> and <code>SHA-256</code>). Signed JWTs are defined in <a href=https://tools.ietf.org/html/rfc7515>RFC 7515</a>. We will look at signing and verifying later.</p><h3 id=user-authentication-walkthrough>User authentication: Walkthrough</h3><figure><img src=/img/jwt/0.png alt="User authentication workflow using JWTs." width=400px><figcaption>
+<p>User authentication workflow using JWTs.</p></figcaption></figure><p>In this section, we will walkthrough a process of user authentication using JWT. The outlined process is agnostic of the algorithm used upon which the process might slightly differ.</p><ol>
 <li>
-<p>The user client (browser or app) makes a HTTP request to the authorization server with the user (suppose, Alice) credentials (maybe a login form). This should be secure preferably via TLS (Transport Layer Security).</p>
-</li>
-<li>
-<p>The authorization server may perform necessary checks to be sure that the user is in fact who it poses to be. This maybe achieved by querying a database or via some other method like Single Sign-On (SSO).</p>
-</li>
-<li>
-<p>The authorization server generates a signed JWT with the header specifying <code>alg</code> and <code>typ</code> and payload containing some unique identification for this user. The misuse of this identifier shouldn&rsquo;t pose a secuirty risk, however, it should be adequate for our application to identify the user.</p>
-</li>
-<li>
-<p>Authorization server issues the token to the client.</p>
-</li>
-<li>
-<p>User requests resources from the application with authorization header set to <code>Bearer ${token}</code>.</p>
-</li>
-<li>
-<p>Application verify the token using a secret or a public key based on which algorithm is used (See below). Choosing the corresponding PUB key can be based on the <code>iss</code> field in the payload and maybe an app managed database of public keys.</p>
-</li>
-<li>
-<p>Application can reject the request or respond with the requested resources based on the result of the validation.</p>
-</li>
-</ol>
-<p>It should be noted that all data flows through the user client in the form of parameters to the request. On a browser, this should be the key-value pairs after <code>?</code> in the URL bar. Moreover, the transaction is completely stateless. To initiate another request, the client can use the token within its <code>exp</code> period and avail the services. The application will undergo the validation process all over again.</p>
-<p>To mitigate many secuirty risks, the <code>exp</code> period is kept as small as possible, however, it is not convenient to login for each single request. This gave rise to the concept of <strong>session management</strong> and <code>access tokens</code> and <code>refresh tokens</code>.</p>
-<p>Refresh tokens have a longer <code>exp</code> time than access tokens and can be used in lieu of user credentials to ask for new access tokens when the previous ones expire.</p>
-<h2 id=structure-of-a-jwt>Structure of a JWT</h2>
-<h3 id=the-header>The header</h3>
-<p>The header is a plain JSON object having atleast one field <code>alg</code> which specifies which algorithm is to be used to verify it. Another is a <code>typ</code> field which is the <a href=http://www.iana.org/assignments/media-types/media-types.xhtml>media type</a> of the JWT itself. For most practical purposes, its value is <code>JWT</code>. There may be other fields (or <em>&ldquo;claims&rdquo;</em>) but these are necessary. A sample header:</p>
-<pre tabindex=0><code>{
-  &quot;alg&quot;: &quot;RS256&quot;,
-  &quot;typ&quot;: &quot;JWT&quot;
+<p>The user client (browser or app) makes a HTTP request to the authorization server with the user (suppose, Alice) credentials (maybe a login form). This should be secure preferably via TLS (Transport Layer Security).</p></li><li>
+<p>The authorization server may perform necessary checks to be sure that the user is in fact who it poses to be. This maybe achieved by querying a database or via some other method like Single Sign-On (SSO).</p></li><li>
+<p>The authorization server generates a signed JWT with the header specifying <code>alg</code> and <code>typ</code> and payload containing some unique identification for this user. The misuse of this identifier shouldn&rsquo;t pose a secuirty risk, however, it should be adequate for our application to identify the user.</p></li><li>
+<p>Authorization server issues the token to the client.</p></li><li>
+<p>User requests resources from the application with authorization header set to <code>Bearer ${token}</code>.</p></li><li>
+<p>Application verify the token using a secret or a public key based on which algorithm is used (See below). Choosing the corresponding PUB key can be based on the <code>iss</code> field in the payload and maybe an app managed database of public keys.</p></li><li>
+<p>Application can reject the request or respond with the requested resources based on the result of the validation.</p></li></ol><p>It should be noted that all data flows through the user client in the form of parameters to the request. On a browser, this should be the key-value pairs after <code>?</code> in the URL bar. Moreover, the transaction is completely stateless. To initiate another request, the client can use the token within its <code>exp</code> period and avail the services. The application will undergo the validation process all over again.</p><p>To mitigate many secuirty risks, the <code>exp</code> period is kept as small as possible, however, it is not convenient to login for each single request. This gave rise to the concept of <strong>session management</strong> and <code>access tokens</code> and <code>refresh tokens</code>.</p><p>Refresh tokens have a longer <code>exp</code> time than access tokens and can be used in lieu of user credentials to ask for new access tokens when the previous ones expire.</p><h2 id=structure-of-a-jwt>Structure of a JWT</h2><h3 id=the-header>The header</h3><p>The header is a plain JSON object having atleast one field <code>alg</code> which specifies which algorithm is to be used to verify it. Another is a <code>typ</code> field which is the <a href=http://www.iana.org/assignments/media-types/media-types.xhtml>media type</a> of the JWT itself. For most practical purposes, its value is <code>JWT</code>. There may be other fields (or <em>&ldquo;claims&rdquo;</em>) but these are necessary. A sample header:</p><pre tabindex=0><code>{
+  &#34;alg&#34;: &#34;RS256&#34;,
+  &#34;typ&#34;: &#34;JWT&#34;
 }
-</code></pre><p>But wait. This doesn&rsquo;t look like what we saw earlier. What&rsquo;s going on? The header and payload are actually encoded by a scheme to the most common subset of UTF-8 characters to ensure portability and avoid garbled text, a sad product of multiple encoding schemes. The chosen method is <code>Base64URL</code>, a URL safe variation of <code>Base64</code> which swaps <code>/</code> and <code>+</code> characters by <code>_</code> and <code>-</code> respectively.</p>
-<p><a name=alg></a> The <code>alg</code>, if set to <code>none</code>, can become a security threat for some verification libraries. The reason being, in the past many verification libraries relied on the <code>alg</code> field to pick up the right algorithm. This was the result of ambuiguity in the implementation of verification libraries. To migitate this issue, never use <code>alg: none</code> and never allow <em>unsecured</em> JWTs in your application. Onwards to the payload.</p>
-<h3 id=the-payload>The payload</h3>
-<p>The payload is another JSON that is the data store of the token. All claims are stored in the payload. There are some <em>registered</em> claims whose field names have been standardized.</p>
-<ol>
+</code></pre><p>But wait. This doesn&rsquo;t look like what we saw earlier. What&rsquo;s going on? The header and payload are actually encoded by a scheme to the most common subset of UTF-8 characters to ensure portability and avoid garbled text, a sad product of multiple encoding schemes. The chosen method is <code>Base64URL</code>, a URL safe variation of <code>Base64</code> which swaps <code>/</code> and <code>+</code> characters by <code>_</code> and <code>-</code> respectively.</p><p><a name=alg></a> The <code>alg</code>, if set to <code>none</code>, can become a security threat for some verification libraries. The reason being, in the past many verification libraries relied on the <code>alg</code> field to pick up the right algorithm. This was the result of ambuiguity in the implementation of verification libraries. To migitate this issue, never use <code>alg: none</code> and never allow <em>unsecured</em> JWTs in your application. Onwards to the payload.</p><h3 id=the-payload>The payload</h3><p>The payload is another JSON that is the data store of the token. All claims are stored in the payload. There are some <em>registered</em> claims whose field names have been standardized.</p><ol>
 <li>
-<p><code>iss</code>: The <em>issuer</em>. A URI string identifying the authority issuing the JWT. The data can be application specific.</p>
-</li>
+<p><code>iss</code>: The <em>issuer</em>. A URI string identifying the authority issuing the JWT. The data can be application specific.</p></li><li>
+<p><code>sub</code>: The <em>subject</em>. A URI string identifying the entity that this JWT carries information about. The data can be application specific.</p></li><li>
+<p><code>aud</code>: The <em>audience</em>. A list of URIs intended as recipients for this JWT.</p></li><li>
+<p><code>exp</code>: The <em>expiration date</em>. Expressed in number of seconds passed since Epoch.</p></li><li>
+<p><code>nbf</code>: <em>not before (time)</em>. The opposite of the <code>exp</code> claim. Expressed in number of seconds since Epoch.</p></li><li>
+<p><code>iat</code>: The <em>issued at (time)</em>. Expressed in number of seconds since Epoch.</p></li><li>
+<p><code>jti</code>: The <em>JWT ID</em>. A unique identifier of this JWT. Again, it is application specific.</p></li></ol><p>Apart from the registered claims, there are so-called <strong>private claims</strong> which are defined by users and add application specific communication to the JWT. Namespaces may be used to avoid key collision. <strong>Public claims</strong> are either registered with the <a href=https://tools.ietf.org/html/rfc7519#section-10.1>IANA JSON Web Token registry</a> (central registry to prevent name collisions) or named using collision resistant methods.</p><p>Now, let us take a brief interlude to understand hash functions and then examine how signature works.</p><h2 id=hash-functions>Hash functions</h2><p><em>Hashing</em> is a computational operation that produces a fixed length string from a data of arbitrary size. Moreover, hashing has certain interesting properties which makes them ideal for cryptographic applications.</p><ol>
 <li>
-<p><code>sub</code>: The <em>subject</em>. A URI string identifying the entity that this JWT carries information about. The data can be application specific.</p>
-</li>
-<li>
-<p><code>aud</code>: The <em>audience</em>. A list of URIs intended as recipients for this JWT.</p>
-</li>
-<li>
-<p><code>exp</code>: The <em>expiration date</em>. Expressed in number of seconds passed since Epoch.</p>
-</li>
-<li>
-<p><code>nbf</code>: <em>not before (time)</em>. The opposite of the <code>exp</code> claim. Expressed in number of seconds since Epoch.</p>
-</li>
-<li>
-<p><code>iat</code>: The <em>issued at (time)</em>. Expressed in number of seconds since Epoch.</p>
-</li>
-<li>
-<p><code>jti</code>: The <em>JWT ID</em>. A unique identifier of this JWT. Again, it is application specific.</p>
-</li>
-</ol>
-<p>Apart from the registered claims, there are so-called <strong>private claims</strong> which are defined by users and add application specific communication to the JWT. Namespaces may be used to avoid key collision. <strong>Public claims</strong> are either registered with the <a href=https://tools.ietf.org/html/rfc7519#section-10.1>IANA JSON Web Token registry</a> (central registry to prevent name collisions) or named using collision resistant methods.</p>
-<p>Now, let us take a brief interlude to understand hash functions and then examine how signature works.</p>
-<h2 id=hash-functions>Hash functions</h2>
-<p><em>Hashing</em> is a computational operation that produces a fixed length string from a data of arbitrary size. Moreover, hashing has certain interesting properties which makes them ideal for cryptographic applications.</p>
-<ol>
-<li>
-<p><strong>Irreversibility</strong>: Hash functions are one-way functions. The original data cannot be deduced from the output. The only way (known so far) is to brute force each possible data to match the output.</p>
-</li>
-<li>
-<p><strong>Reproducibility</strong>: Hash functions are one-one functions. A piece of data is always guaranteed to produce the same output every single time.</p>
-</li>
-<li>
-<p><strong>Uniqueness</strong>: By choosing proper parameters, it is possible to reduce collisions to practically zero. Collisions happen when two different data match to the same output.</p>
-</li>
-<li>
-<p><strong>Unpredictability</strong>: Even if a single byte is changed in the original data, atleast 50% of the bits changes. This makes it very difficult to guess the data by cunning or intelligent guesses. See <a href=https://en.wikipedia.org/wiki/Avalanche_effect>Avalanche effect</a>.</p>
-</li>
-</ol>
-<p>Let us examine a popular hash function <code>SHA-256</code>. The Secure Hash Algorithm (SHA) family is defined in <a href=http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf>FIPS-180</a>. We are going to use the native node module <code>crypto</code> to generate a SHA256 hash.</p>
-<pre tabindex=0><code>// code source: https://nodejs.org/api/crypto.html
+<p><strong>Irreversibility</strong>: Hash functions are one-way functions. The original data cannot be deduced from the output. The only way (known so far) is to brute force each possible data to match the output.</p></li><li>
+<p><strong>Reproducibility</strong>: Hash functions are one-one functions. A piece of data is always guaranteed to produce the same output every single time.</p></li><li>
+<p><strong>Uniqueness</strong>: By choosing proper parameters, it is possible to reduce collisions to practically zero. Collisions happen when two different data match to the same output.</p></li><li>
+<p><strong>Unpredictability</strong>: Even if a single byte is changed in the original data, atleast 50% of the bits changes. This makes it very difficult to guess the data by cunning or intelligent guesses. See <a href=https://en.wikipedia.org/wiki/Avalanche_effect>Avalanche effect</a>.</p></li></ol><p>Let us examine a popular hash function <code>SHA-256</code>. The Secure Hash Algorithm (SHA) family is defined in <a href=http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf>FIPS-180</a>. We are going to use the native node module <code>crypto</code> to generate a SHA256 hash.</p><pre tabindex=0><code>// code source: https://nodejs.org/api/crypto.html
 const {
   createHash
-} = await import('crypto');
+} = await import(&#39;crypto&#39;);
 
-const hash = createHash('sha256');
+const hash = createHash(&#39;sha256&#39;);
 
-hash.on('readable', () =&gt; {
+hash.on(&#39;readable&#39;, () =&gt; {
   // Only one element is going to be produced by the
   // hash stream.
   const data = hash.read();
   if (data) {
-    console.log(data.toString('hex'));
+    console.log(data.toString(&#39;hex&#39;));
     // Prints:
     //   6a2da20943931e9834fc12cfe5bb47bbd9ae43489a30726962b576f4e3993e50
   }
 });
 
-hash.write('some data to hash');
+hash.write(&#39;some data to hash&#39;);
 hash.end();
-</code></pre><h2 id=hmac--sha256--hs256>HMAC + SHA256 = HS256</h2>
-<p>We have all the components to actually sign and verify a JWT. As it has been noted, the issuing authority can be seperate and oblivious of the identity of the verifier. This is an advantage of JWT. The question is: how do we achieve that? HMAC or Hash-Based Message Authentication Code works this way:</p>
-<p>Generation of token:</p>
-<ol>
-<li>Take the Header (H), Payload (P), and a secret data (SECRET). Concatenate them together and pass through a hash function.</li>
-<li>Let the output be HASH. Append this as the signature or Message Authentication Code (MAC) for our JWT.</li>
-</ol>
-<p>Validation of token:</p>
-<ol>
-<li>Take H, P, and the <strong>same</strong> SECRET and produce a hash.</li>
-<li>If the contents of the payload had not been tampered with, then MAC and this hash will match.</li>
-</ol>
-<p>This scheme is very simple. However, there is an obvious disadvantage: The token issuer and the validation application have to share a common secret which is essentially the crux of security. Requirement of distribution across a large or insecure network makes regular key rotation unfeasible. Moreover, since the SECRET is stored on many nodes in the network, there is more possibility of a SECRET leak or susceptibility to an attack. Public-key cryptography addresses this issue.</p>
-<h2 id=rsa--sha256--rs256>RSA + SHA256 = RS256</h2>
-<p>HS256 suffers from the downside of being unable to distinguish between token generation and token validation. Both are essentially the same process. RSA public key cryptography is a scheme that involves 2 keys: a private key and a public key. The private key can sign a piece of data while a public key can definitively validate if the associated private key had signed the data, hence establishing data integrity. Moreover, compromise of the public key does not diminish the security of the scheme. The private key can be safely stored <strong>only</strong> with the token generation authority.</p>
-<p>Tools like <a href=https://www.openssl.org>OpenSSL</a> can generate these keys for you or even online services such as <a href=http://travistidwell.com/jsencrypt/demo/>this one</a>. An example 1024-bit RSA key pair:</p>
-<pre tabindex=0><code>-----BEGIN PUBLIC KEY-----
+</code></pre><h2 id=hmac--sha256--hs256>HMAC + SHA256 = HS256</h2><p>We have all the components to actually sign and verify a JWT. As it has been noted, the issuing authority can be seperate and oblivious of the identity of the verifier. This is an advantage of JWT. The question is: how do we achieve that? HMAC or Hash-Based Message Authentication Code works this way:</p><p>Generation of token:</p><ol>
+<li>Take the Header (H), Payload (P), and a secret data (SECRET). Concatenate them together and pass through a hash function.</li><li>Let the output be HASH. Append this as the signature or Message Authentication Code (MAC) for our JWT.</li></ol><p>Validation of token:</p><ol>
+<li>Take H, P, and the <strong>same</strong> SECRET and produce a hash.</li><li>If the contents of the payload had not been tampered with, then MAC and this hash will match.</li></ol><p>This scheme is very simple. However, there is an obvious disadvantage: The token issuer and the validation application have to share a common secret which is essentially the crux of security. Requirement of distribution across a large or insecure network makes regular key rotation unfeasible. Moreover, since the SECRET is stored on many nodes in the network, there is more possibility of a SECRET leak or susceptibility to an attack. Public-key cryptography addresses this issue.</p><h2 id=rsa--sha256--rs256>RSA + SHA256 = RS256</h2><p>HS256 suffers from the downside of being unable to distinguish between token generation and token validation. Both are essentially the same process. RSA public key cryptography is a scheme that involves 2 keys: a private key and a public key. The private key can sign a piece of data while a public key can definitively validate if the associated private key had signed the data, hence establishing data integrity. Moreover, compromise of the public key does not diminish the security of the scheme. The private key can be safely stored <strong>only</strong> with the token generation authority.</p><p>Tools like <a href=https://www.openssl.org>OpenSSL</a> can generate these keys for you or even online services such as <a href=http://travistidwell.com/jsencrypt/demo/>this one</a>. An example 1024-bit RSA key pair:</p><pre tabindex=0><code>-----BEGIN PUBLIC KEY-----
 MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgFpZk5mSyh3rLS/G5+5dWqHAmXJh
 vUgIbRh9UXQIoOMe+NOd+9Uu8koI1FP7whsSY5jdwR8IFxaSwOsqcaHZJY0E4S8v
 f5mI3GexfoNG4sI6C1g4nk40NWpfpifhEERquHp9C2CdLkGLAlRrAhgkdbmhseWr
@@ -261,70 +133,25 @@ E1mbZtKpOdFNLGCKaCNq+eYsjHQhvy6yoxO6UX9UTRa3vjyNL5CYeGrKA0bKG5JD
 AKPm4UQXGfSfdORswQJAPezFk2XrA0+mX7dkgik6RhOVYmdNzvreL7jarS+FsL6X
 WNUbh8tGmrG0BmP8qKI5Tf2iidpJ2ru810QGwaC8fw==
 -----END RSA PRIVATE KEY-----
-</code></pre><p>Token generation:</p>
-<ol>
-<li>A RSA key pair is generated (PVT and PUB). The PUB is made public.</li>
-<li>Header (H), Payload (P) is passed through a hash function (SHA256, in our case). Output is HASH.</li>
-<li>The HASH is signed with the PVT key to produce SIGNED.</li>
-<li>SIGNED is attached as the JWT signature and issued to a client.</li>
-</ol>
-<p>Validation:</p>
-<ol>
-<li>H and P are used to generate a hash. Call it HASH2.</li>
-<li>Using PUB, it decrypts the SIGNED to produce HASH.</li>
-<li>The integrity of the data is established if HASH matches HASH2.</li>
-</ol>
-<p>We can deduce authentication because it is guaranteed that just decrypted SIGNED by the PUB key must have been signed by the associated PVT key which is (ideally) only possessed by the issuing server. The issuing server will only issue the token if it is satisfied with the user credentials. Thus, the user possessing the token and posing as the user to our application must be no one else but that user.</p>
-<p>One might question: Why not encrypt the header and payload directly and attach that as a signature. That is a valid question. In fact, such an approach would work in theory. It is not employed in practice because the RSA encryption process can be slow for larger payload sizes. Hashing is a relatively faster computational operation and produces fixed length smaller payloads for RSA to consume.</p>
-<h2 id=other-algorithms>Other algorithms</h2>
-<p>There are a plethora of other algorithms that may be used. One of them that is specified in the spec and not discussed here is <a href=https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm>Elliptic Curve Digital Signature Algorithm (ECDSA)</a> leading to ES256. Further, there are variations based on the key or block size in the SHA family or the public-key crypto scheme. For a thorough discussion, see the <a href=https://auth0.com/e-books/jwt-handbook>JWT Handbook</a>.</p>
-<h2 id=common-pitfalls-and-mitigation-techniques>Common pitfalls and mitigation techniques</h2>
-<p>If you want to develop secure JWT-enabled applications, you must be aware of the common pitfalls that may allow attackers to exploit the weakness of your system. Moreover, we shall discuss some mitigation techniques to safeguard your application. It is <strong>highly recommended</strong> to use tested, production-ready libraries and allow oneself to thoroughly understand the nuances of the provided API. It is generally a bad idea to roll out an in-house crypto module.</p>
-<h3 id=unsecured-tokens-via-alg-none>Unsecured tokens via <code>alg: none</code></h3>
-<p>You must note that JWTs are <em>unencrypted</em> in general. JWE encrypts only the payload, the header is always in unenrypted form. Thus, due to ambiguity in specification, an attackers crafted JWT having <code>alg: none</code> can be interpreted as valid because of reliance of choosing the algorithm based on that field.</p>
-<p>For more, see <a href=#alg>this paragraph</a>.</p>
-<h3 id=signature-stripping>Signature stripping</h3>
-<p>A JWT, as you know, is made of three components – header, payload, and signature. A common method of attack is to strip the signature, manipulate the contents of the payload and mark the token as &ldquo;unsecured&rdquo;.</p>
-<p>To mitigate signature stripping attacks, make sure your application rejects all signature-less tokens as invalid.</p>
-<h3 id=cross-site-resource-forgery-csrf14><a href=https://owasp.org/www-community/attacks/csrf>Cross Site Resource Forgery (CSRF)</a></h3>
-<p>This attack is effective when JWTs are stored as session cookies on the browser. The attacker embeds a crafted link to the target site on a malicious page. When the browser requests the resource, it sends the cookie too, if the user had previously logged into target. If the target doesn&rsquo;t implement <a href=https://owasp.org/www-community/attacks/csrf>CSRF</a> mitigation on the server side, the potentially modified token can be deemed valid.</p>
-<p>Short-lived tokens, not storing JWTs as cookies, and implementing CSRF mitigation on the application are used to tackle CSRF.</p>
-<h3 id=cross-site-scripting-xss15><a href=https://owasp.org/www-community/attacks/xss/>Cross Site Scripting (XSS)</a></h3>
-<p>This is similar to SQL injection attacks where the attack takes advantage of improper user data validation on the back end, to inject JavaScript into the trusted sites. It then attempts to harvest JWTs from cookies or local storage. Any data received from a user must be sanitized.</p>
-<h2 id=references>References</h2>
-<ol>
-<li>Blog post: <a href=https://blog.angular-university.io/angular-jwt/>JWT: The Complete Guide to JSON Web Tokens</a> by Angular University (Good beginner introduction).</li>
-<li>Book: <a href=https://auth0.com/e-books/jwt-handbook>The JWT Handbook</a> by Auth0 (In-depth treatment of algorithms, See Chapter 7).</li>
-</ol>
-<h2 id=license>License</h2>
-<p>All diagrams and code used in this article is produced by the author unless otherwise noted and is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>CC BY-NC-SA 3.0</a>. This means you are free to share, adapt, or modify it but you should provide credit and not use the contents for commercial purposes.</p>
-<div style="border-top:1px solid gray;border-bottom:1px solid gray;padding:1rem;padding-top:0">
+</code></pre><p>Token generation:</p><ol>
+<li>A RSA key pair is generated (PVT and PUB). The PUB is made public.</li><li>Header (H), Payload (P) is passed through a hash function (SHA256, in our case). Output is HASH.</li><li>The HASH is signed with the PVT key to produce SIGNED.</li><li>SIGNED is attached as the JWT signature and issued to a client.</li></ol><p>Validation:</p><ol>
+<li>H and P are used to generate a hash. Call it HASH2.</li><li>Using PUB, it decrypts the SIGNED to produce HASH.</li><li>The integrity of the data is established if HASH matches HASH2.</li></ol><p>We can deduce authentication because it is guaranteed that just decrypted SIGNED by the PUB key must have been signed by the associated PVT key which is (ideally) only possessed by the issuing server. The issuing server will only issue the token if it is satisfied with the user credentials. Thus, the user possessing the token and posing as the user to our application must be no one else but that user.</p><p>One might question: Why not encrypt the header and payload directly and attach that as a signature. That is a valid question. In fact, such an approach would work in theory. It is not employed in practice because the RSA encryption process can be slow for larger payload sizes. Hashing is a relatively faster computational operation and produces fixed length smaller payloads for RSA to consume.</p><h2 id=other-algorithms>Other algorithms</h2><p>There are a plethora of other algorithms that may be used. One of them that is specified in the spec and not discussed here is <a href=https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm>Elliptic Curve Digital Signature Algorithm (ECDSA)</a> leading to ES256. Further, there are variations based on the key or block size in the SHA family or the public-key crypto scheme. For a thorough discussion, see the <a href=https://auth0.com/e-books/jwt-handbook>JWT Handbook</a>.</p><h2 id=common-pitfalls-and-mitigation-techniques>Common pitfalls and mitigation techniques</h2><p>If you want to develop secure JWT-enabled applications, you must be aware of the common pitfalls that may allow attackers to exploit the weakness of your system. Moreover, we shall discuss some mitigation techniques to safeguard your application. It is <strong>highly recommended</strong> to use tested, production-ready libraries and allow oneself to thoroughly understand the nuances of the provided API. It is generally a bad idea to roll out an in-house crypto module.</p><h3 id=unsecured-tokens-via-alg-none>Unsecured tokens via <code>alg: none</code></h3><p>You must note that JWTs are <em>unencrypted</em> in general. JWE encrypts only the payload, the header is always in unenrypted form. Thus, due to ambiguity in specification, an attackers crafted JWT having <code>alg: none</code> can be interpreted as valid because of reliance of choosing the algorithm based on that field.</p><p>For more, see <a href=#alg>this paragraph</a>.</p><h3 id=signature-stripping>Signature stripping</h3><p>A JWT, as you know, is made of three components – header, payload, and signature. A common method of attack is to strip the signature, manipulate the contents of the payload and mark the token as &ldquo;unsecured&rdquo;.</p><p>To mitigate signature stripping attacks, make sure your application rejects all signature-less tokens as invalid.</p><h3 id=cross-site-resource-forgery-csrf14><a href=https://owasp.org/www-community/attacks/csrf>Cross Site Resource Forgery (CSRF)</a></h3><p>This attack is effective when JWTs are stored as session cookies on the browser. The attacker embeds a crafted link to the target site on a malicious page. When the browser requests the resource, it sends the cookie too, if the user had previously logged into target. If the target doesn&rsquo;t implement <a href=https://owasp.org/www-community/attacks/csrf>CSRF</a> mitigation on the server side, the potentially modified token can be deemed valid.</p><p>Short-lived tokens, not storing JWTs as cookies, and implementing CSRF mitigation on the application are used to tackle CSRF.</p><h3 id=cross-site-scripting-xss15><a href=https://owasp.org/www-community/attacks/xss/>Cross Site Scripting (XSS)</a></h3><p>This is similar to SQL injection attacks where the attack takes advantage of improper user data validation on the back end, to inject JavaScript into the trusted sites. It then attempts to harvest JWTs from cookies or local storage. Any data received from a user must be sanitized.</p><h2 id=references>References</h2><ol>
+<li>Blog post: <a href=https://blog.angular-university.io/angular-jwt/>JWT: The Complete Guide to JSON Web Tokens</a> by Angular University (Good beginner introduction).</li><li>Book: <a href=https://auth0.com/e-books/jwt-handbook>The JWT Handbook</a> by Auth0 (In-depth treatment of algorithms, See Chapter 7).</li></ol><h2 id=license>License</h2><p>All diagrams and code used in this article is produced by the author unless otherwise noted and is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>CC BY-NC-SA 3.0</a>. This means you are free to share, adapt, or modify it but you should provide credit and not use the contents for commercial purposes.</p><div style="border-top:1px solid gray;border-bottom:1px solid gray;padding:1rem;padding-top:0">
 <div>
 <p>
 <span style=font-size:larger;font-weight:700>Basil</span>
 | <a href=https://twitter.com/itbwtsh>@itbwtsh</a>
-</p>
-<p style=margin:0%;color:#1a1818>
+</p><p style=margin:0%;color:#1a1818>
 Tech, Science, Design, Economics, Finance, and Books.<br>
 Basil blogs about complex topics in simple words.<br>
 This blog is his passion project.
-</p>
-</div>
-</div>
-</article>
-<span class="f6 gray mv3" title="Lastmod:  November 22, 2021. Published at: 2021-11-22.">
+</p></div></div></article><span class="f6 gray mv3" title="Lastmod:  November 22, 2021. Published at: 2021-11-22.">
 </span>
-<div id=vcomment></div>
-<script>new Valine({el:'#vcomment',appId:'feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI',appKey:'z1UFShUc40oPkqO8v8nKXG2a',lang:'en'})</script>
-</section>
-<footer>
+<div id=vcomment></div><script>new Valine({el:"#vcomment",appId:"feK7nt01ATB0bsSY0zMD3mxA-MdYXbMMI",appKey:"z1UFShUc40oPkqO8v8nKXG2a",lang:"en"})</script>
+</section><footer>
 <div>
 <p class="f6 gray mt6 lh-copy">
 © 2020 <a href=https://twitter.com/itbwtsh>Basil Labib</a> | Made with ❤️ using <a href=https://gohugo.io>Hugo</a> & <a href=https://github.com/siegerts/hugo-theme-basic>Basic</a>
-</p>
-</div>
-</footer>
-<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js></script>
+</p></div></footer><script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js></script>
 <script>hljs.initHighlightingOnLoad()</script>
-</body>
-</html>
+</body></html>
