@@ -46,6 +46,14 @@ A biographic narrative of Jim Simons, the mathematician who founded Renaissance 
 An extravagant spender, left-inclined rational who, in later life, focused his money into combating disease, math education, and space exploration. This is the story of how one man went against the odds and challenges and paved the way for a totally radical method of trading changing forever the face of investment trading.    
 
 Wow, this one took me more time than I expected, partially due to acad work and partially due to the biographical nature of the text. I wrote a post inspired by the book [here](/post/the-quant-frenzy-a-crude-forecast/).  
+{{</ds>}}  
+
+5. {{<ds sum="**When Breath Becomes Air | Paul Kalanithi**">}}
+An autobiographical account of a neurosurgeon who succumbed to cancer. But to describe Paul as just any neurosurgeon is a grave underestimation of this inspiring and incredible man.    
+
+In his (sadly, only) work, he lays bare the working of his mind, his intelligent questions and his quest to find answers to them, his intimate thoughts during surgeries and diagnosis, his beliefs about mortality and life and faith and God. Through this book, one doesn't simply read about a man who met an unfair fate, but of a truly inquisitive mind, equally versed in literature and medicine. One, who actively sought the company of great men, whose love for words shines through the eloquent prose. One who was deeply curious about death and mortality, and challenged death both as a healer and a patient.     
+
+Paul wrote, "You can't ever reach perfection, but you can believe in an asymptote towards which you're ceaselessly striving."  
 {{</ds>}}
 
 ## Unfinished   
