@@ -4,7 +4,6 @@ tags:
 categories:
 date: 2022-05-27T14:30:10+05:30
 ---
-
 In 1967, the Films Division of India produced a short documentary under director S.N.S. Sastry. The simple, 18-minute documentary titled ["I am 20"][1] depicts the lives of the Indian youths, their hopes, aspirations, and apprehensions. It captures the true spirit of the Indian mindset of the 60s, the multitude of visions and dreams and ambitions. For an Indian youth watching this documentary, it is very difficult not to be moved by it. It is this timeless quality engrained in this film that has garnered it the iconic status that it truly deserves.
 
 {{<figure src="/img/iam20/0.png" caption="A scene from 'I am 20', a 1967 documentary. PC: FDI">}}
@@ -39,6 +38,10 @@ The modern youth enjoy a much safer and richer lifestyle than the previous gener
 ## On The Margins
 
 I came across this video in a language course at university (NLN101) and was frankly quite impressed by it, the idea, execution and all. I thought it might be fun to write about it considering I haven't, in a long time. Sincerest apologies to my readers but university is crushing. Oh, and watch the [India In Pixels][0] video for more trivia.
+
+### Watch it below
+
+{{<youtube id="fA8h74ZW8Ok" color="white">}}
 
 [0]: https://www.youtube.com/watch?v=AICnH7QYmvM
 [1]: https://www.youtube.com/watch?v=fA8h74ZW8Ok
