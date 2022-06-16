@@ -138,9 +138,9 @@ DRAFT
 
 The acclaimed Spanish painter, Pablo Picasso painted [The Guernica][0] as an expression of protest against war. Its explicit and ghastly imagery has been used in anti-war protests ever since. Or, take contemporary artist Banksy's protest poster for _Black Lives Matter_ which shows an American flag catching a fire by a vigil candle beside a framed photograph of an unknown person.
 
-Paradoxically, the imaginatively free artist is a prisoner of their era. Their protest must be subtle, but potent for it must awaken the oppressed without awakening the oppressors. But to achieve this adroit mode of expression is a challenging task. The 1960s saw the French cinematic landscape was waking up to an obtuse and blatant attack on their culture by the Americans. In such a state of jeopardy, the burden fell on a group of young French film-makers to _define_ a truly French style of making films.
+Paradoxically, the imaginatively free artist is a prisoner of their era. Their protest must be subtle, but potent for it must awaken the oppressed without awakening the oppressors. But to achieve this adroit mode of expression is a challenging task. The 1960s saw the French cinematic landscape waking up to an obtuse and blatant attack on their culture by the Americans &mdash; a cultural attack. In such a state of jeopardy, the burden fell on a group of young French film-makers to _define_ a truly French style of making films.
 
-Jean Luc-Godard, along with Truffant and Resnais pioneered this task and gifted the world, a new form of film-making; one completely detached from American roots and in glaring defiance of the conventional "acceptable" ways of filmmaking. _Breathless_ was Godard's debut feature length film that took the world bu storm and together with Truffant's _The 400 Blows_ and Resnais' _Hiroshima Mon Amour_ ushered what was to be christened the so-called "French New Wave".
+Jean Luc-Godard, along with Truffant and Resnais pioneered this task and gifted the world, a new form of film-making; one completely detached from American roots and in glaring defiance of the conventional "acceptable" ways of filmmaking. _Breathless_ was Godard's debut feature length film that took the world by storm and together with Truffant's _The 400 Blows_ and Resnais' _Hiroshima Mon Amour_ ushered what was to be christened the so-called "French New Wave".
 
 
 ---
@@ -148,17 +148,17 @@ Jean Luc-Godard, along with Truffant and Resnais pioneered this task and gifted 
 If you watch Breathless for the first time, chances are that you will find it rather uninteresting. I can recall thinking to myself, "What's the big deal?" after my first viewing. Curious (read: anxious) and unsettled, I set out to find an answer to that question. Just like a tourist whose appreciation for a monument is diminished because of a lack of sound grounding in the context, culture, and history of the place, it is difficult to convey what _Breathless_ really stands for, if viewed superficially. This post is my attempt to note some and hopefully make my reader appreciate this genius tour de force.
 
 
-Breathless was less of a movie and more of a symbol of protest. A rebuttal. A counter-attack. But to understand its significance is to first understand the time in which it appeared. 
-
+Breathless was less of a movie and more of a symbol of protest. A rebuttal. A counter-attack. But to understand its significance is to first understand the time in which it appeared.
 
 ---
 
 ### What was the French New Wave? What started it?
 
-After the liberation of France from Nazi control, Secretary of State James F. Byrnes and a representative for the French government, Leon Blum, organized a deal to wipe away France’s war debt by opening American markets to French consumers.
+In 1946, an agreement was signed between American Secretary of State, James F. Brynes and Leon Blum, a representative for the French government, to wipe away France's war debt by opening American markets to French consumers after France's liberation from Nazi control. This agreement was called the Blum-Brynes Accords and it shaped the French culture at an astounding rate. This event triggered a chain of interesting events, the ushering of the French New Wave movement being one of them.
 
-This agreement was called the Blum-Byrnes Accords. It shaped French culture at unprecedented rates and included a kick-start of French New Wave, one of the most influential movements in the history of cinema.
+By 1948, barely two years after the Blum-Brynes Accords, 222 American films populated French cinemas. This shocked French fimmakers because a meagre 89 French films were released that year and only 8 from other countries. The American economic upperhand was posing a serious threat to the identity and existence of French cinema and in turn, French culture. It was a wake-up call for French filmmakers, a call -to-action, if you will. In such a setting,
 
+---
 
 ### Can a nation's identity be based on another nation's?
 
@@ -183,12 +183,7 @@ American economic dominance over French culture produced a cognitive dissonance 
 
 > Breathless is genius because in it Godard not only asks the question (or rather shows the eminent crisis to the audience) but at the same time provide a solution to that crisis in the medium itself. To break out of the American "conventional" style of filmmaking would be to emulate something like he did in Breathless, jump cuts and all. To truly cultivate an original French style of filmmaking. But Godard is walking a fine line here. To announce openly of a cultural independence from the American would be impossible. Because Am economic dominance was source of dissonance for the very identity of the French filmmakers as they quickly saw their profession jeopardised by the American films flooding the French theaters.
 
-
-<!-- SELECT p.code AS program, p.name AS program_name, SUM(pf.eligible_depts LIKE CONCAT('%', p.code, '%')) AS openings, p.department AS department, p.degree AS degree FROM program p CROSS JOIN profile pf WHERE session_code = ? GROUP BY program;
-
-SELECT dept.name AS department_name, SUM(pf.eligible_depts LIKE CONCAT ('%', p.code, '%')) AS openings, p.department AS department_code FROM program p CROSS JOIN profile pf JOIN department dept ON dept.code = p.department WHERE session_code = ? GROUP BY department; -->
-
-
+----
 
 This is not a review. It's an outpouring of appreciation and respect rather than criticism or in worse cases, hostility. It is the net sum of my desire to understand what's the big deal anyway and finding something rewarding. AN attempt to convey that satisfaction. And a genuine solemn tribute.
 
