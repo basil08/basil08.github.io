@@ -137,7 +137,7 @@ This is not a review. It's an outpouring of my appreciation and respect rather t
 4. [KultureHub's commentary on Breathless][4] - KultureHub   
 
 
-Reviewed by _Mahima Mukherjee_.
+Proofread by _Mahima Mukherjee_.
 
 [0]: https://www.youtube.com/watch?v=qJLH7JAsBHA
 [1]: https://slate.com/news-and-politics/2010/06/how-jean-luc-godard-s-breathless-reinvented-the-movies.html
