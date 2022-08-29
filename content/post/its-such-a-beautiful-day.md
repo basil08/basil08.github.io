@@ -12,4 +12,4 @@ This opening scene lays the foundation of what is to follow. Clocking at just 62
 
 The movie is anything but for kids. There are considerable instances of gore and grosteque details which are further detailed in the narration, especially of people being run over by train (multiple times), people catching on fire or boxer getting their heads split open in a particularly violent sparring round. Descriptions of images like grandmothers tossing their grandsons in the fireplace or measuring how far she can swing him are disturbing and made more so by the annoyingly monotonous and calm narrative voice used by Don just as if he was talking about some other banal aspect of life.
 
-The banality of life forms such an important theme through the movie. 
+The banality of life forms such an important theme through the movie.
