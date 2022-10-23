@@ -60,6 +60,12 @@ Paul wrote, "You can't ever reach perfection, but you can believe in an asymptot
 
 Romance drama set in England. Checkout my droplet for a mini post.
 
+{{</ds>}}    
+
+7. {{<ds sum="**Algorithms to Live By | Brian Christian and Thomas L. Griffiths**">}}
+
+An attempt to apply computer science concepts to solve real-life day-to-day problems. An thought-provoking book with a nicely curated list of CS concepts. Particularly liked the beginning chapters.    
+
 {{</ds>}}
 
 ## Unfinished
