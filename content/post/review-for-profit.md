@@ -2,6 +2,7 @@
 title: "Review for Profit"
 tags:
 categories: 
+draft: true
 date: 2022-12-16T08:42:59+05:30
 ---
 
