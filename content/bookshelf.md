@@ -13,58 +13,17 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 
 1. My year in books: [2020][yib2020]
 2. My year in books: [2021][yib2021]
+3. My year in books: [2022][yib2022]
 
 ## Let's Get Started
 
-1. {{<ds sum="**Fierce People | Dirk Wittenhorn**">}}
+1. {{<ds sum="**On The Road | Jack Kerouac**">}}
 
-A good first read of the year. A thriller, romance, and coming-of-age novel all wrapped in one.
+Publishing of Jack Kerouac’s “On the Road” is a pivotal moment in the recognition and propagation of the so-called American Beat generation of 1940s. The Beats are difficult to define but loosely refer to the bad body of hobos, bums, and con men who were a product of the Depression of the 30s. Young, promising, and full of dreams but without a penny in pocket. As Jack so eloquently puts it, “All he needed was one wheel on his hand and four wheels on the road”. And that is a lovely definition of what this book is all about. It is rich and rich with experiences and stories that will never make a conversation go boring at dinner time and so full of sadness and melancholy at the same time. Told from the perspective of Jack’s alter ego, Sal Paradise, a wannabe writer from New York who befriends a rapturous Beat of the generation, Dean Moriarty, modelled after his friend, Neal Cassidy, the book is a wild account of what it means to be Beat and lost and still somehow find a way. They escape on daring adventures and hitchhike around the American wilderness from coast to coast, meeting old friends, making new ones, conning people, and making sure to make the most of their limited lives that are going by. Kerouac holds back nothing and there’s everything from whores and sex to drugs, and parties, and arrests and the law and brilliant descriptions of America that would make any lacklustre soul quiver with curiosity.
 
-I'm glad I read the book before I'm going to watch the movie. I couldn't put it down once I started. I wrote an in-depth [post](/post/fierce-people/) so I won't bore you here.
-{{</ds>}}
+On a personal note, I accompanied the book with a map of the US and found myself staring at it and wondering about all those little nameless towns that were not marked on it and the little stories people would tell there and the adventures people would have on the road. As Sal said, the “road is life” and as Dean proclaimed, “we must make time”!
 
-2. {{<ds sum="**Bright Lights, Big City | Jay McInerney**">}}
-
-This book presents one of the most elucidated, explicit, and candid portrayals of eighties New York. The protagonist works at the Department of Factual Verification at a reputed magazine in NYC, has a beautiful model wife and lives a life of vain and vanity with his dramatic friend, Tad. But just when one begins to think he has achieved it all, his life begins to fall apart.
-The book explores the gray region of materialistic wants and possessions and how detached it is from what one truly seeks in life.
-PS: The peculiar narration perspective of the prose was slightly disorienting for me.
-
-{{</ds>}}
-
-3. {{<ds sum="**Kari | Amruta Patil**">}}
-A poignant braindump enveloped in grosteque and charming visuals. Introspective, deep, and witty. Given the fact that I don't read much graphic novels, this was a welcome change.
-
-PS: Got recommended from a bookclub group. I'm allowing myself the freedom to change and that is important.
-
-{{</ds>}}
-
-4. {{<ds sum="**The Man Who Solved the Market | Gregory Zuckerman**">}}
-
-
-A biographic narrative of Jim Simons, the mathematician who founded Renaissance Tech and kickstarted the quant revolution. His Medallion fund continues to be one of the greatest successes of investment trading. This is a thoroughly researched account doesn't simply boast of the genius Simons deserves but also reveals his human side. How he managed employees and interacted with them. How he suffered two tragedies in his life when he lost two sons.
-
-An extravagant spender, left-inclined rational who, in later life, focused his money into combating disease, math education, and space exploration. This is the story of how one man went against the odds and challenges and paved the way for a totally radical method of trading changing forever the face of investment trading.
-
-Wow, this one took me more time than I expected, partially due to acad work and partially due to the biographical nature of the text. I wrote a post inspired by the book [here](/post/the-quant-frenzy-a-crude-forecast/).
-{{</ds>}}
-
-5. {{<ds sum="**When Breath Becomes Air | Paul Kalanithi**">}}
-An autobiographical account of a neurosurgeon who succumbed to cancer. But to describe Paul as just any neurosurgeon is a grave underestimation of this inspiring and incredible man.
-
-In his (sadly, only) work, he lays bare the working of his mind, his intelligent questions and his quest to find answers to them, his intimate thoughts during surgeries and diagnosis, his beliefs about mortality and life and faith and God. Through this book, one doesn't simply read about a man who met an unfair fate, but of a truly inquisitive mind, equally versed in literature and medicine. One, who actively sought the company of great men, whose love for words shines through the eloquent prose. One who was deeply curious about death and mortality, and challenged death both as a healer and a patient.
-
-Paul wrote, "You can't ever reach perfection, but you can believe in an asymptote towards which you're ceaselessly striving."
-{{</ds>}}
-
-6. {{<ds sum="**One Day | David Nicholls**">}}
-
-Romance drama set in England. Checkout my droplet for a mini post.
-
-{{</ds>}}    
-
-7. {{<ds sum="**Algorithms to Live By | Brian Christian and Thomas L. Griffiths**">}}
-
-An attempt to apply computer science concepts to solve real-life day-to-day problems. An thought-provoking book with a nicely curated list of CS concepts. Particularly liked the beginning chapters.    
+PS: I wonder if there is an Indian equivalent for the same but I highly doubt it and perhaps, there is a need for one and perhaps, it is time for the Indian youth to wake up to that inner call of the wilderness after all.
 
 {{</ds>}}
 
@@ -121,6 +80,7 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 [current]: /bookshelf/current-reading.md
 [yib2020]: /bs/yib2020
 [yib2021]: /bs/yib2021
+[yib2022]: /bs/yib2022
 [0]: /post/thoughts-ready-player-two-book/
 <!-- [1]: /habits -->
 [2]: /post/thoughts-design-for-hackers-book
