@@ -11,7 +11,6 @@ Posts serve as well-researched, well-articulated opinions and thoughts. But I wa
 
 ---
 
-{{<droplets>}}
 
 
 

@@ -41,10 +41,6 @@ unsafe= true
   url = "bookshelf/"
 
 [[params.menu]]
- name = "droplets"
- url = "droplets/"
-
-[[params.menu]]
   name = "about"
   url = "about/"
 
