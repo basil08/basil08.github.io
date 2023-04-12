@@ -27,6 +27,18 @@ PS: I wonder if there is an Indian equivalent for the same but I highly doubt it
 
 {{</ds>}}
 
+2. {{<ds sum="**The Kite Runner | Khaled Hosseini**">}}
+
+"The Kite Runner" is Khaled Hosseini's debut novel which deals with the plights and concerns of Afghanistan. Hosseini, himself taken citizenship in the US and working as a doctor, may perhaps have been the first to draw the international attention of nation states to the condition, massacre, and oppression in Afghanistan via his riveting and heart-wrenching fictions that, undoubtedly, draw from real as well as personal experiences.  
+
+To read "The Kite Runner" after "A Thousand Splendid Suns" felt like flipping the pages of a diary _backwards_. When one starts writing, they are less nuanced and more reckless. In ATSS, Hosseini presents an extremely layered story with vivid details. I felt that layered nuance lacking in TKR which is forgivable given it is his debut and I read them in the wrong order.   
+
+But do not be misled into assuming that the book doesn't pack a punch. Hosseini may have been frivolous with language and structure at places but occassionally, just occassionally, he would write a sentence that would suck the life out of me, make me close the book, take a deep forceful breath to rebalance myself, and ponder. He doesn't fail to jerk tear off of you merely by his command of word and his gift as an exceptional storyteller.
+
+It sure took me a while to read TKR. The last of his book remains to be read.   
+
+{{</ds>}}
+
 ## Unfinished
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
