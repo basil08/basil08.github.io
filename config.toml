@@ -41,6 +41,10 @@ unsafe= true
   url = "bookshelf/"
 
 [[params.menu]]
+  name = "watchlog"
+  url = "watchlog/"
+
+[[params.menu]]
   name = "about"
   url = "about/"
 
