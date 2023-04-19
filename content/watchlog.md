@@ -57,6 +57,7 @@ This page contains a list of movies/series that I have watched or am watching. I
 39. Pierrot Le Fou | Jean-Luc Godard | 
 40. Tehran Taboo | Ali Soozandeh | 2017
 41. Oldboy | Park Chan-Wook | 2003
+42. Patch Adams | Tom Shadyac | 1998
 
 # 2022 
 
@@ -167,3 +168,106 @@ This page contains a list of movies/series that I have watched or am watching. I
 105. Her | Spike Jonze | 2013
 106. Edge of Tomorrow | Doug Liman | 2014
 107. Frances Ha | Noam Baumbach | 2012 
+
+# 2021
+
+1. The Sky is Pink | Sonali Bose | 2019
+2. Janat | Kunal Deshmukh | 2008
+3. Enter the void | Gaspar Noe | 2009
+4. The Dreamers | Bernando Bertolucci | 2003
+5. The Grand Budapest Hotel | Wes Anderson | 2014
+6. Summer of '42 | Robert Mulligan | 1971
+7. Paris, Texas | Win Wenders | 1984
+8. Shang Chi and The Legend of the Ten Rings | Destin Daniel Cretton | 2021
+9. Paprika | Tinto Brass | 1991
+10. No Country for Old Men | Ethan and Joel Coen | 2007
+11. Ghost in the Shell | Mamuri Oshii | 1995
+12. Venom | Ruben Fleischer | 2018
+13. Dune | Denis Villenueve | 2021
+14. Black Panther | Ryan Coogler | 2018
+15. 5 Centimeters per second | Makoto Shinkai | 2007
+16. Squid Games | Series | 2021
+17. Modern Times | Charlie Chaplin | 1936
+18. It's such a wonderful day | Don Hertzfeldt | 2012
+19. Akira | Katsuhiro Otomo | 1988
+20. Friends | Season 3
+21. Clueless | Amy Heckerling | 1995
+22. Catch me if you can | Steven Spielberg | 2002
+23. Normal People | Series | 2020
+24. The Shining | Stanley Kubrick | 1980
+25. No Strings Attached | Ivan Reitman | 2011
+26. Inside Job | Charles Ferguson | 2010
+27. Good Will Hunting | Gus Van Sant | 1997
+28. Whiplash | Damien Chazelle | 2014
+29. Trois Couleurs: Rogue | Krzysztof Kieslowski |
+30. Trois Couleurs: Blanc | Krzysztof Kieslowski |
+31. Trois Couleurs: Blue | Krzysztof Kieslowski |
+32. Stand By Me ||
+33. Black Widow ||
+34. Oceans Eleven ||
+35. The Little Death ||
+36. Crazy Stupid Love ||
+37. My Neighbour Totoro | Hayao Miyazaki | 1988
+38. Life is Beautiful ||
+39. Baby Driver ||
+40. Remember the Titans ||
+41. Top Gun ||
+42. Titanic | James Cameron | 1997
+43. Making Dazed | | 2003
+44. Dazed and Confused | Richard Linklater | 1993
+45. It's a Wonderful Life | Frank Capra | 1946
+46. La La Land | Damein Chazelle | 2016
+47. Your Name | | 2016
+48. High Fidelity | | 2000
+49. Friends | Series |
+50. Sherlock | Series | 
+51. Perfect Blue | Satoshi Kon | 1997
+52. Avengers: Endgame | Russo Brothers | 2019
+53. Bruce Almighty || 2003
+54. The Dark Knight Rises | Christopher Nolan | 2012
+55. Dark | S2
+56. Dark | S1
+57. The Big Short || 2015
+58. 500 Days of Summer | | 2009
+59. Pretty in Pink | | 1986
+60. Memories of Murder || 2003
+61. The Graduate || 1967
+62. Scam 1992 | Series
+63. American Beauty || 1999
+64. Looking for Alaska | Series
+65. Hackers | | 1995
+66. One Flew Over the Cuckoo's Nest | Stanley Kubrick | 1975
+67. The Map of Tiny Perfect Thing | | 2021
+68. Chhichhore | | 2019
+69. All the Bright Places || 2020
+70. Gone Girl || 2014
+71. Parasite || 2019
+72. Before Midnight | Richard Linklater | 2013
+73. Mean Girls || 2004
+74. Ferris Bueller's Day Off || 1986
+75. Sixteen Candles ||1984
+76. The Breakfast Club ||1985
+77. Some Kind of Wonderful ||1987
+78. Tron: Legacy || 2010
+79. Tron ||1982
+80. Bohemian Rhapsody ||2011
+81. Moneyball ||2011
+82. Before Sunset | Richard Linklater | 2004
+83. Before Sunrise | Richard Linklater | 1995
+84. The Dictator ||2012
+85. The Wolf of Wall Street | Martin Scorcese | 2013
+86. Amelie | | 2001
+87. The Sixth Sense | | 1999
+88. 12 Monkeys || 1995
+89. Marriage Story | 2019
+90. Black Swan ||2010
+91. Helvetica ||2007
+92. The Fountain || 2004
+93. Something Ventured ||2011
+94. The Spectacular Now ||2013
+95. 10 Things I hate about you ||1999
+96. The Lion King | | 1994
+97. The White Tiger | | 2021
+98. Terminator 2 || 1991
+99. Terminator 1 || 1984
+100. Jojo Rabbit | Taika Waititi | 2019
