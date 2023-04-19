@@ -6,7 +6,7 @@ date: 2023-04-19T00:09:27+05:30
 ---
 
 
-_It’s mid-april, that merry time of the year when the campus is released from the noose of tension and treachery. The student elections have just concluded and people are turning back to studying and turning their backs from speculating, amidst scalding Delhi heat. IIT Delhi has four boards - BSW, BRCA, BSP, BSA under the aegis of SAC and a different council called CAIC. All these boards have various posts (the description of which can be found by the reader via an internet search) for which students are elected by various electorals._ [3]
+_It’s mid-april, that merry time of the year when the campus is released from the noose of tension and treachery. The student elections have just concluded and people are turning back to studying and turning their backs from speculating, amidst scalding Delhi heat. IIT Delhi has five boards - BSW, BRCA, BSP, BSA, and BHM under the aegis of SAC and a different council called CAIC. All these boards have various posts (the description of which can be found by the reader via an internet search) for which students are elected by various electorals._ [3]
  
 In this post, I wish to talk about politics. That word which kept the night messes buzzing with activity and common rooms occupied with whispered conversations, late night meetings behind closed doors and brilliant minds charting elaborate masterplans. But none of the usual stuff. I want to take a bird eye view of politics. I have things to say _for_ poltu [0], not against it.
 
