@@ -59,6 +59,9 @@ This page contains a list of movies/series that I have watched or am watching. I
 41. Oldboy | Park Chan-Wook | 2003
 42. Patch Adams | Tom Shadyac | 1998
 43. Bonnie and Clyde | Arthur Penn | 1967
+44. RoboCop | Paul Verhoeven | 1987
+45. You Were Never Really Here | Lynne Ramsay | 2017
+
 
 # 2022 
 
