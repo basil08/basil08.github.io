@@ -1,14 +1,14 @@
 ---
 title: "Watchlog"
 tags:
-categories: 
+categories:
 date: 2023-04-16T21:26:29+05:30
 ---
 
-This page contains a list of movies/series that I have watched or am watching. I tried doing this before but couldn't maintain and went into an entire "phase" but anyways, here we go again.  
+This page contains a list of movies/series that I have watched or am watching. I tried doing this before but couldn't maintain and went into an entire "phase" but anyways, here we go again.
 
 
-# 2023   
+# 2023
 
 <!-- | Name  | Directors | Year |
 |-------|-----------|------|
@@ -20,52 +20,52 @@ This page contains a list of movies/series that I have watched or am watching. I
 2. Annie Hall | Woody Allen | 1977
 3. Gangs of Wasseypur | Anruag Kashyap | 2012
 4. Schindler's List | Steven Spielberg | 1993
-5. V for Vendetta | 
+5. V for Vendetta |
 6. Every Day | Micheal Suscy |
 7. Dead Poets Society | Peter Wier |
 8. The Ring | Alfred Hithcock | 1927
 9. The Whale | Darren Aronofsky | 2022
-10. Full Metal Jacket | Stanley Kubrick | 
+10. Full Metal Jacket | Stanley Kubrick |
 11. The Lodger | Alfred Hithcock |
 12. On the Road | Walter Salles | 2012
 13. Hopscotch | Ronald Neame | 1980
-14. Rear Window | Alfred Hithcock | 
+14. Rear Window | Alfred Hithcock |
 15. The Story of a Crime  | Fyodor Khitruk | 1962
 16. The Snow Queen | | 1957
 17. In the Realm of the Senses | Nagisa Oshima | 1976
 18. A History of Violence | | 2005
 19. The Royal Tenenbaums | Wes Anderson |
-20. Buffalo '66 | Vincent Gallo | 
+20. Buffalo '66 | Vincent Gallo |
 21. Notting Hill | Roger Mitchell |
 22. Masaan | Neeraj Ghaywan |
 23. The Brown Bunny | Vincent Gallo |
 24. Cold War | Pawei Pawlikowski | 2018
 25. Sunrise: A Song of Two Humans | F. W. Munrau | 1922
-26. Dr. Strangelove | Stanley Kubrick | 
-27. There will be blood | P. T. Anderson | 
+26. Dr. Strangelove | Stanley Kubrick |
+27. There will be blood | P. T. Anderson |
 28. Batman Returns | Tim Burton | 1992
-29. Edward Scissorhands | Tim Burton | 
+29. Edward Scissorhands | Tim Burton |
 30. Taxi Driver | Martin Scorcese | 1976
 31. Beetlejuice | Tim Burton |
 32. Swordfish ||
 33. Triangle of Sadness ||
-34. Vanilla Sky || 
+34. Vanilla Sky ||
 35. Grave of the Fireflies | Hayao Miyazaki ||
 36. Boyhood | Richard Linklater ||
 37. The Cabinet of Dr. Caligari | Robert Weine | 1920
 38. Nosferatu | F. W. Munrau | 1922
-39. Pierrot Le Fou | Jean-Luc Godard | 
+39. Pierrot Le Fou | Jean-Luc Godard |
 40. Tehran Taboo | Ali Soozandeh | 2017
 41. Oldboy | Park Chan-Wook | 2003
 42. Patch Adams | Tom Shadyac | 1998
 43. Bonnie and Clyde | Arthur Penn | 1967
 44. RoboCop | Paul Verhoeven | 1987
 45. You Were Never Really Here | Lynne Ramsay | 2017
-46. Gehraiyaan | Shakun Batra | 2022   
+46. Gehraiyaan | Shakun Batra | 2022
+47. It's a Mad Mad Mad Mad World | Stanley Kramer | 1963
 
 
-
-# 2022 
+# 2022
 
 1. Fallen Angels | Wong Kar-Wai | 1995
 2. Once Upon A Time...In Hollywood | Quentin Tarantino | 2019
@@ -105,12 +105,12 @@ This page contains a list of movies/series that I have watched or am watching. I
 36. Waking Life | Richard Linklater | 2001
 37. Vantage Point | Pete Travis | 2008
 38. My Sassy Girl | Jae-young Kwak | 2001
-39. North By Northwest | Alfred Hitchcock | 
-40. Call Me By Your Name | Luca Guagagnino | 
+39. North By Northwest | Alfred Hitchcock |
+40. Call Me By Your Name | Luca Guagagnino |
 41. Tokyo Godfathers | Satoshi Kon |
-42. Ralph Break The Internet | Rich Moore, Phil Johnston | 
-43. Wreck-It Ralph | Rich Moore | 
-44. Mulholland Drive | David Lynch | 
+42. Ralph Break The Internet | Rich Moore, Phil Johnston |
+43. Wreck-It Ralph | Rich Moore |
+44. Mulholland Drive | David Lynch |
 45. Vivre sa vie | Jean Luc-Godard |
 46. Barry Lyndon | Stanley Kubrick |
 47. Liberal Arts | Josh Radnor |
@@ -173,7 +173,7 @@ This page contains a list of movies/series that I have watched or am watching. I
 104. Friends | S10
 105. Her | Spike Jonze | 2013
 106. Edge of Tomorrow | Doug Liman | 2014
-107. Frances Ha | Noam Baumbach | 2012 
+107. Frances Ha | Noam Baumbach | 2012
 
 # 2021
 
@@ -226,7 +226,7 @@ This page contains a list of movies/series that I have watched or am watching. I
 47. Your Name | | 2016
 48. High Fidelity | | 2000
 49. Friends | Series |
-50. Sherlock | Series | 
+50. Sherlock | Series |
 51. Perfect Blue | Satoshi Kon | 1997
 52. Avengers: Endgame | Russo Brothers | 2019
 53. Bruce Almighty || 2003
