@@ -64,6 +64,7 @@ This page contains a list of movies/series that I have watched or am watching. I
 46. Gehraiyaan | Shakun Batra | 2022
 47. It's a Mad Mad Mad Mad World | Stanley Kramer | 1963
 48. Chinatown | Roman Polanski | 1974
+49. The Apartment | Billy Wilder | 1960
 
 
 # 2022
