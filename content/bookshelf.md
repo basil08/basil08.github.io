@@ -106,7 +106,7 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 22. > **Broken Ladders | Anirudh Krishna**
 
 [bookshelf]: https://patrickcollison.com/bookshelf
-[mailto]: mailto:g454236@gmail.com
+[mailto]: mailto:gs454236@gmail.com
 [current]: /bookshelf/current-reading.md
 [yib2020]: /bs/yib2020
 [yib2021]: /bs/yib2021
