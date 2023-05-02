@@ -41,19 +41,7 @@ It sure took me a while to read TKR. The last of his book remains to be read.
 
 3. {{<ds sum="**Pygmalion | George Bernard Shaw**">}}
 
-There are two central questions at the heart of _"Pygmalion"_ - the more obvious, is the question of identity and how easy or difficult it is to render a different identity to a person and the second, more subtle question is of the very plausibility of the metrics used for class distinction - speech and phonetics, in this case. In fact, phonetics would undoubtedly have been a close affair with the author himself, a Dublin-based clerk with his Irish accent wishing to make his career as a writer in England. Pygmalion is classed as a romance comedy among many other things. It is a scatching satire on class distinctions in nineteenth century England. And it is a tantalizing reworking of the ancient Ovidian myth in a modern Shaw-esque feminist light. 
-
-In GBS's masterful command of language, his commentary and reproaches are not glaringly on the face but gather subtle. Take for instance, when Liza in Act 5 expresses her anguish at being reduced to just another bourgeois lady. 
-
-> "We were above that at the corner of Tottenham Court Road...I sold flowers. I didnt sell myself. Now youve made a lady of me I'm not fit to sell anything else."
-
-Brilliant is GBS's manner of criticising the condition and status of woman in the English society. He doesn't refrain from unleashing the impudence of the official policebody when Liza, young and foolish and tender as she was, shows considerable maturity and knowledge as to the behaviour of the policeman while she is in a loving embrace with Freddy on the road:
-
-> FREDDY: "I had no idea the police were so devilishly prudish."   
-
-> LIZA: "It's their business to hunt girls off the streets."  
-
-It is unmistakable to miss the tribute of the play's title to the Greek mythology of _Pygmalion_ and _Galatea_. But although, Pygmalion did fell in love with his creation, Shaw refused to let his creation be just a mere reiteration of the same old story. In this play, Mr. Higgins, harboring his intense hatred towards women (an indicator of the misogynistic society at that time), never falls in love, although he did admit to having "grown accustomed to her face". And perhaps, the greatest triumph of Shaw in Pygmalion is the last couple of pages of Act 5 where, unlike her Greek counterpart, Eliza stands up for her rights and dignity, putting to good use the same lessons of articulation and speech that her teacher had taught her. Shaw saw Eliza, not merely as another "live doll" to be manipulated by English men but a tender and thoughtful independent woman. It is such a delight to read through Higgins and her conversation where she systematically dismantles the falsely assumed pedastal of Higgin's English superiority and presents her concerns and demands to him. And I think Pygmalion is a brilliant play, if for nothing then just that.   
+I wrote a blogpost [here][7].
 
 {{</ds>}}
 
@@ -118,4 +106,4 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 [4]: /post/thoughts-unix-history-and-memoir-book/
 <!-- [5]: /notes-naked-economics -->
 [6]: /post/notes-the-richest-man-in-babylon-by-george-s.-clason/
-
+[7]: /post/reading-pygmalion-shaws-criticism-of-the-english-language-and-society/
