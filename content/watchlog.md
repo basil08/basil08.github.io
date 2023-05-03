@@ -70,6 +70,8 @@ This page contains a list of movies/series that I have watched or am watching. I
 52. The Grand Beauty | Paolo Sorrentino | 2013   
 53. My Fair Lady | George Cukor | 1964   
 54. Moonlight | Barry Jenkins | 2016   
+55. The Queen's Gambit | Series | 2020    
+56. Chainsaw man | Anime series | 2022
 
 # 2022
 
