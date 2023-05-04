@@ -72,6 +72,8 @@ This page contains a list of movies/series that I have watched or am watching. I
 54. Moonlight | Barry Jenkins | 2016   
 55. The Queen's Gambit | Series | 2020    
 56. Chainsaw man | Anime series | 2022
+57. Easy A | Will Gluck | 2010    
+
 
 # 2022
 
