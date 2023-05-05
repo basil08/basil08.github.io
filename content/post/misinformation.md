@@ -6,7 +6,7 @@ draft: true
 date: 2021-11-06T08:10:02+05:30
 --- 
 
-The other day, my mother told me that I ought to rub lemon juice mixed with something equally ridiculous on my face to get a glowing skin. I just stared at her in wonder. Sometime during the early days of CoVID-19, she cheerily asserted that black pepper, water, and something else can kill the virus _inside_ the human body. It turned out that the source of these eccentric remedies and cures was a distant aunt who found it her most sincere responsibility to forward such ludicrous information in family Whatsapp groups and "save her dear ones". 
+The other day, my mother told me that I ought to rub lemon juice mixed with something equally ridiculous on my face to get a glowing skin. I just stared at her in wonder. Sometime during the early days of COVID-19, she cheerily asserted that black pepper, water, and something else can kill the virus _inside_ the human body. It turned out that the source of these eccentric remedies and cures was a distant aunt who found it her most sincere responsibility to forward such ludicrous information in family Whatsapp groups and "save her dear ones". 
 
 On holidays, my father remains glued to his mobile phone watching political videos on FB and making occasional grunting noises. Then, he'd suddenly break out of his daze and proclaim something radical or outrageous and nod satisfactorily.  
 

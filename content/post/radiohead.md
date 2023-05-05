@@ -14,19 +14,18 @@ DRAFT
 
 {{<bq>}}
 _When I am king_   
-_You will be first against the wall_   
+_You will be first against the wall._   
 
 ~Paranoid Android, OK Computer
 {{</bq>}}
 
-{{<dropcap>}}W{{</dropcap>}}hile at Abingdon Boys' School, Thom Yorke was assigned an essay question: "If you were an alien landing on Earth, how would you describe what you saw?". This question left a lasting impression on Yorke and later inspired him to pen _"Subterranean Homesick Alien"_, a jewel of _OK Computer_, Radiohead's third studio album and hailed as one of the greatest rock albums ever made. It is not sure when Radiohead assumed mythical status in the music world but the world of RH is replete with such trivia and anecdotes that seems to bring us closer to // the only band that made sense //.    
+{{<dropcap>}}While{{</dropcap>}} at Abingdon Boys' School, Thom Yorke was assigned an essay question: "If you were an alien landing on Earth, how would you describe what you saw?". This question left a lasting impression on Yorke and later inspired him to pen _"Subterranean Homesick Alien"_, a jewel of _OK Computer_, Radiohead's third studio album and hailed as one of the greatest rock albums ever made. It is not sure when Radiohead assumed mythical status in the music world but the world of RH is replete with such trivia and anecdotes that seems to bring us closer to "the only band that made sense".    
 
 It is neither possible nor fitting to cover RH's entire discography in one post so I have decided to uncover the secrets of their groundbreaking 1997 album _OK Computer_. This approach has its deficencies, most notably, the inability to examine and put into context RH's works in a larger spectrum and to be unable to comment on their development in the longer run but it also gives us the luxury to dwelve deeper into their works.   
 
 ## Introduction / Who were the Radioheads?   
 
-Radiohead was the 90s expression of the emerging swatches of neoliberalism. RH managed to achieve its distinct anti-consumerism, anti-capitalist style through an era of continuous reinvention and rediscovery. They made sure to discard the bad things, groom the good ones. Take _Pablo Honey_ for example, nothing more than a pretentious mix of goth and rock lines, with occassional moments of genius but rather boring as a whole. But by 1995 and the introduction of _The Bends_, RH has discovered its ability to sway music lines; with the combined talent pool of Yorke, Greenwood, and Selway it realised its ability to create music melodies that left a tinging impression on the listener. _OK Computer_ and _Kid A_ made us aware of a genius in the rock community; the new protege. Parallels were drawn with _Pink Floyd_, _U2_, _Blur_ but really Radiohead are simply, Radiohead. Their fusion of art and politics took a while to mature and develop a unique character. But whenever RH created noises // spoke // emerged //, it make sure to do that with a reckoning force and a clear redefinition of rock as a genre.  
-
+Radiohead was the 90s expression of the emerging swatches of neoliberalism. RH managed to achieve its distinct anti-consumerism, anti-capitalist style through an era of continuous reinvention and rediscovery. They made sure to discard the bad things, groom the good ones. Take _Pablo Honey_ for example, nothing more than a pretentious mix of goth and rock lines, with occassional moments of genius but rather boring as a whole. But by 1995 and the introduction of _The Bends_, RH has discovered its ability to sway music lines; with the combined talent pool of Yorke, Greenwood, and Selway, it realised its ability to create music melodies that left a tinging impression on the listener. _OK Computer_ and _Kid A_ made us aware of a genius in the rock community; the new protege. Parallels were drawn with _Pink Floyd_, _U2_, _Blur_ but really Radiohead are simply, Radiohead. Their fusion of art and politics took a while to mature and develop a unique character. But whenever RH created noises, it make sure to do that with a reckoning force and a clear redefinition of rock as a genre.  
 
 What are the themes of OK Computer? The album cover features a sprawling highway. The nose of an aeroplane. The first song is named _Airbag_. The opening lines of _Let Down_ goes:
 
@@ -48,15 +47,13 @@ The _fast German car_ tells us that it's a connected globalised economy. The car
 > _In an interstellar burst_   
 _I'm back to save the universe_   
 
-
-
-is a recovered driver who now feels invincible. He feels like 
+The singer is a recovered driver who now feels invincible. He feels like 
 
 
 #### Fitter Happier
 
 
-There is something fundamentally unsettling about "Fitter Happier". The first song on the B side of OK Computer, it is, by style, a "Musique concrete" - a composition that uses recorded sounds as raw material. There is _no_ music per se. A tour de force of artistic expression, the singer is Fred, the sound synthesizer program on Apple 2 computer who is saying the lines rather than singing. The lyric is devoid of meters or rhyming. The lyrics seem like something written by a robot lyricist. What I like about Fitter Happier is the point of perspective. The lyric is almost like a set of directives. It is what everyone wants to do/be, knows they should be doing it, but somehow are unable to and that is disappointing and depressing. Thom wrote the lyrics for the piece after a writer's block which is evident from the sheer raw creative shown by this masterful and thought-provoking song.
+There is something fundamentally unsettling about "Fitter Happier". The first song on the B side of OK Computer is, by style, a "Musique concrete" - a composition that uses recorded sounds as raw material. There is _no_ music per se. A tour de force of artistic expression, the singer is Fred, the sound synthesizer program on Apple 2 computer who is saying the lines rather than singing. The lyric is devoid of meters or rhyming. The lyrics seem like something written by a robot lyricist. What I like about Fitter Happier is the point of perspective. The lyric is almost like a set of directives. It is what everyone wants to do/be, knows they should be doing it, but somehow are unable to and that is disappointing and depressing. Thom wrote the lyrics for the piece after a writer's block which is evident from the sheer raw creative shown by this masterful and thought-provoking song.
 
 > _(No killing moths or putting boiling water on ants)_
 
@@ -69,10 +66,29 @@ Only someone who is disturbed within would want to hurt other living beings. The
 
 
 
+Karma police
+
+Arrest this man
+
+He talks in maths.
+
+He buzzes like a fridge,
+
+He’s like a detuned radio…
+
+-Karma police, Radiohead
+
+
+
+### CONCLUSION    
 
 The band's work output is rangeful. Phenomenal . A large number of people can identiify wuth them. part of their appeal
 
+“At some point in the early 21st century, Radiohead became something more than a band: they became a touchstone for everything that is fearless and adventurous in rock.”
 
+
+END OF DRAFT
+---
 
 motifs
 

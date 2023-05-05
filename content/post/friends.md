@@ -43,11 +43,13 @@ The friend who's always there. Stands firm with puffed chest at any request.
 Monica
 
 The least characterized friend. There are very few Monica things in the sense that there a lot of Phoebe or Joey things. 
-
+neurotic
+extreme case of OCD
+great chef
 
 
 Natural comedy:
-Just when you need it, just in the right amount. Nothing feels pressured. Physical comedy. 
+Just when you need it, just in the right amount. Nothing feels pressured. Physical comedy. Not low-quality slapstick but nothing Billy Wilder either.   
 
 Appeal of sitcoms:
 
