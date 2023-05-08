@@ -77,6 +77,10 @@ This page contains a list of movies/series that I have watched or am watching. I
 59. Monty Python and the Holy Grail | Terry Gilliam & Terry Jones | 1975    
 60. Jaws | Steven Spielberg | 1975
 61. About Time | Richard Curtis | 2013   
+62. Persuasion | Carrie Cracknell | 2022   
+63. The Notebook | Nick Cassavetes | 2004   
+64. The Seven Year Itch | Billy Wilder | 1955     
+65. Contempt | Jean Luc-Godard | 1963   
 
 
 # 2022
