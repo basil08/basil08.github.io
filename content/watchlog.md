@@ -80,7 +80,11 @@ This page contains a list of movies/series that I have watched or am watching. I
 62. Persuasion | Carrie Cracknell | 2022   
 63. The Notebook | Nick Cassavetes | 2004   
 64. The Seven Year Itch | Billy Wilder | 1955     
-65. Contempt | Jean Luc-Godard | 1963   
+65. Contempt | Jean Luc-Godard | 1963  
+66. Prisoners | Denis Villenueve | 2013    
+67. Mission Impossible 1 | Brian de Palma | 1996
+68. Mission Impossible 2 | John Woo | 2000  
+69. Love and Other Drugs | Edward Zwick | 2010     
 
 
 # 2022
