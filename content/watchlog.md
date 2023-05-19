@@ -85,7 +85,11 @@ This page contains a list of movies/series that I have watched or am watching. I
 67. Mission Impossible 1 | Brian de Palma | 1996
 68. Mission Impossible 2 | John Woo | 2000  
 69. Love and Other Drugs | Edward Zwick | 2010     
-
+70. Love and Death | Woody Allen | 1975    
+71. Mission Impossible 3, 4, 5, 6 | Multiple directors | Multiple years
+72. Band of Outsiders | Jean Luc-Godard | 1964   
+73. Battle Royale | Kinji Fukasaku | 2000
+74. Witness for the Prosecution | Billy Wilder | 1957    
 
 # 2022
 
