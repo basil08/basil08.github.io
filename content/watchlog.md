@@ -90,6 +90,10 @@ This page contains a list of movies/series that I have watched or am watching. I
 72. Band of Outsiders | Jean Luc-Godard | 1964   
 73. Battle Royale | Kinji Fukasaku | 2000
 74. Witness for the Prosecution | Billy Wilder | 1957    
+75. Salo or the 120 Days of Sodom | Paolo Passolini | 1975   
+76. Jackie Brown | Quentin Tarantino | 1997   
+77. The Thirteenth Floor | Josef Rusnak | 1999
+78. Midnight in Paris | Woody Allen | 2011    
 
 # 2022
 
