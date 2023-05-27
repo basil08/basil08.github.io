@@ -48,6 +48,14 @@ I wrote a blogpost [here][7].
 4. {{<ds sum="**Mrs. Warren's Profession | George Bernard Shaw**">}}
 {{</ds>}}
 
+5. {{<ds sum="**Sputnik Sweetheart | Haruki Murakami**">}}
+
+Hmmm meh. Personally, I am more of a realist and Murakami's writing about fantasy and supernormal phenomena simply didn't make the cut. I felt like puking to be honest (and no offense to the person). I liked Kerouac's OTR much more simply because of its raw realism.   
+
+Okay, rant over. SS is a fantastical love triangle essentially. Without a resolution, it tells us the beginning and the middle of how two love stories came into being and never really took off. I think the lack of an ending like one of those Romantic novels is perhaps the only bit of realism that I could relate too. Also, to give credit when it's due, I liked his monologue ramblings especially those by the first person narrator. He asks some good questions there. A mediocre read overall. Perhaps, Norwegian Woods have been better. I don't know.   
+
+{{</ds>}}
+
 ## Unfinished
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.

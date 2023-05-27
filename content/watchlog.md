@@ -94,6 +94,11 @@ This page contains a list of movies/series that I have watched or am watching. I
 76. Jackie Brown | Quentin Tarantino | 1997   
 77. The Thirteenth Floor | Josef Rusnak | 1999
 78. Midnight in Paris | Woody Allen | 2011    
+79. A Scanner Darkly | Richard Linklater | 2006   
+80. Birdman or the Unexpected Virtue of Ignorance | Alejandro Innaritu | 2014
+81. Everybody Wants Some!! | Richard Linklater | 2016  
+82. As Good As It Gets | James L. Brooks | 1997    
+
 
 # 2022
 
