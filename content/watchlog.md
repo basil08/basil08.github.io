@@ -98,6 +98,8 @@ This page contains a list of movies/series that I have watched or am watching. I
 80. Birdman or the Unexpected Virtue of Ignorance | Alejandro Innaritu | 2014
 81. Everybody Wants Some!! | Richard Linklater | 2016  
 82. As Good As It Gets | James L. Brooks | 1997    
+83. Ashes and Diamonds | Andrzej Wajda | 1958   
+84. The Hateful Eight | Quentin Tarantino | 2015    
 
 
 # 2022
