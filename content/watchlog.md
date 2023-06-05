@@ -100,7 +100,8 @@ This page contains a list of movies/series that I have watched or am watching. I
 82. As Good As It Gets | James L. Brooks | 1997    
 83. Ashes and Diamonds | Andrzej Wajda | 1958   
 84. The Hateful Eight | Quentin Tarantino | 2015    
-
+85. Super Deluxe | Thiagarajan Kumararaja | 2019   
+86. Death Proof | Quentin Tarantino | 2007   
 
 # 2022
 
