@@ -56,6 +56,16 @@ Okay, rant over. SS is a fantastical love triangle essentially. Without a resolu
 
 {{</ds>}}
 
+6. {{<ds sum="**How The World Works | Noam Chobsky**">}}
+	
+This is supposed to be Noam Chobsky's interviews and excerpts edited together in a thematic fashion but the format somehow didn't resonate with me :/
+
+A real eye opener and a valuable book with a strong anti-capitalist flavour. But interesting doesn’t endorse or propose any alternative political system/ideology. I guess any piece of text suffers from the bias of the author and the subject matter itself, as in it is impossible to write anything without a bias so I get it.
+
+I really liked that it correlated political development with real life historic events and doesn’t shy from reporting atrocities, torture, and state terrors (sometimes vividly so). I wanted to read something like this so yeah. I wonder if there is a complementary text for Indian political and economic development. 
+
+{{</ds>}}
+
 ## Unfinished
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
