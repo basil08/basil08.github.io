@@ -106,7 +106,10 @@ This page contains a list of movies/series that I have watched or am watching. I
 88. The Circle | Jafar Panahi | 2000   
 89. The Piano Teacher | Micheal Haneke | 2001   
 90. Inside Llweyn Davis | Coen Brothers | 2013    
-
+91. Atonement | Joe Wright | 2007   
+92. The Fellowship of the Ring (LOTR #1) | Peter Jackson | 2001  
+93. How to Lose a Guy in 10 Days | Donald Petrie | 2003  
+94. 12 Angry Men | Sidney Lumet | 1957    
 
 # 2022
 
