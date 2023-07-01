@@ -109,7 +109,9 @@ This page contains a list of movies/series that I have watched or am watching. I
 91. Atonement | Joe Wright | 2007   
 92. The Fellowship of the Ring (LOTR #1) | Peter Jackson | 2001  
 93. How to Lose a Guy in 10 Days | Donald Petrie | 2003  
-94. 12 Angry Men | Sidney Lumet | 1957    
+94. 12 Angry Men | Sidney Lumet | 1957   
+95. The Two Towers (LOTR #2) | Peter Jackson | 2002   
+96. Return of the King (LOTR #3) | Peter Jackson | 2003    
 
 # 2022
 
