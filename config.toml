@@ -16,10 +16,13 @@ unsafe= true
 
 [params]
   titleEmoji = ""
-  # change this!
   twitter = "itbwtsh"
   googleAnalyticsID = "G-T8HDQQNE6X"
   custom_css = ["mycss/custom.css"]
+  owner="basil08"
+  repo="blog-gitalk"
+  clientId="c9601c094023f1222331"
+  clientSecret="ca206884cb72513054cfcc368082ed873a0104b2"
 
 [Permalinks]
   post = "post/:slug"
