@@ -34,7 +34,7 @@
 
     <!-- Mathjax -->
     <!-- See https://stackoverflow.com/a/68506928 for this to avoid FOUC (Flash of Unstyled Content) -->
-    {{- if or (.HasShortcode "mathjax/block") (.HasShortcode "mathjax/inline") -}}
+    {{- if or (.HasShortcode "mj/b") (.HasShortcode "mj/i") -}}
     <style>
     .has-mathjax {
         visibility: hidden;
