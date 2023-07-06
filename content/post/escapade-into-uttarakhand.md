@@ -186,3 +186,7 @@ That's it I guess. Hell of an adventure.
 1: Satpura is the name of one of the eleven boys hostel at IIT Delhi.   
 2: Removing name for obvious reasons.     
 3: BSP stands for Board for Student Publications, the official student-run media body of IIT Delhi, where I'm a Chief Editor.
+
+---
+
+**Life update**: Me and A broke up. 
