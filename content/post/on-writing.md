@@ -5,7 +5,7 @@ categories:
 date: 2023-07-08T10:32:06+05:30
 ---
 
-{{<dropcap>}} The {{</dropcap>}} other day, I overheard a conversation between two professors when one cheekily quipped that he had set the next exam paper using [ChatGPT][2]. Obviously shocked, the other professor asked, "Why?". Our gallant hero coolly replied, "Well, tit for tat."   
+{{<dropcap>}} The {{</dropcap>}} other day, I overheard a conversation between two professors when one cheekily quipped that he had set the next exam paper using [ChatGPT][2]. Obviously shocked, the other professor asked, "Why?" Our gallant hero coolly replied, "Well, tit for tat."   
 
 It seems that with an increase in the number of generative text services, there has been a proportional decrease in the creativity and imagination of people. And I fear that the problem will only aggravate overtime. GPTs will continue to narrow down the gap between expertise and acquired affluence.   
 
