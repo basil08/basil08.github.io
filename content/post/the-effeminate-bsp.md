@@ -6,6 +6,24 @@ draft: true
 date: 2023-07-04T01:56:50+05:30
 ---
 
+
+new series come and go - ulterior motive is to put on CV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 _The contents of this post are solely the author's viewpoint and based on his experiences. No statements made in this post are in his capacity as member of any board and/or organisation. Moreover, these views do not constitute the views of BSP, IIT Delhi._   
 
 ---

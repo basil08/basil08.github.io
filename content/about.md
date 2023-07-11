@@ -58,10 +58,9 @@ I am interested in a holistic understanding of varied cultures and linguistics. 
 
 My outlook to philosophy is purely practical. I hate people who don't know what they are talking about. Nietzsche believed that philosophy is "not a critique of words by means of other words" and I cannot agree more. To me, philosophy is the pursuit of answers to these two questions: "Who am I?" and "How do I conduct myself in this life?" Unfortunately, something not most of us are taught or taught to think as important. I'm a first principle thinker and always trust the source rather than the derivatives.
 
-{{<bq>}}
-"There are heights of the soul from which even tragedy ceases to look tragic."
-&ndash; Friedrich Nietzsche, _Beyond Good and Evil_
-{{</bq>}}
+> ### "There are heights of the soul from which even tragedy ceases to look tragic."
+> &ndash; Friedrich Nietzsche, _Beyond Good and Evil_
+
 
 {{</ds>}}
 

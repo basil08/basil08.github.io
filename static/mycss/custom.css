@@ -1,9 +1,60 @@
-/* ISSO */ 
+/* DARK MODE CSS */ 
 
-.isso-comments h4 {
-    font-size: 1.5rem;
+body.dark-mode, body.dark-mode main * {
+    background: rgb(45, 45, 45);
+    color: #f5f5f5;
 }
 
-.isso-comments {
-    font-size: 1rem;
+body.dark-mode a {
+    color: #c7c7c7;
+}
+
+body a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+details span {
+    color: rgb(3, 6, 206);
+    padding: 3px;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details span:hover {
+    text-decoration: underline;
+    color:rgb(39, 43, 238);
+}
+
+details summary {
+    color: black;
+    text-decoration: none;
+}
+
+body.dark-mode details span {
+    color: #fdcc07;
+    padding: 3px;
+}
+
+body.dark-mode details summary {
+    cursor: pointer;
+}
+
+body.dark-mode details span:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+body.dark-mode summary {
+    text-decoration: none;
+}
+
+body.dark-mode a:hover {
+    color: white;
+}
+
+body.dark-mode p {
+    color: #f5f5f5;
 }
