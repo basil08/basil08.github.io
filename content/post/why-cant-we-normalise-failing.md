@@ -6,7 +6,7 @@ draft: true
 date: 2023-07-09T18:52:51+05:30
 ---
 
-
+{{<youtube id="3MT2fvVRPHI" color="white">}}
 
 As a student, I want to put my head in a pillow and scream my heart out. As a writer, I am doomed to write words that not many will read and even fewer will understand. As a journalist, I am required to piece together what happened and inform the community of the cold chain of events of last night. But I choose to write this article as a human being, one who is confused and terrified and angry.
 

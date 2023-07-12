@@ -140,6 +140,15 @@ With commendable performance from Oscar Isaac (seen this man from Star Wars to D
 97. Andhadhun | Sriram Madhanvan | 2018   
 98. Shaun of the dead | Edgar Wright | 2004    
 99. The Departed | Martin Scorcese | 2006
+100. {{<ds sum="1917 | Sam Mendes | 2019">}}
+
+Critics are divided on what 1917 wanted to achieve and what it has achieved. A cinematographical marvel executed with skilful technical prowess, 1917 is set during WW1 and tells the fictional story of two Allies corporals who have to relay command to halt attack at the frontline as the British suspect that the attack is preplanned and the Germans are prepared to execute a massacre. 
+
+The entire movie seems like an extended single shot enabled by immaculate camerawork which floats in the most unlikeliest of manners (over lakes and through barbed wires). Although, there have been hidden cuts such as when the main character Schofield is knocked out or when he's going through tunnels (just like Innaritu's Birdman, another amazing movie). Mendes took the _show-don't-tell_ philosophy to its extreme and executed a grand vision with extensive props and mise-en-scene which required devilish amount of work and attention to details. As we track the characters through changing landscapes, one's eyes cannot help but look around the scene and explore other elements - a torn doll, pictures of loved ones, a dead corpse's head staring - it's a gruesome war film after all. 
+
+Single shot films are amazing ~~because the editor has less work~~ because I personally like the flowing uninterrupted video and levitating perspective. In that sense, 1917 is a marvel.   
+
+{{</ds>}}
 
 # 2022
 
