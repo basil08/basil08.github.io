@@ -66,6 +66,12 @@ I really liked that it correlated political development with real life historic 
 
 {{</ds>}}
 
+7. {{<ds sum="The Fellowship of the Ring (LOTR #1) | J. R. R. Tolkien">}}
+
+Such maginificent imagination and creativity. Tolkien was rightly a man of many letters, such elegance and mastery seldom found in men of today.   
+
+{{</ds>}}
+
 ## Unfinished
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
