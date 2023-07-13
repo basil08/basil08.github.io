@@ -19,7 +19,7 @@ Almost all students are not present on campus as vacations are going on except f
 
 I got another message from a senior. The statements were fragmented but seemed genuine. Along with the gruesome descriptions, there was this picture.
 
-{{<figure src="/img/suicide1/0.png">}}
+_Image removed to preserve privacy of the deceased._
 
 This was supposedly the list of pending courses of the deceased. Now, it should be noted that the outgoing batch generally completes their course requirements by 7th semester (out of 8 total semesters for a 4 year programme). The last semester is mostly for some minor courses for a max of 10 credits. That’s how students plan. That’s how the system is designed. Unless, of course, one fails a course for some reason in which case they have to repeat it. As you can see above, the guy had 5 such pending courses. Moreover, there are a bunch of other requirements for the degree like completion of a certain amount of social work measured in hours (_“Bhai ghante mile tujhe?”_; Bro did you get the hours?), industry experience - typically interning at a company gets the job done and a bunch of other elective courses. 
 
