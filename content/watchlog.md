@@ -151,7 +151,27 @@ Single shot films are amazing ~~because the editor has less work~~ because I per
 {{</ds>}}
 101. Paddington | Paul King | 2014  
 102. Paddington 2 | Paul King | 2017   
+103. {{<ds sum="Apocalypse Now | Francis Ford Coppola | 1979">}}
 
+Apocalypse Now Redux is an extended version of the 1979 movie that was released in 2001.
+The new movie has 49 minutes of extra footage and amounts to 3 hr 22 min in totality.
+
+---
+
+AN is a political movie disguised as a war film. Note that I don't use the term "anti-war" because I'm not sure. And that is so because just like in all human conflicts, it is devilishly difficult to ascertain the facts and to assign the roles of "oppressor" and "oppressed". The situation is more aggravated in wars - a more murderous variant of the same conflict. And so when at last, Col. Kurtz (Marlon Brando) asked Capt. Willard (Martin Sheen) to tell his son about what he stood for, I could no longer convinced myself if his methods or lack thereof, were really "unsound".
+
+AN is an emotional and visual ride through the horrors of Vietnam and an inquiry into the primal human emotions of lust, blood, and power. Told in an epistolary format with the comforting voice of Martin Sheen booming through the speakers, we are told of the war from his perspective; his escape from the maddening hotel room to the centre of mud and napalm in a man hunt for a celebrated officer gone rogue and given orders to "terminate him with extreme prejudice". But as Willard gets to know the man more prying through his records and staring at his pictures, he is starstruck. Even in the end, as he rises from the water with the machete in hand and the determination in his heart, I could see the doubt in his eyes. Even in the end, it was not Willard who murdered Kurtz but Kurtz who decided to be murdered by Willard. 
+
+Coppola's fine craftsmanship shines through with every shot and composition (not to mention the generous usage of fadeouts :P), he keeps his storytelling terse and precise. I loved his portrayal of sensuality and romantic tension amidst war. I loved his interweaving of politics into such a visually ambitious war film. I loved his choice of music and of course, I loved Wagner's Ride of the Valkyries. 
+
+{{</ds>}}
+104. {{<ds sum="Pi | Darren Aronofsky | 1998">}}
+Pi is Aronofsky's feature directorial debut. It is also a foreshadowing film of what was to come out of Aronofsky's mind. Concussional, trippy, and serrated. We follow a mathematical genius who works as a quant in his own time. A pathological loner who  also suffered from a periodic brain condition that gives him splitting headaches (oh, what a stereotype). He stumbles on a 216 digit number which is supposedly embodies a pattern of the universe. Consequently, he gets himself in trouble with groups who are in pursuit of that number - quant firms and Jewish Rabbis. I loved the initial premise and felt that finally we have a film that is made for "actual" math peeps only to roll my eyes and start gawking as all that hullabaloo about Moses and High Priest starts quacking through the headphones. As I said, serrated. Just like all Aronofsky works (except [[Requiem for a Dream]] and [[Black Swan]] which only leaves [[The Fountain]]) that I have seen. 
+
+Now, let's talk about the cinematography. From the get go, it is evident that we are witnessing the work of a man who wants to break the loop. He attempts daring feats and experiments copiously. Pi seems to me like an amalgamation of a man in search of his voice. There are signature snorricam shots (just like in [[Requiem for a Dream|Requiem]] where he perfected them) and shots of pursuit. There's the delicious open-spill-pop-close montage shot of taking a pill. Substance consumption/abuse seems to be a motif that appears again and again in Aronofsky's works. There are paranormal things going on or atleast the perception of it created by disturbing shots of seemingly disparaged objects. A brain in a basin being eaten by ants? Such daring attempts are made to visually express the plight of the psychological. Just like all others. The production itself is very modest and quiet. Few characters, few prompts. It looks like a budget film. Or atleast someone's debut. Someone significant that is. 
+
+It is interesting to note how far he has come from Pi to [[The Whale]].
+{{</ds>}}
 
 # 2022
 
