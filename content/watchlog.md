@@ -173,6 +173,47 @@ Now, let's talk about the cinematography. From the get go, it is evident that we
 It is interesting to note how far he has come from Pi to [[The Whale]].
 {{</ds>}}
 
+105. {{<ds sum="Apocalypse Now Redux | Francis Ford Coppola | 1979">}}
+
+Apocalypse Now Redux is an extended version of the 1979 movie that was released in 2001.
+The new movie has 49 minutes of extra footage and amounts to 3 hr 22 min in totality.
+
+---
+
+AN is a political movie disguised as a war film. Note that I don't use the term "anti-war" because I'm not sure. And that is so because just like in all human conflicts, it is devilishly difficult to ascertain the facts and to assign the roles of "oppressor" and "oppressed". The situation is more aggravated in wars - a more murderous variant of the same conflict. And so when at last, Col. Kurtz (Marlon Brando) asked Capt. Willard (Martin Sheen) to tell his son about what he stood for, I could no longer convinced myself if his methods or lack thereof, were really "unsound".
+
+AN is an emotional and visual ride through the horrors of Vietnam and an inquiry into the primal human emotions of lust, blood, and power. Told in an epistolary format with the comforting voice of Martin Sheen booming through the speakers, we are told of the war from his perspective; his escape from the maddening hotel room to the centre of mud and napalm in a man hunt for a celebrated officer gone rogue and given orders to "terminate him with extreme prejudice". But as Willard gets to know the man more prying through his records and staring at his pictures, he is starstruck. Even in the end, as he rises from the water with the machete in hand and the determination in his heart, I could see the doubt in his eyes. Even in the end, it was not Willard who murdered Kurtz but Kurtz who decided to be murdered by Willard. 
+
+Coppola's fine craftsmanship shines through with every shot and composition (not to mention the generous usage of fadeouts :P), he keeps his storytelling terse and precise. I loved his portrayal of sensuality and romantic tension amidst war. I loved his interweaving of politics into such a visually ambitious war film. I loved his choice of music and of course, I loved Wagner's Ride of the Valkyries. 
+{{</ds>}}
+106. {{<ds sum="The Princess Bride | Rob Reiner | 1987">}}
+Lol so nocie and low-budget but very cute.
+{{</ds>}}
+107. {{<ds sum="Roman Holiday | William Wyler | 1953">}}
+
+I just wanna say two things:
+1. Audrey Hepburn.
+2. That last tracking shot.
+{{</ds>}}
+108. {{<ds sum="21 Grams | Alejandro Gonzales Innaritu | 2003">}}
+
+21 Grams is a masterclass in non-linear storytelling. 
+
+A dark and horrifying story that leaves very little to judge between right and wrong, between good and evil and leaves us with a very distinctive and bittersweet taste of life - a cacophony of contradictions unwinding around us, irrespective of our presence or awareness.
+{{</ds>}}
+109. {{<ds sum="Me And Earl And The Dying Girl | Alfonso Gomez-Rejon | 2015">}}
+
+Let's just say that I absolutely loved the movie references. The maker is a true lover of classic films and I really appreciate that. 
+{{</ds>}}
+110. {{<ds sum="Qala | Anvita Dutt Guptan | 2022">}}
+
+Qala turned out to be very different from what I expect it to be. Unlike the lyrical and brilliant assortment of acoustic delight that is the movie's soundtrack, Qala is a dark and celebral story about an ill-fated girl in search of acceptance. My first introduction to [[Swastika Mukherjee]] as [[Urmila Manjushree]], a descendant from a line of musical maestros. The shot of Urmila standing in front of her infant daughter [[Qala - Character | Qala]] with a pillow intended for her twin brother sets a grim exposition. Her twin brother died at childbirth. A childhood fraught with continuous invalidation and discouragement from her mother forces Qala to seek ways to please her mother notwithstanding the consequences. As the movie progresses, this desire only aggravates and turns pretty ugly. I'll just put it there and not spoil any further. 
+
+But honestly, I didn't like the movie apart from the exquisite scene design set in 1940s Calcutta (that shot of the Howrah Bridge tho). Perhaps, what I mean to say is this: the plot seems too one dimensional to me with barely any active "inputs" from the characters. It seems like the characters in the script are too constrained to have a voice of their own. There's lots of superfluous dramatisation which might make for what Indians look out for but doesn't compete with anything that I have seen in the works of greats like [[Francis Ford Coppola]], [[Quentin Tarantino]], and so on.
+
+Bollywood is still leagues behind what the world is up to. 
+
+{{</ds >}}
 # 2022
 
 1. {{<ds sum="Fallen Angels | Wong Kar-Wai | 1995">}}
