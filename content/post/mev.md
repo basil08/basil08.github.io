@@ -66,6 +66,13 @@ Bots can adopt different strategies for bidding in such auctions. Two of the sim
 
 Moreover, the winner of a bid war is highly dependent on the latency of the network and the connectedness of the bots to the network, hinting at the development of [high-frequency trading-like scenarios on blockchain platforms][5]; an undesirable and [unintended consequence][6] of the current design of the system.  
 
+## Transaction reordering and unintended optimisation   
+
+Once in the mempool, the miners have a lot of freedom in choosing which transactions to include in the block they'll mine next. The protocol assumes that _rational_ miners would order transactions by decreasing transaction fee which is the intended behaviour. However, if the miners have a greater incentive from outside the system to deviate from this behaviour then it leads to lowered network security. [Studies show][7] that at certain thresholds, miners are _incentivised_ to even fork the chain.  
+
+If a miner is aware of a transaction sequence that would lead to profitable outcome or even personal connections with the transaction participants, they can reorder transaction orders if the profit from such reordering is greater than the transaction fee. When can such scenarios occur? Once large volume trades are detected in the mempool, miners may identify potential frontrunnable transactions or more sophisticated types called "sandwich attacks" (flank the victim transaction with two attacking transactions to bet in favour of a condition that is determined to occur as an outcome of the victim transaction). Miners can collude with third-party users and reorder transactions to maximise the block reward they can mine. They may also censor transactions of a particular kind, type, demographic, and so on. One quickly realises how this design pattern can fundamentally compromise blockchain security.  
+
+
 ## Conclusion   
 
 While transacting on the application layer, it is often possible that endusers abstract away the complexity of what goes under the hood on the Ethereum protocol which enables them decentralised consensus. But we find that the mempool is not a utopic panacea that will enable blockchain to replace traditional CeFi. This primarily arises from fundamental design flaws that were not originally conceived - an ideal case study to understand why engineering is hard. 

@@ -214,6 +214,10 @@ But honestly, I didn't like the movie apart from the exquisite scene design set 
 Bollywood is still leagues behind what the world is up to. 
 
 {{</ds >}}
+111. {{<ds sum="Scenes From A Marriage | Ingmar Bergman | 1974">}}
+Most exquisite piece of cinema seen in a long long time. If [[Richard Linklater]] met [[Ingmar Bergman]], they would surely hit it off. Both of them are masters of dialogue and human emotions and bringing out the deepest prejudices and preoccupations of the human mind in a lyrically cinematic fashion. Incredible performances by both the leads and the cinematic choice to just include 2 people conversing, loving, fighting, tearing each other apart, and yet who cannot live without each other is a near-perfect depiction of what a marriage is all about.
+{{</ds>}}
+
 # 2022
 
 1. {{<ds sum="Fallen Angels | Wong Kar-Wai | 1995">}}
