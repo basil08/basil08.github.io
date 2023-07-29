@@ -81,6 +81,11 @@ I haven't even scratched the surface of how profitable these "extractable values
 
 Well, the above picture might seem more grim than the situation is. Currently there is amazing work going on which will nullify wealth stealing by transferring the incentives to the users and miners. An interesting middle layer is being built - for example, [MEV Boost][10] for PoS-enabled blockchains.    
 
+## References   
+
+1. [paper][4] Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges: Daian P. et. al
+2. [paper][5] Quantifying Blockchain Extractable Value: How dark is the forest?: Qin K. et. al
+
 1: I am simplifying a lot of details here. For example, transaction fee increments are not continuous. Most ETH clients require a bid to be atleast 12.5% of the initial bid to be considered for inclusion thus making bidding discrete in practise.  
 
 [0]: https://en.wikipedia.org/wiki/Network_effect
