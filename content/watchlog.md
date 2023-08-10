@@ -217,6 +217,18 @@ Bollywood is still leagues behind what the world is up to.
 111. {{<ds sum="Scenes From A Marriage | Ingmar Bergman | 1974">}}
 Most exquisite piece of cinema seen in a long long time. If [[Richard Linklater]] met [[Ingmar Bergman]], they would surely hit it off. Both of them are masters of dialogue and human emotions and bringing out the deepest prejudices and preoccupations of the human mind in a lyrically cinematic fashion. Incredible performances by both the leads and the cinematic choice to just include 2 people conversing, loving, fighting, tearing each other apart, and yet who cannot live without each other is a near-perfect depiction of what a marriage is all about.
 {{</ds>}}
+112. {{<ds sum="Soylent Green | Richard Fleischer | 1973">}}
+{{</ds>}}
+113. {{<ds sum="Blue Jay | Alexandre Lehmann | 2016">}}
+{{</ds>}}
+114. {{<ds sum="Aftersun | Charlotte Wells | 2022">}}
+{{</ds>}}
+115. {{<ds sum="Lawrence of Arabia | David Lean | 1962">}}
+{{</ds>}}
+116. {{<ds sum="Mobile Suit Gundam 1 | Yoshiyuki Tomino, Ryoji Fujiwara | 1981">}}
+{{</ds>}}
+117. {{<ds sum="Persepolis | Marjane Satrapi | 2007">}}
+{{</ds>}}
 
 # 2022
 
