@@ -229,6 +229,31 @@ Most exquisite piece of cinema seen in a long long time. If [[Richard Linklater]
 {{</ds>}}
 117. {{<ds sum="Persepolis | Marjane Satrapi | 2007">}}
 {{</ds>}}
+118. {{<ds sum="Hiroshima Mon Amour | Alain Resnais | 1959">}}
+{{</ds>}}
+119. {{<ds sum="Spider Man: Across the Spiderverse | Joaquim Dos Santos et. al. | 2023">}}
+The visuals oof
+
+Incredible artwork and colors. But the story is very marvel-esque, predictable and kinda boring. It seems like they are just recycling tropes at this point which is funny because there's no dearth of tropes right?
+
+{{</ds>}}
+120. {{<ds sum="Brief Encounter | David Lean | 1945">}}
+Brief Encounter is a heart-wrenching romance between two souls who find each other's companionship by serendipity and yet are forced to part ways due to societal constructs and circumstances. 
+
+The story is told from the perspective of the married lady and mother of two (literally). Her voice over is all over the film giving an antique aura to the film. And we can relate to the sheer terror and excitement and doubt and anxiety that the entry of the man (married and father) has had on her life. We can feel her heart breaking. The last scene is not an easy scene to watch. 
+{{</ds>}}
+121. {{<ds sum="Asteroid City | Wes Anderson | 2023">}}
+
+{{</ds>}}
+122. {{<ds sum="It Happened One Night | Frank Capra | 1934">}}
+{{</ds>}}
+123. {{<ds sum="A Separation | Asghar  Farhadi | 2011">}}
+Damn wow.
+
+Loved how it leaves us at an inconclusive resolution and yet shows how one particular lie can destroy a family.
+{{</ds>}}
+124. {{<ds sum="Casablanca | Micheal Curtz | 1943">}}
+{{</ds>}}
 
 # 2022
 
