@@ -260,6 +260,18 @@ Loved how it leaves us at an inconclusive resolution and yet shows how one parti
 {{</ds>}}
 127. {{<ds sum="Gone With The Wind | Victor Fleming | 1939">}}
 {{</ds>}}
+128. {{<ds sum="The Florida Project | Sean Baker | 2011">}}
+
+TFP is a beautiful coming-of-age story that follows Moonee, a eight? year old kid growing up in the suburbs in Florida in a pay-in motel under the custody of a teenage girl (her "mom") who is trying to make ends meet somehow.
+
+TFP is remarkable in its portrayal of the stark contrast between the life that the adults are trying to sustain and the unaware, innocent kids who want to live life. The movie captures both. There's fun and careless stuff going on when you just want to live inside the movie - couple that with beautiful shots of scenic Florida that almost feels like visual poetry and then all of a sudden we have serious stuff going on screen. TFP touches up on poverty and the bad living conditions of these motels and the personal choices of the individual. TFP is pretty serious stuff as Hally (the "mom") starts prostituting herself to make money, eventually getting arrested and having Moonee taken away. Yet, there's that rain-drenching screen where both have the most endearing play. TFP has that multitude of emotion that it portrays and makes you feel. 
+
+Cinematography is just soo good. It's obviously made to make you fall in love with Florida as it effortlessly finds beauty in the most benign and repulsive of places. Static wide shots, tracking shots of kids running through corridors, that shot of Moonee remarking on eating food at the hotel is so endearing. Ah, good stuff. 
+
+{{</ds>}}
+129. {{<ds sum="A Brighter Summer Day | Edward Yang | 1991">}}
+
+{{</ds>}}
 
 # 2022
 
