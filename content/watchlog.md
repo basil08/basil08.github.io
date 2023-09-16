@@ -269,9 +269,10 @@ TFP is remarkable in its portrayal of the stark contrast between the life that t
 Cinematography is just soo good. It's obviously made to make you fall in love with Florida as it effortlessly finds beauty in the most benign and repulsive of places. Static wide shots, tracking shots of kids running through corridors, that shot of Moonee remarking on eating food at the hotel is so endearing. Ah, good stuff. 
 
 {{</ds>}}
-129. {{<ds sum="A Brighter Summer Day | Edward Yang | 1991">}}
+129. A Brighter Summer Day | Edward Yang | 1991
+130. Boogie Nights | Paul Thomas Anderson | 1997
+131. All That Heaven Allows | Douglas Sirk | 1955   
 
-{{</ds>}}
 
 # 2022
 
