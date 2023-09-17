@@ -271,7 +271,19 @@ Cinematography is just soo good. It's obviously made to make you fall in love wi
 {{</ds>}}
 129. A Brighter Summer Day | Edward Yang | 1991
 130. Boogie Nights | Paul Thomas Anderson | 1997
-131. All That Heaven Allows | Douglas Sirk | 1955   
+131. {{<ds sum="All That Heaven Allows | Douglas Sirk | 1955">}}
+
+Cheesy and very outdated. Not sure if anyone would appreciate the sensibilities portrayed in the movie especially commentary and outlook towards marriage, woman, and class division - the three primary subjects of this movie. But a decisive and sharp take on the problems of society. Sadly, not much has changed in a sense :/ 
+
+{{</ds>}}   
+132. {{<ds sum="Into the Wild | Sean Penn | 2007">}}
+
+"Happiness only real when shared".
+
+I didn't realise this was based on real life. And very different from what I expected it to be. Good watch. 
+
+Also, loved the literature references to Thoreau (It seems like that generation of explorers and adventurers were raised on this text), Jack London, Tolstoy, etc. 
+{{</ds>}}
 
 
 # 2022
