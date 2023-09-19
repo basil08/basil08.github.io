@@ -284,7 +284,14 @@ I didn't realise this was based on real life. And very different from what I exp
 
 Also, loved the literature references to Thoreau (It seems like that generation of explorers and adventurers were raised on this text), Jack London, Tolstoy, etc. 
 {{</ds>}}
+133. {{<ds sum="Incendies | Denis Villeneuve | 2010">}}
+_Incendies_ opens with a harrowing slow paced montage of young boys being shaved with a trimmer in what looks like a remote Central Asian country - probably some terrorist group. All to the magical, melancholic tune of Radiohead's _You And Whose Army?_  (wow)
 
+It then proceeds to tell the story of a family caught up in the crossfire of extremist and nationalist groups in a civil war shuttling between present day and flashbacks. Told in chapters, each chapter unveils a new, more gruesome detail about the story and uncovers some mystery until we are left with an exceptionally strong resolution. 
+
+In this film, Villeneuve latches onto the idea of an anti-war films and exploits it to orchestrate a gruesome picture of a filial history affected by the war unfolding through generations. At one point, I felt this was a feminist film (which it is at some level) but oh boy, was I wrong. 
+
+{{</ds>}}
 
 # 2022
 
