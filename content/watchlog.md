@@ -292,6 +292,14 @@ It then proceeds to tell the story of a family caught up in the crossfire of ext
 In this film, Villeneuve latches onto the idea of an anti-war films and exploits it to orchestrate a gruesome picture of a filial history affected by the war unfolding through generations. At one point, I felt this was a feminist film (which it is at some level) but oh boy, was I wrong. 
 
 {{</ds>}}
+134. {{<ds sum="City of God | Fernando Meirelles, Katia Lund | 2002">}}
+
+Wow. Amazing story. Amazing editing. Amazing context. Just so good. 
+
+{{</ds>}}
+135. {{<ds sum="Il Sorpasso | Dino Risi | 1962">}}
+_Il Sorpasso_ or the Overtaking is a feel-good Italian drama-comedy that capitalises on the innate human tendency to be free. It tells the story of a wanderer and adventurous man, Bruno, who incidentally finds a travel companion in Roberto, a meek and shy young lawyer in the making and they both take off to have a gala time through the Italian landscape. They stop at hotels, and meet friends, and spend time dancing or swimming at the beach. It's a fun little story that doesn't go anyway until you watch the last scene which is very shocking and grim. Personally never expected this to end on such a sad and serious note. 
+{{</ds>}}
 
 # 2022
 
