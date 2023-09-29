@@ -1,5 +1,5 @@
 baseURL = "https://basil08.github.io/"
-title = "The Personal Blog of Basil Labib"
+title = "Basil Labib"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
 enableEmoji = true
