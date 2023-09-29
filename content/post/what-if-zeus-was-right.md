@@ -12,7 +12,7 @@ I am in my junior year at a premier engineering school and am supposed to make a
 
 ## Setting the ground 
 
-Sometime back, I had this intriguing conversation with a senior who has a PPO from a reputed quant firm and had a prior active interest in research. The conversation revolved around his apprehensions to commit to the research path realising that it is an arduous one and that the job pays well (disproportionately well according to industry standards) which would ensure a prosperous life ahead. As you may imagine, this all boils down to the obvious question: research or job?<sup>3</sup>
+Sometime back, I had this intriguing conversation with a friend with a decent job offer but  prior active interest in research. The conversation revolved around their apprehensions to commit to the research path realising that it is an arduous one and that the job pays well (disproportionately well according to industry standards) which would ensure a prosperous life ahead. As you may imagine, this all boils down to the obvious question: research or job?<sup>3</sup>
 
 ### Ignorance or apathy?  
 
