@@ -334,6 +334,7 @@ I get that Sex Education is literally sex education but it all just seems too on
 [0]: https://www.imdb.com/title/tt7767422/
 
 {{</ds>}}
+137. L.A. Confidential | Curtis Hanson | 1997
 
 # 2022
 
