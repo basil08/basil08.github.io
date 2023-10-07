@@ -335,7 +335,29 @@ I get that Sex Education is literally sex education but it all just seems too on
 
 {{</ds>}}
 137. L.A. Confidential | Curtis Hanson | 1997
+138. Ordet | Carl T. Dreyer | 1934
+139. Bangalore Days | Anjali Menon | 2014
+140. The Wonderful Story of Henry Sugar | Wes Anderson | 2023
+141. Stardust | Matthew Vaughn | 2007
+142. Fair Play | Chlor Domont | 2023
+143. White House Down | Roland Emmerich | 2013
+144. {{<ds sum="Yeh Jawaani Hai Deewani | Ayan Mukherji | 2013">}}
 
+YJHD is probably my generation's DDLJ. It has everything that would make a swoon-worthy dramatic Bollywood film to watch at the weekend with the family which is to say oodles of drama and romance. And yet YJHD doesn't touch the central crisis of the story with a ten-foot pole but simply chooses to steer clear of it, only to resolve it in a way most of the latest generation would disapprove of. 
+
+At the core, YJHD is the story of finding love at the wrong place and time and trying to cope with it - a theme that has been exhaustively explored on screen both globally and nationally. But in YJHD, the resolution is reached by the boy sacrificing _his dream_ which is an understatement, more like _his life's singular objective_ only to stay home with the girl. Problem solved, right? No!
+
+Why did the boy have to sacrifice his dreams? Bunny's choice to let go of his future, a future he had spent every waking second of his life making and every sleeping second dreaming of, is simply absurd and unexplained. In fact, underlining his unjustified choice is the promulgation of an unpopular idea with the modern teenager - the idea of a "soul mate" - the one "true love". Going to Paris would have availed Bunny of more experiences and surely he would never be lonely. Thus, a practical Bunny, no, a _rational Bunny_ would view companionship and intimacy as a purely transactional affair, something not to be muddled with life's dream. Yet, we meet a new Bunny at the end, a reborn Bunny. 
+
+Which brings me to character arc development and its utter detachment from reality. YJHD is obviously a story that tracks the transformation of its ensemble cast especially the central two characters - Bunny and Naina. What is really interesting is the swift transition of Naina from an introvert to opening up to a complete stranger in the course of a vacation. As any introvert would tell you, this is an extremely romanticised form of writing that has no resemblance to the cruelty of reality. I mean how so nice to know that Naina ends up beating a bunch of goons in Manali after spending a day with Bunny and Co. Nonsense! In reality, these transformations are extremely rare, if at all, and introverts face a very different lifestyle, one that most have to simply cope with. 
+
+Continuing on the theme of impossible things, the movie shows an excess of abundance and wealth - somehow Bunny is able to finance Manali trek trip for his friend, Bunny is able to have his adventures in only eight years and Aditi manages to pull off a big fat Indian wedding at Udaipur. Money is a strong deterrant for all of these activities unfortunately! Which means that these activities are not as spaced out in time as they should be in reality which projects a completely false image of how people live and behave. This implicitly puts psychological pressure on the viewer who try to identify with the characters onscreen on certain metrics such as ethnicity, nationality, being able to feel the emotion of love etc. but fail in the prosperity department. This triggers an implicit guilt mechanism which reasons that not being prosper is a _personal deficiency_ since they are similar in other aspects. This leads to stress and anxiety and the horrible feeling of lowness. This, as spelled out here, is of course, absurd but wouldn't appear so to someone "just watching" the film. Something I called incomplete fulfilment of expectations on the basis of commonality. 
+
+Coming down to few Bollywood things that I didn't like - too many songs! Although, some of the songs are classic, yet it's just ugh. The dialogues get pretty pretentious at points. That Bunny dialogue "I want to run, fly, and fall but not stop" is another big cringe. Wake up to reality please! 
+
+I often allude to things like the "Indian style" and the "Non-Indian style" when it comes to filmmaking. I have always found it difficult to show what I really mean. But in YJHD I found a clear example. It's Aditi's wedding and she is doing her _pheras_. A love-struck Bunny is gawking at the two people near the wedding hearse and there's a sparkle in his eyes. Clearly, he's thinking about _his wedding_ with Naina. Right? Right??? Traditional Bollywood would introduce an imaginary shot of Bunny and Naina actually doing the _pheras_ thus, utterly destroying the opportunity to express something without showing - mark of clever filmmaking. Thankfully, that didn't happen in YJHD. 
+
+{{</ds>}}
 # 2022
 
 1. {{<ds sum="Fallen Angels | Wong Kar-Wai | 1995">}}
