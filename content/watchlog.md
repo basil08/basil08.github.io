@@ -358,6 +358,23 @@ Coming down to few Bollywood things that I didn't like - too many songs! Althoug
 I often allude to things like the "Indian style" and the "Non-Indian style" when it comes to filmmaking. I have always found it difficult to show what I really mean. But in YJHD I found a clear example. It's Aditi's wedding and she is doing her _pheras_. A love-struck Bunny is gawking at the two people near the wedding hearse and there's a sparkle in his eyes. Clearly, he's thinking about _his wedding_ with Naina. Right? Right??? Traditional Bollywood would introduce an imaginary shot of Bunny and Naina actually doing the _pheras_ thus, utterly destroying the opportunity to express something without showing - mark of clever filmmaking. Thankfully, that didn't happen in YJHD. 
 
 {{</ds>}}
+145. Passengers | Morten Tyldum | 2016
+146. No Hard Feelings | Gene Stupnitsky | 2023
+147. Indecent Proposal | Adrian Lyne | 1993
+148. Mission Impossible Dead Reckoning Part 1 | Christopher McQuarrie | 2023
+149. {{<ds sum="His Girl Friday | Howard Hawks | 1940">}}
+
+
+Based on the play "The Front Page" by Ben Hecht et. al., _His Girl Friday_ is a look into the corrupted and blemished world of press and media. Moreover, it is also a love story. And I especially like how it manages to bring both these plots together without appearing pretentious. It's _just right_.
+
+The characters are well-written, right from Walter Burns right down to Joe Pettibone, each character manages to lend a taste to the movie that sits pretty agreeably everything considered. 
+
+The play is actually a comedy but starts off at a grim junction namely the hanging of a convicted murderer. And yet something seems fishy. Upon investigation, Hildy Johnson, the female lead, finds out that the accused is actually innocent and framed for hanging just to serve the Mayor who wants to be elected as Governor. The film then follows the chain of events that culminates in the convict, Earl Williams, as being freed. There are many characters that come and go and their individual self-motivated action give rise to many comedic and layered dynamics - something reminisce of theatre (which shouldn't come as a shock since it's adapted from one). One more thing, the limited number of location - the major part of the movie is shot inside the criminals court room at the prison - is again in agreement with the fact that it is an adaptation. 
+
+Great movie. Definitely revisitable.
+
+{{</ds>}}
+
 # 2022
 
 1. {{<ds sum="Fallen Angels | Wong Kar-Wai | 1995">}}
