@@ -66,9 +66,20 @@ I really liked that it correlated political development with real life historic 
 
 {{</ds>}}
 
-7. {{<ds sum="The Fellowship of the Ring (LOTR #1) | J. R. R. Tolkien">}}
+7. {{<ds sum="**The Fellowship of the Ring (LOTR #1) | J. R. R. Tolkien**">}}
 
 Such maginificent imagination and creativity. Tolkien was rightly a man of many letters, such elegance and mastery seldom found in men of today.   
+
+{{</ds>}}
+8. {{<ds sum="**The Stranger | Albert Camus**">}}
+
+> "Mother died today. Or, maybe, yesterday; I can't be sure."
+
+These are the opening lines of the Nobel Laureate Albert Camus' short story _The Stranger_, a beautifully crafted exploration of morality and social behaviour. 
+
+We follow the protagonist, a nihilist, non-conformist who doesn't seem to take interest in anything, one with a volatile demeanour and his blossoming romance with his girlfriend. Things take a wrong turn after he commits a murder in a moment of passion and is consequently tried in a court and ultimately sentenced to death. 
+
+_TS_ doesn't pull any punches and lands perfectly, each word serves its purpose lending a grim picture, taking us on a ride, and expressing fearlessly what Camus wanted to say. I absolutely enjoyed reading this. Can reread. 
 
 {{</ds>}}
 
