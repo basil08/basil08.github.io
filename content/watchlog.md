@@ -374,6 +374,9 @@ The play is actually a comedy but starts off at a grim junction namely the hangi
 Great movie. Definitely revisitable.
 
 {{</ds>}}
+150. Die Hard | John McTiernan | 1988 
+151. La Haine | Matthieu Kassovitz | 1995  
+
 
 # 2022
 
