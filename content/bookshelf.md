@@ -82,6 +82,27 @@ We follow the protagonist, a nihilist, non-conformist who doesn't seem to take i
 _TS_ doesn't pull any punches and lands perfectly, each word serves its purpose lending a grim picture, taking us on a ride, and expressing fearlessly what Camus wanted to say. I absolutely enjoyed reading this. Can reread. 
 
 {{</ds>}}
+9. {{<ds sum="**Waiting for Godot | Samuel Beckett**">}}
+
+Samuel Beckett's Absurdist tour de force, "Waiting for Godot" opens with the recurrent idea "Nothing to be done." - an idea that forms one of the major themes of the play which touches upon other things like mortality, purpose of life, spirituality, and human companionship. 
+
+Personally, I felt that the magic of _Godot_ lies in its ability to make us realise so much by telling us so little. In its grosteque setting, there's two people, Vladimir and Estragon who are waiting for a person named Godot and contemplating life and everything else. There's absurdity, there's deadpan dialogues, there's humour even. Reading _Godot_ is unlike other contemporary plays because one has to pause and really think about what was just said and it sends people into long-drawn thought-escapades. 
+
+_Godot_ is a reflection of the realist human society, where there are no serendipity, no accidents, only a monotonous life that is akin to a prison. That's how Estragon must have felt when he said,  
+
+> "Nothing happens, nobody comes, nobody goes, it's awful."   
+
+Or, his whimsical request to which I'm pretty sure we all can resonate at some level,
+
+> "Don't touch me! Don't question me! Don't speak to me! Stay with me!"   
+
+And this cheeky dialogue towards which I am personally biased a bit,  
+
+> VLADIMIR: It's the start that's difficult.   
+> ESTRAGON: You can start from anything.  
+> VLADIMIR: Yes, but you have to decide.   
+
+{{</ds>}}
 
 ## Unfinished
 
