@@ -376,6 +376,9 @@ Great movie. Definitely revisitable.
 {{</ds>}}
 150. Die Hard | John McTiernan | 1988 
 151. La Haine | Matthieu Kassovitz | 1995  
+152. Love Actually | Richard Curtis | 2003  
+153. Butch Cassidy and the Sundance Kid | George Roy Hill | 1969
+154. Queen | Vikas Bahl | 2013  
 
 
 # 2022
