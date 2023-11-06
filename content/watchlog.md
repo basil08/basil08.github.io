@@ -379,6 +379,8 @@ Great movie. Definitely revisitable.
 152. Love Actually | Richard Curtis | 2003  
 153. Butch Cassidy and the Sundance Kid | George Roy Hill | 1969
 154. Queen | Vikas Bahl | 2013  
+155. Pacific Rim: Uprising | Steven S. DeKnight | 2018
+156. Kabir Singh | Sandeep Reddy Vanga | 2019   
 
 
 # 2022
