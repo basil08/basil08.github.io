@@ -381,6 +381,11 @@ Great movie. Definitely revisitable.
 154. Queen | Vikas Bahl | 2013  
 155. Pacific Rim: Uprising | Steven S. DeKnight | 2018
 156. Kabir Singh | Sandeep Reddy Vanga | 2019   
+157. The Girl Next Door | Luke Greenfield | 2004
+158. Oppenheimer | Christopher Nolan | 2023
+159. Hacksaw Ridge | Mel Gibson | 2016
+160. Broklynn 99 | TV Series | 2013-2021
+
 
 
 # 2022
