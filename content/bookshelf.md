@@ -104,6 +104,15 @@ And this cheeky dialogue towards which I am personally biased a bit,
 
 {{</ds>}}
 
+10. {{<ds sum="The Martian | Andy Weir">}}
+
+_The Martian_ is essentially a survival manual for the scenario when I get stranded on Mars. I absolutely loved the level of detail and scientific accuracy in the book. That really added on to keeping me engaged and wanting to know what happened next. Weir didn't make it easy though, you _actually had to think_ what would happen given the parameters he just described and it was fun to imagine a survival trip on the planel of the God of War. Under the tantalising chain of events though, Weir also weaves a thrilling story of the triumph of human spirit and of an indomitable spirit. Oh, also humour definitely helps.
+
+I watched the movie a really long time ago but even then I can recall how deep an impression it made on me. I had to kill time over an _exceptionally_ boring weekend and found this book in one of my friend's stack. Oh well, relived those memories. 
+
+
+{{</ds>}}
+
 ## Unfinished
 
 Anything read more than 5% but less than 100% is noted here. I have to keep a running tab of how reckless I am with my books. _sigh_.
