@@ -385,7 +385,8 @@ Great movie. Definitely revisitable.
 158. Oppenheimer | Christopher Nolan | 2023
 159. Hacksaw Ridge | Mel Gibson | 2016
 160. Broklynn 99 | TV Series | 2013-2021
-
+161. Madan Senki Ryukendo | TV Series | 2006
+162. Scarface | Brian De Palma | 1983
 
 
 # 2022
