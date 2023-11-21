@@ -387,6 +387,18 @@ Great movie. Definitely revisitable.
 160. Broklynn 99 | TV Series | 2013-2021
 161. Madan Senki Ryukendo | TV Series | 2006
 162. Scarface | Brian De Palma | 1983
+163. Salaam Bombay | Mira Nair | 1988
+164. {{<ds sum="Luck By Chance | Zoya Akhtar | 2009">}}
+
+Zoya Akhtar's directorial debut is a light-hearted but potent sneak peek into the nitty-gritties of the Bollywood film landscape itself - right from the indifference of the ultra-rich superstar to the thousands of dreams who just want to get that "one chance". It isn't as nuanced as Truffaut's Day for Night but it captures the duality and constant struggle that every actor (or wannabe actor) has to live through in the city of dreams. 
+
+One thing that you would definitely notice is the cheeky cameos of almost everyone we see or love to see on screen and otherwise, people who make films an incredible experience. 
+
+_LBC_ takes a dramatic turn after intermission doing a full 180 from a breezy comedy to a solid life lessons preacher. 
+
+All things considered, this is one top-tier debut exploring intimates themes of struggle, dreams, love, and interpersonal relationships. Very Zoya Akhtar in spirit especially in what what to come.  
+
+{{</ds>}}
 
 
 # 2022
