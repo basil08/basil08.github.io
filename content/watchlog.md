@@ -400,6 +400,29 @@ All things considered, this is one top-tier debut exploring intimates themes of 
 
 {{</ds>}}
 165. The Last of Us | TV Series | 2023
+166. {{<ds sum="Sairat | Nagraj Manjule | 2016">}}
+
+## Sairat paints a brutal picture of the Indian casteist society
+
+Nagraj's _Sairat_ is a visually stunning 3 hour long ride holding a mirror at the malice of casteism in the modern Indian society. It follows an upper caste girl who falls in love with a lower caste boy and ends up having to face the disapproval of her family to the burden of believing in that love to the wrath of society itself. 
+
+From the first exposition, it becomes clear that Nagraj won't settle for the conventional and wrote the girl with a confident and high-handed character. The boy, on the other hand, is a simple fellow. It appears as cursory for us to read these words and get the "gist" of what happens in the story but the movie beautifully captures the challenges and tears and the burden of loving someone. Especially if that someone happens to be from a "lower caste". 
+
+> Why the hell did you mess with the upper caste folks?
+> What's the use of education? 
+
+One's convictions not at times when the conviction seems true but when it begins to seem false. Just like when the girl had to believe in her decision and accept the life of poverty and living in the slums. She is truly a Sairat or as the movie title translates to in English, fearless, a non-conformist, wild. 
+
+The movie is ambitious in that it takes two sensitive topics and mushes them together - teenage love and casteism in India. It chooses to talk about one thing and talks about it well. Although, I felt that few characters were underdeveloped just as there was more time given to the protagonist and his girl - an unnecessary evil of Indian cinema and the Indian craving for drama. Oh, and there were also a few songs thrown in to make the movie palpable to the Indian audience. 
+
+That last shot of the orphan kid walking away from the lifeless bodies of his parents leaving crimson imprints on the floor is a harrowing image that is sure to stay with me for a long , long time. In that one shot, _Sairat_ decided to stop talking and let the images do the speaking. And that is fantastic. 
+
+PS: I personally cannot imagine the kind of discrimination and psychological thought-processes for someone who is brought up in such a fragmented society. I was fortunate enough to be shielded from such sentiments. 
+
+PPS: I want to scream and howl for I cannot create art like this. 
+
+
+{{</ds>}}
 
 
 # 2022
