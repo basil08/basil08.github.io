@@ -399,6 +399,7 @@ _LBC_ takes a dramatic turn after intermission doing a full 180 from a breezy co
 All things considered, this is one top-tier debut exploring intimates themes of struggle, dreams, love, and interpersonal relationships. Very Zoya Akhtar in spirit especially in what what to come.  
 
 {{</ds>}}
+165. The Last of Us | TV Series | 2023
 
 
 # 2022
