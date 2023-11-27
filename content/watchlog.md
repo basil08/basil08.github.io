@@ -424,6 +424,19 @@ PPS: I want to scream and howl for I cannot create art like this.
 
 {{</ds>}}
 
+167. {{<ds sum="Machines | Rahul Jain | 2016">}}
+
+It's easy to mistake Machines as a black and white documentary for the dirt and blackness of the miserable working conditions of the factory makes it hard to make out any vibrancy as such.
+
+What do you expect from a documentary about a textile dyeing factory situated in Gujarat? That's right. Miserable working conditions, poor and emancipated workers working in outrageously dangerous conditions and silently enduring the exploitation, fat business owners sitting in air-conditioned offices far away from the toxic factory floors and so on and on. This was my mental preconditioning before I hit the play button on Rahul Jain's piognant documentary _Machines_. 
+
+But Machines turns out to be much more than a plight of the poor and a very grim reminder of the stark inequalities that we live in and choose to ignore. What stood out for me is the masterful composition of each shot coupled by poetic sequences that weave a story without the utterance of a single word. Rahul takes the creative decision to keep himself out of the frame at all times, visually as well as vocally. There is minimal voiceovers and testimonials, a general feature of such documentaries. All replaced by the raw noises and gentle humming of the Machines. 
+
+Even then I noticed two things: first is the sheer synergy that exists between man and machine at this factory. It seems like both of them are best friends supporting each other without any qualms. And secondly, the contrast between the audience with their gawking eyes and gaping mouths looking at every movement, every machine with surprise and curiosity where the workers are indifferent to their environment. Rich white fibre being produced but no one to ask about the labour conditions or the story behind the hands that made them. And of course, faces! So many of them! Starkly staring at the camera with innocence and helplessness, almost as if Jain wanted us to lament the despondent future of these poor souls. In fact, this has been Jain's philosophy: to show and not to tell. 
+
+PS: Studying textile engineering and watching the "theory" applied in real-life was such a moving experience for me personally. 
+{{</ds>}}
+
 
 # 2022
 
