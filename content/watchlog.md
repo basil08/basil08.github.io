@@ -437,6 +437,10 @@ Even then I noticed two things: first is the sheer synergy that exists between m
 PS: Studying textile engineering and watching the "theory" applied in real-life was such a moving experience for me personally. 
 {{</ds>}}
 
+168. The Mask of Zorro | Martin Campbell | 1998
+169. Men in Black | Barry Sonnenfield | 1997
+170. Thor: Love and Thunder | Taika Waititi | 2022 
+171. Squaring the Circle - The Story of Hipgnosis | Anton Corbijn | 2022
 
 # 2022
 
