@@ -91,6 +91,17 @@ Oh, what a lovely day! The world is saved yet again by untested code pushed to p
 
 PS: I logged into the database and realised a mismatch between the number of gameEntry objects and gameData objects created. Hmmmm. So, just to be safe, I noted the `startTimestamp` of each user id upon first login to serve as the baseline in calculating the time deltas for each round completion later. (I have deliberately tried to keep this post jargon free but if you wish to look at the schema or the code, here they are: [frontend][5] and [backend][6]). My conjecture is that people logged in but left the game midway/closed the tab. That voluntary quit button would have been nice after all.
 
+PPS: (Dec 21st) Just added a `Result` page to the app which shows very basic personalised performance report for each user. The metrics shown were: total attempted, wins, loses, average time per solve (basically 1800 seconds divided by the total puzzles seen), and number of tries for each word. I think this additional feature makes for a cute uupgrade in terms of completeness. How the results looked like? 
+
+1. Total 228 participants
+2. Average score of 31.28 (A multiplier table of 10 points for getting it right on the 1st attempt and subsequent decreasing points for more guesses was used)
+3. Average number of attempts is 16.44
+4. Average number of wins is 12.22
+5. Hardest word to solve was ZOOEY (based on the number of guesses required by most people)
+6. Easiest word to solve was ABASH (based on the number of guesses required by most people)
+
+The podium finishes all scored 100+ 🤯 and the first had an insane average time to solve of around 24 seconds with 76% accuracy!
+
 Fin.
 
 ---
