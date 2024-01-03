@@ -441,6 +441,8 @@ PS: Studying textile engineering and watching the "theory" applied in real-life 
 169. Men in Black | Barry Sonnenfield | 1997
 170. Thor: Love and Thunder | Taika Waititi | 2022 
 171. Squaring the Circle - The Story of Hipgnosis | Anton Corbijn | 2022
+172. The Birds | Alfred Hitchcock | 1963
+173. Past Lives | Celine Song | 2023
 
 # 2022
 
