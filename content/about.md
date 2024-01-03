@@ -23,7 +23,7 @@ Hi there! My name is Basil Labib and I'm a junior at [IIT Delhi][0].
 I'm interested in STEM. I like films and art history. I love to read. I jokingly began describing myself as a cross between an autodidactic polymath and a Romantic. And that's a good working definition.
 
 This blog is an attempt to make learning rewarding for others. It is also partly my scratchpad to note thoughts and ideas.    
-
+<!-- 
 {{<ds sum="Not so brief introduction">}}
 
 
@@ -62,7 +62,7 @@ My outlook to philosophy is purely practical. I hate people who don't know what 
 > &ndash; Friedrich Nietzsche, _Beyond Good and Evil_
 
 
-{{</ds>}}
+{{</ds>}} -->
 
 ## Contact me
 
