@@ -68,7 +68,7 @@ I realised I had no information regarding A's flight details and I wouldn't know
 
 ## The disastrous breakfast   
 
-After arriving at Oxford, we headed for some breakfast. I wanted to try out the traditional English breakfast but since I don't eat pork, I asked the person to not include bacon. She serves the plate and there was...bacon. Ugh. Shared the scarbbled eggs with A and had some beans which smelt very very weird and yucky. Worst food experience ever. I implicitly swore to stick to McDonald's only. Video called my folks. 
+After arriving at Oxford, we headed for some breakfast. I wanted to try out the traditional English breakfast but since I don't eat pork, I asked the person to not include bacon. She serves the plate and there was...bacon. Ugh. Shared the scarbbled eggs with A and had some beans which smelt very very weird and yucky. Worst food experience ever. &pound;15 for this nuisance. I implicitly swore to stick to McDonald's only. Video called my folks. 
 
 ## Rendezvous   
 
@@ -79,6 +79,8 @@ I had a fun conversation with Micha, a Masters student in AI at a German college
 ...Only to notice that we have turned around and heading away from Bicester? They had missed a few people at the pickup point so we were heading back to get them. Another 40 minutes. I mostly sat in silence since I was too tired to talk. It was past 3 in the afternoon. There was no sun. I enjoyed the house, their architecture and their colour - each so distinct and refreshing. The fictional English countryside just got real. 
 
 We reached Middle Aston and holy smokes! It was an incredible place. I had a feeling that the next few days would be awesome (Spoiler alert: They were ;)) I quickly dropped off my bags at my assigned room and assembled for the welcome session. People had already started talking and socialising just like in a typical EA conference and I felt a bit awkward. That's when my phone rings and it's a call from Ms. Palki's assistant. I was plunged back to reality for a moment as I recalled my ties and responsibilities from back home. The ghosts of my past?<sup>6</sup> Anyway, that was a negative response. Fuck. 
+
+{{<figure src="/img/uk1/3.jpeg" width="500px" caption="Middle Aston House, view by the lake, 21st December, 2023">}}
 
 ## Kickstart
 
@@ -133,6 +135,8 @@ Finally, almost everyone ended up at the socialisation room (the same place wher
 
 Phew, it's already 3.5k words! Thank you, dearest reader, for sticking around! Will continue the adventure in a part 2 (hopefully)!
 
+[Part 2 is here][12]. Enjoy!
+
 # Footnotes
 
 1: Pretty sure, this is a very standard result found in all accounting textbooks. But to derive it out of thin air with intuition was a fun mental exercise. 
@@ -157,3 +161,4 @@ Phew, it's already 3.5k words! Thank you, dearest reader, for sticking around! W
 [7]: https://forum.effectivealtruism.org/posts/HDAXztEbjJsyHLKP7/outline-of-galef-s-scout-mindset
 [10]: https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem
 [11]: https://www.google.com/maps/place/London,+OH+43140,+USA/@39.890533,-83.43446,13z/data=!3m1!4b1!4m6!3m5!1s0x8838a597e804133f:0xd6af5c9037897f38!8m2!3d39.8864493!4d-83.4482529!16zL20vMGIyc20?entry=ttu
+[12]: /post/stories-from-the-underground-part-2/

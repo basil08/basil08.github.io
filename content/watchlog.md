@@ -141,7 +141,7 @@ With commendable performance from Oscar Isaac (seen this man from Star Wars to D
 94. 12 Angry Men | Sidney Lumet | 1957   
 95. The Two Towers (LOTR #2) | Peter Jackson | 2002   
 96. Return of the King (LOTR #3) | Peter Jackson | 2003    
-97. Andhadhun | Sriram Madhanvan | 2018   
+97. Andhadhun | Sriram Raghavan | 2018   
 98. Shaun of the dead | Edgar Wright | 2004    
 99. The Departed | Martin Scorcese | 2006
 100. {{<ds sum="1917 | Sam Mendes | 2019">}}
