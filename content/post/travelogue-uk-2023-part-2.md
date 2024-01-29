@@ -186,13 +186,15 @@ I wondered about my photography skills; I came a noob and I go back being able t
 
 My mind turned to the things that couldn't be such as the trip to St. Pancras' to see the 9 3/4 platform or 221B Baker Street. But that's fine I guess. Human desire is never satisfied. 
 
+## The flight back 
+
+I spent my time at the airport watching the new [Abhishek Upamanyu standup][13] which was an absolute riot. I was laughing so hard the whole time. It reminded me of home and helped me combat airport loneliness. Thank you, Abhishekji! I remember my LHR-DXB flight getting delayed by an hour and I remember the DXB-CCU flight being delayed by Emirates to accommodate us as we rushed through security. I remember bingeing on a [documentary][11] on the album designer group Hipgnosis and Hitchcock's classic [The Birds][12] (fantastic watch, by the way; perhaps my favourite Hitchcock). I remember starting Celine Song's Past Lives but dozing off due to fatigue. Watched it later and it's such an endearing storytelling. Emirates' hospitality was, once again, amazing.  
+
 ## The End<sup>3</sup> 
 
 You might have expected me to tell you stories of valour and conquests &ndash; of fucking around in the middle of the night, making out with some random girl in a pub, or pissing on a police car to get arrested or just get into some trouble. But it was nothing like that. I was the most disciplined boy in the UK. Mom and Dad must be proud. But I wonder why. 
 
 {{<figure src="/img/uk2/10.jpg" width="500px" caption="Dubai at night. Emirates is such a cutiepie, they delayed the DBX-CCU flight for us">}}
-
-
 
 _This is Part 2 of the two-part travelogue on my GCP experience and beyond. Read [Part 1 here][8]._
 
@@ -217,3 +219,6 @@ _This is Part 2 of the two-part travelogue on my GCP experience and beyond. Read
 [8]: /post/stories-from-the-underground-part-1/
 [9]: https://www.imdb.com/title/tt1109624/
 [10]: https://en.wikipedia.org/wiki/Near-field_communication
+[11]: https://www.imdb.com/title/tt10850264/
+[12]: https://www.imdb.com/title/tt0056869/
+[13]: https://www.youtube.com/watch?v=t8HrZTLRCeU
