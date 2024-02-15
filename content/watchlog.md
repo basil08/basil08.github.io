@@ -11,6 +11,9 @@ This page contains a list of movies/series that I have watched or am watching. I
 # 2024 
 
 1. Dilwale Dulhania Le Jayenge | Aditya Chopra | 1995
+2. East of Eden | Elia Kazan | 1955
+3. Anatomy of a Fall | Justine Triet | 2023
+4. The Holdovers | Alexander Payne | 2023
 
 # 2023
 
