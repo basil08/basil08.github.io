@@ -14,14 +14,17 @@ This page contains a list of movies/series that I have watched or am watching. I
 2. East of Eden | Elia Kazan | 1955
 3. Anatomy of a Fall | Justine Triet | 2023
 4. The Holdovers | Alexander Payne | 2023
+5. {{<ds sum="Passsages | Ira Sachs | 2023">}}
+
+_Passages_ is, at its heart, a warning for practitioners of lust and polluters of the concept of love. It follows a gay marriage in Paris which is jeopardised after one of them (the arrogant filmmaker) realises that he likes to sleep with women. This bisexual love triangle goes down in flames as was evident from the get-go.
+
+_Passages_ doesn't shy away from intimacy and I think those bold scenes, often bordering on visceral, effectively makes up for the lack of build-up for us to care enough about the characters. The film runs for only 90 minutes, thus, barely leaving space to setup the characters. The sex, atleast, helps us to connect with them immediately. This is, of course, in stark contrast to Indian films which tend to be more extravagant in nature. The act of film watching in India has been a social event - a carnival in fact. Groups of friends and family and neighbours and small kids all sticking together craning their necks at a small TV screen. The West starkly differs in its interpretation of cinema - one where film watching is a personal affair, a practical one. IMO, this is one reason why non-Indian films tend to be much shorter than their Bollywood counterparts.  
+
+_Passages_ is colourful and stylish and expensive. The characters are tasteful and have an implicit personality that goes beyond the screen or the script. Good, short watch but nothing especially extaordinary.  
+
+{{</ds>}}
 
 # 2023
-
-<!-- | Name  | Directors | Year |
-|-------|-----------|------|
-|The Lives of Others|  Florian Henckel von Donnersmarck | 2006|
-|
- -->
 
 1. The Lives of Others | Florian Henckel von Donnersmarck | 2006
 2. Annie Hall | Woody Allen | 1977
