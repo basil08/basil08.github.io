@@ -42,12 +42,15 @@ Very nice friends watch.
 
 10. Sholay | Ramesh Sippy | 1975
 
-
 11. House of Secrets: The Burari Deaths | Series | 2023
 
 12. One Day | Series | 2024
 
 13. Total Recall | Paul Verhoeven | 1990
+
+14. The Peanut Butter Falcon | Tyler Nilson, Micheal Schwartz | 2019
+
+15. The Zone of Interest | Jonathan Glazer | 2023
 
 
 # 2023
