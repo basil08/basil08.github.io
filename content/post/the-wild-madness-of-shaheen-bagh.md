@@ -2,7 +2,7 @@
 title: "The Wild Madness of Shaheen Bagh"
 tags:
 categories: 
-date: 2024-03-17T03:03:37+05:30
+date: 2024-03-16T03:03:37+0:30
 ---
 
 _The following is a personal account of taking a stroll through the markets of Shaheen Bagh on the fifth day of the month of Ramadan with a friend. We went looking for new shoes just after breaking our fast._ 
