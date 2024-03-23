@@ -21,7 +21,7 @@ One of the first realisations that hit me as a chief editor was if I called a me
 
 ### Delays  
 
-Delays and BSP are an inevitable part of BSP projects. It’s beyond any control - techie may get sick, journo may have an assignment deadline, professor doesn't show up, design was bad, and so on; things go bad because chief eds cannot control all parameters of the environment they operate in. But I started observing patterns. Things can be made better if delays can be built into the schedule. I started making two timelines for projects - one that would be a lower bound of all things considered and a secret more realistic one. The target would then be to complete the project somewhere between these two expected times. This is how I kept my projects on track (for the most part) and completed them on time. 
+Delays are an inevitable part of BSP projects. It’s beyond any control - techie may get sick, journo may have an assignment deadline, professor doesn't show up, design was bad, and so on; things go bad because chief eds cannot control all parameters of the environment they operate in. But I started observing patterns. Things can be made better if delays can be built into the schedule. I started making two timelines for projects - one that would be a lower bound of all things considered and a secret more realistic one. The target would then be to complete the project somewhere between these two expected times. This is how I kept my projects on track (for the most part) and completed them on time. 
 
 ### Voice of the campus?
 
