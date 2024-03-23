@@ -58,6 +58,10 @@ Very nice friends watch.
 
 18. Sicario | Denis Villeneuve | 2015
 
+19. Poor Things | Yorgos Lanthimos | 2023
+
+20. The Lobster | Yorgos Lanthimos | 2015
+
 # 2023
 
 1. The Lives of Others | Florian Henckel von Donnersmarck | 2006
