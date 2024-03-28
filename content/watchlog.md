@@ -62,6 +62,15 @@ Very nice friends watch.
 
 20. The Lobster | Yorgos Lanthimos | 2015
 
+21. Wake Up Sid | Ayan Mukherji | 2009
+
+22. Up | Pete Docter | 2009
+
+23. Lust Stories | Anthology, Multiple Directors | 2018
+
+24. Lust Stories 2 | Anthology, Multiple Directors | 2023 
+
+
 # 2023
 
 1. The Lives of Others | Florian Henckel von Donnersmarck | 2006
