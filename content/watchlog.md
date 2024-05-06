@@ -70,6 +70,15 @@ Very nice friends watch.
 
 24. Lust Stories 2 | Anthology, Multiple Directors | 2023 
 
+25. American Pie | Paul Weitz | 1999
+
+26. Persona | Ingmar Bergman | 1966
+
+27. The Favourite | Yorgos Lanthimos | 2018
+
+28. Swades | Ashutosh Gowariker | 2004 
+
+29. Dune 2 | Denis Villenueve | 2024
 
 # 2023
 
