@@ -7,13 +7,13 @@ date: 2024-05-05T23:38:24+05:30
 
 {{<dropcap>}}Sometime back,{{</dropcap>}} in one of the professor-student meetings, I raised the issue of rampant cheating during exams only to be frowned upon by my peers who let out a disinterested sigh of disgust. Surely one would expect students to support the issue of cheating? It turned out that students who perceived cheating to be a problem were in a minority. That is because the number of good students, by definition, is small.
 
-This curious incident (which I’ll get back to) made me wonder about the modern machinery of teaching, the ethics of learning, and morality in general. 
+This curious incident (which I’ll come back to) made me wonder about the modern machinery of teaching, the ethics of learning, and morality in general. 
 
-The title of this article seems paradoxical, doesn’t it? How can good students get poor marks? Aren’t they, by definition, supposed to be high scorers? Not quite. There is a difference between being good and being a good scorer. And this is the crux of this article.
+The title of this article seems paradoxical, doesn’t it? How can good students get poor marks? Aren’t they, by definition, supposed to be high scorers? Not quite. There is a difference between being good and being a good scorer. This is the crux of this article.
 
 ## Two processes 
 
-One has been conditioned to believe, through societal norms, that cheating is bad. Not necessarily. It is bad for people who don’t cheat. Because it shifts the curve to the right inadvertently hurting those who are honest. Here is a delicate relation between one’s grade and the “learning” itself. And I want to make a distinction between the two processes:
+One has been conditioned to believe, through societal norms, that cheating is bad. Not necessarily. It is bad for people who don’t cheat. Because it shifts the curve to the right inadvertently hurting those who are honest. There is a delicate relation between one’s grade and the “learning” itself. And I want to make a distinction between the two processes:
 
 1. Learning process - wherein we explore the process by which one learns
 2. Evaluation process - by which someone finds out how much someone has learnt
@@ -38,11 +38,11 @@ How does competency, which is what one would expect help these wunderkinds to ba
 
 The precedence of the CGPA being an important social indicator for competency further feeds the “utilitarian” motive behind cheating and amplifies the problem, as [noted][1] by Prof. Abhilash Jindal<sup>1</sup>. 
 
-But why are students so strongly motivated to work in a company? Because we have been taught to regard an employee’s life as a model for a bright future. Instead of resilience and how to behave in times of crises, the constant dread of not being employed after graduation is drilled into our heads from a young age. No job after graduation is seen as a laughable taboo, even a mark of being useless.<sup>3</sup>
+But why are students so strongly motivated to work in a company? Because we have been taught to regard an employee’s life as a model for a bright future. Instead of resilience and how to behave in times of crises, the constant dread of not being employed after graduation is drilled into our heads from a young age. Being jobless after graduation is seen as a laughable taboo, even a mark of being useless.<sup>3</sup>
 
 
 
-Are the companies not aware? Surely, over a long period of time, they should be able to identify that CGPA is a bad proxy for competency and thus, seek better metrics? Yes, but there are constraints. Some of my friends in the placement cell on campus told me how there are over 100 applications for 2 open positions.<sup>4</sup> Companies have to resort to automation. They can no longer individually assess each application. The process has lost the human touch. It has become more brutal, more cold like the steel edge of a knife. And I do not over-dramatise. It is routine for companies to reject students who have low CGPA.<sup>5</sup> 
+Are the companies not aware? Surely, over a long period of time, they should be able to identify that CGPA is a bad proxy for competency and thus, seek better metrics? Yes, but there are constraints. Some of my friends in the placement cell on campus told me how there are once over 100 applications for 2 open positions in a company.<sup>4</sup> Companies have to resort to automation. They can no longer individually assess each application. The process has lost the human touch. It has become more brutal, more cold like the steel edge of a knife. And I do not over-dramatise. It is routine for companies to reject students who have low CGPA.<sup>5</sup> 
 
 ## A pitiful mentality 
 
