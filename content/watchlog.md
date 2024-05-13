@@ -80,6 +80,33 @@ Very nice friends watch.
 
 29. Dune 2 | Denis Villenueve | 2024
 
+30. Withnail and I | Bruce Robinson | 1987
+
+31. Kingdom of Heaven | Ridley Scott | 2005
+
+32. {{<ds sum="Heathers | Michael Lehmann | 1988">}}
+
+As already admitted by the writers of this movie, _Heathers_ was intended to show the more realist side of American high school drama and the brazen alternative social order that exists within them, a clear departure from the string of feel-good high school dramas that flooded the public domain back then, such as those by John Hughes. 
+
+Heathers takes the mere act of survival in the brutal landscape of the high school and takes it to an extreme as it meddles with the highly improbable event of a psychopath ending up killing a number of the "popular" kids and getting away with it because as Jason "J.D." Dean puts it, "The only place where Heathers and Marthas can get along is in Heaven!" He is referring to the natural social schism that exists in high school and how it is impossible to overcome it by any form of mortal intervention whatsoever, hence, the only place that differences can be overcome is in heaven. 
+
+Perhaps, the most horrible instance is reflected in the school's reaction to the "actual" suicide attempt of Martha, a not-so-popular girl as they end up turning the matter into mockery and ridicule.
+
+> Heather Duke: Just some broken bones. Just another geek trying to imitate the popular
+people and failing miserably.
+
+Popularly, JD is often seen as a villain, a psychopath as I happen to mention before, but really he is a saviour of this miserable hellhole as he is making an attempt to stir the pot filled with both kids and adults who are too full of themselves. As he prepares to blow up the school, here is his petition 
+
+> We, the students of Westerburg High will die    
+> Our burnt bodies may finally get through to you    
+> Your society churns out slaves and blanks    
+...
+
+
+Great film overall. Both in the subjects it explores and in style. 
+
+{{</ds>}}
+
 # 2023
 
 1. The Lives of Others | Florian Henckel von Donnersmarck | 2006
