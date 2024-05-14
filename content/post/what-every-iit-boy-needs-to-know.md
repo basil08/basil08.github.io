@@ -2,9 +2,8 @@
 title: "What Every IIT Boy Needs To Know: Building Emotional Intelligence"
 tags:
 categories: 
-date: 2024-05-14T07:09:14+05:30
+date: 2024-05-13T07:45:14+05:30
 ---
-
 
 > Open fire!   
 > On my burning heart   
@@ -18,13 +17,13 @@ _Disclaimer: I am not a misogynist or a misandrist. All arguments presented in t
 
 ## Prologue
 
-{{<dropcap>}}This boy was {{</dropcap>}} friends with a girl and spent time together - doing assignments together, that kind of thing. Then he went on to narrate this peculiar incident one evening when he texted her to meet up for a chat as he was feeling under the weather. She texted back that she couldn’t because she had to study. Later that night, he spotted her along with other boys at a club while scrolling through Instagram.  
+{{<dropcap>}}This boy was {{</dropcap>}} friends with a girl and spent time together - doing assignments, that kind of thing. Then he went on to narrate this peculiar incident one evening when he texted her to meet up for a chat as he was feeling under the weather. She texted back that she couldn’t because she had to study. Later that night, he spotted her along with other boys at a club while scrolling through Instagram.  
 
 Some of you might dismiss this incident by saying that this is an outlier rogue behaviour and girls are _generally not rude_<sup>1</sup> and I might agree but this anecdote underscores a major systemic trend that I wish to address in this article.
 
 ## A feature, not a bug 
 
-This observation has often been pointed out by both critics and supporters of the IIT system, often to the point of being touted as a “problem” of the IITs in popular media - namely, the skewed gender ratio <sup>2</sup>. But I consider this a feature of the IIT system, not a bug. 
+The following observation has often been pointed out by both critics and supporters of the IIT system, often to the point of being touted as a “problem” of the IITs in popular media - namely, the skewed gender ratio <sup>2</sup>. But I consider this a feature of the IIT system, not a bug. 
 
 The following is the total male-female count over the past four years as per [official annual reports][0] released by IIT Delhi:
 
@@ -57,7 +56,8 @@ The following is the total male-female count over the past four years as per [of
 </table>
 
 These numbers have a profound effect on the psychological and social tendencies of both genders within the confines of the IIT threshold. Drawing from economic principles, it makes the girls more scarce<sup>4</sup>. For every girl, there are around 3 boys within IIT and it creates an artificial imbalance in how the two genders interact. 
-The poor boy 
+
+## The poor boy 
 
 The boys are generally what one would typically call a nerd in popular terminology - socially inept but extremely diligent and focused. But what’s more? Sufficiently disillusioned by ill-founded notions of IIT being a magical gateway to a happy and secure life, they are also constantly fed the imminent fate of their romantic life, being in an IIT effectively means butchering that dream.
 
@@ -86,9 +86,9 @@ Interestingly, there exists a divisive social dynamic _between boys_ who are in 
 
 ## What is the fundamental issue? 
 
-Boys seem to have lost the sensibility of critical thinking and self-awareness. They have either sunk into wasting time getting laid (those who can) or wasting time lamenting that they can’t. This increasingly growing group ends up becoming a nuisance to both boys and girls around them. More often than not, a text from the girl is an invitation for conversation and discourse, and not to become romantically involved. In short, boys seem to be lacking emotional intelligence<sup>2</sup>. 
+Boys seem to have lost the sensibility of critical thinking and self-awareness. They have either sunk into wasting time getting laid (those who can) or wasting time lamenting that they can’t. This increasingly growing group ends up becoming a nuisance to both boys and girls around them. More often than not, a text from the girl is an invitation for conversation, and not to become romantically involved. In short, boys seem to be lacking emotional intelligence<sup>2</sup>. 
 
-No one ever talks about becoming excellent or likeable. A self-reinforcing cycle of scrolling through Instagram and feeling bad about expectations or feeling jealous. But where is the effort to become competent? 
+No one ever talks about becoming excellence or likeable. A self-reinforcing cycle of scrolling through Instagram and feeling bad about expectations or feeling jealous. But where is the effort to become competent? 
 
 ## Emotional Intelligence not part of the syllabus
 
@@ -102,15 +102,15 @@ How do engineers solve any problem? What’s the first step? Well, they observe 
 
 But how much have we observed it? How much have you observed it? Reading gives one access to experiences that are spatially and temporally inaccessible otherwise. One cannot live the experiences of a Vietnam soldier or understand the nuances of Greek social order but the reader can! 
 
-In short, what I’m getting at is a simple fact: The prevalent boys mentality is a product of accepting mediocrity. It is a product of accepting the patch of reality illuminated by the narrow pencil of light that leaks through the keyhole and never daring to open the door itself.
+What I’m getting at is simple: The prevalent boys mentality is a product of accepting mediocrity. It is a product of accepting the patch of reality illuminated by the narrow pencil of light that leaks through the keyhole and never daring to open the door itself.
 
-How many students on campus today can engage in meaningful debate regarding what’s going on in the world or the country?<sup>5</sup> As a community we are unable to process complex emotions like empathy or abstract ideas of collectivism and community because we lack context. And then when something unwanted happens, we all feel sad (or pretend, I don’t know) and subtly shift the blame to somebody else to subconsciously feel safer, better. 
+How many students on campus today can engage in meaningful debate regarding what’s going on in the world or the country?<sup>5</sup> As a community, we are unable to process complex emotions like empathy or abstract ideas of collectivism and community because we lack context. And then when something unwanted happens, we all feel sad (or pretend, I don’t know) and subtly shift the blame to somebody else to subconsciously feel safer, better. 
 
 ## Points to ponder for the boys 
 
 Why would any girl want to spend time with you? What do you expect to offer apart from being able to solve a bunch of optimisation problems on paper?  
 
-If I may be allowed to enjoy this digression, one must realise a new understanding of love; one that is not selfish but so utterly disjoint from the realisation of personal or self-pleasure that no matter what happens, it doesn’t end up affecting them at all. I think this is required in general. Not professing celibacy or resignation to a strict abstentious hermit lifestyle but to work towards deserving things rather than running after things. 
+If I may be allowed to enjoy this digression, one must realise a better understanding of love; one that is not selfish but so utterly disjoint from the realisation of personal or self-pleasure that no matter what happens, it doesn’t end up affecting them at all. I think this is required in general. Not professing celibacy or resignation to a strict abstentious hermit lifestyle but to work towards deserving things rather than running after things. 
 
 ## Parting Thoughts 
 
