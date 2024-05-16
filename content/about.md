@@ -16,7 +16,7 @@ Perhaps, a better explanation is given by ACX which I quote:
 
 ## Who am I?
 
-Hi there! My name is Basil Labib and I'm a junior at [IIT Delhi][0].
+Hi there! My name is Basil Labib and I'm a senior at [IIT Delhi][0].
 
 ## Brief Intro
 
