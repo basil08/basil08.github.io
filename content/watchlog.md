@@ -88,7 +88,7 @@ Very nice friends watch.
 
 As already admitted by the writers of this movie, _Heathers_ was intended to show the more realist side of American high school drama and the brazen alternative social order that exists within them, a clear departure from the string of feel-good high school dramas that flooded the public domain back then, such as those by John Hughes. 
 
-Heathers takes the mere act of survival in the brutal landscape of the high school and takes it to an extreme as it meddles with the highly improbable event of a psychopath ending up killing a number of the "popular" kids and getting away with it because as Jason "J.D." Dean puts it, "The only place where Heathers and Marthas can get along is in Heaven!" He is referring to the natural social schism that exists in high school and how it is impossible to overcome it by any form of mortal intervention whatsoever, hence, the only place that differences can be overcome is in heaven. 
+Heathers takes the mere act of survival in the brutal landscape of the high school and takes it to an extreme as it meddles with the highly improbable event of a psychopath ending up killing a number of the "popular" kids and getting away with it because as Jason "J.D." Dean puts it, "TThe only place where different social types can genuinely get along with each other is in heaven!" He is referring to the natural social schism that exists in high school and how it is impossible to overcome it by any form of mortal intervention whatsoever, hence, the only place that differences can be overcome is in heaven. 
 
 Perhaps, the most horrible instance is reflected in the school's reaction to the "actual" suicide attempt of Martha, a not-so-popular girl as they end up turning the matter into mockery and ridicule.
 
@@ -106,6 +106,9 @@ Popularly, JD is often seen as a villain, a psychopath as I happen to mention be
 Great film overall. Both in the subjects it explores and in style. 
 
 {{</ds>}}
+
+33. The Ministry of Ungentlemanly Warfare | Guy Ritchie | 2024  
+
 
 # 2023
 
