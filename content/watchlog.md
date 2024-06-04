@@ -108,7 +108,30 @@ Great film overall. Both in the subjects it explores and in style.
 {{</ds>}}
 
 33. The Ministry of Ungentlemanly Warfare | Guy Ritchie | 2024  
+34. Tinker Tailor Soldier Spy | Tomas Alfredson | 2011 
+35. {{<ds sum="Ikiru (To Live) | Akira Kurosawa | 1957">}}
 
+Inspired by Tolstoy's novella _The Death of Ivan Iliych_, _Ikiru_ is one of those thought-provoking movies that will make one pause and ponder. Following the life of a widower government official who has spent his entire life working is confronted with the news of his inevitable death, the movie explores themes of mortality and existentialism. With that gaping, wide-eyed face shot of Mr. Wanatabe staring directly at the camera, it almost feels like staring deep into our souls, asking us, nope, pleading us to question: What are we doing? and not to end up wasting time waiting to live life and to do it straight away. 
+
+I haven't watched a film in recent time that is so simple and quiet in structure yet so enriched with layered narratives and the kind of emotions that it provokes. "You discover the beauty of life only when confronted with death" solemnly declares Mr. Watanabe's stranger accomplice at the bar when he confides in him. Through a night of repulsive camaraderie, evidently a doomed attempt of denial, Watanabe ponders on his 30 years of "distinguished service" to the Public Affairs section where not a new thing ever happened and the next day is just like the last. He wonders what has he achieved in those years of working and saving? How has he growned inwardly? And outwardly? 
+
+The central theme that _Ikiru_ explores is the purpose of a man's life. And Kurosawa tells us that inspite of all vanities and debaucheries that comes so naturally to man, it is effectively in the service of others that his heart will find peace, sooner or later. That is exactly what Mr. Watanabe sets out to do after he's enlightened at the restaurant sitting with a young and charming woman - his subordinate at the office. He expresses his envy for her youth and health and craves: "I want to be alive like you". 
+
+
+The movie is also a sharp commentary on the laughably inefficient Japanese bureaucracy (which is satirically established in that opening montage of "department hopping") but that is about it. Right from passioned proclaims of his drunk accomplices at his funeral of a renewed spirit in the department, and promises of "to sacrifice the self in the service of many", straight down to the shot of a protesting officer silently taking his seat when the time comes to act, Kurosawa tells us that all of those promises were fake. Just like the beloved Deputy Mayor who didn't as much sympathise with the death of his junior who spearheaded the construction of the new park so much as hijack the opportunity to take credit for the upcoming Council elections. Although none of the actions portrayed came as a surprise, each action was predictable and laced with a sense of satire and hypocrisy, which Kurosawa managed to bring out with his excellent craftsmanship.
+
+> life is brief   
+fall in love, maidens   
+before the crimson bloom   
+fades from your lips   
+before the tides of passion   
+cool within you,   
+for there is no such thing   
+as tomorrow, after all.   
+...   
+~The Gondola Song
+
+{{</ds>}}
 
 # 2023
 

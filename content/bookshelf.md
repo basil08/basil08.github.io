@@ -18,10 +18,21 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 
 1. The Burden of Democracy 
 2. Everybody Loves a Good Drought
-4. Dune
-5. Harry Potter and the Methods of Rationality
-6. From AI to Zombies
-7. Understanding Power 
+3. Children of Dune (Dune #3)
+4. Harry Potter and the Methods of Rationality
+5. From AI to Zombies
+6. Understanding Power 
+7. Mossad
+
+## 2024 
+
+1. {{<ds sum="Dune | Frank Herbert">}}
+
+Probably my favourite science-fiction saga so far. I'll write more about it when I finish the other books. 
+
+{{</ds>}}
+
+2. Dune Messiah | Frank Herbert
 
 ## Unfinished
 
