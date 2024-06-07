@@ -135,6 +135,16 @@ as tomorrow, after all.
 
 36. Nightcrawler | Dan Gilroy | 2014
 37. The Cook, The Thief, His Wife And Her Lover | Peter Greenaway | 1989
+38. {{<ds sum="Tokyo Story | Yasujiro Ozu | 1953">}}
+
+It is rare that one finds a movie that deeply moves something within the soul. For me, _Tokyo Story_ is one such beautifully crafted piece of art. It essentially follows an old couple and their experiences as they visit their children settled in Tokyo. I'll not say anything else, you have to watch it. Oh, also, 1.25 or 1.5x is recommended.  
+
+PS: TIL that TS is the 3rd movie of the Noriko trilogy. 
+
+PPS: I'm really sick right now else I would have written more :/ 
+
+{{</ds>}}
+
 
 # 2023
 

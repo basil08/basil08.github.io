@@ -22,7 +22,6 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 4. Harry Potter and the Methods of Rationality
 5. From AI to Zombies
 6. Understanding Power 
-7. Mossad
 
 ## 2024 
 
@@ -33,6 +32,7 @@ Probably my favourite science-fiction saga so far. I'll write more about it when
 {{</ds>}}
 
 2. Dune Messiah | Frank Herbert
+3. Mossad | Michael Bar-Zohar and Nissim Mishal
 
 ## Unfinished
 
