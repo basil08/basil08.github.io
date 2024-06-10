@@ -145,6 +145,20 @@ PPS: I'm really sick right now else I would have written more :/
 
 {{</ds>}}
 
+39. What's Eating Gilbert Grape | Lasse Hallstrom | 1993
+40. Ship of Theseus | Anand Gandhi | 2012
+41. {{<ds sum="Manthan | Shyam Benegal | 1976">}}
+
+_Manthan_, literally meaning Churning, is a film by Shyam Benegal about the liberation of Indian milk producers as they setup their own cooperative society. It is entirely crowdfunded by the Indian farmers. 
+
+Watching _Manthan_ invoked quite a lot of emotions throughout the film - those of cooperation and socialism and the perpetual struggle of the good over the evil which we as Indians so love to see on screen. But it is often too difficult to distinguish between the two. In a rural society deeply entrenched in caste politics, it portrayed the somewhat heroic journey of a single man (the Messiah trope) who endlessly persevere to bring about a social revolution at the cost of his own life.
+
+I'm not sure how much of it will be true or effective today but I'm definitely convinced of the power of ideas - which is essentially what the founders of the White revolution were convinced of as well. I think the fact that ideas and not men can bring about social change for the good is aptly portrayed in the movie after the Messiah and his wife is kicked out of the village and the village harijans rise up to continue the cooperative.
+
+I don't believe that such change is easily brought (in fact, the movie does take quite a few dramatic turns in trying to capture that - the burning of the harijan section of the village, the false accusations of rape against the Messiah) but that must not deter us from beginning. In the end, it is the idea that matters and that, I think, is what the movie is about. 
+
+{{</ds>}}
+
 
 # 2023
 
