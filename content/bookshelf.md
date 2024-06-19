@@ -33,6 +33,17 @@ Probably my favourite science-fiction saga so far. I'll write more about it when
 
 2. Dune Messiah | Frank Herbert
 3. Mossad | Michael Bar-Zohar and Nissim Mishal
+4. {{<ds sum="India Unbound | Gurcharan Das">}}
+
+Undoubtedly, this is a book which has fired a lot of imagination and thought in me. _India Unbound_ is a socio-political and economic analysis of India from Independence to the 2000s, written in a semi-memoir-like style by a liberal. This is exactly what I was looking for in terms of depth of analysis which is well suited to a beginner layman. I can now say I have decent historical context to analyse future reports and events in India. I can philosophise a lot after reading this book but I'll stop myself and wait till I have seen _my India_. A quarter of a century is a generation and a long time for India to come-of-age. In some distant future, I wish to see India as it exists today and record what this miraculous nation is upto since the 2000s. And yet, somewhere deep down I'm afraid that I romanticise much.
+
+Maybe it is not as rosy as it seems. For as I keep pondering Gurcharan's words, I realised how bound we are to our uncontrollable fates being somehow thrown into the world and asked to make sense of it (and honestly, not a lot of us have the mental awareness to seek out the "moral and spiritual platform" to view themselves and the world around them and are happy to learn, earn, and die). I mean the individual aspirations of one person may not be enough to steer a country to greatness (because these are macroscopic emergent properties) or it might not be achievable in their lifetime. Is it then still worth it? To follow a passion so dearly as to gamble everything else? 
+
+I was born a decade after the economic reforms into a India which spoke of television and Coca-Colas and grew up in relative connectedness to the world through the Internet, listening to Radiohead and U2. And yet, _my India_ is not the complete picture. It is like looking at the picture through a narrow slit. I yearn to see the picture. Maybe some day I will. 
+
+There are 2 sequels to this book on the broader themes of _Dharma_ (Morality) and _Kama_ (Desire) while this one dealt with _Artha_ (Wealth). I'll probably skip those for now and come back to them later. 
+
+{{</ds>}}
 
 ## Unfinished
 

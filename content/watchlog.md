@@ -158,6 +158,10 @@ I'm not sure how much of it will be true or effective today but I'm definitely c
 I don't believe that such change is easily brought (in fact, the movie does take quite a few dramatic turns in trying to capture that - the burning of the harijan section of the village, the false accusations of rape against the Messiah) but that must not deter us from beginning. In the end, it is the idea that matters and that, I think, is what the movie is about. 
 
 {{</ds>}}
+42. Maqbool | Vishal Bhardwaj | 2004
+43. The Seventh Seal | Ingmar Bergman | 1957
+44. Citizen Kane | Orson Welles | 1941
+
 
 
 # 2023
