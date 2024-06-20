@@ -2,7 +2,7 @@
 title: "The One Where I Was Almost Jailed!"
 tags:
 categories: 
-date: 2024-06-20T22:51:03+05:30
+date: 2024-06-20T08:51:03+05:30
 ---
 
 Reflections on a personal incident that happened a few days back. Due to the nature and peculiarity of the event, I was terrified and confused whether I should publish it or not, hence I have decided to do so. 
