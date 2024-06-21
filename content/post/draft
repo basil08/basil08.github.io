@@ -8,22 +8,64 @@ in progress/incomplete
 * paprika
 * thoughts on "For Profit"
 * Gamifying Islam: Investigate into the Islamic priesthood system of Kolkata
+* The Cloth Peddlars of Kolkata - Where are they disappearing?
+
 
 * The Effeminate BSP
 * AI safety
 * ZK-SNARKS
 * The Inquirer Saga
-* Requiem for the American Dream Movie - Applying Chombsky's ideas in the indian context
-The Art of Saying “No” - Talk with Aniruddha and current life decisions
+* Requiem for the American Dream Movie - Applying Chomsky's ideas in the indian context
+
+# Technical
+
+1. Thoughts on writing a Prolog interpreter and developing an intuition for logic predicates as a model for computation 
+1b. Last year in comics
+2. Thoughts on Reinforcement Learning and maybe do some experiments?
+3. AI safety 201
+4. Thoughts on HPMOR and/or FAITZ
+5. ZK proofs
+6. Game Theory? 
+
+# Meta / Philosophy
 
 The Responsibility of Intellectuals - On the Moral Judgement of helping out the world versus not giving a fuck
 -> if everyone was aware of the pain and agony their existence costs other ppl, would they stop?
 -> no. thus, pain and misery can never end. and that is nott the aim.
+ 
+-> the pain of the maestro is caressed and pampered. what about the downtrodden and the miserable?
+
+
 -> to reduce existing pain and misery because the curr state is far above acceptable thresholds
 
 
 
+ASIDE IDEA: Nature of things (the underlying real meaning of things), form, and structure matter so much - a commentary on the importance of the abstract and the meta (meta learning)
+
+# Pop Cult / Movies
+
 Watching Requiem for the American Dream 
+
+Constructs for movie review:
+
+DDLJ first impressions
+
+patriarchy
+
+strongly steeped in Indian cultures (karwa chauth, marriage home, etc)
+
+Raj's dad falls in love with Simran's bua (hyperrealisation of reality)
+
+unwavering love of the heroine for the hero - misogynistic undertones (stems from patriarchy naturally, I Guess)
+
+apna and paraya - moral conscious in terms of Indian and the Indian diaspora in the UK soil.
+
+few swoon-worthy moments - the dinner in karwa chauth between Raj and Simran, Simran and her mother conversation moments 
+
+Elopment as a central decision making problem
+
+
+# Misc
 
 
 Where is character and excellence? Putting up such wonderful character but when the veneer is pulled, most are just lying.
@@ -33,8 +75,6 @@ Essential movies to watch before 18.
 My fav 19 movies
 My fav 19 songs
 Publishing a youth magazine and what I learned along the way
-A research into the female orgasmic cry
-The second pandemic - a study of mental health during the pandemic
 Hyperbole and Half style letters to past selves
 Beach House: tour, personal thoughts
 Radiohead
@@ -49,5 +89,3 @@ conlang
 Movie: Akira
 Tech: design a WA spam image classfier
 Tech: Redux and state management in React
-
-Paradigms in Programming Languages; Constructs in PLs; Pros and Cons

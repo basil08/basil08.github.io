@@ -1,0 +1,5 @@
+## To unlove someone 
+
+Most of us have liked someone in our lives at some point. But it takes a whole new level of conviction to tell that person how you feel. To take that step towards realisation of the imagined world where they are around you - yes, the one where you feel invincible.
+
+But the game of love isn't all rose petals down the road. I noticed myself cursing the same person who I was once completely vulnerable with. Why did I do that? Wasn't this person supposed to be more important to me than others? I wasn't cursing _that_ person. I was cursing myself and my stupidity. I was cursing the idea of the person in my head. I was trying to expedite the process of dismantling that idea, however piercing and horrendous it might be. And trust me, it isn't easy. To repeat the cuss each time was to take a knife and stab one of your kids. But I did it. I had to do it. There was no other way I could find peace within me.  

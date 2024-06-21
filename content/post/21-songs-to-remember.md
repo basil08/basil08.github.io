@@ -37,20 +37,17 @@ Your Winter - Sister Hazel
 
 > Pop phase 
 
-1D, Gomez, Imagine Dragon, ColdPlay, 
+1D, Gomez, Imagine Dragon, Coldplay, 
 
 > Urdu phase
 
 Coke Studio, Bayaan, Junoon, 
 
-> The Indie Rock scene 
+> The Indian Rock scene 
 
-TLT, TYD, Pineapple Express, Motherjane (Mindstreet), 
+TLT, TYD, Pineapple Express, Motherjane (Mindstreet), Agnee, Thaikkudam Bridge, 
 
 > To the future? 
-
-
-
 
 
 [0]: https://journal.stuffwithstuff.com/2018/05/19/40-songs/
