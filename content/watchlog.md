@@ -161,8 +161,21 @@ I don't believe that such change is easily brought (in fact, the movie does take
 42. Maqbool | Vishal Bhardwaj | 2004
 43. The Seventh Seal | Ingmar Bergman | 1957
 44. Citizen Kane | Orson Welles | 1941
+45. {{<ds sum="Fleabag | Harry Bradbeer | 2016">}}
 
+_Fleabag_ was a refreshing break from the kind of monotonous braindump that plagues the webseries industry these days. Starring the brilliant Phoebe Waller-Bridge, who describes herself as "greedy, perverted, selfish, apathetic, cynical, depraved, mannish-looking, morally bankrupt woman who can't even call herself a feminist" in the series; _Fleabag_ explores the joys and struggles of being a woman - no strings attached. 
 
+What really draws one attention is the masterful writing and the sharp and effective dialogues. I would not be too far to say that a lot of _Fleabag_'s character (yes, the central character is eponymously named after the series) draws inspiration from Phoebe's own experiences which is, indeed, a mirror of the kind of experiences _every woman_ faces in modern society - hence, the appeal of the show. You can forget all that and watch _Fleabag_ only for its incredible use of breaking the fourth wall. If you are into making films, you can definitely learn a thing or two about how to actually do it. Examples of how _not_ to do it exists in abundance, but this is just that good. 
+
+Two seasons felt too short, just to get to see more of Phoebe's brilliant writing and her insights into life. 
+
+{{</ds>}}
+
+46. {{<ds sum="Game of Thrones | Multiple Directors | Season 01">}}
+
+A friend suggested I start watching it. I was initially vehemant but I bit the bullet finally. _Sigh_. 
+
+{{</ds>}}
 
 # 2023
 

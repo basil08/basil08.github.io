@@ -19,9 +19,8 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 1. The Burden of Democracy 
 2. Everybody Loves a Good Drought
 3. Children of Dune (Dune #3)
-4. Harry Potter and the Methods of Rationality
-5. From AI to Zombies
-6. Understanding Power 
+4. Understanding Power 
+5. In The Service of the Republic
 
 ## 2024 
 
