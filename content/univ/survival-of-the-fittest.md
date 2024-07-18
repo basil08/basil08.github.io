@@ -16,7 +16,7 @@ Anyway, who will suffer? Me. I mean that tiny group of unfortunate students who 
 
 Why am I writing this post? Because to be honest, I'm kinda pissed off. All that those professors can see is the answers we write which they believe (_falsely_) is correlated to the knowledge that we have about that subject. But that isn't true. It _is_ hard being honest. Especially when you're being assessed relative to a cohort of dishonest entities. I don't want to go into the discussion of what exams really mean and what they are for but I think that is something people should have taught us before they started teaching us everything else. 
 
-Alright, my vent is over.  
+Alright, my rant is over.  
 
 ---
 

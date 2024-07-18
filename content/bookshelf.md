@@ -16,11 +16,9 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 
 ## Currently Reading
 
-1. The Burden of Democracy 
-2. Everybody Loves a Good Drought
-3. Children of Dune (Dune #3)
-4. Understanding Power 
-5. In The Service of the Republic
+1. Children of Dune (Dune #3)
+2. Understanding Power 
+3. In The Service of the Republic
 
 ## 2024 
 
@@ -43,6 +41,12 @@ I was born a decade after the economic reforms into a India which spoke of telev
 There are 2 sequels to this book on the broader themes of _Dharma_ (Morality) and _Kama_ (Desire) while this one dealt with _Artha_ (Wealth). I'll probably skip those for now and come back to them later. 
 
 {{</ds>}}
+
+## Want to Read
+
+1. Harry Potter and the Methods of Rationality
+2. The Burden of Democracy
+3. Everybody Loves a Good Drought
 
 ## Unfinished
 
