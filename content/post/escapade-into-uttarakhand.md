@@ -2,6 +2,7 @@
 title: "Escapade Into Uttarakhand: A travelogue"
 tags:
 categories: 
+series: "Travel"
 date: 2023-06-29T13:12:55+05:30
 ---
 

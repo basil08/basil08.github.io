@@ -2,6 +2,7 @@
 title: "BUIDL: Hitching a ride on the web3 wagon"
 tags:
 categories: 
+series: "Travel"
 date: 2022-12-11T09:28:14+05:30
 ---
 

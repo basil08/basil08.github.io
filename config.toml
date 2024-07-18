@@ -4,7 +4,7 @@ theme ="hugo-theme-basic"
 languageCode = "en-us"
 enableEmoji = true
 copyright = "© 2020 <a href='https://twitter.com/itbwtsh'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
-description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
+description = "Basil's personal website"
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -35,10 +35,7 @@ unsafe= true
 #  [[params.menu]]
 #   name = "univ"
 #   url = "/univ"
-# [[params.menu]]
-#  name = "travel"
-#  url = "/travel"
-#
+
 [[params.menu]]
   name = "bookshelf"
   url = "bookshelf/"
@@ -46,6 +43,9 @@ unsafe= true
 [[params.menu]]
   name = "watchlog"
   url = "watchlog/"
+[[params.menu]]
+ name = "travel"
+ url = "/series/travel"
 
 [[params.menu]]
   name = "about"
