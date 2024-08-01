@@ -16,9 +16,10 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 
 ## Currently Reading
 
-1. Children of Dune (Dune #3)
-2. Understanding Power 
-3. In The Service of the Republic
+
+1. In The Service of the Republic
+2. Harry Potter and the Methods of Rationality
+3. Snow Crash 
 
 ## 2024 
 
@@ -42,11 +43,21 @@ There are 2 sequels to this book on the broader themes of _Dharma_ (Morality) an
 
 {{</ds>}}
 
+5. {{<ds sum="Understanding Power | Noam Chomsky">}}
+
+Probably not a major upgrade after reading 'How the World Works' because it has the same themes and topics that it talks about. It follows the same format - just a set of Chomsky's talks and Q&As edited together into a book. The organisation is also not something I particularly like - its arranged choronologically and maintains too much of the conversational flow to be worthwhile to mentally address the sections. I didn't see any particularly good organisation metric used (For instance, HTWW had a country-wise organisation in the last section). The fact that the chapter and section titles are abstract-y doesn't help either. But those are not Chomsky's fault, those are the editor's faults. 
+
+The material reads like Chomsky and gets repetitive (especially if you have already read HTWW). At times, I got rather bored of the same "US is oppressing poor countries" narrative and felt sleepy. It's true, however, that Chomsky is perhaps one of the very few people who are actually first-order thinkers on geopolitics and human rights. The passion that exudes from the text is very typical of far-left thinkers. Chomsky is able to back his claims with irrefutable data and insights that I suspect very few are even capable of mentally arrriving at. 
+
+As an experiment, I tried to "read" this book by listening as an audiobook. Some worthwhile use of commute time to my office during internship. Would I do it again? Yes, perhaps. It's better than just letting the mind wonder but I'm not sure how retentive it really is. But then, is there any reason to believe that read material is more retentive? 
+
+{{</ds>}}
+
 ## Want to Read
 
-1. Harry Potter and the Methods of Rationality
-2. The Burden of Democracy
-3. Everybody Loves a Good Drought
+1. The Burden of Democracy
+2. Everybody Loves a Good Drought
+3. Children of Dune (#3) 
 
 ## Unfinished
 
