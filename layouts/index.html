@@ -1,93 +1,97 @@
 <!DOCTYPE html>
-<html
-  class=""
-  lang="{{ .Site.LanguageCode }}"
-  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
->
-  <head>
-    <meta charset="utf-8" />
+<html class="" lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
-    {{ partial "meta.html" . }}
+<head>
+  <meta charset="utf-8" />
 
-    <title>{{ .Site.Title }}</title>
-    <link rel="canonical" href="{{ .Permalink }}" />
-{{ $sitetitle := .Site.Title }}
-{{ with .OutputFormats.Get "RSS" }}
-    <link
-      href="{{ .RelPermalink }}"
-      rel="alternate"
-      type="application/rss+xml"
-      title="{{ $sitetitle }}"
-    />
-{{ end }}
-    {{ partial "head_includes.html" . }}
-  </head>
-  <body
-    lang="{{ .Site.LanguageCode }}"
-    class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
-  >
-    <section id="main">
-      <div>
-        <div class="flex w-80">
+  {{ partial "meta.html" . }}
 
-          <div>
-            <h1 id="title" >
-                {{ .Site.Title }} {{ .Site.Params.TitleEmoji | emojify }}
-              </h1>
+  <title>{{ .Site.Title }}</title>
+  <link rel="canonical" href="{{ .Permalink }}" />
+  {{ $sitetitle := .Site.Title }}
+  {{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $sitetitle }}" />
+  {{ end }}
+  {{ partial "head_includes.html" . }}
+</head>
 
-          </div>
-            
+<body lang="{{ .Site.LanguageCode }}" class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns">
+  <section id="main">
+    <div>
+      <div class="flex w-80">
+
+        <div>
+          <h1 id="title">
+            {{ .Site.Title }} {{ .Site.Params.TitleEmoji | emojify }}
+          </h1>
+          
         </div>
-
-        <div class="flex w-80 pt3">
-          <div class="pr4">
-            I'm a senior undergraduate at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a> studying <a href="https://textile.iitd.ac.in">fibre engineering</a> with a minor in computer science. I'm passionate about making AI systems safe for humans. 
-
-            <br />
-            <br />
-
-            I'm the Deputy General Secretary of the <a href="https://bspiitd.com">Board for Student Publications</a> and members of <a href="https://devclub.in">DevClub</a>, <a href="https://blocsociitd.com">Blockchain Society</a>, and <a href="https://www.linkedin.com/in/aries-iit-delhi-949691300">ARIES</a>. 
-            Moreover, I'm a <a href="https://bsw.iitd.ac.in">Board for Student Welfare</a> mentor for freshers.
-
-            <br />
-            <br />
-
-            When not working, I'm <a href="https://qciitdelhi.netlify.app/">quizzing</a>, watching <a href="/watchlog">films</a>, or listening to <a href="https://open.spotify.com/playlist/37i9dQZF1DWZdd1yQZePjz">urdu rock music</a>. 
-          </div>
-          <ul class="list pl0">
-            {{ partial "toggle.html" }}
-            <!-- pages -->
-            <!-- prettier-ignore -->
-            {{ range .Site.Params.menu }}
-            <li class="b mv3">
-              <a class="f3 b pa1 black" href="{{ .url }}">{{ .name }}</a>
-            </li>
-            <!-- prettier-ignore -->
-            {{ end }}
-          </ul>
-
-        </div>
-
-        <div class="w-60">
-
-          <div class="flex justify-around">
-            <a href="https://github.com/basil08">Github</a>
-            <a href="https://twitter.com/itbwtsh">Twitter</a>
-          </div>
-
-          <div>&nbsp;</div>
-        </div>
-
-        <div class="flex justify-around w-50">
-          <p class="pt4">
-            <em>Rather than love, than money, than fame, give me truth.</em>
-            <br />
-            <cite>&mdash; Henry David Thoreau, Walden</cite>
-          </p>
-        </div>
+        
       </div>
-    </section>
+      
+      <div class="flex w-80 pt3">
+        <div class="flex flex-column items-center">
+          <div class="pb3">
+            <img width="200px" src="img/portrait_rect.jpg" />
+          </div>
+          <div class="pr4">
+            I'm a senior undergraduate at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a>
+            studying <a href="https://textile.iitd.ac.in">fibre engineering</a> with a minor in <a
+              href="https://cse.iitd.ac.in">computer science</a>. I'm passionate about making AI systems safe for humans.
+  
+            <br />
+            <br />
+  
+            I'm a research fellow at <a href="https://impactacademy.org/">Impact Academy</a>. Moreover, I'm the Deputy
+            General Secretary of the <a href="https://bspiitd.com">Board for Student Publications</a> and members of <a
+              href="https://devclub.in">DevClub</a>, <a href="https://blocsociitd.com">Blockchain Society</a>, and <a
+              href="https://www.linkedin.com/in/aries-iit-delhi-949691300">ARIES</a>.
+  
+            <br />
+            <br />
+  
+            When not working, I'm <a href="https://qciitdelhi.netlify.app/">quizzing</a>, watching <a
+              href="/watchlog">films</a>, or listening to <a
+              href="https://open.spotify.com/playlist/37i9dQZF1DWZdd1yQZePjz">urdu rock music</a>.
+          </div>
+          <div class="pt4">&nbsp;</div>
 
-    {{ partial "footer.html" . }}
-  </body>
+        </div>
+        <ul class="list pl0">
+          {{ partial "toggle.html" }}
+          <!-- pages -->
+          <!-- prettier-ignore -->
+          {{ range .Site.Params.menu }}
+          <li class="b mv3">
+            <a class="f3 b pa1 black" href="{{ .url }}">{{ .name }}</a>
+          </li>
+          <!-- prettier-ignore -->
+          {{ end }}
+        </ul>
+
+      </div>
+
+      <div class="w-60">
+
+        <div class="flex justify-around">
+          <a href="https://github.com/basil08">Github</a>
+          <a href="https://twitter.com/itbwtsh">Twitter</a>
+        </div>
+
+        <div>&nbsp;</div>
+      </div>
+
+      <div class="flex justify-around w-50">
+        <p class="pt4">
+          <em>Rather than love, than money, than fame, give me truth.</em>
+          <br />
+          <cite>&mdash; Henry David Thoreau, Walden</cite>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "footer.html" . }}
+</body>
+
 </html>
