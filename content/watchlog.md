@@ -171,9 +171,20 @@ Two seasons felt too short, just to get to see more of Phoebe's brilliant writin
 
 {{</ds>}}
 
-46. {{<ds sum="Game of Thrones | Multiple Directors | Season 01">}}
+46. {{<ds sum="Game of Thrones | Multiple Directors | S01-S08">}}
 
 A friend suggested I start watching it. I was initially vehemant but I bit the bullet finally. _Sigh_. 
+
+{{</ds>}}
+
+47. {{<ds sum="House of the Dragon | S01-S02">}}
+{{</ds>}}
+
+48. {{<ds sum="Sex, Lies, and Videotapes | Steven Soderbergh">}}
+
+Well, given the title, this wasn't really what I was expecting but it's a really profound film which explores an unspoken, often ignored terrirotry of the human conscience - namely the need to be loved (both physically and emotionally) by another. 
+
+It is a complex topic and the movie does an extremely good job of telling that story without wasting too much reel time. The writing is compact and marvellous, the dialogues are concise and well-delivered and god, acting! Just watch James and Andie during their mutual interview. It's amazing. 
 
 {{</ds>}}
 
