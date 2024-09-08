@@ -182,9 +182,15 @@ A friend suggested I start watching it. I was initially vehemant but I bit the b
 
 48. {{<ds sum="Sex, Lies, and Videotapes | Steven Soderbergh">}}
 
-Well, given the title, this wasn't really what I was expecting but it's a really profound film which explores an unspoken, often ignored terrirotry of the human conscience - namely the need to be loved (both physically and emotionally) by another. 
+Well, given the title, this wasn't really what I was expecting but it's a really profound film which explores an unspoken, often ignored territory of the human conscience - namely the need to be loved (both physically and emotionally) by another. 
 
 It is a complex topic and the movie does an extremely good job of telling that story without wasting too much reel time. The writing is compact and marvellous, the dialogues are concise and well-delivered and god, acting! Just watch James and Andie during their mutual interview. It's amazing. 
+
+{{</ds>}}
+
+49. {{<ds sum="Wild | Jean-Marc Vallee | 2014">}}
+
+Very much like the "Into the Wild" and "On the Road" genre but the protagnist is a female who has had a rough time finding herself after her mother died so she went on a hike to find herself. It's good and feel-good with some heart-pounding scenes but still felt quite generic and one-dimensional. 
 
 {{</ds>}}
 
