@@ -17,4 +17,12 @@
 &lt;h3 id="habits">Habits&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>Pattern of every habit:&lt;/p></description></item></channel></rss>
+&lt;p>Pattern of every habit:&lt;/p>
+&lt;ul>
+&lt;li>Reminder ( trigger )&lt;/li>
+&lt;li>Routine ( the action itself )&lt;/li>
+&lt;li>Reward ( the benefit )&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>A good reminder makes it easier for you to start your habit by encoding your new behavior in something that you already do, rather than relying on getting motivated.&lt;/p></description></item></channel></rss>
