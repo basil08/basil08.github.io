@@ -194,6 +194,15 @@ Very much like the "Into the Wild" and "On the Road" genre but the protagnist is
 
 {{</ds>}}
 
+50. {{<ds sum="A Very Long Engagment | Jean-Pierre Jeunet | 2004">}}
+
+Based on a book by the same name, AVLE draws one into its own world of well-written characters and an incredibly tight storyline. The plot is sufficiently involved to keep one engaged. What I liked the most about this movie is the way it had mixed romance with crime-drama. At its own, I think its a crime drama as a large chunk of the movie is about Mathilda investigating what happened to her lover. However, that investigation is given meaning and weight by the love that these star-crossed young lovers share. I loved the shooting and the scenery as it was all shades of ochre and sepia and yellows. And all of the sudden, the colors change to grey and army green and black. The way color has been used to shift the viewer from the past horrors of war to the current peaceful time (and distressful time for Mathilda) is noteworthy. 
+
+There were moments when I tore up a little and there were moments when I had to pause for a bit. There are still a few things unclear but that's because of the French name I think lol. So yeah, very well done movie. Enjoyed it. 
+
+
+{{</ds>}}
+
 # 2023
 
 1. The Lives of Others | Florian Henckel von Donnersmarck | 2006
