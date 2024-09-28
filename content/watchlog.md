@@ -203,6 +203,25 @@ There were moments when I tore up a little and there were moments when I had to 
 
 {{</ds>}}
 
+51. {{<ds sum="Women On The Verge Of A Nervous Breakdown | Pedro Almodovar | 1988">}}
+
+Almodovar has been hailed as one of the best directors that came out of Spain since Luis Buneul - and for good reason. Whether one watches Talk to Her or this, one is unmistakenly reminded of watching the work of a man who is deeply committed to his craft. Just like Talk to Her, Almodovar is not hesitant to tackle a difficult topic - namely infidelity of men and its psychological effect on women. In this movie, we follow Pepa who has recently been dumped by her lover (who is already married to another woman, btw) for a _third_ woman with whom he plans to flee to Stockholm. The plot is essentially Pepa's two days of frantic pursuit to get in touch with Ivan after he has abruptly ended their relationship. We follow Pepa navigating through her personal problems and assisting other women in her life (Candela for example) whilst herself gradually descending into the abyss of chaos (hence, the title I guess). 
+
+The cinematography is fresh and appealing. When one watches a tracking shot of a women's heel across the floor as she is nervously walking around, evidently waiting for someone - one can feel that _urgency_ in the swaying of the camera. That's cinema. Or be it when Pepa faints in the studio and we get to see her through her glasses as if we are standing there and yet are so far away from her to help her. It's incredibly poetic. 
+
+One more thing which becomes evident is the usage of colors. Almodovar really goes overboard here and brings us the most delicious, eclectic, and bright colors right from ripe tomatoes to the dress Pepa wears at home - there's a story being told here too. If you're like me, you'll probably notice how "fake" everything looks. That also ties into the mise-en-scene in general, we find a lot of fakeness around, the proportions are off, the props look fake, it's as if we are far away from reality - in a woman's dream? (nightmare?). Even if I'm reading too much into it, I like this interpretation more. 
+
+I'll end with this dialogue between Pepa and Candela after Candela tries to jump off the terrace
+
+> PEPA: Young people dont know how to fight for things.   
+ You think life is all pleasure.    
+ No, it isn't.   
+ You have to suffer a lot.
+
+{{</ds>}}
+
+
+
 # 2023
 
 1. The Lives of Others | Florian Henckel von Donnersmarck | 2006
@@ -302,7 +321,7 @@ The Circle opens with blood curdling screams of a woman in labour. The sounds hi
 The Circle is an evidently low-budget film, it almost feels amateur in its technique an choices and yet it derives it spoptency from the vision that it imbibes. It brings the plights of the Iranian women and the oppressive patriarchal system that has justified and sustainedthe oppression. The Circle is an incredibly nuance take on the Iranian treatment of women and a strong feminist film. But the peculiar part is that it doesn't force itself to identify as one. The plot follows a number of Iranian women who seem to be casually going through their daily lives and that IS what constitutes the oppression. Even the daily lives of women are fraught with inequalities and obvious mistreatment and absurd laws.
 
 
-The camera used in The Circle is reminiscient of an era gone by and stands as a testimony to the rapid development of technology. The camera is itself a pinhole into a time long gone. However, I'm afraid such liberation statements cannot be made by the strong and beautiful women of Iran.
+The camera used in The Circle is reminiscient of an era gone by and stands as a testimony to the rapid development of technology. The camera is itself a pinhole into a time long gone. However, I'm afraid such liberation statements cannot be made by the strong and beautiful f Iran.
 {{</ds>}}
 89. The Piano Teacher | Micheal Haneke | 2001   
 90. {{<ds sum="Inside Llweyn Davis | Coen Brothers | 2013">}}
