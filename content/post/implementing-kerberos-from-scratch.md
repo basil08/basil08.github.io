@@ -5,13 +5,13 @@ categories:
 date: 2024-09-29T06:58:24+01:00
 ---
 
-
-
 ### Introduction 
 
 Sometime back, I started exploring network security systems and stumbled across [this nice course page][0]<sup>1</sup> from my institute. I thought it would be a nice complement to the introductory computer networks course I am taking this semester. I started reading this fascinating [short design principles article][1] on the Kerberos system. It was so encapsulating that I spent an entire afternoon drawing pictures in my notebook. I decided to implement the ideas given in the article from scratch. In other words, I decided to build my own Kerberos authentication system.
 
 This blog post outlines the process and the reasoning. We’ll build the system from the ground up, that is, we will propose a system, then point out its flaws, and try to redesign the system to overcome those faults. Along the way, we’ll meet a lot of ideas and end up with a much deeper understanding of _why_ Kerberos is designed the way it is.<sup>2</sup> (The [source code][3] is available on Github).
+
+{{<figure src="/img/kerberos/4.png" caption="Authentication model">}}
 
 ### Motivation 
 
@@ -33,7 +33,6 @@ The user interacts with the system through a client program. The client abstract
 
 I have implemented a `ResourceServer` class which represents any resource / service that a user is interested to get / use. Our holy grail for this post will be to get this resource from the resource server as a user.
 
-INSERT IMAGE
 
 ### Cryptography 
 
@@ -68,7 +67,7 @@ Enough of this now. Let’s get to the good part.
 
 We can imagine each resource server maintaining a table of tuples (username, password). If I wish to access a resource, I simply present my password, which the resource server authenticates by looking up the table and matching it. This system works but as you can see, it’s dumb. It doesn’t scale well. If there are 1000 users and 100 resources, we already have 100000 records maintained on the network. Any (user,password) update has to be propagated to _every_ resource server. Moreover, this deeply couples authentication and the actual resource sharing processes. We would ideally want to decouple these two steps so that the resource server is only concerned with serving up the resources. That’s good software engineering!
 
-INSERT IMAGE
+{{<figure src="/img/kerberos/3.png" caption="Naive authentication system">}}
 
 > Question: Can we do better? 
 
@@ -77,6 +76,8 @@ Yes! Let’s create a dedicated authentication_server which maintains a single (
 What exactly happened here? It is important to note that we established _two things_ through this process.
 When the resource server was able to successfully decrypt the auth token, it was sure that the auth token was issued by the authentication server. Why? Shared secrets! The server password is only known to the auth server and the resource server!<sup>6</sup>
 Matching the packet username and other data with the decrypted data. This ensures that the request was made by the same entity that authenticated itself to the auth server and so, must be one who should access to the resource.
+
+{{<figure src="/img/kerberos/2.png" caption="version 1">}}
 
 > Question: What are the flaws in this system? 
 
@@ -90,8 +91,7 @@ Matching the packet username and other data with the decrypted data. This ensure
 
 ## Version 2 - Streamlining and Decoupling 
 
-
-INSERT IMAGE
+{{<figure src="/img/kerberos/1.png" caption="version 2">}}
 
 
 Let’s address point 2 first. The client doesn’t send the password along with the username while authenticating with the auth server. Remember that the authentication system is symmetric with respect to the parties, which means it can happen on the client as well. So, we somehow need to make the server send the user password without sending the user password. How is it possible? Well, the auth server just sends back the auth token encrypted _with the user password_. The client attempts to decrypt the packet (and is successful if its a legit user). No one but the user will be able to decrypt the packet and get the auth token. 
@@ -110,8 +110,7 @@ Let’s fix these now.
 ## Version 3 - Session Keys and Authenticators 
 
 
-INSERT IMAGE
-
+{{<figure src="/img/kerberos/0.png" caption="version 3">}}
 
 > Question: What kind of secret can the ATG and the STG share? And more importantly, how? 
 
@@ -133,6 +132,8 @@ Elegant, isn’t it? ^_^
 ## Conclusion 
 
 If you have made it this far, then I must congratulate you! This wasn’t a trivial post by any means. I have left a lot of the details out of this post for the sake of brevity. If you’re interested, feel free to browse the code and read the article which inspired this post. 
+
+_All diagrams in this post were produced by the author. Kindly [write to me](mailto:gs454236@gmail.com) if you wish to use them :)_
 
 ## Ideas for improvement
 
