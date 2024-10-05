@@ -220,6 +220,12 @@ I'll end with this dialogue between Pepa and Candela after Candela tries to jump
 
 {{</ds>}}
 
+52. {{<ds sum="Kingsman: The Secret Service | Matthew Vaughn | 2014">}}
+
+Nothing very profound. This is one of those entertaining, mindless movies that are just fun to watch.   
+
+{{</ds>}}
+
 
 
 # 2023
