@@ -212,4 +212,7 @@ I went to bed with two thoughts: How can one ever be unhappy in his paradise? An
 
 Thank you for reading till the end! I hope to cover the rest of the trip in a second part to this blogpost. 
 
+NOTE: All images are the copyright of the author (that is, me). If you wish to use any image, please write to me for permission [here](mailto:gs454236@gmail.com)
+
 [0]: https://nizamibandhu.com/
+[1]: https://vargiskhan.com/log/how-to-plan-a-trip-to-kashmir-a-complete-travel-guide/
