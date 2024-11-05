@@ -226,6 +226,17 @@ Nothing very profound. This is one of those entertaining, mindless movies that a
 
 {{</ds>}}
 
+53. {{<ds sum="The Witcher | Series 1, 2, and 3 | 2019-">}}
+
+The one thing that they wanted you to take away from this series was not the contradictory deeds of the self-righteous Geralt of Rivia, or the heady and ambitious witch Yennefer or the powerful but lost girl, Ciri. It is the fact that _Witchers smell a lot_. I think they made sure to remind us of that fact in every single episode.
+
+Or, the moment when Henry Cavill makes that Hmm face.
+
+Witcher is essentially about a bunch of elves, mages, and humans fighting for that one thing which everyone lusts over - power. And that power is inside one little girl - Ciri - the so-called Child of Destiny. Btw, Ciri also happens to be half-elf or Elder blood, I think. At one point, it gets confusing.
+
+An attempt at creating suspense and making the show mildly entertaining just like any generic high fantasy webseries on NF these days. Watched it for the swordfights and _ahem_, Yennefer of Vengerberg played by the beautiful Anya Chalotra, who happens to be half-Indian and [loves watching Bollywood movies](https://www.vogue.in/content/the-witchers-anya-chalotra-on-her-dual-british-indian-heritage-and-growing-up-on-bollywood) *wink wink*
+
+{{</ds>}}
 
 
 # 2023
