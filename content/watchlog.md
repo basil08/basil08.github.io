@@ -238,6 +238,26 @@ An attempt at creating suspense and making the show mildly entertaining just lik
 
 {{</ds>}}
 
+54. {{<ds sum="Qarib Qarib Singlle | Tanuja Chandra | 2017">}}
+
+Watched this cherry-pie of a movie just 2 days before the start of my major exams. Man, what a brilliant actor is Irrfan Khan. Incredible performance.
+
+I think the script is quite free-flowing, managing not to feel cringe and on average keeps the viewer's attention intact (although, this was less so in the second half). It's one of those cute movies you cuddle up to watch when you're not feeling well (exactly what my state is right now). Nice film, glad I watched it.
+
+PS: I think the girl is cute.
+
+{{</ds>}}
+
+55. {{<ds sum="Silicon Valley | Series | 2014-2019">}}
+
+This show HAS to be made for me. I think there are two things that goes very well with this show. A) The amount of realism that they manage to squeeze into the narrative, specifically from the tech perspective - I mean it takes gut to show a terminal on screen and B) The subconscious education of the general masses and their introduction to the "culture of the Silicon Valley" as one could follow Richard from S01E01 and see him fight his way to turn his dream into a reality - I mean there is so much more than just being good at tech that goes into building a company and this show gives us a window into that alternate and extremely challenging reality. Incredibly well-done. I binged this right in the middle of my exams - I have one in less than 12 hours - so, you know how endearing this is to me. 
+
+I can relate to Richard as he is stuck in the cross road of his individual tech genius and the uphill climb of making other people realise that what he is doing is actually genius.
+
+Not to mention that they ended on an incredibly realist note - it's pretty hard to change the world. 
+
+{{</ds>}}
+
 
 # 2023
 
