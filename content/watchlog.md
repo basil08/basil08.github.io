@@ -258,6 +258,19 @@ Not to mention that they ended on an incredibly realist note - it's pretty hard 
 
 {{</ds>}}
 
+56. {{<ds sum="Life in a Metro | Anurag Basu | 2007">}}
+
+I liked the songs.
+
+<!-- Rishte toh nhi
+
+rishton ki parchaiyaan mile
+
+Ye kaisi bheed hai
+
+Bus yahan tanhaiyaan mile -->
+
+{{</ds>}}
 
 # 2023
 
