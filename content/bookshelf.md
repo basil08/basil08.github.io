@@ -53,6 +53,18 @@ As an experiment, I tried to "read" this book by listening as an audiobook. Some
 
 {{</ds>}}
 
+6. {{<ds sum="Men of Mathematics | E. T. Bell">}}
+
+Slightly racist, slightly provocative, and maybe not exactly the kind of humour a lot of people in the 21st century will approve of and easily take offense with but still, this book remains a definitive account of around 30 of the best mathematicians that mankind has to offer. It's written in a challenging prose but that only goes on to establish the command and authority of the author over words. He takes care to vet the mathematically inclined reader with a few doses of formulae and symbols - overall, his explanations remain accessible with a bit of insight and serious thought. 
+
+Besides, the author tries to glorify the mathematicians somewhat and takes the high-ground snobbery approach of considering other humans as lowly even. It's hilarious at time, the kind of insults and low-blow attacks that the author writes about (Sadly, I cannot reproduce them anymore because an earlier draft of this review which _did_ contain those chosen extracts was lost due to an OS system crash, apologies!) 
+
+I have fond memories of picking this book up at a local library and being intimidated by the lofty language and the hard sentece construction and yet being intrigued by the feats of these extraordinary men that the pages talk about. It was fascinating and I'm sure some part of that went into conditioning me into beginning to love the "sciences" and books, in general, more than enjoy the company of people because unlike books, people get messy. 
+
+I'm happy I was able to read (re-read?) this book. It has spawned my somewhat dormant pursuits of the natural sciences, espeically application of pure mathematics to physics. All that remains now, is to master the books on analysis, mathematical physics, projective geometry, and European history that I have downloaded as an impulsive side-quest. Ah, the hunger to know everything, it's maddening but oh so destructively seductive.
+
+{{</ds>}}
+
 ## Want to Read
 
 1. The Burden of Democracy
