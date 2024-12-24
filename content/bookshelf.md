@@ -16,10 +16,8 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 
 ## Currently Reading
 
-
-1. In The Service of the Republic
-2. Harry Potter and the Methods of Rationality
-3. Snow Crash 
+1. One, Two, Three...Infinity
+2. Meditations
 
 ## 2024 
 
@@ -65,7 +63,15 @@ I'm happy I was able to read (re-read?) this book. It has spawned my somewhat do
 
 {{</ds>}}
 
-## Want to Read
+7. {{<ds sum="The Polyester Prince | Hamish McDonald | 1998">}}
+
+A book that was allegedly banned in India due to muscle power of the Reliance Corp must have some substance for the conglomerate to take such a defensive and desperate step. And for good measure. This is one hell of a book. It is jammed packed with dense finance lingo thrown casually at the reader as if the author assumes that the reader are accounting and finance graduates by default and yet under the shroud of impregnable financial lingo lies the thrilling and grey world of the Ambanis and their mastery and subsequent tales of exploitation of the Indian bureaucracy and markets. For any budding enterpreneur, Dhirubhai Ambani's story from "rags to riches" is both an inspiration and a glaring warning for the challenges and routes to be taken - some of which are questionable and definitely not for the faint-hearted. 
+
+Recommended by a friend, I enjoyed every single chapter of this book. I finished it in 3 sittings, completing half of the book in the first sitting itself. I think this should be required reading in finance and biz schools. And I suspect every enterpreneur worth their name has probably read it. Deffo recommend.     
+
+{{</ds>}}
+
+## Want to Read 
 
 1. The Burden of Democracy
 2. Everybody Loves a Good Drought

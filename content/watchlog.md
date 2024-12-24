@@ -256,6 +256,11 @@ I can relate to Richard as he is stuck in the cross road of his individual tech 
 
 Not to mention that they ended on an incredibly realist note - it's pretty hard to change the world. 
 
+Instances of realism that are just *chef's kiss*:
+1. The actual optimal tip-to-tip efficiency paper
+2. The github page of the girl is _real_.
+
+
 {{</ds>}}
 
 56. {{<ds sum="Life in a Metro | Anurag Basu | 2007">}}
@@ -269,6 +274,31 @@ rishton ki parchaiyaan mile
 Ye kaisi bheed hai
 
 Bus yahan tanhaiyaan mile -->
+
+{{</ds>}}
+
+57. {{<ds sum="Trainspotting | Danny Boyle | 1996">}}
+
+{{</ds>}}
+
+58. {{<ds sum="Jerry Maguire | Cameron Crowe | 1996">}}
+
+{{</ds>}}
+
+59. {{<ds sum="All We Imagine as Light | Payal Kapadia | 2024">}}
+{{</ds>}}
+
+60. {{<ds sum="Once | John Carrey | 2007">}}
+
+Tear-jerker. Irish musical romance from a hand-held, fuck-all-gimbals era with patchy camcorder-ish grainy textured video with a manual linear zoom feature. Loved the aesthetics and the shaky shots. Incredible story and incredible chemistry between actors on the screen. The songs were super intense and I'm sure to listen to them often. There are movies that make you want to do things, this is clearly one of them for me.
+
+{{</ds>}}
+
+61. {{<ds sum="Blue Jay | Alex Lehmann | 2016">}}
+
+{{</ds>}}
+
+62. {{<ds sum="Ran | Akira Kurosawa | 1985">}}
 
 {{</ds>}}
 
