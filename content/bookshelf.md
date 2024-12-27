@@ -71,6 +71,14 @@ Recommended by a friend, I enjoyed every single chapter of this book. I finished
 
 {{</ds>}}
 
+8. {{<ds sum="Letters From A Self-Made Merchant To His Son | George Horace Lorimer | 1903">}}
+
+A set of 20 letters written by Mr. Graham, the owner of the meat packing house, Graham and Co. in Chicago, to his son as he is coming-of-age and entering the family business, can be counted among some of the most potent and candid and well-articulated collection of advise and teaching from a father to his son ever put to paper. I enjoyed reading each letter with great interest and loved how each piece of advice was accented with an anecdote from Graham's life. Although, the language is very 1800s and pretty thick on the American slang of that era which sometimes makes it difficult to get the hang of what's going on but with sufficient persistence (and some generous Googling), I could make out what the intent of these letters were. 
+
+In any case, these letters contain what most people will call "timeless" wisdom but then I'm also wary of what mostly happens with such timeless wisdom - they tend to be locked between pages rather than see themselves practised by men. The challenge is not to know what Mr. Graham tells us but to see through that they get implemented in our walks of lives. 
+
+{{</ds>}}
+
 ## Want to Read 
 
 1. The Burden of Democracy
