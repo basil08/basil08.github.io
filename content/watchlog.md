@@ -8,7 +8,38 @@ date: 2023-04-16T21:26:29+05:30
 This page contains a list of movies/series that I have watched or am watching. I tried doing this before but couldn't maintain and went into an entire "phase" but anyways, here we go again.
 
 
+# 2025 
+
+1. {{<ds sum="Nosferatu | Robert Eggers | 2024">}}
+{{</ds>}}
+
+2. {{<ds sum="Submarine | Richard Ayoade | 2010">}}
+{{</ds>}}
+
+3. {{<ds sum="The Elephant Man | David Lynch | 1980">}}
+
+Since I was already conditioned into the _Lynchian_ aesthetics via Mulholland Drive and Blue Velvet (which IMO distinctly define Lynch's movies), watching _The Elephant Man_ was a welcome change. It was nothing like other Lynchian horrors (treats?) - it retains all surrealistic horrific setting and yet at its core, it's a tale of humanity and I think that just increases my respect for Lynch manifold.
+
+TEM explores the theme of being different and the personal struggles of a person who finds themselves on the other side of the majority. Lynch doesn't resort to any classical identity classes but invents one to candidly and metaphorically express his own predicaments of being inherently different with no fault of one's own. It may be an understatement to say I love the film, I love love it because somewhere deep down I relate to it so much but then so would everyone.
+
+I think the tension of identity is most wholeheartedly expressed when Mr. Merrick screams at the subway, "I am not an animal. I am a human being." I love that scene so much - it is both a sign of acceptance and resignation. There were multiple times when I got teary-eyed ("I feel happy every hour of the day").
+
+Mr. Merrick turned out to be so different from what I imagined him to be - a monster, a menace but instead, he turned out to be a gentleman of refined tastes with an interest in theater and arts. 
+
+The movie comments on the glaring poverty and the class difference between the high-class English and the sewer-banished rats - this constrast is especially apparent when we follow Mr. Merrick from his captivity and oppression under Mr. Bytes to his freedom with Mr. Treves. 
+
+And yet, we wonder if Merrick is free at all as Mr. Treves very candidly questions himself in the middle of the night if he is any different from Mr. Bytes in turning Merrick into a curiosity.
+
+PS: I watched this movie as part of a Lynch movie marathon in an attempt to my tribute to the great visionary.
+
+{{</ds>}}
+
+4. {{<ds sum="Dune | David Lynch | 1984">}}
+
+{{</ds>}}
+
 # 2024 
+
 
 1. Dilwale Dulhania Le Jayenge | Aditya Chopra | 1995
 2. East of Eden | Elia Kazan | 1955
@@ -301,6 +332,23 @@ Tear-jerker. Irish musical romance from a hand-held, fuck-all-gimbals era with p
 62. {{<ds sum="Ran | Akira Kurosawa | 1985">}}
 
 {{</ds>}}
+
+63. {{<ds sum="A Summer's Tale (Conte d'etat) | Eric Rohmer | 1996">}}
+
+{{</ds>}}
+
+64. {{<ds sum="Dog Day Afternoon | Sidney Lumet | 1975">}}
+{{</ds>}}
+
+65. {{<ds sum="The Lunchbox | Ritesh Batra | 2013">}}
+{{</ds>}}
+
+66. {{<ds sum="Glengarry Glen Ross | James Foley | 1992">}}
+{{</ds>}}
+
+67. {{<ds sum="Margin Call | J. C. Chandor | 2011">}}
+{{</ds>}}
+
 
 # 2023
 
