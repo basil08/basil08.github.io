@@ -36,6 +36,15 @@ PS: I watched this movie as part of a Lynch movie marathon in an attempt to my t
 
 4. {{<ds sum="Dune | David Lynch | 1984">}}{{</ds>}}
 5. {{<ds sum="Children of Heaven | Majid Majidi | 1997">}}{{</ds>}}
+6. {{<ds sum="Wheel Of Fortune and Fantasy | Ryusuke Hamaguchi | 2021">}}
+
+A collection of three short films which investigates the delicate and complex emotion of love and relationship and what critically examines what it really means to connect (or try to connect) with another human being. I loved the terse and potent writing, the dialogues were well-written, the acting was top-notch, and the shots - ah, the shots. A modern-day must-watch for anyone struggling with the idea of 'love'.
+
+{{</ds>}}
+
+7. {{<ds sum="Girls Will Be Girls | Shuchi Talati | 2024">}}
+
+{{</ds>}}
 
 # 2024 
 
