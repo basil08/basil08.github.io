@@ -46,6 +46,22 @@ A collection of three short films which investigates the delicate and complex em
 
 {{</ds>}}
 
+8. {{<ds sum="The Umbrellas of Cherbourg | Jacques Demy | 1964">}}
+
+Nice movie, love the colours but I only want to say, not every Guy has a Madeleine waiting for him.
+
+{{</ds>}}
+
+9. {{<ds sum="Leaving Las Vegas | Mike Figgis | 1995">}}
+
+Life is hard, man, what else can I say? I love and hate this film at the same time. 
+
+The story of an alcoholic who falls in love with a prostitute in Las Vegas. I think its a story about acceptance and the fact that life is so short and insignificant so nothing ever matters. I mean I had to pause the film because I was either wheezing or teary-eyed. It is very potent and brutal at places. Not an easy watch definitely. And yet, it has moments of tenderness and love and one is left thinking, how can something as "pure" and "novel" as love spark between two of the (supposed) most lowly creatures in the rugs of the societal ladder and that is, indeed, the paradox. 
+
+PS: Elisabeth Shue is so damn beautiful in this film. 
+
+{{</ds>}}
+
 # 2024 
 
 
