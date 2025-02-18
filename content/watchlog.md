@@ -62,6 +62,10 @@ PS: Elisabeth Shue is so damn beautiful in this film.
 
 {{</ds>}}
 
+10. {{<ds sum="Uncut Gems | Safdie Bros | 2019">}}
+Ahahaha, love it. 
+{{</ds>}}
+
 # 2024 
 
 
