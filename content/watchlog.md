@@ -66,6 +66,30 @@ PS: Elisabeth Shue is so damn beautiful in this film.
 Ahahaha, love it. 
 {{</ds>}}
 
+11. {{<ds sum="Antiporno | Sion Sono | 2016">}}
+
+{{</ds>}}
+
+12. {{<ds sum="Love Exposure | Sion Sono | 2008">}}
+
+What was bro cooking? (I'm crying) Seriously, what the fuck did I just watch? Was it a romance? Was it porn? Was it religious cult film? WHAT WAS THIS???
+Why cannot it just be a simple rom-com? Why were the characters so fucked up?? I think that's what made them memorable. I'm seriously crying - never been so fucked up and confused.
+I don't know if Sion is a genius or a pervert. What is wrong (right?) about this film???
+
+{{</ds>}}
+
+13. {{<ds sum="300 | Zack Synder | 2006">}}
+
+{{</ds>}}
+
+14. {{<ds sum="The Maltese Falcon | John Huston | 1941">}}
+
+{{</ds>}}
+
+15. {{<ds sum="Like Crazy | Drake Doremus | 2011">}}
+
+{{</ds>}}
+
 # 2024 
 
 
