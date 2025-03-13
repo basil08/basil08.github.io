@@ -90,6 +90,16 @@ I don't know if Sion is a genius or a pervert. What is wrong (right?) about this
 
 {{</ds>}}
 
+16. {{<ds sum="Purple Hearts | Elizabeth Allen Rosenbaum | 2022">}}
+Cringe but cute.cute
+{{</ds>}}
+
+17. {{<ds sum="Sir | Rohena Gera | 2020">}}
+{{</ds>}}
+
+18. {{<ds sum="Tune in for Love | Jung Ji-Woo | 2018">}}
+A serendipitous experiment turned into a cute and endearing watch. 
+{{</ds>}}
 # 2024 
 
 
