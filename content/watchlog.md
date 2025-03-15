@@ -100,6 +100,16 @@ Cringe but cute.cute
 18. {{<ds sum="Tune in for Love | Jung Ji-Woo | 2018">}}
 A serendipitous experiment turned into a cute and endearing watch. 
 {{</ds>}}
+
+19. {{<ds sum="On Your Wedding Day | Lee Seok-geun | 2018">}}
+Cringe but cute. I think I'm growing a liking to these Korean romcoms. Guilty pleasure maybe?
+{{</ds>}}
+
+20. {{<ds sum="Sympathy for Mr. Vengeance | Park Chan-wook | 2002">}}
+Love it.
+{{</ds>}}
+
+
 # 2024 
 
 
