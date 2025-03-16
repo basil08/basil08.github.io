@@ -106,10 +106,14 @@ Cringe but cute. I think I'm growing a liking to these Korean romcoms. Guilty pl
 {{</ds>}}
 
 20. {{<ds sum="Sympathy for Mr. Vengeance | Park Chan-wook | 2002">}}
-Love it.
+Love it. Park Chan-wook has this very distinctive style where he shows snapshots of the result and not how we got there in terms of narration - like a snapshot narrative style. 
+
 {{</ds>}}
 
+21. {{<ds sum="Y Tu Mama Tubein (And your mother too) | Alfonso Cuaron | 2001">}}
+Damn, they don't make films like this anymore. Well ahead of its time - the chemistry, the passion, the energy, loved it all!
 
+{{</ds>}}
 # 2024 
 
 
