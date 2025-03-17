@@ -114,6 +114,13 @@ Love it. Park Chan-wook has this very distinctive style where he shows snapshots
 Damn, they don't make films like this anymore. Well ahead of its time - the chemistry, the passion, the energy, loved it all!
 
 {{</ds>}}
+
+22. {{<ds sum="Cruel Intentions | Roger Kumble | 1999">}}
+{{</ds>}}
+
+23. {{<ds sum="Peaky Blinders S02 | Series">}}
+
+{{</ds>}}
 # 2024 
 
 
