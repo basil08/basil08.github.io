@@ -121,6 +121,35 @@ Damn, they don't make films like this anymore. Well ahead of its time - the chem
 23. {{<ds sum="Peaky Blinders S02 | Series">}}
 
 {{</ds>}}
+
+24. {{<ds sum="Fallen Leaves | Aki Kaurismäki | 2023">}}
+{{</ds>}}
+
+25. {{<ds sum="25th Hour | Spike Lee | 2002">}}
+
+{{</ds>}}
+
+26. {{<ds sum="Captain Phillips | Paul Greengrass | 2013">}}
+{{</ds>}}
+
+27. {{<ds sum="Peaky Blinders  S03 | Series">}}
+{{</ds>}}
+
+28. {{<ds sum="Children of Men | Alfonso Cuaron | 2006">}}
+{{</ds>}}
+
+29. {{<ds sum="The Revenant | Alejandro G. Innaritu | 2015">}}
+
+
+{{</ds>}}
+
+30. {{<ds sum="Close-Up | Abbas Kiarostami | 1990">}}
+{{</ds>}}
+
+31. {{<ds sum="A Room With A View | James Ivory | 1986">}}
+
+{{</ds>}}
+
 # 2024 
 
 
