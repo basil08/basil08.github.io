@@ -7,6 +7,7 @@ date: 2023-04-16T21:26:29+05:30
 
 This page contains a list of movies/series that I have watched or am watching. I tried doing this before but couldn't maintain and went into an entire "phase" but anyways, here we go again.
 
+<strong>I have moved on to Letterboxd for my movie reviews. Please check me out [here](https://letterboxd.com/itbwtsh/)! </strong>
 
 # 2025 
 
@@ -148,6 +149,16 @@ Damn, they don't make films like this anymore. Well ahead of its time - the chem
 
 31. {{<ds sum="A Room With A View | James Ivory | 1986">}}
 
+{{</ds>}}
+
+32. {{<ds sum="In Bruges | Martin McDonagh | 2008">}}
+{{</ds>}}
+
+33. {{<ds sum="Network | Sidney Lumet | 1976">}}
+
+[Letterboxd review](https://letterboxd.com/itbwtsh/film/network/).
+
+PS: I finally gave in to the temptation of joining Letterboxd. Sue me. I'll still update my lists here though and only link to Letterboxd for any reviews. I figured its better management and better for reference and sharing.
 {{</ds>}}
 
 # 2024 
