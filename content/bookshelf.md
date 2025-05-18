@@ -79,6 +79,20 @@ In any case, these letters contain what most people will call "timeless" wisdom 
 
 {{</ds>}}
 
+9. {{<ds sum="The Sealed Nectar - A Biography of the Prophet Muhammad (Peace be upon him) | Safiur Rahman Mubarakpuri | 2011 (English Translation)">}}
+
+A biography of the most noble man who ever lived. My desire to understand more about the life of the Prophet pbuh grew after I finished reading the Holy Quran. After much research, I finally decided to start with this book since it was supposed to be accessible, the close alternative was Martin Ling's biography but I left it after finding that people have criticised the authenticity of some of the contents. This book was also recommended by Yasir Qadhi (whose youtube series on the Seerah I am yet to finish watching). The english translation of this book (the original is written in Arabic) is quite a drag to go through as has been warned by a lot of commentators. 
+
+Even more annoying is that the meaning of the text in unclear or confusing in a lot of places. The translation is plain and bland and lacks literary life. It is extremely monotonous at places and gets highly predictable. 
+
+I can understand the tone of praise especially when the author is a Muslim but my opinion is that it is detrimental to the vision formed by outsiders who come seeking an introductory account of the noble and most beloved of the Lord without the fluff. I would have appreciated if the account was more objective and more information dense. 
+
+In terms of authenticity, I think the biography is pretty foolproof, every account and narration is cited so there is little issue there.
+
+I am definitely more learned than what I was before but the presentation could have been more attractive to a modern youth seeking guidance from the mannerism rather than a verbatim account of the battles and expeditions. The mannerisms of the Prophet was somewhat hidden within those, making it more accessible would definitely be nicer.
+
+{{</ds>}}
+
 ## Want to Read 
 
 1. The Burden of Democracy
