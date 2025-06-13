@@ -1,5 +1,5 @@
 ---
-title: "TODO"
+title: "Commentary on Iqbal's Shikwa and Jawab-e-Shikwa: Part 1"
 tags:
 categories: 
 date: 2025-06-13T05:05:50Z
