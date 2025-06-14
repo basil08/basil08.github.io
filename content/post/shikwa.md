@@ -336,7 +336,7 @@ In the Muslim community, Saiyyads are held in the highest esteem because it is s
 
 Shikwa, stanza 26: 
 
-{{<figure src="/img/shikwa/11.png">}}
+{{<figure src="/img/shikwa/8.GIF">}}
 
 <details><summary>Transliteration</summary>
 
@@ -477,4 +477,4 @@ _Jawab-e-Shikwa_ (The Answer To The Complaint)
 [6]: https://quran.com/an-naml/13/tafsirs
 [7]: https://en.wikipedia.org/wiki/Mount_Sinai#Islam
 [8]: https://open.spotify.com/track/5mdIYtKjoUvV1ZLwCnnAhd?si=9dac826634404508
-[9]: https://open.spotify.com/album/6g6ENVAIzD7nY5pfjOsv2Z?si=HLJsER6xTzSeR6WxfxAGZg
+[9]: https://open.spotify.com/album/5kBOtHt4gb6gkdyro3zztI?si=k5UMx634Qjqi6kt6GVObYA
