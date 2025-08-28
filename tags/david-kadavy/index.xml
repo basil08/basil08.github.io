@@ -1,199 +1,199 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>David Kadavy on Basil Labib</title><link>https://basil08.github.io/tags/david-kadavy/</link><description>Recent content in David Kadavy on Basil Labib</description><generator>Hugo</generator><language>en-us</language><copyright>© 2020 &lt;a href='https://twitter.com/itbwtsh'>Basil Labib&lt;/a> | Made with ❤️ using &lt;a href='https://gohugo.io'>Hugo&lt;/a> &amp;amp; &lt;a href='https://github.com/siegerts/hugo-theme-basic'>Basic&lt;/a></copyright><lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://basil08.github.io/tags/david-kadavy/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes: Design for Hackers by David Kadavy</title><link>https://basil08.github.io/post/notes-design-for-hackers-by-david-kadavy/</link><pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate><guid>https://basil08.github.io/post/notes-design-for-hackers-by-david-kadavy/</guid><description>&lt;h2 id="why-design">Why Design?&lt;/h2>
-&lt;ol>
-&lt;li>Your biggest asset - &amp;ldquo;Learn whatever you want to achieve your vision&amp;rdquo;.&lt;/li>
-&lt;li>Good designs are timeless. They can awe people of &lt;em>any&lt;/em> era.&lt;/li>
-&lt;li>Fundamental soul of a human creation that expresses itself in successive outer layers of the product.&lt;/li>
-&lt;li>Designing of a system comes before building it not after.&lt;/li>
-&lt;li>Affect emotion, build credibility, earn trust.&lt;/li>
-&lt;li>Don&amp;rsquo;t draw ponies.&lt;/li>
-&lt;li>First visual interaction thus heuristic shortcut to judge credibility.&lt;/li>
-&lt;li>Purpose | Medium and Technology | Aesthetics&lt;/li>
-&lt;li>Good design choices are a set of ideas that must mature in the mind.&lt;/li>
-&lt;li>Use user persona to wireframe and prototype.&lt;/li>
-&lt;li>Memorable and usability.&lt;/li>
-&lt;/ol>
-&lt;h2 id="typography">Typography&lt;/h2>
-&lt;ol>
-&lt;li>Where does that typeface come from? What medium and technology influenced it?&lt;/li>
-&lt;li>Typeface is what you use. Font is the file which contains the typeface (Am I being pedantic?).&lt;/li>
-&lt;li>Understand the forces that brought the style into existence.&lt;/li>
-&lt;li>SEO is design.&lt;/li>
-&lt;/ol>
-&lt;h2 id="proportions">Proportions&lt;/h2>
-&lt;ol>
-&lt;li>How size and magnitude relate to each other.&lt;/li>
-&lt;li>Important and unimportant elements.&lt;/li>
-&lt;li>Common ones:
-&lt;ul>
-&lt;li>√2 : 1&lt;/li>
-&lt;li>3 : 4&lt;/li>
-&lt;li>2 : 3&lt;/li>
-&lt;li>φ : 1&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="composition">Composition&lt;/h2>
-&lt;ol>
-&lt;li>Arrangement of elements.&lt;/li>
-&lt;li>Reading direction, guiding the eye.&lt;/li>
-&lt;/ol>
-&lt;h2 id="principles">Principles&lt;/h2>
-&lt;ol>
-&lt;li>Dominance - pulls you in&lt;/li>
-&lt;li>Similarity&lt;/li>
-&lt;li>Rhythm&lt;/li>
-&lt;li>Texture&lt;/li>
-&lt;li>Direction&lt;/li>
-&lt;li>Contrast&lt;/li>
-&lt;li>Application to MailChimp logo&lt;/li>
-&lt;/ol>
-&lt;h2 id="visual-hierarchy">Visual Hierarchy&lt;/h2>
-&lt;ol>
-&lt;li>White space&lt;/li>
-&lt;li>Type weight&lt;/li>
-&lt;li>Type size - 3:4 relationship - 5, 7, 9, 12, 16, 21, 28, 37, 50, 67&lt;/li>
-&lt;li>Color&lt;/li>
-&lt;li>Ornamentation&lt;/li>
-&lt;li>Different blog designs and explanation&lt;/li>
-&lt;li>Application to website&lt;/li>
-&lt;li>Cluttering design in HTML tables&lt;/li>
-&lt;/ol>
-&lt;h2 id="color-science">Color Science&lt;/h2>
-&lt;ol>
-&lt;li>Color in physics
-&lt;ul>
-&lt;li>EMR&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Human visual limitations
-&lt;ul>
-&lt;li>Color constancy&lt;/li>
-&lt;li>metamerism&lt;/li>
-&lt;li>afterimages&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Human visual system (biology)
-&lt;ul>
-&lt;li>Rod, cones (3 types), ganglion etc&lt;/li>
-&lt;li>Trichromatic theory, color opponent theory&lt;/li>
-&lt;li>Color blindness&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Color models
-&lt;ul>
-&lt;li>Munsell&lt;/li>
-&lt;li>HSB&lt;/li>
-&lt;li>LAB&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Data driven graphics
-&lt;ul>
-&lt;li>Converging palettes&lt;/li>
-&lt;li>Diverging palletes&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>RGB model
-&lt;ul>
-&lt;li>Color mixing, additive model&lt;/li>
-&lt;li>Hexadecimal mental model&lt;/li>
-&lt;li>navigating color without using a picker&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Cross media color representation
-&lt;ul>
-&lt;li>RGB (computers), CMYK (print)&lt;/li>
-&lt;li>CMYK a subtractive model&lt;/li>
-&lt;li>Gamuts&lt;/li>
-&lt;li>ICC profile&lt;/li>
-&lt;li>Approximate screen color on print (previewing color shifts, proofing etc)&lt;/li>
-&lt;li>Spot colors&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="color-theory">Color Theory&lt;/h2>
-&lt;ol>
-&lt;li>Color association with events for our ancestors&lt;/li>
-&lt;li>Effect of red on prefrontal cortex
-&lt;ul>
-&lt;li>prefrontal cortex and rational thought&lt;/li>
-&lt;li>eg of Target (retailer chain)&lt;/li>
-&lt;li>use cases for red&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Color and culture
-&lt;ul>
-&lt;li>questions to ask when designing for a foreign culture&lt;/li>
-&lt;li>do research&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Color Wheel&lt;/li>
-&lt;li>Expected usage of few colors in culture
-&lt;ul>
-&lt;li>White - backgrounds, trustworthy etc&lt;/li>
-&lt;li>Off white - natural feel, not for high traffic site&lt;/li>
-&lt;li>Dark - sophistication, exclusivity&lt;/li>
-&lt;li>Bright - less content&lt;/li>
-&lt;li>Green - success, mark of progress&lt;/li>
-&lt;li>Yellow - info&lt;/li>
-&lt;li>Red - error, warning, urgent&lt;/li>
-&lt;li>Blue - links (generally)&lt;/li>
-&lt;li>Accent colors&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Interaction between colors
-&lt;ul>
-&lt;li>warm colors pop, cool colors recede&lt;/li>
-&lt;li>tint pops, shade recedes&lt;/li>
-&lt;li>why monet never used black (explanation of his poplar painting)&lt;/li>
-&lt;li>application to typography color, element design&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Color schemes
-&lt;ul>
-&lt;li>monochromatic&lt;/li>
-&lt;li>analogous&lt;/li>
-&lt;li>complementary&lt;/li>
-&lt;li>split complementary&lt;/li>
-&lt;li>triadic&lt;/li>
-&lt;li>tetradic&lt;/li>
-&lt;li>variations&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Creating mood with colors
-&lt;ul>
-&lt;li>mysterious (exclusive)&lt;/li>
-&lt;li>active (youths, zeal etc)&lt;/li>
-&lt;li>muted (solemn etc)&lt;/li>
-&lt;li>natural&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Tools for creating color schemes
-&lt;ul>
-&lt;li>&lt;a href="www.colorschemer.com">Color Schemer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://colorschemedesigner.com">Color Scheme Designer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://kuler.adobe.com">Kuler&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h1 id="appendix-a">appendix A&lt;/h1>
-&lt;ol>
-&lt;li>Consult for table of pairable typefaces to use for different purposes.&lt;/li>
-&lt;/ol>
-&lt;h1 id="appendix-b---typographical-etiquette">appendix B - typographical etiquette&lt;/h1>
-&lt;ol>
-&lt;li>Don&amp;rsquo;t&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>Fake bold/italic/small caps&lt;/li>
-&lt;li>Stretch types&lt;/li>
-&lt;li>Outline types&lt;/li>
-&lt;li>Impose background images or textures&lt;/li>
-&lt;/ul>
-&lt;ol start="2">
-&lt;li>Avoid Widows and orphans&lt;/li>
-&lt;li>Use drop caps&lt;/li>
-&lt;li>Avoid indenting and leaving a line. Redundant.&lt;/li>
-&lt;li>Use smart quotes (&lt;code>&amp;amp;rdquo; &amp;amp;ldquo; &amp;amp;rdquo; &amp;amp;ldquo; &amp;amp;prime; &amp;amp;Prime;&lt;/code> )&lt;/li>
-&lt;li>&lt;code>&amp;amp;hyphen;&lt;/code> (‐), &lt;code>&amp;amp;ndash;&lt;/code> (–) and &lt;code>&amp;amp;mdash;&lt;/code> (—)&lt;/li>
-&lt;li>Ligatures but not widely supported.&lt;/li>
-&lt;/ol></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>David Kadavy on Basil Labib</title><link>https://basil08.github.io/tags/david-kadavy/</link><description>Recent content in David Kadavy on Basil Labib</description><generator>Hugo</generator><language>en-us</language><copyright>© 2020 &lt;a href='https://twitter.com/itbwtsh'&gt;Basil Labib&lt;/a&gt; | Made with ❤️ using &lt;a href='https://gohugo.io'&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a href='https://github.com/siegerts/hugo-theme-basic'&gt;Basic&lt;/a&gt;</copyright><lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://basil08.github.io/tags/david-kadavy/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes: Design for Hackers by David Kadavy</title><link>https://basil08.github.io/post/notes-design-for-hackers-by-david-kadavy/</link><pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate><guid>https://basil08.github.io/post/notes-design-for-hackers-by-david-kadavy/</guid><description>&lt;h2 id="why-design"&gt;Why Design?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Your biggest asset - &amp;ldquo;Learn whatever you want to achieve your vision&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Good designs are timeless. They can awe people of &lt;em&gt;any&lt;/em&gt; era.&lt;/li&gt;
+&lt;li&gt;Fundamental soul of a human creation that expresses itself in successive outer layers of the product.&lt;/li&gt;
+&lt;li&gt;Designing of a system comes before building it not after.&lt;/li&gt;
+&lt;li&gt;Affect emotion, build credibility, earn trust.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t draw ponies.&lt;/li&gt;
+&lt;li&gt;First visual interaction thus heuristic shortcut to judge credibility.&lt;/li&gt;
+&lt;li&gt;Purpose | Medium and Technology | Aesthetics&lt;/li&gt;
+&lt;li&gt;Good design choices are a set of ideas that must mature in the mind.&lt;/li&gt;
+&lt;li&gt;Use user persona to wireframe and prototype.&lt;/li&gt;
+&lt;li&gt;Memorable and usability.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="typography"&gt;Typography&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Where does that typeface come from? What medium and technology influenced it?&lt;/li&gt;
+&lt;li&gt;Typeface is what you use. Font is the file which contains the typeface (Am I being pedantic?).&lt;/li&gt;
+&lt;li&gt;Understand the forces that brought the style into existence.&lt;/li&gt;
+&lt;li&gt;SEO is design.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="proportions"&gt;Proportions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;How size and magnitude relate to each other.&lt;/li&gt;
+&lt;li&gt;Important and unimportant elements.&lt;/li&gt;
+&lt;li&gt;Common ones:
+&lt;ul&gt;
+&lt;li&gt;√2 : 1&lt;/li&gt;
+&lt;li&gt;3 : 4&lt;/li&gt;
+&lt;li&gt;2 : 3&lt;/li&gt;
+&lt;li&gt;φ : 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="composition"&gt;Composition&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Arrangement of elements.&lt;/li&gt;
+&lt;li&gt;Reading direction, guiding the eye.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="principles"&gt;Principles&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Dominance - pulls you in&lt;/li&gt;
+&lt;li&gt;Similarity&lt;/li&gt;
+&lt;li&gt;Rhythm&lt;/li&gt;
+&lt;li&gt;Texture&lt;/li&gt;
+&lt;li&gt;Direction&lt;/li&gt;
+&lt;li&gt;Contrast&lt;/li&gt;
+&lt;li&gt;Application to MailChimp logo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="visual-hierarchy"&gt;Visual Hierarchy&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;White space&lt;/li&gt;
+&lt;li&gt;Type weight&lt;/li&gt;
+&lt;li&gt;Type size - 3:4 relationship - 5, 7, 9, 12, 16, 21, 28, 37, 50, 67&lt;/li&gt;
+&lt;li&gt;Color&lt;/li&gt;
+&lt;li&gt;Ornamentation&lt;/li&gt;
+&lt;li&gt;Different blog designs and explanation&lt;/li&gt;
+&lt;li&gt;Application to website&lt;/li&gt;
+&lt;li&gt;Cluttering design in HTML tables&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="color-science"&gt;Color Science&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Color in physics
+&lt;ul&gt;
+&lt;li&gt;EMR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Human visual limitations
+&lt;ul&gt;
+&lt;li&gt;Color constancy&lt;/li&gt;
+&lt;li&gt;metamerism&lt;/li&gt;
+&lt;li&gt;afterimages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Human visual system (biology)
+&lt;ul&gt;
+&lt;li&gt;Rod, cones (3 types), ganglion etc&lt;/li&gt;
+&lt;li&gt;Trichromatic theory, color opponent theory&lt;/li&gt;
+&lt;li&gt;Color blindness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Color models
+&lt;ul&gt;
+&lt;li&gt;Munsell&lt;/li&gt;
+&lt;li&gt;HSB&lt;/li&gt;
+&lt;li&gt;LAB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data driven graphics
+&lt;ul&gt;
+&lt;li&gt;Converging palettes&lt;/li&gt;
+&lt;li&gt;Diverging palletes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RGB model
+&lt;ul&gt;
+&lt;li&gt;Color mixing, additive model&lt;/li&gt;
+&lt;li&gt;Hexadecimal mental model&lt;/li&gt;
+&lt;li&gt;navigating color without using a picker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cross media color representation
+&lt;ul&gt;
+&lt;li&gt;RGB (computers), CMYK (print)&lt;/li&gt;
+&lt;li&gt;CMYK a subtractive model&lt;/li&gt;
+&lt;li&gt;Gamuts&lt;/li&gt;
+&lt;li&gt;ICC profile&lt;/li&gt;
+&lt;li&gt;Approximate screen color on print (previewing color shifts, proofing etc)&lt;/li&gt;
+&lt;li&gt;Spot colors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="color-theory"&gt;Color Theory&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Color association with events for our ancestors&lt;/li&gt;
+&lt;li&gt;Effect of red on prefrontal cortex
+&lt;ul&gt;
+&lt;li&gt;prefrontal cortex and rational thought&lt;/li&gt;
+&lt;li&gt;eg of Target (retailer chain)&lt;/li&gt;
+&lt;li&gt;use cases for red&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Color and culture
+&lt;ul&gt;
+&lt;li&gt;questions to ask when designing for a foreign culture&lt;/li&gt;
+&lt;li&gt;do research&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Color Wheel&lt;/li&gt;
+&lt;li&gt;Expected usage of few colors in culture
+&lt;ul&gt;
+&lt;li&gt;White - backgrounds, trustworthy etc&lt;/li&gt;
+&lt;li&gt;Off white - natural feel, not for high traffic site&lt;/li&gt;
+&lt;li&gt;Dark - sophistication, exclusivity&lt;/li&gt;
+&lt;li&gt;Bright - less content&lt;/li&gt;
+&lt;li&gt;Green - success, mark of progress&lt;/li&gt;
+&lt;li&gt;Yellow - info&lt;/li&gt;
+&lt;li&gt;Red - error, warning, urgent&lt;/li&gt;
+&lt;li&gt;Blue - links (generally)&lt;/li&gt;
+&lt;li&gt;Accent colors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interaction between colors
+&lt;ul&gt;
+&lt;li&gt;warm colors pop, cool colors recede&lt;/li&gt;
+&lt;li&gt;tint pops, shade recedes&lt;/li&gt;
+&lt;li&gt;why monet never used black (explanation of his poplar painting)&lt;/li&gt;
+&lt;li&gt;application to typography color, element design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Color schemes
+&lt;ul&gt;
+&lt;li&gt;monochromatic&lt;/li&gt;
+&lt;li&gt;analogous&lt;/li&gt;
+&lt;li&gt;complementary&lt;/li&gt;
+&lt;li&gt;split complementary&lt;/li&gt;
+&lt;li&gt;triadic&lt;/li&gt;
+&lt;li&gt;tetradic&lt;/li&gt;
+&lt;li&gt;variations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Creating mood with colors
+&lt;ul&gt;
+&lt;li&gt;mysterious (exclusive)&lt;/li&gt;
+&lt;li&gt;active (youths, zeal etc)&lt;/li&gt;
+&lt;li&gt;muted (solemn etc)&lt;/li&gt;
+&lt;li&gt;natural&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tools for creating color schemes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="www.colorschemer.com"&gt;Color Schemer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://colorschemedesigner.com"&gt;Color Scheme Designer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kuler.adobe.com"&gt;Kuler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="appendix-a"&gt;appendix A&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Consult for table of pairable typefaces to use for different purposes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="appendix-b---typographical-etiquette"&gt;appendix B - typographical etiquette&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Don&amp;rsquo;t&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Fake bold/italic/small caps&lt;/li&gt;
+&lt;li&gt;Stretch types&lt;/li&gt;
+&lt;li&gt;Outline types&lt;/li&gt;
+&lt;li&gt;Impose background images or textures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Avoid Widows and orphans&lt;/li&gt;
+&lt;li&gt;Use drop caps&lt;/li&gt;
+&lt;li&gt;Avoid indenting and leaving a line. Redundant.&lt;/li&gt;
+&lt;li&gt;Use smart quotes (&lt;code&gt;&amp;amp;rdquo; &amp;amp;ldquo; &amp;amp;rdquo; &amp;amp;ldquo; &amp;amp;prime; &amp;amp;Prime;&lt;/code&gt; )&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;hyphen;&lt;/code&gt; (‐), &lt;code&gt;&amp;amp;ndash;&lt;/code&gt; (–) and &lt;code&gt;&amp;amp;mdash;&lt;/code&gt; (—)&lt;/li&gt;
+&lt;li&gt;Ligatures but not widely supported.&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>
