@@ -1,0 +1,44 @@
+{{/*
+Usage:
+  {{< gist id="username/gistid" file="example.py" s="10" e="23" >}}
+*/}}
+
+{{ $gistID := .Get "id" }}
+{{ $file := .Get "file" }}
+{{ $lineStart := .Get "s" | default "1" | int }}
+{{ $lineEnd := .Get "e" | default "999999" | int }}
+
+{{/* Construct raw and view URLs */}}
+{{ $rawURL := printf "https://gist.githubusercontent.com/basil08/%s/raw" $gistID }}
+{{ $viewURL := printf "https://gist.github.com/%s" $gistID }}
+
+{{/* Fetch the file content */}}
+{{ $content := resources.GetRemote $rawURL }}
+{{ if not $content }}
+  <p style="color:red;">Failed to load gist: {{ $gistID }}</p>
+{{ else }}
+  {{/* Split file into lines and select the requested range */}}
+  {{ $data := split ($content.Content | safeHTML) "\n" }}
+  {{ $lines := slice }}
+  {{ range $i, $line := $data }}
+    {{ $ln := add $i 1 }}
+    {{ if and (ge $ln $lineStart) (le $ln $lineEnd) }}
+      {{ $lines = $lines | append $line }}
+    {{ end }}
+  {{ end }}
+
+
+  {{/* Derive language from file extension (e.g. .py -> python) */}}
+  {{ $ext := replace (path.Ext $file) "." "" }}
+
+
+  <div class="gist-snippet-container">
+    <div class="gist-header">{{ $file }}</div>
+    {{ highlight (delimit $lines "\n") $ext "" }}
+    <div class="gist-footer">
+      <a href="{{ $viewURL }}" target="_blank" rel="noopener noreferrer">
+        View full gist →
+      </a>
+    </div>
+  </div>
+{{ end }}
