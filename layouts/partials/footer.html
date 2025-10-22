@@ -11,4 +11,33 @@
       </p>
     </div>
   </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const containers = document.querySelectorAll(".gist-snippet-container");
+    
+      function updateScrollableState(el) {
+        const isScrollable = el.scrollWidth - el.clientWidth > 2;
+        if (isScrollable) el.classList.add("scrollable");
+        else el.classList.remove("scrollable");
+      }
+    
+      // Initial check after rendering
+      setTimeout(() => {
+        containers.forEach(el => updateScrollableState(el));
+      }, 300);
+    
+      // Recheck on resize
+      window.addEventListener("resize", () => {
+        containers.forEach(el => updateScrollableState(el));
+      });
+    
+      // Optional: observe for layout changes (Hugo highlight block loads async)
+      const observer = new MutationObserver(() => {
+        containers.forEach(el => updateScrollableState(el));
+      });
+      containers.forEach(el => observer.observe(el, { childList: true, subtree: true }));
+    });
+    </script>
+    
 </footer> 
