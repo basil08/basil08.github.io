@@ -14,10 +14,13 @@ I read somewhere (probably in an Umberto Eco article) that one can understand a 
 3. My year in books: [2022][yib2022]
 4. My year in books: [2023][yib2023]
 
-## Currently Reading
+## 2025
 
-1. One, Two, Three...Infinity
-2. Meditations
+1. {{<ds sum="The Book of Vows (Mahabharata #1) | Amit Majmudar">}}
+
+Interesting. I'll probably have more to say when I read the other two books.
+
+{{</ds>}}
 
 ## 2024 
 
@@ -146,6 +149,11 @@ Anything read more than 5% but less than 100% is noted here. I have to keep a ru
 21. > **Infinite Powers | Steven Strogatz**
 
 22. > **Broken Ladders | Anirudh Krishna**
+
+23. > **One, Two, Three...Infinity | Geroge Gamow**
+
+24. > **Meditations | Marcus Aurelius**
+
 
 [bookshelf]: https://patrickcollison.com/bookshelf
 [mailto]: mailto:gs454236@gmail.com
