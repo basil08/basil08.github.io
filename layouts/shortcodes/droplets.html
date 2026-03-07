@@ -1,5 +1,6 @@
 <div>
-  {{ $droplets := getJSON "https://vera.deta.dev" "/payload"}}
+  {{ $response := resources.GetRemote "https://vera.deta.dev/payload" }}
+  {{ $droplets := $response | transform.Unmarshal }}
   <ul style=" padding: 0;">
     {{ range sort $droplets "ts" "desc" }}
     <li style="
