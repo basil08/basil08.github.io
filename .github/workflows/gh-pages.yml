@@ -8,6 +8,8 @@ on:
   repository_dispatch:
     branches:
       - main
+  schedule:
+    - cron: '0 0 * * *'  # Daily rebuild at midnight UTC — mood.json is re-served fresh
 
 jobs:
   deploy:

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html class="" lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
   <meta charset="utf-8" />
-
   {{ partial "meta.html" . }}
-
   <title>{{ .Site.Title }}</title>
   <link rel="canonical" href="{{ .Permalink }}" />
   {{ $sitetitle := .Site.Title }}
@@ -13,124 +11,1684 @@
   <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $sitetitle }}" />
   {{ end }}
   {{ partial "head_includes.html" . }}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    /* ================================================
+       HOMEPAGE — BOTANICAL BENTO
+       ================================================ */
+
+    /* Reset Tachyons body constraints on homepage */
+    body {
+      margin: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    }
+
+    /* ── CSS Variables: Sunny (default) ── */
+    :root {
+      --bg: #F8F7F3;
+      --card: #FFFFFF;
+      --accent: #5C7A5F;
+      --accent-2: #7A9E7E;
+      --accent-light: #EBF2EC;
+      --accent-muted: #B8CEB9;
+      --text: #1C1C1A;
+      --text-sub: #6B7568;
+      --text-muted: #9BA89C;
+      --border: #E0E8E1;
+      --shadow: rgba(92, 122, 95, 0.08);
+      --shadow-h: rgba(92, 122, 95, 0.16);
+      --gradient: linear-gradient(135deg, #F1F7F2 0%, #F8F7F3 55%, #FDF9F0 100%);
+      --film-bg: linear-gradient(160deg, #162016 0%, #0c160e 50%, #091009 100%);
+      --nav-bg: rgba(248, 247, 243, 0.86);
+    }
+
+    /* ── Cloudy ── */
+    body.weather-cloudy {
+      --bg: #EFF1F5;
+      --card: #FAFBFC;
+      --accent: #5F7282;
+      --accent-2: #7A8FA0;
+      --accent-light: #E3E8EF;
+      --accent-muted: #A8B6C4;
+      --text: #1E2530;
+      --text-sub: #5C6B7A;
+      --text-muted: #88999E;
+      --border: #D6DCE5;
+      --shadow: rgba(95, 114, 130, 0.08);
+      --shadow-h: rgba(95, 114, 130, 0.16);
+      --gradient: linear-gradient(135deg, #E9EFF5 0%, #EFF1F5 55%, #F3F5F8 100%);
+      --film-bg: linear-gradient(160deg, #141C26 0%, #0D1520 50%, #09101A 100%);
+      --nav-bg: rgba(239, 241, 245, 0.86);
+    }
+
+    /* ── Thunderstorm ── */
+    body.weather-thunderstorm {
+      --bg: #080C1A;
+      --card: #0F1528;
+      --accent: #5B7EFF;
+      --accent-2: #7B9AFF;
+      --accent-light: #131C3C;
+      --accent-muted: #2C3C6E;
+      --text: #D5E2FF;
+      --text-sub: #7080C0;
+      --text-muted: #48547C;
+      --border: #1C2A56;
+      --shadow: rgba(91, 126, 255, 0.12);
+      --shadow-h: rgba(91, 126, 255, 0.24);
+      --gradient: linear-gradient(135deg, #0C1430 0%, #080C1A 55%, #060810 100%);
+      --film-bg: linear-gradient(160deg, #040610 0%, #070916 50%, #050710 100%);
+      --nav-bg: rgba(8, 12, 26, 0.92);
+    }
+
+    /* ── Very Hot ── */
+    body.weather-hot {
+      --bg: #FDF6EC;
+      --card: #FFFCF8;
+      --accent: #C4581E;
+      --accent-2: #D9733A;
+      --accent-light: #FDEADB;
+      --accent-muted: #E8B898;
+      --text: #2A1408;
+      --text-sub: #8A4E28;
+      --text-muted: #BE8E6A;
+      --border: #F0CCB0;
+      --shadow: rgba(196, 88, 30, 0.08);
+      --shadow-h: rgba(196, 88, 30, 0.16);
+      --gradient: linear-gradient(135deg, #FFF3E4 0%, #FDF6EC 55%, #FEF8F0 100%);
+      --film-bg: linear-gradient(160deg, #1C0A02 0%, #130603 50%, #0E0502 100%);
+      --nav-bg: rgba(253, 246, 236, 0.86);
+    }
+
+    /* ── Dark mode (coexists with weather classes) ── */
+    body.dark-mode {
+      --bg: #0E0F0C !important;
+      --card: #161812 !important;
+      --accent: #7AAE80 !important;
+      --accent-2: #94C29A !important;
+      --accent-light: #192B1C !important;
+      --accent-muted: #2C4830 !important;
+      --text: #E8EDE6 !important;
+      --text-sub: #88A08C !important;
+      --text-muted: #566858 !important;
+      --border: #28382A !important;
+      --shadow: rgba(122, 174, 128, 0.06) !important;
+      --shadow-h: rgba(122, 174, 128, 0.12) !important;
+      --gradient: linear-gradient(135deg, #141C14 0%, #0E0F0C 55%, #0C0E0A 100%) !important;
+      --film-bg: linear-gradient(160deg, #060806 0%, #040604 50%, #030503 100%) !important;
+      --nav-bg: rgba(14, 15, 12, 0.92) !important;
+      background: var(--bg) !important;
+      color: var(--text) !important;
+    }
+
+    body.dark-mode.weather-thunderstorm {
+      --bg: #05080F !important;
+      --card: #0A0E1E !important;
+      --accent: #7A9BFF !important;
+      --accent-light: #0C1230 !important;
+      --text: #C8D8FF !important;
+      --border: #162050 !important;
+    }
+
+    body.dark-mode.weather-hot {
+      --bg: #130700 !important;
+      --card: #1E0D02 !important;
+      --accent: #DF7840 !important;
+      --accent-light: #2C1006 !important;
+      --text: #FFE4CC !important;
+      --border: #3E1A08 !important;
+    }
+
+    /* Override global dark-mode CSS from custom.css */
+    body.dark-mode {
+      background: var(--bg) !important;
+    }
+
+    body.dark-mode .card {
+      background: var(--card) !important;
+    }
+
+    body.dark-mode p {
+      color: var(--text-sub) !important;
+    }
+
+    body.dark-mode a {
+      color: var(--accent) !important;
+    }
+
+    /* ── Base ── */
+    body {
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.7s ease, color 0.45s ease;
+      line-height: 1.6;
+    }
+
+    /* ================================================
+       WRAPPER
+       ================================================ */
+
+    .hp-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* ================================================
+       STICKY NAV
+       ================================================ */
+
+    .hp-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      margin-bottom: 28px;
+      background: var(--nav-bg);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s, background 0.5s;
+    }
+
+    .hp-nav.scrolled {
+      border-bottom-color: var(--border);
+    }
+
+    .hp-nav-mark {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: 0.03em;
+      text-decoration: none;
+    }
+
+    .hp-nav-links {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .hp-nav-links a {
+      font-size: 12.5px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: var(--text-sub);
+      text-decoration: none;
+      padding: 5px 11px;
+      border-radius: 8px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    .hp-nav-links a:hover {
+      color: var(--text);
+      background: var(--accent-light);
+      text-decoration: none;
+    }
+
+    .hp-nav-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* ================================================
+       BENTO GRID
+       ================================================ */
+
+    .bento {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+    }
+
+    /* ── Card base ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 24px;
+      box-shadow: 0 2px 16px var(--shadow);
+      overflow: hidden;
+      position: relative;
+      transition:
+        transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.22s ease,
+        background 0.6s ease,
+        border-color 0.6s ease;
+      animation: card-up 0.5s cubic-bezier(0.34, 1.2, 0.64, 1) both;
+      opacity: 0;
+    }
+
+    @keyframes card-up {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .card:nth-child(1) {
+      animation-delay: 0.05s;
+    }
+
+    .card:nth-child(2) {
+      animation-delay: 0.10s;
+    }
+
+    .card:nth-child(3) {
+      animation-delay: 0.15s;
+    }
+
+    .card:nth-child(4) {
+      animation-delay: 0.19s;
+    }
+
+    .card:nth-child(5) {
+      animation-delay: 0.23s;
+    }
+
+    .card:nth-child(6) {
+      animation-delay: 0.27s;
+    }
+
+    .card:nth-child(7) {
+      animation-delay: 0.30s;
+    }
+
+    .card:nth-child(8) {
+      animation-delay: 0.33s;
+    }
+
+    .card:nth-child(9) {
+      animation-delay: 0.36s;
+    }
+
+    .card:nth-child(10) {
+      animation-delay: 0.39s;
+    }
+
+    .card:nth-child(11) {
+      animation-delay: 0.42s;
+    }
+
+    .card:nth-child(12) {
+      animation-delay: 0.45s;
+    }
+
+    .card:nth-child(13) {
+      animation-delay: 0.48s;
+    }
+
+    .card:nth-child(14) {
+      animation-delay: 0.51s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 32px var(--shadow-h);
+    }
+
+    .c-label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+      opacity: 0.9;
+    }
+
+    /* ── Grid placements ── */
+    .c-bio {
+      grid-column: 1 / 8;
+      grid-row: 1;
+    }
+
+    .c-photo {
+      grid-column: 8 / 10;
+      grid-row: 1;
+    }
+
+    .c-poem {
+      grid-column: 10 / 13;
+      grid-row: 1;
+    }
+
+    .c-book {
+      grid-column: 1 / 4;
+      grid-row: 2;
+    }
+
+    .c-write {
+      grid-column: 4 / 8;
+      grid-row: 2;
+    }
+
+    .c-tkd {
+      grid-column: 8 / 10;
+      grid-row: 2;
+    }
+
+    .c-zh {
+      grid-column: 10 / 13;
+      grid-row: 2;
+    }
+
+    .c-film {
+      grid-column: 1 / 6;
+      grid-row: 3;
+    }
+
+    .c-comic {
+      grid-column: 6 / 10;
+      grid-row: 3;
+    }
+
+    .c-film2 {
+      grid-column: 10 / 13;
+      grid-row: 3;
+    }
+
+    .c-travel {
+      grid-column: 1 / 7;
+      grid-row: 4;
+    }
+
+    .c-mood {
+      grid-column: 7 / 13;
+      grid-row: 4;
+    }
+
+    .c-date {
+      grid-column: 1 / 5;
+      grid-row: 5;
+    }
+
+    .c-social {
+      grid-column: 5 / 13;
+      grid-row: 5;
+    }
+
+    /* ================================================
+       BIO CARD
+       ================================================ */
+
+    .c-bio {
+      background: var(--gradient);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 220px;
+    }
+
+    .bio-name {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 54px;
+      font-weight: 300;
+      letter-spacing: -0.025em;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .bio-tag {
+      font-size: 11.5px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .bio-body {
+      font-size: 13.5px;
+      line-height: 1.78;
+      color: var(--text-sub);
+      max-width: 560px;
+    }
+
+    .bio-body a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent-muted);
+      transition: border-color 0.15s;
+    }
+
+    .bio-body a:hover {
+      border-bottom-color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* Basil leaf watermark */
+    .herb-mark {
+      position: absolute;
+      bottom: -14px;
+      right: -14px;
+      width: 130px;
+      height: 160px;
+      color: var(--accent);
+      opacity: 0.055;
+      pointer-events: none;
+    }
+
+    /* ================================================
+       PHOTO CARD
+       ================================================ */
+
+    .c-photo {
+      padding: 0;
+      overflow: hidden;
+      min-height: 240px;
+    }
+
+    .c-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.45s ease;
+    }
+
+    .c-photo:hover img {
+      transform: scale(1.04);
+    }
+
+    /* ================================================
+       POETRY CARD
+       ================================================ */
+
+    .c-poem {
+      background: var(--accent-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .poem-urdu {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-size: 15.5px;
+      line-height: 2.5;
+      direction: rtl;
+      text-align: right;
+      color: var(--text);
+    }
+
+    .poem-rule {
+      width: 28px;
+      height: 1px;
+      background: var(--accent-muted);
+      margin: 2px 0;
+    }
+
+    .poem-en {
+      font-size: 11.5px;
+      line-height: 1.9;
+      color: var(--text-sub);
+      font-style: italic;
+      border-left: 2px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    .poem-cite {
+      font-size: 9.5px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-top: 6px;
+      display: block;
+      font-style: normal;
+    }
+
+    /* ================================================
+       BOOK CARD
+       ================================================ */
+
+    .book-row {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+
+    .book-cover {
+      width: 48px;
+      min-height: 66px;
+      background: var(--accent);
+      border-radius: 3px 6px 6px 3px;
+      flex-shrink: 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .book-cover::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    .book-lines {
+      position: absolute;
+      inset: 10px 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .book-lines span {
+      display: block;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 1px;
+    }
+
+    .book-lines span:nth-child(2) {
+      width: 72%;
+    }
+
+    .book-lines span:nth-child(3) {
+      width: 55%;
+    }
+
+    .book-meta h3 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+      margin-bottom: 3px;
+    }
+
+    .book-meta p {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .r-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-light);
+      padding: 3px 9px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-muted);
+    }
+
+    .r-dot {
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: blink 2.2s infinite;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.4;
+        transform: scale(0.65);
+      }
+    }
+
+    /* ================================================
+       WRITING CARD
+       ================================================ */
+
+    .c-write {
+      background: var(--accent-light);
+    }
+
+    .write-quote {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 18px;
+      font-style: italic;
+      color: var(--text);
+      line-height: 1.55;
+      margin: 10px 0 16px;
+    }
+
+    .write-lines {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-bottom: 16px;
+    }
+
+    .wl {
+      height: 1.5px;
+      background: var(--accent);
+      border-radius: 2px;
+      transform-origin: left;
+      animation: write-in 1.3s ease forwards;
+      opacity: 0;
+    }
+
+    .wl:nth-child(1) {
+      width: 100%;
+      animation-delay: 0.15s;
+    }
+
+    .wl:nth-child(2) {
+      width: 83%;
+      animation-delay: 0.28s;
+    }
+
+    .wl:nth-child(3) {
+      width: 95%;
+      animation-delay: 0.41s;
+    }
+
+    .wl:nth-child(4) {
+      width: 66%;
+      animation-delay: 0.54s;
+    }
+
+    .wl:nth-child(5) {
+      width: 89%;
+      animation-delay: 0.67s;
+    }
+
+    @keyframes write-in {
+      from {
+        opacity: 0;
+        transform: scaleX(0);
+      }
+
+      to {
+        opacity: 0.28;
+        transform: scaleX(1);
+      }
+    }
+
+    .c-link {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: gap 0.2s;
+    }
+
+    .c-link:hover {
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    /* ================================================
+       TAEKWONDO CARD
+       ================================================ */
+
+    .belt-vis {
+      margin: 12px 0 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .belt-bar {
+      height: 10px;
+      border-radius: 3px;
+      background: #111111;
+      width: 100%;
+    }
+
+    .belt-bar.tip {
+      width: 28%;
+      background: #C0392B;
+    }
+
+    .belt-rank {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.1;
+      margin-top: 8px;
+    }
+
+    .belt-art {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* ================================================
+       MANDARIN CARD
+       ================================================ */
+
+    .zh-chars {
+      font-size: 48px;
+      font-weight: 300;
+      color: var(--accent);
+      line-height: 1;
+      margin: 8px 0 10px;
+      letter-spacing: 0.05em;
+    }
+
+    .zh-sub {
+      font-size: 12.5px;
+      color: var(--text-sub);
+      line-height: 1.65;
+    }
+
+    /* ================================================
+       FILM CARD
+       ================================================ */
+
+    .c-film {
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 340px;
+    }
+
+    .film-screen {
+      flex: 1;
+      min-height: 280px;
+      background: var(--film-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Subtle grain overlay */
+    .film-screen::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    .play-btn {
+      width: 52px;
+      height: 52px;
+      background: rgba(255, 255, 255, 0.10);
+      border: 1.5px solid rgba(255, 255, 255, 0.22);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      position: relative;
+      z-index: 1;
+    }
+
+    .play-btn:hover {
+      background: rgba(255, 255, 255, 0.20);
+      transform: scale(1.09);
+    }
+
+    .play-tri {
+      width: 0;
+      height: 0;
+      border-top: 9px solid transparent;
+      border-bottom: 9px solid transparent;
+      border-left: 16px solid rgba(255, 255, 255, 0.82);
+      margin-left: 4px;
+    }
+
+    .film-meta {
+      padding: 14px 20px 18px;
+      background: var(--card);
+      transition: background 0.6s ease;
+    }
+
+    .film-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+      margin-top: 4px;
+    }
+
+    /* ================================================
+       COMIC CARD
+       ================================================ */
+
+    .c-comic {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 20px 16px;
+    }
+
+    .comic-img-wrap {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      margin-top: 10px;
+      overflow: hidden;
+      border-radius: 2px;
+      flex: 1;
+    }
+
+    .comic-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .c-comic:hover .comic-img-wrap img {
+      transform: scale(1.03);
+    }
+
+    .comic-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 12px;
+    }
+
+    /* ================================================
+       MOVIES CARD
+       ================================================ */
+
+    .film2-posters {
+      display: flex;
+      gap: 10px;
+      margin: 12px 0 14px;
+    }
+
+    .film2-poster-col {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      flex: 1;
+    }
+
+    .film2-poster-col a {
+      display: block;
+      text-decoration: none;
+    }
+
+    .film2-poster-col a:hover img {
+      transform: scale(1.03);
+    }
+
+    .film2-poster-img {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      object-fit: cover;
+      border-radius: 2px;
+      display: block;
+      transition: transform 0.3s ease;
+      border: 1px solid var(--border);
+    }
+
+    .film2-poster-tag {
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .film2-poster-title {
+      font-size: 11px;
+      color: var(--text-sub);
+      line-height: 1.35;
+      margin-top: 1px;
+    }
+
+    /* ================================================
+       DATE ME CARD
+       ================================================ */
+
+    .c-date {
+      background: var(--accent-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .date-body {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 20px;
+      font-style: italic;
+      color: var(--text);
+      line-height: 1.4;
+      margin: 10px 0 20px;
+    }
+
+    .date-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      font-size: 11.5px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      transition: gap 0.2s;
+    }
+
+    .date-link:hover {
+      gap: 13px;
+      text-decoration: none;
+    }
+
+    .date-arrow {
+      width: 28px;
+      height: 28px;
+      border: 1.5px solid var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, color 0.2s;
+      color: var(--accent);
+    }
+
+    .date-link:hover .date-arrow {
+      background: var(--accent);
+      color: var(--accent-light);
+    }
+
+    /* ================================================
+       TRAVEL CARD
+       ================================================ */
+
+    .c-travel {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .travel-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .travel-item {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text-sub);
+      font-size: 13px;
+      line-height: 1.5;
+      transition: color 0.15s;
+    }
+
+    .travel-item:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .travel-pin {
+      font-size: 13px;
+      flex-shrink: 0;
+      opacity: 0.7;
+    }
+
+    .travel-name {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: inherit;
+      line-height: 1.3;
+    }
+
+    .travel-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    /* ================================================
+       MOOD CARD
+       ================================================ */
+
+    .c-mood {
+      background: var(--accent-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .mood-swatch {
+      display: flex;
+      gap: 5px;
+      margin: 10px 0 14px;
+    }
+
+    .mood-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      opacity: 0.75;
+    }
+
+    .mood-dot:nth-child(1) { background: #5C7A5F; }
+    .mood-dot:nth-child(2) { background: #5F7282; }
+    .mood-dot:nth-child(3) { background: #5B7EFF; }
+    .mood-dot:nth-child(4) { background: #C4581E; }
+
+    .mood-body {
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.7;
+      flex: 1;
+    }
+
+    .mood-hi {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11.5px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      margin-top: 14px;
+      transition: gap 0.2s;
+    }
+
+    .mood-hi:hover {
+      gap: 11px;
+      text-decoration: none;
+    }
+
+    /* ================================================
+       SOCIAL CARD
+       ================================================ */
+
+    .social-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      padding: 9px 16px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-sub);
+      background: var(--card);
+      transition:
+        border-color 0.15s,
+        color 0.15s,
+        background 0.15s,
+        transform 0.15s;
+    }
+
+    .chip:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-light);
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+
+    .chip-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-muted);
+      flex-shrink: 0;
+      transition: background 0.15s;
+    }
+
+    .chip:hover .chip-dot {
+      background: var(--accent);
+    }
+
+    /* ================================================
+       WEATHER BADGE
+       ================================================ */
+
+    .wx-badge {
+      position: fixed;
+      bottom: 22px;
+      right: 22px;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 5px 11px;
+      border-radius: 20px;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+
+    .wx-badge.show {
+      opacity: 1;
+    }
+
+    /* ================================================
+       RESPONSIVE — 960px  (6-col)
+       ================================================ */
+
+    @media (max-width: 960px) {
+      .bento {
+        grid-template-columns: repeat(6, 1fr);
+      }
+
+      .c-bio {
+        grid-column: 1 / 7;
+        grid-row: 1;
+      }
+
+      .c-photo {
+        grid-column: 1 / 3;
+        grid-row: 2;
+      }
+
+      .c-poem {
+        grid-column: 3 / 7;
+        grid-row: 2;
+      }
+
+      .c-book {
+        grid-column: 1 / 3;
+        grid-row: 3;
+      }
+
+      .c-write {
+        grid-column: 3 / 7;
+        grid-row: 3;
+      }
+
+      .c-tkd {
+        grid-column: 1 / 3;
+        grid-row: 4;
+      }
+
+      .c-zh {
+        grid-column: 3 / 5;
+        grid-row: 4;
+      }
+
+      .c-film2 {
+        grid-column: 5 / 7;
+        grid-row: 4;
+      }
+
+      .c-film {
+        grid-column: 1 / 4;
+        grid-row: 5;
+      }
+
+      .c-comic {
+        grid-column: 4 / 7;
+        grid-row: 5;
+      }
+
+      .c-travel {
+        grid-column: 1 / 7;
+        grid-row: 6;
+      }
+
+      .c-mood {
+        grid-column: 1 / 7;
+        grid-row: 7;
+      }
+
+      .c-date {
+        grid-column: 1 / 4;
+        grid-row: 8;
+      }
+
+      .c-social {
+        grid-column: 4 / 7;
+        grid-row: 8;
+      }
+    }
+
+    /* ================================================
+       RESPONSIVE — 600px  (single column)
+       ================================================ */
+
+    @media (max-width: 600px) {
+      .hp-wrap {
+        padding: 0 12px 48px;
+      }
+
+      .bento {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .bento > .card {
+        grid-column: 1 !important;
+        grid-row: auto !important;
+      }
+
+      .bio-name {
+        font-size: 36px;
+      }
+
+      .hp-nav-links {
+        display: none;
+      }
+
+      .wx-badge {
+        display: none;
+      }
+
+      .c-photo {
+        min-height: 220px;
+      }
+    }
+  </style>
 </head>
 
 {{ partial "callout.html" . }}
-<body lang="{{ .Site.LanguageCode }}" class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns">
-  
-  <section id="main">
-    <div>
-      <div class="flex w-80">
+
+<body lang="{{ .Site.LanguageCode }}">
+  <div class="hp-wrap">
+
+    <!-- ── Nav ── -->
+    <nav class="hp-nav" id="hp-nav">
+      <ul class="hp-nav-links">
+        {{ range .Site.Params.menu }}
+        <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+      <div class="hp-nav-right">
+        {{ partial "toggle.html" }}
+      </div>
+    </nav>
+
+    <!-- ── Bento Grid ── -->
+    <div class="bento">
+
+      <!-- BIO -->
+      <div class="card c-bio">
+        <svg class="herb-mark" viewBox="0 0 120 155" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true">
+          <path d="M60 6C54 6 8 34 8 80c0 46 42 68 52 68s52-22 52-68C112 34 66 6 60 6z" />
+          <line x1="60" y1="14" x2="60" y2="145" stroke="white" stroke-width="1.6" />
+          <line x1="60" y1="52" x2="30" y2="80" stroke="white" stroke-width="0.8" />
+          <line x1="60" y1="52" x2="90" y2="80" stroke="white" stroke-width="0.8" />
+          <line x1="60" y1="88" x2="36" y2="110" stroke="white" stroke-width="0.8" />
+          <line x1="60" y1="88" x2="84" y2="110" stroke="white" stroke-width="0.8" />
+        </svg>
 
         <div>
-          <h1 id="title">
-            {{ .Site.Title }} {{ .Site.Params.TitleEmoji | emojify }}
-          </h1>
-          
+          <div class="bio-name">Basil Labib</div>
+          <div class="bio-tag">engineering + philosophy</div>
+          <p class="bio-body">
+            Senior at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a>
+            pursuing B.Tech in <a href="https://textile.iitd.ac.in">textile engineering</a> and M.Tech in
+            <a href="https://cse.iitd.ac.in">computer science</a>, advised by
+            <a href="https://cse.iitd.ac.in/~srikanta">Prof. Srikanta J Bedathur</a>.
+            
+            <br />
+            <br />
+            Member of Technical Staff at <a href="https://steadrise.org">Secure AI Futures Lab</a>.
+            Building (and breaking) robots at <a href="https://blusigma.in">BluSigma Robotics</a>.
+            
+            <!--Research fellow at <a href="https://impactacademy.org/">Impact Academy</a>. Formerly Deputy General Secretary,
+            <a href="https://bspiitd.com">Board for Student Publications</a>.-->
+          </p>
         </div>
+      </div>
+
+      <!-- PHOTO -->
+      <div class="card c-photo">
+        <img src="/img/portrait_rect.jpg" alt="Basil Labib" loading="eager" />
+      </div>
+
+      <!-- POETRY -->
+      <div class="card c-poem">
+        <div class="c-label">Allama Iqbal</div>
+        <div class="poem-urdu">
+          خودی کو کر بلند اتنا<br />
+          کہ ہر تقدیر سے پہلے<br />
+          خدا بندے سے خود پوچھے<br />
+          بتا تیری رضا کیا ہے
+        </div>
+        <div>
+          <div class="poem-rule"></div>
+          <p class="poem-en">
+            Endow your will with such power<br />
+            that at every turn of fate<br />
+            God Himself asks of His slave —<br />
+            <em>'What is it that pleases thee?'</em>
+          </p>
+          <cite class="poem-cite">&mdash; Allama Muhammad Iqbal</cite>
+        </div>
+      </div>
+
+      <!-- BOOK -->
+      <div class="card c-book">
+        <div class="c-label">Currently Reading</div>
+        <div class="book-row">
+          <div class="book-cover">
+            <div class="book-lines">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="book-meta">
+            <h3>The Story of Philosophy</h3>
+            <p>Will Durant</p>
+          </div>
+        </div>
+        <div class="book-row">
+          <div class="book-cover">
+            <div class="book-lines">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="book-meta">
+            <h3>Shoe Dog</h3>
+            <p>Will Durant</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- WRITING -->
+      <div class="card c-write">
+        <div class="c-label">Writing</div>
+        <!--<p class="write-quote">"Writing clears my mind."</p>
+        <div class="write-lines">
+          <div class="wl"></div>
+          <div class="wl"></div>
+          <div class="wl"></div>
+          <div class="wl"></div>
+          <div class="wl"></div>
+        </div>-->
+        <p style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);margin:0 0 5px;">Latest</p>
+        <a class="c-link" href="/post/trial-by-fire-tenure-as-head-of-technology-at-rendezvous-25/" style="font-size:12.5px;font-weight:400;color:var(--text-sub);letter-spacing:0;text-transform:none;margin-bottom:12px;display:block;">Trial by Fire: Tenure as Head of Technology at Rendezvous '25</a>
+        <a class="c-link" href="/post/implement-a-minimax-agent-for-optimal-tic-tac-toe-play/" style="font-size:12.5px;font-weight:400;color:var(--text-sub);letter-spacing:0;text-transform:none;margin-bottom:12px;display:block;">Implementing a Minimax agent for Optimal Tic Tac Toe Play</a>
+        
+        <a class="c-link" href="/post">All writing &rarr;</a>
+      </div>
+
+      <!-- TAEKWONDO -->
+      <div class="card c-tkd">
+        <div class="c-label">Martial Arts</div>
+        <div class="belt-vis">
+          <div class="belt-bar"></div>
+          <div class="belt-bar tip"></div>
+        </div>
+        <div class="belt-rank">Black-Red Belt</div>
+        <div class="belt-art">Taekwondo</div>
         
       </div>
-      
-      <div class="flex w-80 pt3">
-        <div class="flex flex-column items-center">
-          <div class="pb3">
-            <img width="200px" src="img/portrait_rect.jpg" />
-          </div>
-          <div class="pr4">
-            I'm a senior at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a>
-            with a B. Tech in <a href="https://textile.iitd.ac.in">textile engineering</a> and a M. Tech in <a
-              href="https://cse.iitd.ac.in">computer science and engineering</a>. I am advised by Prof. <a href="https://cse.iitd.ac.in/~srikanta">Srikanta J Bedathur</a>. I'm passionate about making AI systems safe for humans.
-  
-            <br />
-            <br />
-  
-            I was a research fellow at <a href="https://impactacademy.org/">Impact Academy</a> last summer. Previously, I was the Deputy
-            General Secretary of the <a href="https://bspiitd.com">Board for Student Publications</a> and members of <a
-              href="https://devclub.in">DevClub</a>, <a href="https://blocsociitd.com">Blockchain Society</a>, and <a
-              href="https://www.linkedin.com/in/aries-iit-delhi-949691300">ARIES</a>.
-  
-            <br />
-            <br />
-  
-            When not working, I'm <a href="https://qciitdelhi.netlify.app/">quizzing</a>, watching <a
-              href="/watchlog">films</a>, or listening to <a
-              href="https://open.spotify.com/playlist/37i9dQZF1DWZdd1yQZePjz">urdu rock music</a>.
-          </div>
-          <div class="pt4">&nbsp;</div>
 
-        </div>
-        <ul class="list pl0">
-          {{ partial "toggle.html" }}
-          <!-- pages -->
-          <!-- prettier-ignore -->
-          {{ range .Site.Params.menu }}
-          <li class="b mv3">
-            <a class="f3 b pa1 black" href="{{ .url }}">{{ .name }}</a>
-          </li>
-          <!-- prettier-ignore -->
-          {{ end }}
-        </ul>
-
+      <!-- MANDARIN -->
+      <div class="card c-zh">
+        <div class="c-label">Love learning new languages</div>
+        <div class="zh-chars">你好</div>
+        <p>Currently learning Mandarin</p>
+        <!--Want to learn: Sanskrit, Arabic, and French-->
+        <p>Know: English, Hindi, Bengali, Urdu</p>
       </div>
 
-      <div class="w-60">
-
-        <div class="flex justify-around">
-          <a href="https://github.com/basil08">Github</a>
-          <a href="https://twitter.com/itbwtsh">Twitter</a>
+      <!-- FILM -->
+      <div class="card c-film">
+        <div class="film-screen" id="film-screen">
+          <img id="film-thumb"
+            src="https://i.ytimg.com/vi/0Vp3el130Ic/hqdefault.jpg"
+            alt="The Secret Lives of Oranges and Pomegranates"
+            style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.3s;" />
+          <div class="play-btn" id="film-play" role="button" aria-label="Play short film" onclick="(function(){var s=document.getElementById('film-screen');s.innerHTML='<iframe src=\'https://www.youtube.com/embed/0Vp3el130Ic?autoplay=1&mute=1\' frameborder=\'0\' allow=\'autoplay;encrypted-media\' allowfullscreen style=\'position:absolute;inset:0;width:100%;height:100%;\'></iframe>';})()">
+            <div class="play-tri"></div>
+          </div>
         </div>
-
-        <div>&nbsp;</div>
+        <div class="film-meta">
+          <div class="c-label" style="margin-bottom: 4px;">My Short Films</div>
+          <div class="film-title">The Secret Lives of Oranges and Pomegranates &middot; 2025</div>
+        </div>
       </div>
 
-      <div class="flex justify-around w-50">
-        <p class="pt4">
-          <!-- Intertwined translation formatting -->
-          <!-- <em>خودی کو کر بلند اتنا</em><br />
-            Endow your will with such power<br />
-          <em>کہ ہر تقدیر سے پہلے</em>
-          <br />
-          That at every turn of fate it so be
-          <br />
-          <em>خدا بندے سے خود پوچھے</em>
-          <br />
-            That God Himself asks of His slave
-            <br />
-            <em>بتا تیری رضا کیا ہے</em>
-            <br />
+      <!-- COMIC -->
+      <div class="card c-comic">
+        <div class="c-label">Some of my Art!</div>
+        <div class="comic-img-wrap">
+          <img src="/comichomepage.png" alt="Comic strip by Basil" loading="lazy" />
+        </div>
+        <div class="comic-footer">
+          <a class="c-link" href="https://www.instagram.com/basil.icious/" target="_blank" rel="noopener noreferrer">@basil.icious &rarr;</a>
+        </div>
+      </div>
 
-            'What is it that pleases thee?'
-          <br />
-          <cite>&mdash; علامہ اقبال (Allama Muhammad Iqbal)</cite> -->
+      <!-- MOVIES -->
+      <div class="card c-film2">
+        <div class="c-label">A Self-Proclaimed Cinephile</div>
+        <div class="film2-posters">
+          <div class="film2-poster-col">
+            <div class="film2-poster-tag">All-time fav</div>
+            <a href="https://letterboxd.com/film/through-the-olive-trees/" target="_blank" rel="noopener noreferrer">
+              <img class="film2-poster-img"
+                src="https://a.ltrbxd.com/resized/film-poster/1/8/2/7/2/18272-through-the-olive-trees-0-230-0-345-crop.jpg?v=ce04292aa8"
+                alt="Through the Olive Trees" loading="lazy" />
+            </a>
+            <div class="film2-poster-title">Through the Olive Trees</div>
+          </div>
+          <div class="film2-poster-col">
+            <div class="film2-poster-tag">Recent watch</div>
+            <a href="https://letterboxd.com/film/hamnet/" target="_blank" rel="noopener noreferrer">
+              <img class="film2-poster-img"
+                src="https://a.ltrbxd.com/resized/film-poster/7/7/2/2/3/2/772232-hamnet-0-230-0-345-crop.jpg?v=631489314d"
+                alt="Hamnet" loading="lazy" />
+            </a>
+            <div class="film2-poster-title">Hamnet</div>
+          </div>
+        </div>
+        <a class="c-link" href="/watchlog">Watchlog &rarr;</a>
+      </div>
 
-
-          <!-- Separated translation formatting -->
+      <!-- RECENT TRAVEL -->
+      <div class="card c-travel">
+        <div class="c-label">Recent Travel</div>
+        <div class="travel-list">
+          <a class="travel-item" href="/post/bonjour-monsieur-paris-2026/">
+            <span class="travel-pin">&#9992;</span>
+            <div>
+              <div class="travel-name">Bonjour Monsieur: Paris 2026</div>
+              <div class="travel-sub">Paris, France &mdash; 2026</div>
+            </div>
+          </a>
           
+          <a class="travel-item" href="/post/a-spiritual-reconnect-trip-to-ajmer-and-udaipur/">
+            <span class="travel-pin">&#9992;</span>
+            <div>
+              <div class="travel-name">A Spiritual Reconnect Trip to Ajmer and Udaipur</div>
+              <div class="travel-sub">India &mdash; 2025</div>/
+            </div>
+          </a>
           
-          <em>خودی کو کر بلند اتنا</em><br />
-          <em>کہ ہر تقدیر سے پہلے</em>
-          <br />
-          <em>خدا بندے سے خود پوچھے</em>
-          <br />
-          <em>بتا تیری رضا کیا ہے</em>
-          <br />
-          <cite>&mdash; علامہ اقبال</cite>
-          <br />
-          <br />
-            Endow your will with such power<br />
-          That at every turn of fate it so be
-          <br />
-            That God Himself asks of His slave
-            <br />
-            'What is it that pleases thee?'
-          <br />
-          <cite>&mdash; Allama Iqbal</cite>
+          <a class="c-link" href="/series/travel">Travelogue &rarr;</a>
+        </div>
+      </div>
+
+      <!-- MOOD EXPLAINER -->
+      <div class="card c-mood">
+        <div class="c-label">Why does this website change color?</div>
+        <div class="mood-swatch">
+          <div class="mood-dot"></div>
+          <div class="mood-dot"></div>
+          <div class="mood-dot"></div>
+          <div class="mood-dot"></div>
+        </div>
+        <p class="mood-body">
+            I find it very difficult to express my emotions to total strangers. The struggle has lead to a lot of anguish and anxiety. 
+            Therefore, the color of this website reflects my daily mood. I may appear distant but I love to talk to people who reach out!
         </p>
+        <a class="mood-hi" href="mailto:gs454236@gmail.com">Say hi &rarr;</a>
       </div>
-    </div>
-  </section>
-  
-  {{ partial "footer.html" . }}
+
+      <!-- DATE ME -->
+      <div class="card c-date">
+        <div class="c-label">Date me</div>
+        <p class="date-body">Interested in getting to know me?</p>
+        <a class="date-link" href="https://docs.google.com/document/d/1HPjRSTkgh1BUSV_6_ZNSmZvpCSo5WfAled35rK3C_vM/edit?usp=sharing">
+            Find more info
+          <span class="date-arrow">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <!-- SOCIAL -->
+      <div class="card c-social">
+        <div class="c-label">Other places on the web</div>
+        <div class="social-row">
+          
+          <a class="chip" href="https://www.linkedin.com/in/basil-labib" target="_blank" rel="noopener noreferrer">
+            <span class="chip-dot"></span>Linkedin
+          </a>
+          
+          <a class="chip" href="https://github.com/basil08" target="_blank" rel="noopener noreferrer">
+            <span class="chip-dot"></span>Github
+          </a>
+          <a class="chip" href="https://twitter.com/itbwtsh" target="_blank" rel="noopener noreferrer">
+            <span class="chip-dot"></span>Twitter
+          </a>
+          
+          <!--<a class="chip" href="https://open.spotify.com/playlist/37i9dQZF1DWZdd1yQZePjz" target="_blank"
+            rel="noopener noreferrer">
+            <span class="chip-dot"></span>Spotify
+          </a>-->
+          <!--<a class="chip" href="https://qciitdelhi.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <span class="chip-dot"></span>Quizzing
+          </a>-->
+        </div>
+      </div>
+
+    </div><!-- /bento -->
+
+    {{ partial "footer.html" . }}
+  </div><!-- /hp-wrap -->
+
+  <!-- Weather badge -->
+  <div class="wx-badge" id="wx-badge"></div>
+
+  <script>
+    (function () {
+      // ── Configure your mood API endpoint here ─────────────────────────────
+      // Serve a JSON file at this path: { "weather": "sunny" | "cloudy" | "thunderstorm" | "hot" }
+      // Update static/mood.json daily to change the theme.
+      var MOOD_API = '/mood.json';
+      // ──────────────────────────────────────────────────────────────────────
+
+      var MAP = {
+        'sunny': 'weather-sunny',
+        'spring': 'weather-sunny',
+        'cloudy': 'weather-cloudy',
+        'thunderstorm': 'weather-thunderstorm',
+        'lightning': 'weather-thunderstorm',
+        'hot': 'weather-hot',
+        'very hot': 'weather-hot',
+      };
+
+      var LABELS = {
+        'weather-sunny': 'Sunny',
+        'weather-cloudy': 'Cloudy',
+        'weather-thunderstorm': 'Thunderstorm',
+        'weather-hot': 'Very Hot',
+      };
+
+      var ALL_CLS = ['weather-sunny', 'weather-cloudy', 'weather-thunderstorm', 'weather-hot'];
+
+      function apply(w) {
+        var cls = MAP[(w || '').toLowerCase().trim()] || 'weather-sunny';
+        ALL_CLS.forEach(function (c) { document.body.classList.remove(c); });
+        document.body.classList.add(cls);
+
+        var badge = document.getElementById('wx-badge');
+        if (badge) {
+          badge.textContent = LABELS[cls] || w;
+          badge.classList.add('show');
+          setTimeout(function () { badge.classList.remove('show'); }, 3000);
+        }
+      }
+
+      // Apply cached value immediately to avoid flash
+      var cached = sessionStorage.getItem('basil_wx');
+      if (cached) apply(cached);
+
+      fetch(MOOD_API)
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          var w = d.weather || d.mood || 'sunny';
+          sessionStorage.setItem('basil_wx', w);
+          apply(w);
+        })
+        .catch(function () { apply(cached || 'sunny'); });
+
+      // Scroll-triggered nav border
+      var nav = document.getElementById('hp-nav');
+      if (nav) {
+        window.addEventListener('scroll', function () {
+          nav.classList.toggle('scrolled', window.scrollY > 8);
+        }, { passive: true });
+      }
+    })();
+  </script>
+
 </body>
 
 </html>
