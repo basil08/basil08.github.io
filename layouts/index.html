@@ -505,6 +505,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: calc(50% - 50px) center;
       display: block;
       transition: transform 0.45s ease;
     }
@@ -589,7 +590,7 @@
       top: 0;
       bottom: 0;
       width: 2px;
-      background: rgba(255, 255, 255, 0.18);
+      backgrounda(255, 255, 255, 0.18);
     }
 
     .book-lines {
@@ -1336,6 +1337,170 @@
         min-height: 220px;
       }
     }
+
+    /* ================================================
+       HOT WEATHER FX
+       ================================================ */
+
+    /* Sun — top-left, partially off-screen */
+    .wx-sun {
+      position: fixed;
+      top: -110px;
+      left: -110px;
+      width: 380px;
+      height: 380px;
+      border-radius: 50%;
+      background: radial-gradient(circle at center,
+        rgba(255,255,255,1.0)   0%,
+        rgba(255,252,220,0.92) 10%,
+        rgba(255,230,130,0.70) 28%,
+        rgba(255,195, 60,0.30) 50%,
+        rgba(255,160, 30,0.08) 68%,
+        transparent 80%);
+      box-shadow:
+        0 0  80px 30px rgba(255,210, 80,0.25),
+        0 0 180px 80px rgba(255,160, 40,0.12),
+        0 0 320px 140px rgba(255,130, 20,0.05);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0;
+      transition: opacity 1.4s ease;
+      animation: sun-breathe 5s ease-in-out infinite;
+    }
+    body.weather-hot .wx-sun { opacity: 1; }
+
+    @keyframes sun-breathe {
+      0%, 100% { transform: scale(1);    filter: blur(0px); }
+      50%       { transform: scale(1.07); filter: blur(4px); }
+    }
+
+    /* Card glisten — sunlight sweeping left-to-right */
+    body.weather-hot .card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        108deg,
+        transparent        22%,
+        rgba(255,255,255,0.22) 44%,
+        rgba(255,255,255,0.07) 52%,
+        transparent        72%
+      );
+      background-size: 350% 100%;
+      animation: card-glisten 18s linear infinite;
+      pointer-events: none;
+      z-index: 10;
+    }
+    /* Stagger glisten per card */
+    body.weather-hot .card:nth-child(2)::after  { animation-delay: -1.1s; }
+    body.weather-hot .card:nth-child(3)::after  { animation-delay: -2.4s; }
+    body.weather-hot .card:nth-child(4)::after  { animation-delay: -0.6s; }
+    body.weather-hot .card:nth-child(5)::after  { animation-delay: -3.2s; }
+    body.weather-hot .card:nth-child(6)::after  { animation-delay: -5.0s; }
+    body.weather-hot .card:nth-child(7)::after  { animation-delay: -1.8s; }
+    body.weather-hot .card:nth-child(8)::after  { animation-delay: -4.3s; }
+    body.weather-hot .card:nth-child(9)::after  { animation-delay: -2.9s; }
+    body.weather-hot .card:nth-child(10)::after { animation-delay: -0.3s; }
+    body.weather-hot .card:nth-child(11)::after { animation-delay: -6.1s; }
+    body.weather-hot .card:nth-child(12)::after { animation-delay: -3.7s; }
+
+    @keyframes card-glisten {
+      0%   { background-position: -150% 0; }
+      100% { background-position: 300% 0; }
+    }
+
+    /* Grass — fixed to viewport bottom */
+    .wx-grass {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 120px;
+      pointer-events: none;
+      z-index: 5;
+      opacity: 0;
+      transition: opacity 1.2s ease;
+    }
+    body.weather-hot .wx-grass { opacity: 1; }
+
+    .wx-grass svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Blade sway — lazy summer afternoon */
+    .blade { transform-box: fill-box; transform-origin: bottom center; }
+    .blade-a { animation: sway-a 3.6s ease-in-out infinite; }
+    .blade-b { animation: sway-b 4.4s ease-in-out infinite; }
+    .blade-c { animation: sway-c 5.1s ease-in-out infinite; }
+    .blade-d { animation: sway-d 3.9s ease-in-out infinite; }
+
+    @keyframes sway-a {
+      0%,100% { transform: rotate(-3deg) skewX(-1deg); }
+      50%     { transform: rotate( 4deg) skewX( 1deg); }
+    }
+    @keyframes sway-b {
+      0%,100% { transform: rotate( 4deg) skewX( 1deg); }
+      50%     { transform: rotate(-5deg) skewX(-2deg); }
+    }
+    @keyframes sway-c {
+      0%,100% { transform: rotate(-2deg); }
+      50%     { transform: rotate( 6deg); }
+    }
+    @keyframes sway-d {
+      0%,100% { transform: rotate( 5deg) skewX(2deg); }
+      50%     { transform: rotate(-3deg) skewX(-1deg); }
+    }
+
+    /* ================================================
+       THUNDERSTORM WEATHER FX
+       ================================================ */
+
+    /* Show grass in thunderstorm too */
+    body.weather-thunderstorm .wx-grass { opacity: 1; }
+
+    /* Violent wind — override the lazy summer sway */
+    body.weather-thunderstorm .blade-a { animation: storm-a 0.62s ease-in-out infinite; }
+    body.weather-thunderstorm .blade-b { animation: storm-b 0.80s ease-in-out infinite; }
+    body.weather-thunderstorm .blade-c { animation: storm-c 0.52s ease-in-out infinite; }
+    body.weather-thunderstorm .blade-d { animation: storm-d 0.71s ease-in-out infinite; }
+
+    @keyframes storm-a {
+      0%,100% { transform: rotate(-26deg) skewX(-6deg); }
+      50%     { transform: rotate( 16deg) skewX( 4deg); }
+    }
+    @keyframes storm-b {
+      0%,100% { transform: rotate( 18deg) skewX( 5deg); }
+      50%     { transform: rotate(-28deg) skewX(-7deg); }
+    }
+    @keyframes storm-c {
+      0%,100% { transform: rotate(-24deg) skewX(-5deg); }
+      50%     { transform: rotate( 20deg) skewX( 6deg); }
+    }
+    @keyframes storm-d {
+      0%,100% { transform: rotate( 24deg) skewX( 6deg); }
+      50%     { transform: rotate(-22deg) skewX(-5deg); }
+    }
+
+    /* Rain canvas */
+    #wx-rain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 4;
+      opacity: 0;
+      transition: opacity 1.6s ease;
+    }
+
+    /* Lightning overlay */
+    #wx-lightning-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(210,228,255,0);
+      pointer-events: none;
+      z-index: 400;
+    }
   </style>
 </head>
 
@@ -1351,9 +1516,9 @@
         <li><a href="{{ .url }}">{{ .name }}</a></li>
         {{ end }}
       </ul>
-      <div class="hp-nav-right">
+      <!--<div class="hp-nav-right">
         {{ partial "toggle.html" }}
-      </div>
+      </div>-->
     </nav>
 
     <!-- ── Bento Grid ── -->
@@ -1382,7 +1547,7 @@
             
             <br />
             <br />
-            Member of Technical Staff at <a href="https://steadrise.org">Secure AI Futures Lab</a>.
+            Member of Technical Staff at <a href="https://secureaifutureslab.org">Secure AI Futures Lab</a>.
             Building (and breaking) robots at <a href="https://blusigma.in">BluSigma Robotics</a>.
             
             <!--Research fellow at <a href="https://impactacademy.org/">Impact Academy</a>. Formerly Deputy General Secretary,
@@ -1626,6 +1791,15 @@
   <!-- Weather badge -->
   <div class="wx-badge" id="wx-badge"></div>
 
+  <!-- Thunderstorm weather FX -->
+  <canvas id="wx-rain"></canvas>
+  <div id="wx-lightning-overlay"></div>
+  <!-- Hot weather FX -->
+  <div class="wx-sun" id="wx-sun"></div>
+  <div class="wx-grass" id="wx-grass"></div>
+  <div id="wx-flies-root" style="position:fixed;inset:0;pointer-events:none;z-index:201;overflow:hidden;"></div>
+
+
   <script>
     (function () {
       // ── Configure your mood API endpoint here ─────────────────────────────
@@ -1686,6 +1860,354 @@
           nav.classList.toggle('scrolled', window.scrollY > 8);
         }, { passive: true });
       }
+    })();
+  </script>
+
+
+  <script>
+    /* ── Hot weather FX ───────────────────────────────────────────────── */
+    (function () {
+      /* ── Grass ── */
+      function buildGrass() {
+        var container = document.getElementById('wx-grass');
+        if (!container || container.querySelector('svg')) return;
+
+        /* SVG coordinate space */
+        var VW = 1440, H = 120;
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('viewBox', '0 0 ' + VW + ' ' + H);
+        svg.setAttribute('preserveAspectRatio', 'xMidYMax slice');
+        svg.setAttribute('aria-hidden', 'true');
+
+        /* Map viewport gutter widths into SVG space */
+        var vw        = window.innerWidth;
+        var maxW      = 1140;                          /* must match .hp-wrap max-width */
+        var gutterPx  = Math.max(0, (vw - maxW) / 2);
+        var scale     = VW / vw;                       /* SVG units per CSS pixel */
+        var leftEnd   = gutterPx * scale;              /* SVG x: right edge of left gutter */
+        var rightStart = (vw - gutterPx) * scale;     /* SVG x: left edge of right gutter */
+
+        /* No visible gutters — skip rendering */
+        if (leftEnd < 18 && rightStart > VW - 18) {
+          container.appendChild(svg);
+          return;
+        }
+
+        var swayClasses = ['blade-a', 'blade-b', 'blade-c', 'blade-d'];
+        var colors = ['#7a9a42', '#5e7c2e', '#8aaa4e', '#6e8c38', '#96b050', '#547028'];
+        var bladeIdx = 0;
+
+        function addBlade(cx, h, bw) {
+          var lean = Math.sin(bladeIdx * 1.37) * 5;
+          var tipX = cx + lean;
+          var d = [
+            'M', cx - bw, H,
+            'C', cx - bw * 1.3, H - h * 0.45, tipX - bw * 0.4, H - h * 0.82, tipX,    H - h,
+            'C', tipX + bw * 0.4, H - h * 0.82, cx + bw * 1.3, H - h * 0.45, cx + bw, H,
+            'Z'
+          ].join(' ');
+          var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+          g.setAttribute('class', 'blade ' + swayClasses[bladeIdx % swayClasses.length]);
+          g.style.animationDelay = ((bladeIdx * 0.23) % 5).toFixed(2) + 's';
+          var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          path.setAttribute('d', d);
+          path.setAttribute('fill', colors[bladeIdx % colors.length]);
+          path.setAttribute('opacity', (0.70 + (bladeIdx % 4) * 0.07).toFixed(2));
+          g.appendChild(path);
+          svg.appendChild(g);
+          bladeIdx++;
+        }
+
+        function populateGutter(x0, x1) {
+          var width = x1 - x0;
+          if (width < 14) return;
+          var count = Math.max(5, Math.floor(width / 26));
+          for (var i = 0; i < count; i++) {
+            var cx  = x0 + 6 + (i / count) * (width - 12) + Math.sin(i * 2.1 + x0) * 3;
+            var h   = 46 + Math.abs(Math.sin(i * 1.3  + x0 * 0.01)) * 58;
+            var bw  =  4 + Math.abs(Math.cos(i * 0.9  + x0 * 0.01)) * 4;
+            addBlade(cx, h, bw);
+          }
+        }
+
+        populateGutter(0,          leftEnd);    /* left gutter  */
+        populateGutter(rightStart, VW);         /* right gutter */
+
+        container.appendChild(svg);
+      }
+
+      /* ── Flies ── */
+      var flyRAF = null;
+      function startFlies() {
+        var root = document.getElementById('wx-flies-root');
+        if (!root) return;
+        root.innerHTML = '';
+
+        var NUM = 15;
+        var flies = [];
+        for (var i = 0; i < NUM; i++) {
+          var el = document.createElement('div');
+          el.style.cssText = 'position:absolute;width:2px;height:2px;border-radius:50%;background:#1a1200;opacity:0.5;left:0;top:0;will-change:transform;';
+          root.appendChild(el);
+          flies.push({
+            el: el,
+            x: 80 + Math.random() * (window.innerWidth - 160),
+            y: 60 + Math.random() * (window.innerHeight * 0.6),
+            vx: (Math.random() - 0.5) * 1.4,
+            vy: (Math.random() - 0.5) * 1.4,
+            t: 0,
+            dartAt: 90 + Math.floor(Math.random() * 150),
+          });
+        }
+
+        function tick() {
+          if (!document.body.classList.contains('weather-hot')) {
+            stopFlies();
+            return;
+          }
+          var maxY = window.innerHeight - 130;
+          flies.forEach(function (f) {
+            f.t++;
+            if (f.t >= f.dartAt) {
+              var a = Math.random() * Math.PI * 2;
+              var sp = 2.5 + Math.random() * 3;
+              f.vx = Math.cos(a) * sp;
+              f.vy = Math.sin(a) * sp;
+              f.t = 0;
+              f.dartAt = 90 + Math.floor(Math.random() * 150);
+            }
+            f.vx += (Math.random() - 0.5) * 0.55;
+            f.vy += (Math.random() - 0.5) * 0.55;
+            f.vx *= 0.96;
+            f.vy *= 0.96;
+            f.x += f.vx;
+            f.y += f.vy;
+            if (f.x < 8)                       { f.x = 8;                       f.vx =  Math.abs(f.vx); }
+            if (f.x > window.innerWidth - 8)   { f.x = window.innerWidth - 8;   f.vx = -Math.abs(f.vx); }
+            if (f.y < 8)                        { f.y = 8;                        f.vy =  Math.abs(f.vy); }
+            if (f.y > maxY)                    { f.y = maxY;                    f.vy = -Math.abs(f.vy); }
+            f.el.style.transform = 'translate(' + f.x.toFixed(1) + 'px,' + f.y.toFixed(1) + 'px)';
+          });
+          flyRAF = requestAnimationFrame(tick);
+        }
+        flyRAF = requestAnimationFrame(tick);
+      }
+
+      function stopFlies() {
+        if (flyRAF) { cancelAnimationFrame(flyRAF); flyRAF = null; }
+        var root = document.getElementById('wx-flies-root');
+        if (root) root.innerHTML = '';
+      }
+
+      /* ── Activate / deactivate ── */
+      function onWeatherChange() {
+        var hot = document.body.classList.contains('weather-hot');
+        if (hot) {
+          buildGrass();
+          startFlies();
+        } else {
+          stopFlies();
+        }
+      }
+
+      /* Watch for body class changes (applied by the weather script) */
+      var mo = new MutationObserver(onWeatherChange);
+      mo.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+      /* Also run immediately in case class is already set (cached mood) */
+      onWeatherChange();
+    })();
+  </script>
+
+  <script>
+    /* ── Thunderstorm weather FX ──────────────────────────────────────────── */
+    (function () {
+
+      /* ── Shared grass builder (clears & rebuilds each time) ── */
+      function buildStormGrass() {
+        var container = document.getElementById('wx-grass');
+        if (!container) return;
+        container.innerHTML = '';                      /* always rebuild fresh */
+
+        var VW = 1440, H = 120;
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('viewBox', '0 0 ' + VW + ' ' + H);
+        svg.setAttribute('preserveAspectRatio', 'xMidYMax slice');
+        svg.setAttribute('aria-hidden', 'true');
+
+        var vw        = window.innerWidth;
+        var maxW      = 1140;
+        var gutterPx  = Math.max(0, (vw - maxW) / 2);
+        var scale     = VW / vw;
+        var leftEnd   = gutterPx * scale;
+        var rightStart = (vw - gutterPx) * scale;
+
+        if (leftEnd < 18 && rightStart > VW - 18) {
+          container.appendChild(svg); return;
+        }
+
+        var swayClasses = ['blade-a', 'blade-b', 'blade-c', 'blade-d'];
+        var colors = ['#7a9a42', '#5e7c2e', '#8aaa4e', '#6e8c38', '#96b050', '#547028'];
+        var bladeIdx = 0;
+
+        function addBlade(cx, h, bw) {
+          /* storm blades lean harder left — simulating gale from the right */
+          var lean = -8 + Math.sin(bladeIdx * 1.37) * 4;
+          var tipX = cx + lean;
+          var d = [
+            'M', cx - bw, H,
+            'C', cx - bw*1.3, H-h*0.45, tipX-bw*0.4, H-h*0.82, tipX,    H-h,
+            'C', tipX+bw*0.4, H-h*0.82, cx+bw*1.3,   H-h*0.45, cx+bw,   H, 'Z'
+          ].join(' ');
+          var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+          g.setAttribute('class', 'blade ' + swayClasses[bladeIdx % swayClasses.length]);
+          g.style.animationDelay = ((bladeIdx * 0.11) % 1.8).toFixed(2) + 's';
+          var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          path.setAttribute('d', d);
+          path.setAttribute('fill', colors[bladeIdx % colors.length]);
+          path.setAttribute('opacity', (0.70 + (bladeIdx % 4) * 0.07).toFixed(2));
+          g.appendChild(path);
+          svg.appendChild(g);
+          bladeIdx++;
+        }
+
+        function populateGutter(x0, x1) {
+          var width = x1 - x0;
+          if (width < 14) return;
+          var count = Math.max(5, Math.floor(width / 26));
+          for (var i = 0; i < count; i++) {
+            var cx = x0 + 6 + (i / count) * (width - 12) + Math.sin(i * 2.1 + x0) * 3;
+            var h  = 46 + Math.abs(Math.sin(i * 1.3 + x0 * 0.01)) * 58;
+            var bw =  4 + Math.abs(Math.cos(i * 0.9 + x0 * 0.01)) * 4;
+            addBlade(cx, h, bw);
+          }
+        }
+
+        populateGutter(0,          leftEnd);
+        populateGutter(rightStart, VW);
+        container.appendChild(svg);
+      }
+
+      /* ── Rain ── */
+      var rainRAF = null;
+
+      function startRain() {
+        var canvas = document.getElementById('wx-rain');
+        if (!canvas) return;
+        var ctx = canvas.getContext('2d');
+
+        function resize() {
+          canvas.width  = window.innerWidth;
+          canvas.height = window.innerHeight;
+        }
+        resize();
+        window.addEventListener('resize', resize);
+
+        /* wind angle: drops fall right at ~20° from vertical */
+        var ANGLE   = 0.34;   /* radians — tan(angle) gives dx/dy ratio */
+        var NUM     = 260;
+        var drops   = [];
+
+        for (var i = 0; i < NUM; i++) {
+          drops.push({
+            x:       Math.random() * canvas.width,
+            y:       Math.random() * canvas.height,
+            len:     9  + Math.random() * 14,
+            speed:   9  + Math.random() * 7,
+            opacity: 0.12 + Math.random() * 0.22,
+          });
+        }
+
+        canvas.style.opacity = '0.85';
+
+        function tick() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          drops.forEach(function (d) {
+            var dx = Math.sin(ANGLE) * d.len;
+            var dy = Math.cos(ANGLE) * d.len;
+            ctx.beginPath();
+            ctx.moveTo(d.x, d.y);
+            ctx.lineTo(d.x + dx, d.y + dy);
+            ctx.strokeStyle = 'rgba(255,255,255,' + d.opacity + ')';
+            ctx.lineWidth   = 2;
+            ctx.stroke();
+
+            d.x += Math.sin(ANGLE) * d.speed;
+            d.y += Math.cos(ANGLE) * d.speed;
+
+            if (d.y > canvas.height + 20 || d.x > canvas.width + 20) {
+              d.x = Math.random() * canvas.width - 60;
+              d.y = -20 - Math.random() * 40;
+            }
+          });
+          rainRAF = requestAnimationFrame(tick);
+        }
+        rainRAF = requestAnimationFrame(tick);
+      }
+
+      function stopRain() {
+        if (rainRAF) { cancelAnimationFrame(rainRAF); rainRAF = null; }
+        var canvas = document.getElementById('wx-rain');
+        if (!canvas) return;
+        canvas.style.opacity = '0';
+        var ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+
+      /* ── Lightning ── */
+      var lightningTimer = null;
+
+      function doFlash() {
+        var overlay = document.getElementById('wx-lightning-overlay');
+        if (!overlay) return;
+        /* 1–3 rapid flashes */
+        var strikes = 1 + Math.floor(Math.random() * 2);
+        var t = 0;
+        for (var i = 0; i < strikes; i++) {
+          (function (delay) {
+            setTimeout(function () {
+              overlay.style.transition = 'background 0.03s ease';
+              overlay.style.background = 'rgba(210,228,255,0.52)';
+              setTimeout(function () {
+                overlay.style.transition = 'background 0.18s ease';
+                overlay.style.background = 'rgba(210,228,255,0)';
+              }, 55);
+            }, delay);
+          })(t);
+          t += 110 + Math.floor(Math.random() * 90);
+        }
+        /* schedule next bolt */
+        var next = 5000 + Math.random() * 11000;
+        lightningTimer = setTimeout(doFlash, next);
+      }
+
+      function startLightning() {
+        var first = 1500 + Math.random() * 4000;
+        lightningTimer = setTimeout(doFlash, first);
+      }
+
+      function stopLightning() {
+        if (lightningTimer) { clearTimeout(lightningTimer); lightningTimer = null; }
+        var overlay = document.getElementById('wx-lightning-overlay');
+        if (overlay) overlay.style.background = 'rgba(210,228,255,0)';
+      }
+
+      /* ── Activate / deactivate ── */
+      function onWeatherChange() {
+        var storm = document.body.classList.contains('weather-thunderstorm');
+        if (storm) {
+          buildStormGrass();
+          startRain();
+          startLightning();
+        } else {
+          stopRain();
+          stopLightning();
+        }
+      }
+
+      var mo = new MutationObserver(onWeatherChange);
+      mo.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+      onWeatherChange();
     })();
   </script>
 
