@@ -3,13 +3,13 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main
   pull_request:
   repository_dispatch:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'  # Daily rebuild at midnight UTC — mood.json is re-served fresh
+    - cron: '0 0 * * *'  # Daily at midnight UTC — fetches fresh mood then rebuilds
 
 jobs:
   deploy:
@@ -19,6 +19,13 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Fetch mood
+        run: |
+          MOOD=$(curl -sf --max-time 10 http://43.205.80.119:4235/api/mood \
+            | jq -r '.mood // "sunny"') || MOOD="sunny"
+          echo "{ \"weather\": \"$MOOD\" }" > static/mood.json
+          echo "Mood fetched: $MOOD"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

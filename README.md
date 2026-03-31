@@ -6,34 +6,30 @@ Personal site built with [Hugo](https://gohugo.io). Deployed to GitHub Pages via
 
 ## Mood / Colour theming
 
-The homepage palette changes based on a daily mood value. This is a real-time emotion monitor — the site's colour scheme reflects how I'm feeling that day.
+The homepage palette changes daily based on a real-time emotion monitor — the site's colour scheme reflects how I'm feeling that day.
 
 ### How it works
 
-At page load, the client-side JS fetches `/mood.json`:
+Every day at midnight UTC, GitHub Actions:
+1. Queries the mood API: `GET http://43.205.80.119:4235/api/mood`
+2. API returns `{ "mood": "sunny" | "cloudy" | "thunderstorm" | "hot" }`
+3. Writes `static/mood.json` as `{ "weather": "<value>" }` before the Hugo build
+4. Builds and deploys the site — the updated mood is baked into the static output
 
-```json
-{ "weather": "sunny" }
-```
+At page load, the client-side JS fetches `/mood.json` and applies a CSS theme class to `<body>`.
 
-The `weather` value maps to a CSS theme class applied to `<body>`:
+### Theme reference
 
-| Value | Theme | Palette |
-|---|---|---|
-| `sunny` | Default green | Warm off-white, forest green |
-| `cloudy` | Muted blue-grey | Cool grey, slate |
-| `thunderstorm` | Dark mode blue | Near-black, electric blue |
-| `hot` | Warm amber | Cream, burnt orange |
+| Mood value | Theme | Palette | Effects |
+|---|---|---|---|
+| `sunny` | Warm green | Off-white, forest green | Lazy grass, flowers, butterflies |
+| `cloudy` | Blue-grey | Cool grey, slate | — |
+| `thunderstorm` | Dark blue | Near-black, electric blue | Violent grass, rain, lightning |
+| `hot` | Amber | Cream, burnt orange | Grass, flies, card glisten |
 
-Both `spring` and `sunny` resolve to the sunny theme. Both `lightning` and `thunderstorm` resolve to the thunderstorm theme.
+### Manual override
 
-### Updating the mood
-
-**Manually (recommended):**
-
-1. Edit `static/mood.json` with one of the valid values above
-2. Commit and push to `main`
-3. The CI build triggers automatically and redeploys within ~2 minutes
+To change the mood immediately without waiting for the nightly cron:
 
 ```bash
 echo '{ "weather": "cloudy" }' > static/mood.json
@@ -42,11 +38,11 @@ git commit -m "mood: cloudy"
 git push
 ```
 
-**Does it need to rebuild every day?**
+The push triggers an immediate CI build that fetches the latest mood from the API, so the manual value in `static/mood.json` is overwritten by whatever the API returns. To force a specific mood regardless of the API, temporarily edit the Fetch mood step in the workflow.
 
-Only if the mood changes. The file is static — once deployed, `/mood.json` is served as-is until the next build. The GitHub Actions workflow includes a daily scheduled rebuild (`0 0 * * *` UTC) so the deployed file always reflects the latest committed value even without a manual push.
+### Fallback
 
-If you want fully automated daily mood changes, update `static/mood.json` in a pre-build step inside the workflow (e.g. a script that writes the JSON based on the current date or an external source), then commit+push or let the scheduled run pick it up.
+If the mood API is unreachable (timeout > 10s or HTTP error), the build falls back to `"sunny"`.
 
 ---
 
@@ -56,6 +52,10 @@ If you want fully automated daily mood changes, update `static/mood.json` in a p
 hugo server -D
 ```
 
+`static/mood.json` is committed with a default value of `"sunny"` and is only overwritten during CI builds.
+
 ## Build & deploy
 
-Handled automatically by `.github/workflows/gh-pages.yml` on every push to `main` and daily at midnight UTC.
+Handled by `.github/workflows/gh-pages.yml`:
+- On every push to `main`
+- Daily at midnight UTC (fetches mood → builds → deploys)

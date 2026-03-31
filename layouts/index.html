@@ -1472,6 +1472,32 @@
       pointer-events: none;
       z-index: 400;
     }
+
+    /* ================================================
+       SUNNY WEATHER FX
+       ================================================ */
+
+    body.weather-sunny .wx-grass { opacity: 1; }
+
+    /* Butterfly */
+    .wx-butterfly {
+      position: fixed;
+      pointer-events: none;
+      z-index: 50;
+      will-change: transform;
+    }
+      to   { transform: scaleX(0.12); }
+    }
+
+    /* Flower gentle nod */
+    .wx-flower { transform-box: fill-box; transform-origin: bottom center; }
+    .wx-flower-a { animation: flower-nod 3.8s ease-in-out infinite; }
+    .wx-flower-b { animation: flower-nod 4.7s ease-in-out infinite; }
+    .wx-flower-c { animation: flower-nod 5.3s ease-in-out infinite; }
+    @keyframes flower-nod {
+      0%, 100% { transform: rotate(-4deg); }
+      50%      { transform: rotate( 4deg); }
+    }
   </style>
 </head>
 
@@ -1509,7 +1535,7 @@
 
         <div>
           <div class="bio-name">Basil Labib</div>
-          <div class="bio-tag">engineering + philosophy</div>
+          <!--<div class="bio-tag">engineering + philosophy</div>-->
           <p class="bio-body">
             Senior at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a>
             pursuing B.Tech in <a href="https://textile.iitd.ac.in">textile engineering</a> and M.Tech in
@@ -1840,7 +1866,8 @@
       /* ── Grass ── */
       function buildGrass() {
         var container = document.getElementById('wx-grass');
-        if (!container || container.querySelector('svg')) return;
+        if (!container) return;
+        container.innerHTML = '';
 
         /* SVG coordinate space */
         var VW = 1440, H = 120;
@@ -2172,6 +2199,223 @@
         } else {
           stopRain();
           stopLightning();
+        }
+      }
+
+      var mo = new MutationObserver(onWeatherChange);
+      mo.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+      onWeatherChange();
+    })();
+  </script>
+
+  <script>
+    /* ── Sunny weather FX ─────────────────────────────────────────────────── */
+    (function () {
+      var ns = 'http://www.w3.org/2000/svg';
+
+      /* ── Grass + flowers ── */
+      function buildSunnyGrass() {
+        var container = document.getElementById('wx-grass');
+        if (!container) return;
+        container.innerHTML = '';
+
+        var VW = 1440, H = 120;
+        var svg = document.createElementNS(ns, 'svg');
+        svg.setAttribute('viewBox', '0 0 ' + VW + ' ' + H);
+        svg.setAttribute('preserveAspectRatio', 'xMidYMax slice');
+        svg.setAttribute('aria-hidden', 'true');
+
+        var vw       = window.innerWidth;
+        var gutterPx = Math.max(0, (vw - 1140) / 2);
+        var scale    = VW / vw;
+        var leftEnd  = gutterPx * scale;
+        var rightStart = (vw - gutterPx) * scale;
+
+        var swayClasses = ['blade-a','blade-b','blade-c','blade-d'];
+        var grassColors = ['#7a9a42','#5e7c2e','#8aaa4e','#6e8c38','#96b050','#547028'];
+        var bladeIdx = 0;
+
+        function addBlade(cx, h, bw) {
+          var lean = Math.sin(bladeIdx * 1.37) * 5;
+          var tipX = cx + lean;
+          var d = ['M',cx-bw,H,'C',cx-bw*1.3,H-h*0.45,tipX-bw*0.4,H-h*0.82,tipX,H-h,
+                   'C',tipX+bw*0.4,H-h*0.82,cx+bw*1.3,H-h*0.45,cx+bw,H,'Z'].join(' ');
+          var g = document.createElementNS(ns, 'g');
+          g.setAttribute('class', 'blade ' + swayClasses[bladeIdx % swayClasses.length]);
+          g.style.animationDelay = ((bladeIdx * 0.23) % 5).toFixed(2) + 's';
+          var path = document.createElementNS(ns, 'path');
+          path.setAttribute('d', d);
+          path.setAttribute('fill', grassColors[bladeIdx % grassColors.length]);
+          path.setAttribute('opacity', (0.70 + (bladeIdx % 4) * 0.07).toFixed(2));
+          g.appendChild(path);
+          svg.appendChild(g);
+          bladeIdx++;
+        }
+
+        function populateGutter(x0, x1) {
+          var w = x1 - x0;
+          if (w < 14) return;
+          var count = Math.max(5, Math.floor(w / 26));
+          for (var i = 0; i < count; i++) {
+            var cx = x0 + 6 + (i / count) * (w - 12) + Math.sin(i * 2.1 + x0) * 3;
+            var h  = 46 + Math.abs(Math.sin(i * 1.3 + x0 * 0.01)) * 58;
+            var bw =  4 + Math.abs(Math.cos(i * 0.9 + x0 * 0.01)) * 4;
+            addBlade(cx, h, bw);
+          }
+        }
+
+        if (leftEnd   >= 14) populateGutter(0,          leftEnd);
+        if (rightStart <= VW - 14) populateGutter(rightStart, VW);
+
+        /* ── Flowers ── */
+        var flowerPalettes = [
+          { petal: '#FFF9C4', center: '#F5C518' },   /* daisy yellow */
+          { petal: '#FFD0DC', center: '#FF7096' },   /* pink */
+          { petal: '#DCEEFB', center: '#90CAF9' },   /* pale blue */
+          { petal: '#F9FBE7', center: '#C5E1A5' },   /* cream-green */
+          { petal: '#FCE4EC', center: '#F48FB1' },   /* rose */
+        ];
+        var fnClasses = ['wx-flower-a','wx-flower-b','wx-flower-c'];
+
+        function addFlower(cx, cy, idx) {
+          var pal = flowerPalettes[idx % flowerPalettes.length];
+          var g = document.createElementNS(ns, 'g');
+          g.setAttribute('class', 'wx-flower ' + fnClasses[idx % fnClasses.length]);
+          g.setAttribute('transform', 'translate(' + cx + ',' + cy + ')');
+          for (var p = 0; p < 6; p++) {
+            var petal = document.createElementNS(ns, 'ellipse');
+            petal.setAttribute('rx', '3');
+            petal.setAttribute('ry', '7');
+            petal.setAttribute('cx', '0');
+            petal.setAttribute('cy', '-8');
+            petal.setAttribute('transform', 'rotate(' + (p * 60) + ')');
+            petal.setAttribute('fill', pal.petal);
+            petal.setAttribute('opacity', '0.92');
+            g.appendChild(petal);
+          }
+          var center = document.createElementNS(ns, 'circle');
+          center.setAttribute('r', '4');
+          center.setAttribute('fill', pal.center);
+          g.appendChild(center);
+          svg.appendChild(g);
+        }
+
+        /* Scatter flowers across both gutters */
+        var flowerSpots = [];
+        if (leftEnd >= 18) {
+          flowerSpots.push(leftEnd * 0.22);
+          flowerSpots.push(leftEnd * 0.58);
+          if (leftEnd > 55) flowerSpots.push(leftEnd * 0.84);
+        }
+        if (rightStart <= VW - 18) {
+          var rw = VW - rightStart;
+          flowerSpots.push(rightStart + rw * 0.16);
+          flowerSpots.push(rightStart + rw * 0.52);
+          if (rw > 55) flowerSpots.push(rightStart + rw * 0.82);
+        }
+        flowerSpots.forEach(function (cx, i) { addFlower(cx, H - 2, i); });
+
+        container.appendChild(svg);
+      }
+
+      /* ── Butterflies ── */
+      var bfRAF = null;
+      var bfState = [];
+
+      var BF_DEFS = [
+        { c1: '#F5C518', c2: '#E07B10', dur: '0.48s' },   /* golden */
+        { c1: '#FDEBD0', c2: '#F0C060', dur: '0.62s' },   /* cream */
+        { c1: '#FFD0D8', c2: '#FF9098', dur: '0.55s' },   /* blush */
+        { c1: '#D0ECFF', c2: '#90C8F0', dur: '0.58s' },   /* sky */
+      ];
+
+      function makeBf(cfg) {
+        /* Wing flap via SVG SMIL animateTransform — scales from (0,0) which is the body
+           attachment point, so both wing groups fold cleanly toward the body center.
+           This avoids the transform-box / transform-origin CSS unreliability on SVG <g>. */
+        var flapAnim =
+          '<animateTransform attributeName="transform" type="scale"' +
+          ' values="1 1;0.06 1;1 1" dur="' + cfg.dur + '" repeatCount="indefinite"' +
+          ' calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>';
+
+        var div = document.createElement('div');
+        div.className = 'wx-butterfly';
+        div.innerHTML =
+          '<svg xmlns="http://www.w3.org/2000/svg" width="54" height="46" viewBox="-23 -17 46 40">' +
+            /* Left wings (negative x space — collapse toward x=0 on scaleX) */
+            '<g fill="' + cfg.c1 + '" stroke="rgba(60,30,0,0.10)" stroke-width="0.5">' +
+              '<path d="M0,0 C-8,-16 -22,-13 -18,-2 C-14,8 -5,9 0,2Z"/>' +
+              '<path d="M0,2 C-7,6 -17,7 -13,16 C-9,22 -3,17 0,4Z"/>' +
+              flapAnim +
+            '</g>' +
+            /* Right wings (positive x space — collapse toward x=0 on scaleX) */
+            '<g fill="' + cfg.c2 + '" stroke="rgba(60,30,0,0.10)" stroke-width="0.5">' +
+              '<path d="M0,0 C8,-16 22,-13 18,-2 C14,8 5,9 0,2Z"/>' +
+              '<path d="M0,2 C7,6 17,7 13,16 C9,22 3,17 0,4Z"/>' +
+              flapAnim +
+            '</g>' +
+            '<ellipse rx="1.8" ry="7" cy="3" fill="#2a1508" opacity="0.6"/>' +
+            '<circle r="1.8" cy="-3" fill="#2a1508" opacity="0.6"/>' +
+          '</svg>';
+        return div;
+      }
+
+      function startButterflies() {
+        stopButterflies();
+        var W = window.innerWidth, H = window.innerHeight;
+        bfState = BF_DEFS.map(function (cfg) {
+          var el = makeBf(cfg);
+          document.body.appendChild(el);
+          var x = W * 0.08 + Math.random() * W * 0.84;
+          var y = H * (0.68 + Math.random() * 0.16);
+          return {
+            el: el,
+            x: x, y: y,
+            tx: x, ty: y,
+            phase: Math.random() * Math.PI * 2,
+            phaseSpd: 0.016 + Math.random() * 0.012,
+            spd:      0.005 + Math.random() * 0.006,
+          };
+        });
+
+        function tick() {
+          if (!document.body.classList.contains('weather-sunny')) {
+            stopButterflies(); return;
+          }
+          var vW = window.innerWidth, vH = window.innerHeight;
+          bfState.forEach(function (bf) {
+            bf.x += (bf.tx - bf.x) * bf.spd;
+            bf.y += (bf.ty - bf.y) * bf.spd;
+            var dx = bf.tx - bf.x, dy = bf.ty - bf.y;
+            if (dx*dx + dy*dy < 300) {
+              bf.tx = vW * 0.08 + Math.random() * vW * 0.84;
+              bf.ty = vH * (0.66 + Math.random() * 0.18);
+            }
+            bf.phase += bf.phaseSpd;
+            var bob = Math.sin(bf.phase) * 13;
+            bf.el.style.transform =
+              'translate(' + bf.x.toFixed(1) + 'px,' + (bf.y + bob).toFixed(1) + 'px)';
+          });
+          bfRAF = requestAnimationFrame(tick);
+        }
+        bfRAF = requestAnimationFrame(tick);
+      }
+
+      function stopButterflies() {
+        if (bfRAF) { cancelAnimationFrame(bfRAF); bfRAF = null; }
+        bfState.forEach(function (bf) {
+          if (bf.el.parentNode) bf.el.parentNode.removeChild(bf.el);
+        });
+        bfState = [];
+      }
+
+      /* ── Activate / deactivate ── */
+      function onWeatherChange() {
+        if (document.body.classList.contains('weather-sunny')) {
+          buildSunnyGrass();
+          startButterflies();
+        } else {
+          stopButterflies();
         }
       }
 
