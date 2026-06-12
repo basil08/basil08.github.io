@@ -1,5 +1,5 @@
 ---
-title: "Indian Are Really Bad At Picking Opponents"
+title: "Indians Are Really Bad At Picking Opponents"
 tags:
 categories: 
 date: 2026-06-11T20:48:14+05:30
