@@ -1,41 +1,31 @@
-<div>
-  {{ $response := resources.GetRemote "https://vera.deta.dev/payload" }}
-  {{ $droplets := $response | transform.Unmarshal }}
-  <ul style=" padding: 0;">
-    {{ range sort $droplets "ts" "desc" }}
-    <li style="
-    list-style: none;
-    border: 1px grey solid;
-    background-color: rgb(240, 240, 255);
-    padding: 0.5em;
-    margin: 0.5em;
-    ">
-      <div style="display: grid;
-      grid-template-rows: auto 1fr;
-      ">
-        <div>
-          <small style="
-          ">
-          {{ (time .ts "Asia/Kolkata") | time.Format "15:04 | Jan 02, 2006" }}
-          </small>
-        </div>
-        <div>
-          {{ if .title}}
-          <div>
-            <strong>{{ .title | emojify | markdownify }}<br /></strong>
-          </div>
-          {{ end }}
-          {{ .body | emojify | markdownify }}
-        </div>
-        {{ if .imgs }}
-        <div class="image-drawer">
-          {{ range .imgs }}
-            <img src="{{ . }}">
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
-    </li>
+{{- /* Microblog feed. The upstream host may be gone; fail soft rather than
+       breaking the build. */ -}}
+{{ $endpoint := .Site.Params.dropletsURL | default "https://vera.deta.dev/payload" }}
+{{ $droplets := slice }}
+{{ with try (resources.GetRemote $endpoint) }}
+  {{ with .Value }}
+    {{ with try (transform.Unmarshal .Content) }}
+      {{ with .Value }}{{ $droplets = . }}{{ end }}
     {{ end }}
-  </ul>
-</div>
+  {{ end }}
+{{ end }}
+
+{{ if not $droplets }}
+  {{ warnf "droplets shortcode: no data from %s" $endpoint }}
+  <p><i>Droplets are offline right now.</i></p>
+{{ else }}
+<ul class="droplets">
+  {{ range sort $droplets "ts" "desc" }}
+  <li class="droplet">
+    <time class="droplet-ts">{{ (time .ts "Asia/Kolkata") | time.Format "15:04 | Jan 02, 2006" }}</time>
+    {{ with .title }}<p class="droplet-title"><strong>{{ . | emojify | markdownify }}</strong></p>{{ end }}
+    <div class="droplet-body">{{ .body | emojify | markdownify }}</div>
+    {{ with .imgs }}
+    <div class="droplet-imgs">
+      {{ range . }}<img src="{{ . }}" alt="" loading="lazy" />{{ end }}
+    </div>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

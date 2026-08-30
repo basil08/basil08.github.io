@@ -1,8 +1,7 @@
-<!-- Custom blockquote shortcode -->
-<div style="display: flex;">
-  <div class="white" style="padding: 5px; border-radius: 4px; margin: 0.2em;">
-    <blockquote>
-      {{ .Inner | markdownify }}
-    </blockquote>
-  </div>
-</div>
+{{- /* Pull quote. Strips any leading markdown ">" markers so the shortcode can
+       wrap either plain text or an already-quoted block without nesting. */ -}}
+{{- $lines := slice -}}
+{{- range split (trim .Inner "\n ") "\n" -}}
+  {{- $lines = $lines | append (replaceRE `^\s*>\s?` "" .) -}}
+{{- end -}}
+<blockquote class="pullquote">{{ delimit $lines "\n" | markdownify }}</blockquote>

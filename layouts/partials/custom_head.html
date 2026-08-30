@@ -1,0 +1,33 @@
+{{/* Apply a stored light/dark choice before first paint, so an explicit
+     preference never flashes the other theme. Everything else about the
+     switch is plain CSS -- see assets/css/custom.css. */}}
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') {
+        document.documentElement.setAttribute('data-theme', t);
+      }
+    } catch (e) {}
+  })();
+</script>
+
+{{/* Google Analytics -- production builds only. */}}
+{{ if and hugo.IsProduction .Site.Params.googleAnalyticsID }}
+{{ partial "analytics-gtag.html" . }}
+{{ end }}
+
+{{/* Site styles layered on top of the Bear Neo stylesheet. */}}
+{{ $css := resources.Get "css/custom.css" }}
+{{ with $css }}
+{{ $c := . | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $c.RelPermalink }}" integrity="{{ $c.Data.Integrity }}" />
+{{ end }}
+
+{{/* MathJax -- loaded only on pages that actually use the mj/* shortcodes
+     or opt in with `math: true` in front matter. */}}
+{{ $needsMath := or (.HasShortcode "mj/b") (.HasShortcode "mj/i") }}
+{{ if .Params.math }}{{ $needsMath = true }}{{ end }}
+{{ if $needsMath }}
+{{ partial "mathjax.html" . }}
+{{ end }}

@@ -1,29 +1,74 @@
-{{ partial "header.html" . }}
-<body
-  lang="{{ .Site.LanguageCode }}"
-  class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
-  itemscope
-  itemtype="http://schema.org/Article"
->
-  {{ $baseurl := .Site.BaseURL }}
-  
-  <div style="display: flex">
-    <span class="b">/ &nbsp; </span>
-    <a
-      href="{{ .Site.BaseURL  }}"
-      class="b bb bw1 pb1 no-underline black"
-      >{{ .Site.Title }}</a>
-      {{ partial "toggle.html" }}
-</div>
+{{ define "main" }}
+{{ $isArticle := ne .Section "" }}
 
-  <section id="main" class="mt5">
-    <h1 itemprop="name" id="title">{{ .Title }}</h1>
+{{ if not .Params.hideTitle }}
+<h1>{{ .Title }}</h1>
+{{ if and $isArticle (not .Date.IsZero) }}
+<p>
+  <i>
+    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+    </time>
+  </i>
+</p>
+{{ end }}
+{{ end }}
 
-    <article itemprop="articleBody" id="content" class="w-90 lh-copy">
-      {{ .Content }}
-    </article>
-  </section>
+<content>{{ .Content }}</content>
 
-  {{ partial "footer.html" . }}
-  </body>
-</html>
+{{ if $isArticle }}
+{{ if and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.PublishDate.Format "2006-01-02")) }}
+<p class="lastmod"><small><i>Last modified {{ .Lastmod.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}.</i></small></p>
+{{ end }}
+{{ end }}
+
+{{ with .GetTerms "tags" }}
+<p>
+  {{ range . }}<a href="{{ .Permalink }}">#{{ .LinkTitle }}</a> {{ end }}
+</p>
+{{ end }}
+
+{{/* Other posts in the same series */}}
+{{ if and .Site.Taxonomies.series (isset .Params "series") }}
+{{ $series := .Params.series | urlize }}
+{{ with index .Site.Taxonomies.series $series }}
+{{ $others := where .Pages "Permalink" "!=" $.Permalink }}
+<section class="series">
+  <h2>More from the <a href="{{ (printf "series/%s/" $series) | relURL }}">{{ $.Params.series }}</a> series</h2>
+  {{ if $others }}
+  <ul class="blog-posts">
+    {{ range $others.ByDate.Reverse }}
+    <li>
+      <span class="ungrouped">
+        <i><time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+          {{ .Date.Format (default "02 Jan, 2006" $.Site.Params.dateFormat) }}
+        </time></i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p><i>No follow-up posts yet. Check back soon.</i></p>
+  {{ end }}
+</section>
+{{ end }}
+{{ end }}
+
+{{ if $isArticle }}
+{{ partial "upvote.html" . }}
+{{ partial "card.html" . }}
+{{ partial "comments.html" . }}
+{{ end }}
+
+{{/* TOC last so the article renders first.
+     Explicit isset check because Hugo's `default` treats front matter
+     `toc: false` as empty and would fall back to the site setting. */}}
+{{ $tocEnabled := .Site.Params.toc }}
+{{ if isset .Params "toc" }}{{ $tocEnabled = .Params.toc }}{{ end }}
+{{ if and $tocEnabled $isArticle }}
+<div class="toc">{{ partial "toc.html" . }}</div>
+{{ end }}
+
+{{ if .Params.mermaid }}{{ partial "mermaid.html" . }}{{ end }}
+{{ end }}

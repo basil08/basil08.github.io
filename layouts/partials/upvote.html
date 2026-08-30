@@ -1,0 +1,88 @@
+{{- /* Bear Blog-style upvote, backed by Kudos (Cloudflare Workers + D1):
+       https://github.com/puinoib/kudos
+       Lifted from the theme's _default/single.html so it survives our override.
+       Renders nothing unless params.upvoteURL is configured. */ -}}
+{{ $enabled := .Site.Params.upvote }}
+{{ if isset .Params "upvote" }}{{ $enabled = .Params.upvote }}{{ end }}
+{{ if and $enabled .Site.Params.upvoteURL }}
+<div class="upvote-container">
+  <small class="upvote">
+    <button class="upvote-btn" id="upvote-btn" aria-label="Upvote this post" aria-pressed="false">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+      </svg>
+      <span class="upvote-count" id="upvote-count">0</span>
+    </button>
+  </small>
+</div>
+
+<script>
+  (function () {
+    {{ $entity := strings.Trim .RelPermalink "/" }}
+    {{ if eq $entity "" }}{{ $entity = "home" }}{{ end }}
+    var entity = {{ replace $entity "/" ":" }};
+    var baseUrl = {{ .Site.Params.upvoteURL }}.replace(/\/+$/, '');
+    var hasUpvoted = false;
+    var btn, countEl;
+
+    function url(action) {
+      return baseUrl + '/' + encodeURIComponent(entity) + (action || '');
+    }
+
+    async function request(u, options) {
+      var response = await fetch(u, options);
+      var data;
+      try {
+        data = await response.json();
+      } catch {
+        throw new Error('Kudos request failed (' + response.status + ')');
+      }
+      if (!response.ok) {
+        throw new Error(data.error ?? 'Kudos request failed (' + response.status + ')');
+      }
+      return data;
+    }
+
+    function render(state) {
+      countEl.innerText = state.count;
+      hasUpvoted = state.hasKudos;
+      btn.classList.toggle('upvoted', hasUpvoted);
+      btn.setAttribute('aria-pressed', String(hasUpvoted));
+      btn.setAttribute('aria-label', hasUpvoted ? 'Remove your upvote' : 'Upvote this post');
+    }
+
+    // The count and this visitor's own state are read separately so the count
+    // stays cacheable at the Kudos API.
+    async function load() {
+      try {
+        var results = await Promise.all([request(url()), request(url('/kudos'))]);
+        render({ count: results[0].count, hasKudos: results[1].hasKudos });
+      } catch (error) {
+        console.error('Failed to load upvote:', error);
+        // No backend, no broken widget.
+        document.querySelector('.upvote-container').hidden = true;
+      }
+    }
+
+    async function toggle() {
+      btn.disabled = true;
+      try {
+        render(await request(url('/kudos'), { method: hasUpvoted ? 'DELETE' : 'POST' }));
+      } catch (error) {
+        console.error('Failed to update upvote:', error);
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      btn = document.getElementById('upvote-btn');
+      countEl = document.getElementById('upvote-count');
+      load();
+      btn.addEventListener('click', toggle);
+    });
+  })();
+</script>
+{{ end }}

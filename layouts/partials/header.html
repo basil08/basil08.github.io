@@ -1,62 +1,8 @@
-<!DOCTYPE html>
-<html
-  class=""
-  lang="{{ .Site.LanguageCode }}"
-  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
->
-  <head>
-    <meta charset="utf-8" />
-
-    {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
-    {{ partial "analytics-gtag.html" . }}
-    {{ end }}
-    
-    {{ partial "meta.html" . }}
-
-    <title>{{ .Title }}</title>
-    <link rel="canonical" href="{{ .Permalink }}" />
-{{ $title := .Title }}
-{{ with .OutputFormats.Get "RSS" }}
-    <link
-      href="{{ .RelPermalink }}"
-      rel="alternate"
-      type="application/rss+xml"
-      title="{{ $title }}"
-    />
-{{ end }}
-    {{ partial "head_includes.html" . }}
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-    <!-- Gitalk -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
-    <!-- Mathjax -->
-    <!-- See https://stackoverflow.com/a/68506928 for this to avoid FOUC (Flash of Unstyled Content) -->
-    {{- if or (.HasShortcode "mj/b") (.HasShortcode "mj/i") -}}
-    <style>
-    .has-mathjax {
-        visibility: hidden;
-    }
-    </style>
-    
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <script>
-    window.MathJax = {
-      startup: {
-        pageReady: () => {
-          return MathJax.startup.defaultPageReady().then(() => {
-            for (let element of document.getElementsByClassName("has-mathjax")) {
-                element.style.visibility = "visible"
-            }
-          });
-        }
-      }
-    };
-    </script>
-    {{- end -}}
-  </head>
-
+{{- /* Overrides the theme's header to hang a light/dark switch off the nav. */ -}}
+<a href="{{ "" | relURL }}" class="title">
+  <h1>{{ .Site.Title }}</h1>
+</a>
+<nav>
+  {{- partial "nav.html" . -}}
+  {{- partial "theme-switch.html" . -}}
+</nav>

@@ -1,0 +1,16 @@
+{{/* Light/dark switch. The active state is painted by CSS; this only records
+     the choice and lets embeds (Cusdis) know it changed. */}}
+<script>
+  (function () {
+    var root = document.documentElement;
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('[data-theme-set]');
+      if (!link) return;
+      e.preventDefault();
+      var value = link.getAttribute('data-theme-set');
+      root.setAttribute('data-theme', value);
+      try { localStorage.setItem('theme', value); } catch (err) {}
+      document.dispatchEvent(new CustomEvent('themechange', { detail: value }));
+    });
+  })();
+</script>

@@ -1,23 +1,16 @@
-<!--
+{{- /*
 Parameters:
-    type - (Required) album / track / playlist / artist
-    id - (Required) Target ID
-    width - (Optional) width
-    height - (Optional) height
--->
-
-{{ if .IsNamedParams }}
-<iframe src="https://open.spotify.com/embed/{{ .Get "type" }}/{{ .Get "id" }}"
-    width="{{ default "100%" (.Get "width") }}"
-    height="{{ default "380" (.Get "height") }}"
-    frameborder="0"
-    allowtransparency="true"
-    allow="encrypted-media"></iframe>
-{{ else }}
-<iframe src="https://open.spotify.com/embed/{{ .Get 0 }}/{{ .Get 1 }}"
-    width="{{ default "100%" (.Get 2) }}"
-    height="{{ default "380" (.Get 3) }}"
-    frameborder="0"
-    allowtransparency="true"
-    allow="encrypted-media"></iframe>
-{{ end }}
+  type   - (required) album / track / playlist / artist
+  id     - (required) target id
+  width  - (optional) default 100%
+  height - (optional) default 380
+*/ -}}
+{{- $type := cond .IsNamedParams (.Get "type") (.Get 0) -}}
+{{- $id := cond .IsNamedParams (.Get "id") (.Get 1) -}}
+{{- $width := cond .IsNamedParams (.Get "width") (.Get 2) | default "100%" -}}
+{{- $height := cond .IsNamedParams (.Get "height") (.Get 3) | default "380" -}}
+<iframe class="embed-spotify"
+  src="https://open.spotify.com/embed/{{ $type }}/{{ $id }}"
+  width="{{ $width }}" height="{{ $height }}"
+  frameborder="0" loading="lazy"
+  allow="encrypted-media" title="Spotify embed"></iframe>

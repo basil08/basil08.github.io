@@ -1,0 +1,28 @@
+{{/* Hide math until MathJax has typeset it, to avoid a flash of raw TeX.
+     See https://stackoverflow.com/a/68506928 */}}
+<style>
+  .has-mathjax { visibility: hidden; }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)'], ['$', '$']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    startup: {
+      pageReady: function () {
+        return MathJax.startup.defaultPageReady().then(function () {
+          var els = document.getElementsByClassName('has-mathjax');
+          for (var i = 0; i < els.length; i++) {
+            els[i].style.visibility = 'visible';
+          }
+        });
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

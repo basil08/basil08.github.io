@@ -1,20 +1,4 @@
-<details>
-  <summary style="
-  display: block;
-  transition: .3s;
-  ">
-    <span>
-      {{ .Get "sum" | markdownify }}
-    </span>
-  </summary>
-  <div style="
-  display: flex;
-  flex-wrap: wrap;
-  overflow: auto;
-  height: 100%;
-  padding: 0 20px;
-  line-height: 1.5;
-  ">
-    {{ .Inner | markdownify }}
-  </div>
+<details class="ds">
+  <summary>{{ .Get "sum" | markdownify }}</summary>
+  <div class="ds-body">{{ .Inner | markdownify }}</div>
 </details>

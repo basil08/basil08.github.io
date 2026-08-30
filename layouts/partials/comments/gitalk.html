@@ -1,0 +1,24 @@
+{{- /* Gitalk: comments stored as GitHub issues. Commenters must sign in to
+       GitHub, which is the reason cusdis is the default. */ -}}
+{{ $g := .Site.Params.comments.gitalk }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" />
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<section class="comments">
+  <h2>Comments</h2>
+  <div id="gitalk-container"></div>
+</section>
+<script>
+  (function () {
+    // Gitalk issue ids must be <= 50 chars.
+    var id = location.pathname.substring(0, 49);
+    new Gitalk({
+      clientID: {{ $g.clientId }},
+      clientSecret: {{ $g.clientSecret }},
+      repo: {{ $g.repo }},
+      owner: {{ $g.owner }},
+      admin: [{{ $g.admin }}],
+      id: id,
+      distractionFreeMode: false
+    }).render('gitalk-container');
+  })();
+</script>

@@ -1,10 +1,9 @@
-<blockquote style="
-  border: 1px solid #444;
-  background-color: #f9f9f9;
-  padding: 1em;
-  padding-left: 3em;
-  margin: 1em 0;
-  font-style: italic;
-">
-  {{ .Inner | markdownify }}
+{{- /* Same as {{< bq >}}, with an optional cite="" attribution. */ -}}
+{{- $lines := slice -}}
+{{- range split (trim .Inner "\n ") "\n" -}}
+  {{- $lines = $lines | append (replaceRE `^\s*>\s?` "" .) -}}
+{{- end -}}
+<blockquote class="pullquote">
+  {{ delimit $lines "\n" | markdownify }}
+  {{- with .Get "cite" }}<cite>&mdash; {{ . | markdownify }}</cite>{{ end }}
 </blockquote>

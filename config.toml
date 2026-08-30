@@ -1,61 +1,114 @@
 baseURL = "https://basil08.github.io/"
 title = "Basil Labib"
-theme ="hugo-theme-basic"
+theme = "hugo-bearneo"
 languageCode = "en-us"
 enableEmoji = true
-copyright = "© 2020 <a href='https://twitter.com/itbwtsh'>Basil Labib</a> | Made with ❤️ using <a href='https://gohugo.io'>Hugo</a> &amp;  <a href='https://github.com/siegerts/hugo-theme-basic'>Basic</a>"
+copyright = "© 2020–2026 Basil Labib."
 description = "Basil's personal website"
 
-[markup.goldmark.renderer]
-unsafe= true
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = "github"
+    lineNos = false
+    tabWidth = 4
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
 
 [taxonomies]
   category = "categories"
   series = "series"
   tag = "tags"
 
-[params]
-  titleEmoji = ""
-  twitter = "itbwtsh"
-  googleAnalyticsID = "G-T8HDQQNE6X"
-  custom_css = ["mycss/custom.css"]
-  owner="basil08"
-  repo="blog-gitalk"
-  clientId="c9601c094023f1222331"
-  clientSecret="ca206884cb72513054cfcc368082ed873a0104b2"
-
 [Permalinks]
   post = "post/:slug"
 
-[[params.menu]]
-  name = "blog"
-  url = "post/"
+[menu]
+  [[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 10
+  [[menu.main]]
+    name = "bookshelf"
+    url = "/bookshelf/"
+    weight = 20
+  [[menu.main]]
+    name = "watchlog"
+    url = "/watchlog/"
+    weight = 30
+  [[menu.main]]
+    name = "travel"
+    url = "/series/travel/"
+    weight = 40
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 50
 
-#
-#  [[params.menu]]
-#   name = "univ"
-#   url = "/univ"
+[params]
+  # --- Bear Neo ---
+  description = "Basil's personal website"
+  copyright = "© 2020–2026 Basil Labib"
+  favicon = "favicon.ico"
+  groupByYear = true
+  showPostCount = true
+  postSearch = true
+  toc = true
+  externalLinksNewTab = true
+  imageZoom = true
 
-[[params.menu]]
-  name = "bookshelf"
-  url = "bookshelf/"
+  # Bear Blog-style page upvotes. The counter needs a backend: Kudos, a small
+  # Cloudflare Workers + D1 service -- https://github.com/puinoib/kudos
+  # Deploy it, then put its URL here. Until upvoteURL is set the button is not
+  # rendered at all, so nothing broken ships.
+  upvote = true
+  upvoteURL = "https://main-website-upvotes-backend.basillabib01.workers.dev"
 
-[[params.menu]]
-  name = "watchlog"
-  url = "watchlog/"
-[[params.menu]]
- name = "travel"
- url = "/series/travel"
+  [params.author]
+    name = "Basil Labib"
+    email = "gs454236@gmail.com"
 
-[[params.menu]]
-  name = "about"
-  url = "about/"
+  [params.RSS]
+    enableRSS = true
+
+  [params.Footer]
+    hideRSSAndEmail = false
+    hideMadeWithLine = false
+    hideCopyright = false
+    hideSitemap = false
+
+  # --- Site extras (used by layouts/partials/custom_head.html) ---
+  googleAnalyticsID = "G-T8HDQQNE6X"
+  twitter = "itbwtsh"
+
+  # static/mood.json is still refreshed daily by .github/workflows (see "Fetch mood").
+  # Nothing in the theme reads it yet -- kept intact for a later integration.
+
+  # --- Comments ---
+  # provider: "cusdis" | "gitalk" | "none"
+  # cusdis  -- no visitor account needed, ~5KB embed. Sign up at https://cusdis.com
+  #            (or self-host), then paste the app id below.
+  # gitalk  -- GitHub-issue backed; commenters must sign in to GitHub.
+  [params.comments]
+    provider = "cusdis"
+
+    [params.comments.cusdis]
+      host = "https://cusdis.com"
+      appId = "b1dda480-5fa6-47a6-880b-168ec5bf0c12"
+
+    [params.comments.gitalk]
+      owner = "basil08"
+      repo = "blog-gitalk"
+      clientId = "c9601c094023f1222331"
+      clientSecret = "ca206884cb72513054cfcc368082ed873a0104b2"
+      admin = "basil08"
 
 [privacy]
   [privacy.googleAnalytics]
-    anonymizeIP = true
     respectDoNotTrack = true
-    useSessionStorage = true
   [privacy.x]
     enableDNT = true
   [privacy.youtube]

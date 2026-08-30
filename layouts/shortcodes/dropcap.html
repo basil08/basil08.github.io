@@ -1,1 +1,4 @@
-<span style="display: inline-block; font-size: 30px; font-weight: 600;">{{ .Inner }}</span>
+{{- $s := trim .Inner " \n\t" -}}
+{{- if $s -}}
+<span class="dropcap"><span class="dropcap-initial">{{ substr $s 0 1 }}</span>{{ substr $s 1 }}</span>
+{{- end -}}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<content>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <ul class="blog-posts">
+    {{ range .Pages.ByTitle }}
+    <li>
+      <span class="ungrouped"><i>{{ len .Pages }} {{ if eq (len .Pages) 1 }}piece{{ else }}pieces{{ end }}</i></span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>Nothing here yet.</li>
+    {{ end }}
+  </ul>
+</content>
+{{ end }}

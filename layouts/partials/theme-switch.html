@@ -1,0 +1,7 @@
+{{- /* Light/dark switch. Which one reads as active is decided purely in CSS
+       (see assets/css/custom.css), so there is no flash and no JS needed to
+       paint the correct state. The script below only records a choice. */ -}}
+<span class="theme-switch">
+  <a href="#" data-theme-set="light" aria-label="Use the light theme">light</a><span
+    class="theme-switch-sep" aria-hidden="true">|</span><a href="#" data-theme-set="dark" aria-label="Use the dark theme">dark</a>
+</span>

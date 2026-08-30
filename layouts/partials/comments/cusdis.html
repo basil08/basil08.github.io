@@ -1,0 +1,141 @@
+{{- /* Cusdis: ~5KB embed, no account needed to comment -- a nickname is enough.
+       Hosted at cusdis.com (free tier) or self-hosted; set the host and app id
+       in params.comments.cusdis. Moderation happens in the Cusdis dashboard. */ -}}
+{{ $c := .Site.Params.comments.cusdis }}
+{{ $host := $c.host | default "https://cusdis.com" | strings.TrimSuffix "/" }}
+<section class="comments">
+  <h2>Comments</h2>
+  <div id="cusdis_thread"
+    data-host="{{ $host }}"
+    data-app-id="{{ $c.appId }}"
+    data-page-id="{{ with .File }}{{ .UniqueID }}{{ else }}{{ sha256 $.RelPermalink }}{{ end }}"
+    data-page-url="{{ .Permalink }}"
+    data-page-title="{{ .Title }}"></div>
+  <script defer src="{{ $host }}/js/cusdis.es.js"></script>
+  <script>
+    (function () {
+      var thread = document.getElementById('cusdis_thread');
+      if (!thread) return;
+
+      /* ---- Theme -------------------------------------------------------
+         Keep the widget in step with the site's own light/dark switch. */
+      function currentTheme() {
+        var explicit = document.documentElement.getAttribute('data-theme');
+        if (explicit) return explicit;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function applyTheme() {
+        thread.setAttribute('data-theme', currentTheme());
+        if (window.CUSDIS && window.CUSDIS.setTheme) window.CUSDIS.setTheme(currentTheme());
+      }
+
+      applyTheme();
+      document.addEventListener('themechange', applyTheme);
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+
+      /* ---- Height ------------------------------------------------------
+         Cusdis builds its iframe with `style="width:100%;border:0"` and no
+         height, so it lands on the HTML default of 150px and scrolls its own
+         content. It also never posts a resize message, so nothing corrects it.
+
+         The iframe is a srcdoc iframe, which means it is same-origin and we can
+         just measure it. Sync the outer height to the inner document and keep
+         watching, since the thread grows when comments load, when the reply box
+         opens, and when setTheme() rebuilds the frame. */
+      var observed = null;
+      var cleanup = [];
+
+      /* Cusdis's inner document constrains html/body to the viewport, so the
+         thread overflows instead of growing its boxes. Let them size to their
+         content -- that makes the measurement honest and stops the inner
+         scrollbar appearing mid-resize. */
+      function prepare(doc) {
+        if (!doc || !(doc.head || doc.documentElement)) return;
+        if (doc.getElementById('cusdis-fit-style')) return;
+        var style = doc.createElement('style');
+        style.id = 'cusdis-fit-style';
+        style.textContent =
+          'html,body{height:auto!important;min-height:0!important;overflow:hidden!important;}';
+        (doc.head || doc.documentElement).appendChild(style);
+      }
+
+      function fit(iframe) {
+        try {
+          var doc = iframe.contentDocument;
+          if (!doc) return;
+          prepare(doc);
+          // Measure the body, not documentElement: the latter stretches to fill
+          // whatever height the iframe already has, so it can only ever grow.
+          var body = doc.body;
+          var h = body
+            ? Math.max(body.scrollHeight, body.offsetHeight)
+            : (doc.documentElement ? doc.documentElement.scrollHeight : 0);
+          if (h > 0) {
+            iframe.style.minHeight = '0px';   // drop the pre-measurement floor
+            iframe.style.height = (h + 2) + 'px';
+          }
+        } catch (e) {
+          // Cross-origin (a future Cusdis using src= instead of srcdoc):
+          // leave the CSS min-height in charge rather than guessing.
+        }
+      }
+
+      function watch(iframe) {
+        if (iframe === observed) return;
+        cleanup.forEach(function (fn) { try { fn(); } catch (e) {} });
+        cleanup = [];
+        observed = iframe;
+        iframe.setAttribute('scrolling', 'no');
+
+        function attach() {
+          fit(iframe);
+          try {
+            var doc = iframe.contentDocument;
+            if (!doc || !doc.documentElement) return;
+
+            /* A MutationObserver is what actually carries this: comments
+               arriving, a reply form opening and the textarea being dragged all
+               show up as DOM or style-attribute changes. */
+            var mo = new MutationObserver(function () { fit(iframe); });
+            mo.observe(doc.documentElement, {
+              childList: true, subtree: true, characterData: true, attributes: true
+            });
+            cleanup.push(function () { mo.disconnect(); });
+
+            if (window.ResizeObserver && doc.body) {
+              var ro = new ResizeObserver(function () { fit(iframe); });
+              ro.observe(doc.body);
+              cleanup.push(function () { ro.disconnect(); });
+            }
+          } catch (e) {}
+        }
+
+        attach();
+        iframe.addEventListener('load', attach);
+        cleanup.push(function () { iframe.removeEventListener('load', attach); });
+
+        // The inner module script mounts asynchronously; keep nudging until the
+        // observers above have something real to watch.
+        var tries = 0;
+        var timer = setInterval(function () {
+          fit(iframe);
+          if (++tries > 40 || observed !== iframe) clearInterval(timer);
+        }, 250);
+        cleanup.push(function () { clearInterval(timer); });
+      }
+
+      var existing = thread.querySelector('iframe');
+      if (existing) watch(existing);
+
+      new MutationObserver(function () {
+        var iframe = thread.querySelector('iframe');
+        if (iframe) watch(iframe);
+      }).observe(thread, { childList: true, subtree: true });
+
+      window.addEventListener('resize', function () {
+        if (observed) fit(observed);
+      });
+    })();
+  </script>
+</section>

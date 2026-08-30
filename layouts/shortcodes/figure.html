@@ -1,0 +1,55 @@
+{{- /* Overrides Hugo's built-in figure shortcode so that figures match the
+       theme's markdown image render hook: same .image-caption styling and the
+       same CSS-only zoom when params.imageZoom is on.
+
+       Params: src, alt, caption, title, width, height, link, target, rel,
+               class, attr, attrlink. */ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default (.Get "caption" | markdownify | plainify) -}}
+{{- /* Authors write width="300px" as often as width="300"; a CSS length has to
+       go through style, a bare number can stay an attribute. */ -}}
+{{- $w := .Get "width" -}}
+{{- $h := .Get "height" -}}
+{{- $style := "" -}}
+{{- if and $w (not (findRE `^[0-9]+$` $w)) -}}
+  {{- $style = printf "max-width:%s;" $w -}}
+  {{- $w = "" -}}
+{{- end -}}
+{{- if and $h (not (findRE `^[0-9]+$` $h)) -}}
+  {{- $style = printf "%smax-height:%s;" $style $h -}}
+  {{- $h = "" -}}
+{{- end -}}
+{{- $zoom := and $.Page.Site.Params.imageZoom (not (.Get "link")) -}}
+{{- $id := printf "img-%s" (substr (md5 (printf "%s-%s" $src (.Get "caption"))) 0 8) -}}
+<figure class="image-caption{{ with .Get "class" }} {{ . }}{{ end }}{{ if $zoom }} image-zoom-container{{ end }}">
+  {{- if $zoom -}}
+  <input type="checkbox" id="{{ $id }}" class="image-zoom-toggle" />
+  <label for="{{ $id }}" class="image-zoom-label">
+    <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" class="zoomable-image"
+      {{- with $w }} width="{{ . }}"{{ end }}
+      {{- with $h }} height="{{ . }}"{{ end }}
+      {{- with $style }} style="{{ . | safeCSS }}"{{ end }}
+      {{- with .Get "title" }} title="{{ . }}"{{ end }} />
+  </label>
+  <label for="{{ $id }}" class="image-zoom-overlay">
+    <img src="{{ $src | safeURL }}" alt="{{ $alt }}" class="zoomable-image" />
+  </label>
+  {{- else -}}
+  {{- with .Get "link" }}<a href="{{ . }}"{{ with $.Get "target" }} target="{{ . }}"{{ end }}{{ with $.Get "rel" }} rel="{{ . }}"{{ end }}>{{ end -}}
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy"
+    {{- with $w }} width="{{ . }}"{{ end }}
+    {{- with $h }} height="{{ . }}"{{ end }}
+    {{- with $style }} style="{{ . | safeCSS }}"{{ end }}
+    {{- with .Get "title" }} title="{{ . }}"{{ end }} />
+  {{- with .Get "link" }}</a>{{ end -}}
+  {{- end -}}
+
+  {{- if or (.Get "caption") (.Get "attr") }}
+  <figcaption>
+    {{- with .Get "caption" }}{{ . | markdownify }}{{ end -}}
+    {{- with .Get "attr" }}
+    {{ with $.Get "attrlink" }}<a href="{{ . }}">{{ end }}{{ $.Get "attr" | markdownify }}{{ if $.Get "attrlink" }}</a>{{ end }}
+    {{- end }}
+  </figcaption>
+  {{- end }}
+</figure>

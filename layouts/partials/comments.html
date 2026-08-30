@@ -1,0 +1,20 @@
+{{- /* Dispatches to whichever comment backend is configured.
+       params.comments.provider: "cusdis" | "gitalk" | "none"
+
+       Cusdis needs an app id. Until one is set we fall back to gitalk rather
+       than dropping comments off the site entirely; paste the app id into
+       config.toml and the switch happens on the next build. */ -}}
+{{ $c := .Site.Params.comments }}
+{{ if and $c (ne .Params.comments false) }}
+  {{ $provider := $c.provider | default "none" }}
+  {{ if eq $provider "cusdis" }}
+    {{ if $c.cusdis.appId }}
+      {{ partial "comments/cusdis.html" . }}
+    {{ else }}
+      {{ warnf "comments: provider is cusdis but params.comments.cusdis.appId is empty -- falling back to gitalk" }}
+      {{ partial "comments/gitalk.html" . }}
+    {{ end }}
+  {{ else if eq $provider "gitalk" }}
+    {{ partial "comments/gitalk.html" . }}
+  {{ end }}
+{{ end }}
