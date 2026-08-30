@@ -1,7 +1,8 @@
 ---
 title: "Trial by Fire: Tenure as Head of Technology at Rendezvous ‘25"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2025-11-05T12:41:54+05:30
 ---
 

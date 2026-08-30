@@ -1,7 +1,8 @@
 ---
 title: "Hacktoberfest and open source"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2021-10-21T06:22:07+05:30
 ---   
 

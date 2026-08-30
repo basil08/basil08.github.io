@@ -1,7 +1,8 @@
 ---
 title: "A deep dive into JSON Web Tokens (JWTs)"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2021-11-22T08:03:03+05:30
 ---
 

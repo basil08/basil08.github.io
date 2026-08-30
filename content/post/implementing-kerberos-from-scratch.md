@@ -1,7 +1,8 @@
 ---
 title: "Implementing Kerberos Authentication System from Scratch"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2024-09-29T06:58:24+01:00
 ---
 

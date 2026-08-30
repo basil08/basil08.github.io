@@ -1,7 +1,8 @@
 ---
 title: "Playing God: Making sense of CRISPR"
 tags:
-categories: 
+categories:
+series: "Tech"
 date: 2023-02-22T16:29:20+05:30
 ---
 

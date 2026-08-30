@@ -2,6 +2,7 @@
 title: "Thoughts: Design for Hackers (Book)"  
 tags:
 categories: 
+series: "Tech"
 date: 2021-03-14
 ---
 

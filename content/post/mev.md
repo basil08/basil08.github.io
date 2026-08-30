@@ -2,6 +2,7 @@
 title: "The Murky Mempool: Making sense of {M|B}EV"
 tags:
 categories: 
+series: "Tech"
 date: 2023-07-27T23:30:59+05:30
 ---
 

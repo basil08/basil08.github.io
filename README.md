@@ -13,18 +13,29 @@ submodule at `themes/hugo-bearneo` and is never edited in place.
 
 | Path | Purpose |
 |---|---|
-| `layouts/index.html` | Homepage. Plain text, one section after another. Prose is edited here; the *Writing* and *Travel* lists are generated. |
+| `layouts/index.html` | Homepage. Plain text, one section after another. Prose is edited here; the *Tech*, *Writing* and *Travel* lists are generated. |
 | `layouts/_default/single.html` | Posts and pages: title, date, tags, series links, author card, comments. |
 | `layouts/_default/list.html` | Section, tag and series listings (grouped by year, with client-side search). |
 | `layouts/partials/custom_head.html` | Theme extension point: analytics, `assets/css/custom.css`, MathJax. |
 | `layouts/partials/header.html` | Theme header plus the light/dark switch. |
+| `layouts/partials/nav.html` | Menu; lowercase "home", and without the theme's automatic `/blog` link. |
 | `layouts/partials/comments.html` | Dispatches to the configured comment backend (`comments/cusdis.html`, `comments/gitalk.html`). |
 | `layouts/partials/upvote.html` | Bear Blog-style page upvote, backed by Kudos. |
+| `layouts/partials/post-list.html` | Shared dated post list, used by the homepage and the series footer. |
 | `layouts/shortcodes/` | `dropcap`, `bq`, `blockquote`, `ds`, `toc`, `gist`, `spotify`, `droplets`, `mj/b`, `mj/i`. |
 | `assets/css/custom.css` | Shortcode and furniture styling. Uses the theme's own CSS custom properties, so it follows light/dark mode for free. |
 
 If `content/_index.md` exists, its rendered content is placed at the top of the
 homepage, above the generated sections.
+
+## Sections
+
+*Tech* and *Travel* are not directories — they are terms of the `series`
+taxonomy, so a post joins one by putting `series: "Tech"` (or `"Travel"`) in its
+front matter. Each gets a listing page at `/series/<term>/` from
+`_default/list.html`, a nav entry, and a block on the homepage; posts in a series
+also get a cross-link list to their siblings at the foot of the article, capped
+at the 5 most recent with a "see all" link (`$shown` in `_default/single.html`).
 
 ## Light / dark
 

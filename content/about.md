@@ -14,11 +14,10 @@ Perhaps, a better explanation is given by ACX which I quote:
 > Ṛta is a Sanskrit word, so ancient that it brushes up against the origin of Indo-European languages. It's related to English "rationality" and "arithmetic", but also "art" and "harmony". And "right", both in the senses of "natural rights" and "the right answer". And "order". And "arete" and "aristos" and all those other Greek words about morality. And "artificial", as in eg artificial intelligence. More speculatively "reign" and related words about rulership, and "rich" and related words about money.
 <cite>&ndash; Astral Codex Ten's about</cite>
 
-## Who am I?
-
-Hi there! My name is Basil Labib and I'm a senior at [IIT Delhi][0].
 
 ## Brief Intro
+
+I am Basil and I currently work as a researcher at a startup.
 
 I'm interested in STEM. I like films and art history. I love to read. I jokingly began describing myself as a cross between an autodidactic polymath and a Romantic. And that's a good working definition.
 

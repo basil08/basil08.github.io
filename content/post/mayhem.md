@@ -2,6 +2,7 @@
 title: "Building a Discord bot: A definitive guide"
 tags: ['tech', 'tutorial', 'discord', 'programming', 'javascript']
 categories: 
+Series: "Tech"
 date: 2021-10-16T07:56:12+05:30
 ---
 

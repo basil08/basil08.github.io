@@ -1,7 +1,8 @@
 ---
 title: "Prometheus Unleashed: Making sense of information hazards"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2023-02-15T11:18:29+05:30
 ---
 

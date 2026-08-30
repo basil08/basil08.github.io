@@ -1,0 +1,13 @@
+{{- /* Overrides the theme's nav for two reasons: "home" is lowercase to match
+       the rest of the menu, and the theme's automatic "/blog" link is dropped
+       because this site's posts live at /post and are already in the menu. */ -}}
+<a href="{{ "" | relURL }}">home</a>
+{{ $newTabEnabled := .Site.Params.externalLinksNewTab | default false }}
+{{ range .Site.Menus.main }}
+{{ $isExternal := or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }}
+{{ if and $isExternal $newTabEnabled }}
+<a href="{{ .URL }}" target="_blank" rel="noopener noreferrer">{{ .Name }}</a>
+{{ else }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+{{ end }}

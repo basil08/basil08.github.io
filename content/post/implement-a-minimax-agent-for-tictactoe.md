@@ -1,7 +1,8 @@
 ---
 title: "Implement a Minimax Agent for Optimal Tic Tac Toe Play"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2025-10-22T18:46:47+05:30
 ---
 

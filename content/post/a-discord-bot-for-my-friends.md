@@ -1,7 +1,8 @@
 ---
 title: "A Discord Bot for My Friends"
 tags:
-categories: 
+categories:
+series: "Tech"
 draft: true
 date: 2020-11-17
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Hacking Wordle Blitz"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2023-12-19T04:36:28+05:30
 ---
 

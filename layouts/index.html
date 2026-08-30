@@ -6,77 +6,70 @@
   {{ with .Content }}{{ . }}{{ end }}
 
   <p class="hp-lede">
-    Senior at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a>,
-    pursuing a B.Tech in <a href="https://textile.iitd.ac.in">textile engineering</a> and an M.Tech in
-    <a href="https://cse.iitd.ac.in">computer science</a>, advised by
-    <a href="https://cse.iitd.ac.in/~srikanta">Prof. Srikanta J Bedathur</a>.
+    
     Member of Technical Staff at <a href="https://secureaifutureslab.org">Secure AI Futures Lab</a>.
     Building (and breaking) robots at <a href="https://blusigma.in">BluSigma Robotics</a>.
+    
+    Previously, Data Engineer at <a href="https://steadrise.org">SteadRise</a>. Graduated from the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi</a>,
+    with a B.Tech in <a href="https://textile.iitd.ac.in">textile engineering</a> and an M.Tech in
+    <a href="https://cse.iitd.ac.in">computer science</a>, advised by
+    <a href="https://cse.iitd.ac.in/~srikanta">Prof. Srikanta J Bedathur</a>. 
   </p>
 
+  {{/* Sections backed by the "series" taxonomy. */}}
+  {{ $tech := index .Site.Taxonomies.series "tech" }}
+  {{ $travel := index .Site.Taxonomies.series "travel" }}
+
+  <h2 id="tech">Tech</h2>
+  {{ with $tech }}
+  {{ partial "post-list.html" (first 4 .Pages.ByDate.Reverse) }}
+  <p><a href="{{ "series/tech/" | relURL }}">Everything tech &rarr;</a></p>
+  {{ end }}
+
   <h2 id="writing">Writing</h2>
-  <ul class="blog-posts">
-    {{ $posts := where (where .Site.RegularPages "Section" "post") "Params.hidden" "!=" true }}
-    {{ range first 6 $posts.ByDate.Reverse }}
-    <li>
-      <span class="ungrouped">
-        <i><time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-        </time></i>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
+  {{ $posts := where (where .Site.RegularPages "Section" "post") "Params.hidden" "!=" true }}
+  {{ partial "post-list.html" (first 6 $posts.ByDate.Reverse) }}
   <p><a href="{{ "post/" | relURL }}">All writing &rarr;</a></p>
 
   <h2 id="travel">Travel</h2>
-  {{ $travel := index .Site.Taxonomies.series "travel" }}
   {{ with $travel }}
-  <ul class="blog-posts">
-    {{ range first 3 (.Pages.ByDate.Reverse) }}
-    <li>
-      <span class="ungrouped">
-        <i><time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-        </time></i>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
-  <p><a href="{{ "series/travel/" | relURL }}">Whole travelogue &rarr;</a></p>
+  {{ partial "post-list.html" (first 3 .Pages.ByDate.Reverse) }}
+  <p><a href="{{ "series/travel/" | relURL }}">More travels &rarr;</a></p>
   {{ end }}
 
   <h2 id="reading">Reading</h2>
   <p>
-    Currently: <em>The Story of Philosophy</em> by Will Durant, and <em>Shoe Dog</em> by Phil Knight.
-    Everything else lives on the <a href="{{ "bookshelf/" | relURL }}">bookshelf</a>.
+    Currently: <em>Age of Ambition</em> by Evan Osnos, and <em>Skunk Works</em> by Ben Rich.
+    Everything else lives on the <a href="{{ "bookshelf/" | relURL }}">bookshelf</a> and sometimes on <a href="https://www.goodreads.com/user/show/148143774">Goodreads</a>.
   </p>
 
   <h2 id="watching">Watching</h2>
   <p>
-    A self-proclaimed cinephile. All-time favourite:
-    <a href="https://letterboxd.com/film/through-the-olive-trees/">Through the Olive Trees</a>.
-    Most recent: <a href="https://letterboxd.com/film/hamnet/">Hamnet</a>.
-    Notes go in the <a href="{{ "watchlog/" | relURL }}">watchlog</a>, ratings on
-    <a href="https://letterboxd.com/itbwtsh/">Letterboxd</a>.
+    Directors I admire are Satoshi Itoh, Satoshi Kon, and Akira Kurosawa (Japanese); Hitchcock and Kubrick (American). Rohmer and Truffaut (French).
+    All-time favourite:
+    <a href="https://letterboxd.com/film/through-the-olive-trees/">Through the Olive Trees</a> by Abbas Kiarostami (respect).
+   
+  <p><a href="https://letterboxd.com/itbwtsh/">My Letterboxd &rarr;</a></p>
+  <p><a href="{{ "watchlog/" | relURL }}">Older notes on movies &rarr;</a></p>
+  
   </p>
 
-  <h2 id="making">Making</h2>
+  <h2 id="making">Making (Art|Poems|Comics|Films)</h2>
   <p>
-    Short films &mdash; the latest is
+    Short films -- the latest is
     <a href="https://www.youtube.com/watch?v=0Vp3el130Ic"><em>The Secret Lives of Oranges and Pomegranates</em></a> (2025).
-    Comics and drawings go up on <a href="https://www.instagram.com/basil.icious/">@basil.icious</a>.
+    Some old poems are <a href="/post/poems-for-the-lonely-hearts/">here</a> and <a href="/post/turn-down-the-music/">here</a>.
+    Picking up cooking now.
+    Check out my comics and animations <a href="https://www.instagram.com/basil.icious/">@basil.icious</a>.
   </p>
 
   <h2 id="elsewhere-in-life">Elsewhere in life</h2>
   <p>
     Black-red belt in Taekwondo.
-    Speak English, Hindi, Bengali and Urdu; currently learning Mandarin (你好).
+    Beginner swimmer and runner. Speak English, Hindi, Bengali and Urdu; currently learning Mandarin (你好).
   </p>
 
-  <h2 id="poem">A poem I keep coming back to</h2>
+  <h2 id="poem">Urdu Poetry</h2>
   <blockquote class="poem">
     <p lang="ur" dir="rtl" class="urdu">
       خودی کو کر بلند اتنا<br />

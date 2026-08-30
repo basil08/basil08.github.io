@@ -32,22 +32,15 @@
 {{ if and .Site.Taxonomies.series (isset .Params "series") }}
 {{ $series := .Params.series | urlize }}
 {{ with index .Site.Taxonomies.series $series }}
-{{ $others := where .Pages "Permalink" "!=" $.Permalink }}
+{{ $others := (where .Pages "Permalink" "!=" $.Permalink).ByDate.Reverse }}
+{{ $shown := 5 }}
 <section class="series">
   <h2>More from the <a href="{{ (printf "series/%s/" $series) | relURL }}">{{ $.Params.series }}</a> series</h2>
   {{ if $others }}
-  <ul class="blog-posts">
-    {{ range $others.ByDate.Reverse }}
-    <li>
-      <span class="ungrouped">
-        <i><time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-          {{ .Date.Format (default "02 Jan, 2006" $.Site.Params.dateFormat) }}
-        </time></i>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
+  {{ partial "post-list.html" (first $shown $others) }}
+  {{ if gt (len $others) $shown }}
+  <p><a href="{{ (printf "series/%s/" $series) | relURL }}">See all {{ len $others }} in {{ $.Params.series }} &rarr;</a></p>
+  {{ end }}
   {{ else }}
   <p><i>No follow-up posts yet. Check back soon.</i></p>
   {{ end }}

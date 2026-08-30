@@ -2,6 +2,7 @@
 title: "How Bonding Curves Are Crucial to DeFi Protocols"
 tags:
 categories: 
+series: "Tech"
 date: 2023-07-06T14:26:12+05:30
 ---
 

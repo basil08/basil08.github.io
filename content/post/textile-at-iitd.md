@@ -1,7 +1,8 @@
 ---
 title: "Textile@IITD: Through the eyes of a UG junior student"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2023-08-01T20:38:11+05:30
 ---
 

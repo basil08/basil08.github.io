@@ -1,7 +1,8 @@
 ---
 title: "Gemini Protocol"
 tags:
-categories: 
+categories:
+series: "Tech" 
 date: 2021-02-25
 ---
 
