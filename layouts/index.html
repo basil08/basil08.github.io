@@ -27,7 +27,10 @@
   {{ end }}
 
   <h2 id="writing">Writing</h2>
+  {{/* Everything under post/ that isn't hidden, minus whatever Tech and Travel already list. */}}
   {{ $posts := where (where .Site.RegularPages "Section" "post") "Params.hidden" "!=" true }}
+  {{ with $tech }}{{ $posts = complement .Pages $posts }}{{ end }}
+  {{ with $travel }}{{ $posts = complement .Pages $posts }}{{ end }}
   {{ partial "post-list.html" (first 6 $posts.ByDate.Reverse) }}
   <p><a href="{{ "post/" | relURL }}">All writing &rarr;</a></p>
 
