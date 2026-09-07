@@ -54,6 +54,12 @@ description = "Basil's personal website"
     weight = 60
 
 [params]
+  # --- Site extras (used by layouts/partials/custom_head.html) ---
+  # NOTE: these must stay ABOVE the nested [params.*] tables -- in TOML any
+  # key after a subtable header belongs to that subtable, not to [params].
+  googleAnalyticsID = "G-T8HDQQNE6X"
+  twitter = "itbwtsh"
+
   # --- Bear Neo ---
   description = "Basil's personal website"
   copyright = "© 2020–2026 Basil Labib"
@@ -84,10 +90,6 @@ description = "Basil's personal website"
     hideMadeWithLine = false
     hideCopyright = false
     hideSitemap = false
-
-  # --- Site extras (used by layouts/partials/custom_head.html) ---
-  googleAnalyticsID = "G-T8HDQQNE6X"
-  twitter = "itbwtsh"
 
   # static/mood.json is still refreshed daily by .github/workflows (see "Fetch mood").
   # Nothing in the theme reads it yet -- kept intact for a later integration.
