@@ -31,3 +31,28 @@
 {{ if $needsMath }}
 {{ partial "mathjax.html" . }}
 {{ end }}
+
+{{/* Person structured data on the homepage -- helps Google tie the site and
+     profiles below to "Basil Labib" searches (knowledge panel). */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Basil Labib",
+  "url": {{ .Site.BaseURL }},
+  "image": {{ "comichomepage.png" | absURL }},
+  "jobTitle": "Founding Researcher",
+  "worksFor": { "@type": "Organization", "name": "Secure AI Futures Lab", "url": "https://secureaifutureslab.com" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Delhi", "url": "https://home.iitd.ac.in" },
+  "sameAs": [
+    "https://github.com/basil08",
+    "https://twitter.com/itbwtsh",
+    "https://www.linkedin.com/in/basil-labib",
+    "https://letterboxd.com/itbwtsh/",
+    "https://www.goodreads.com/user/show/148143774",
+    "https://www.instagram.com/basil.icious/"
+  ]
+}
+</script>
+{{ end }}

@@ -4,7 +4,7 @@ theme = "hugo-bearneo"
 languageCode = "en-us"
 enableEmoji = true
 copyright = "© 2020–2026 Basil Labib."
-description = "Basil's personal website"
+description = "Basil Labib is an AI safety researcher (IIT Delhi CS, M.Tech) writing about machine learning, interpretability, books, films and travel."
 
 [markup]
   [markup.goldmark.renderer]
@@ -59,9 +59,11 @@ description = "Basil's personal website"
   # key after a subtable header belongs to that subtable, not to [params].
   googleAnalyticsID = "G-T8HDQQNE6X"
   twitter = "itbwtsh"
+  # Default social-share image (og:image / twitter:image) for pages without their own `images:`.
+  images = ["comichomepage.png"]
 
   # --- Bear Neo ---
-  description = "Basil's personal website"
+  description = "Basil Labib is an AI safety researcher (IIT Delhi CS, M.Tech) writing about machine learning, interpretability, books, films and travel."
   copyright = "© 2020–2026 Basil Labib"
   favicon = "favicon.ico"
   groupByYear = true

@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 
 User-agent: GPTBot
 Disallow: /
@@ -24,3 +24,5 @@ Disallow: /
 
 User-agent: cohere-ai
 Disallow: /
+
+Sitemap: https://basillabib.com/sitemap.xml
