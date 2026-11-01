@@ -5,6 +5,24 @@ categories:
 date: 2021-06-20T22:12:10+05:30
 ---
 
+  <blockquote class="poem">
+    <p lang="ar" dir="rtl" class="arabic">
+      اِقۡرَاۡ بِاسۡمِ رَبِّكَ الَّذِىۡ خَلَقَ​ۚ‏ ١<br>
+      خَلَقَ الۡاِنۡسَانَ مِنۡ عَلَقٍ​ۚ‏ ٢<br>
+      اِقۡرَاۡ وَرَبُّكَ الۡاَكۡرَمُۙ‏ ٣<br>
+      الَّذِىۡ عَلَّمَ بِالۡقَلَمِۙ‏ ٤<br>
+      عَلَّمَ الۡاِنۡسَانَ مَا لَمۡ يَعۡلَمۡؕ‏ ٥
+    </p>
+    <p>
+      Read, ˹O Prophet,˺ in the Name of your Lord Who created&ndash;<br>
+      created humans from a clinging clot.<br>
+      Read! And your Lord is the Most Generous,<br>
+      Who taught by the pen&ndash;<br>
+      taught humanity what they knew not.
+    </p>
+    <cite>&mdash; <a href="https://quran.com/al-alaq/1-5">Surah Al-Alaq, The Clot,</a> Ch. 96, verses 1-5, The Noble Qur'an </cite>
+  </blockquote>
+
 ## What should you expect from this blog?
 
 This is a blog about psychology, philosophy, economics, technology, science, art and design. It is not proper to believe this blog is limited to the handful of subjects listed above because it is not. To understand our lives demands a multidisciplinary stance.

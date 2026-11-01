@@ -146,6 +146,35 @@ blockquote cite {
   text-align: right;
 }
 
+.arabic {
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", "Geeza Pro", serif;
+  font-size: 1.4em;
+  line-height: 2.1;
+  text-align: right;
+}
+
+/* Mixed Arabic/English poem: the bar follows each block's reading side --
+   right of the Arabic, left of the translation and cite. */
+blockquote.poem:has(> .arabic) {
+  border-left: 0;
+  padding-left: 0;
+}
+
+blockquote.poem > .arabic {
+  border-right: 4px solid var(--border-color);
+  padding-right: 14px;
+}
+
+blockquote.poem:has(> .arabic) > :not(.arabic) {
+  border-left: 4px solid var(--border-color);
+  padding-left: 14px;
+}
+
+blockquote.poem:has(> .arabic) > cite {
+  margin-top: 0;
+  padding-top: 0.6em;
+}
+
 /* --- Drop cap ----------------------------------------------------- */
 
 .dropcap {

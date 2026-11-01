@@ -24,6 +24,13 @@
 <link rel="stylesheet" href="{{ $c.RelPermalink }}" integrity="{{ $c.Data.Integrity }}" />
 {{ end }}
 
+{{/* Naskh webfont -- only on pages with Arabic text (class="arabic"). */}}
+{{ if strings.Contains .RawContent `class="arabic"` }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap">
+{{ end }}
+
 {{/* MathJax -- loaded only on pages that actually use the mj/* shortcodes
      or opt in with `math: true` in front matter. */}}
 {{ $needsMath := or (.HasShortcode "mj/b") (.HasShortcode "mj/i") }}
