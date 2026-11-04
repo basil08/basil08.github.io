@@ -23,6 +23,7 @@ submodule at `themes/hugo-bearneo` and is never edited in place.
 | `layouts/partials/upvote.html` | Bear Blog-style page upvote, backed by Kudos. |
 | `layouts/partials/post-list.html` | Shared dated post list, used by the homepage and the series footer. |
 | `layouts/shortcodes/` | `dropcap`, `bq`, `blockquote`, `ds`, `toc`, `gist`, `spotify`, `droplets`, `mj/b`, `mj/i`. |
+| `layouts/shortcodes/conference-tracker.html`, `assets/js/conference-tracker.js` | `/conference-tracker/`, rendered in the browser from a Google Apps Script feed (`apps-script/conference-tracker/`, URL in `params.conferenceTrackerURL`). |
 | `assets/css/custom.css` | Shortcode and furniture styling. Uses the theme's own CSS custom properties, so it follows light/dark mode for free. |
 
 If `content/_index.md` exists, its rendered content is placed at the top of the

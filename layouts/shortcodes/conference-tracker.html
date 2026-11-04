@@ -1,0 +1,26 @@
+{{- /* Conference tracker. Data comes from a Google Apps Script web app
+       (apps-script/conference-tracker/) fetched in the browser, so countdowns
+       are live and the sheet itself stays private. Until
+       params.conferenceTrackerURL is set the page says so instead of failing. */ -}}
+{{ $src := .Site.Params.conferenceTrackerURL | default "" }}
+{{ if not $src }}{{ warnf "conference-tracker: params.conferenceTrackerURL is not set" }}{{ end }}
+<div id="conference-tracker" class="ct" data-src="{{ $src }}">
+  <form class="ct-filters" hidden onsubmit="return false" role="search">
+    <label class="ct-search"><span class="visually-hidden">Search</span>
+      <input type="search" name="q" placeholder="search name, area, place…" autocomplete="off">
+    </label>
+    <label>area
+      <select name="area"><option value="">all</option></select>
+    </label>
+    <label>type
+      <select name="type"><option value="">all</option></select>
+    </label>
+    <label class="ct-check"><input type="checkbox" name="archival"> archival only</label>
+  </form>
+  <div class="ct-body" aria-live="polite"></div>
+  <p class="ct-status"><noscript>This page needs JavaScript to load the conference list.</noscript></p>
+</div>
+{{ with resources.Get "js/conference-tracker.js" }}
+{{ $js := . | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

@@ -20,6 +20,14 @@
   {{ $tech := index .Site.Taxonomies.series "tech" }}
   {{ $travel := index .Site.Taxonomies.series "travel" }}
 
+  <h2 id="research">Research</h2>
+
+  <p>
+  I am broadly interested in the study of cause and effects (causality, preference optimization, decision under uncertainty), and the study of abstractions (programming languages, formal methods, and distributed computing protocols).
+  </p>
+
+  I maintain a conference tracker <a href="https://basillabib.com/conference-tracker">here</a>.
+  
   <h2 id="tech">Tech</h2>
   {{ with $tech }}
   {{ partial "post-list.html" (first 6 .Pages.ByDate.Reverse) }}

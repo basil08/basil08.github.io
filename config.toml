@@ -80,6 +80,11 @@ description = "Basil Labib is an AI safety researcher (IIT Delhi CS, M.Tech) wri
   upvote = true
   upvoteURL = "https://main-website-upvotes-backend.basillabib01.workers.dev"
 
+  # /conference-tracker/ reads a Google Apps Script web app (source and deploy
+  # steps in apps-script/conference-tracker/). Paste the deployment's /exec URL
+  # here; until then the page shows a "not connected" note.
+  conferenceTrackerURL = "https://script.google.com/macros/s/AKfycbzxk5z1A7juZqleswRXwDx8TWPMlD0ERsdgVjdlctF6gNm-rZ9R9HPvbBJLMEnIZRAN3Q/exec"
+
   [params.author]
     name = "Basil Labib"
     email = "gs454236@gmail.com"

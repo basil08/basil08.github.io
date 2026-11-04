@@ -362,6 +362,224 @@ li.droplet {
   margin-top: 8px;
 }
 
+/* --- Conference tracker ({{< conference-tracker >}}) --------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.ct-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
+  margin: 1.5em 0 0.5em;
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-secondary);
+  color: var(--text-color-tertiary);
+}
+
+.ct-filters[hidden],
+.ct-filters label[hidden] {
+  display: none;
+}
+
+.ct-filters label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ct-filters input[type="search"],
+.ct-filters select {
+  font: inherit;
+  color: var(--text-color-primary);
+  background: var(--bg-color-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 3px 6px;
+}
+
+.ct-filters .ct-search {
+  flex: 1 1 200px;
+}
+
+.ct-filters input[type="search"] {
+  width: 100%;
+}
+
+.ct-filters input[type="checkbox"] {
+  margin: 0;
+  accent-color: var(--link-color);
+}
+
+h2.ct-group {
+  font-size: 1.05em;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+}
+
+.ct-count {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-secondary);
+  font-weight: 400;
+  color: var(--text-color-tertiary);
+}
+
+ul.ct-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.ct-item {
+  display: flex;
+  gap: 14px;
+  padding: 10px 0;
+  border-top: 1px dashed var(--border-color);
+}
+
+li.ct-item:first-child {
+  border-top: 0;
+}
+
+.ct-when {
+  flex: 0 0 3.2em;
+  text-align: right;
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  padding-top: 1px;
+}
+
+.ct-when.is-soon {
+  color: var(--upvoted-color);
+  font-weight: 700;
+}
+
+.ct-when.is-past {
+  color: var(--text-color-tertiary);
+}
+
+.ct-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.ct-track {
+  margin-left: 8px;
+  font-size: var(--font-size-secondary);
+  color: var(--text-color-tertiary);
+}
+
+.ct-next,
+.ct-meta,
+.ct-links {
+  font-size: var(--font-size-secondary);
+}
+
+.ct-next {
+  color: var(--text-color-primary);
+}
+
+.ct-meta {
+  color: var(--text-color-tertiary);
+}
+
+.ct-aoe,
+.ct-sep {
+  color: var(--text-color-tertiary);
+}
+
+details.ct-more {
+  margin-top: 2px;
+  font-size: var(--font-size-secondary);
+}
+
+details.ct-more > summary {
+  cursor: pointer;
+  color: var(--text-color-tertiary);
+  width: max-content;
+}
+
+details.ct-more > summary:hover {
+  color: var(--link-color);
+}
+
+.ct-more-body {
+  margin: 6px 0 2px;
+  padding-left: 12px;
+  border-left: 2px solid var(--border-color);
+}
+
+ol.ct-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px;
+  font-family: var(--font-secondary);
+}
+
+ol.ct-timeline li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+ol.ct-timeline li.is-past {
+  color: var(--text-color-tertiary);
+  text-decoration: line-through;
+  text-decoration-color: var(--border-color);
+}
+
+ol.ct-timeline li.is-next {
+  font-weight: 700;
+}
+
+ol.ct-timeline li.is-next .ct-tl-label::before {
+  content: "→ ";
+}
+
+dl.ct-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0 12px;
+  margin: 0 0 8px;
+}
+
+dl.ct-facts dt {
+  color: var(--text-color-tertiary);
+}
+
+dl.ct-facts dd {
+  margin: 0;
+}
+
+.ct-links {
+  margin: 0;
+}
+
+details.ct-past {
+  margin-top: 32px;
+}
+
+details.ct-past ul.ct-list {
+  margin-top: 4px;
+}
+
+.ct-status,
+.ct-empty {
+  font-size: var(--font-size-secondary);
+  color: var(--text-color-tertiary);
+}
+
+.ct-status {
+  margin-top: 2em;
+}
+
 /* --- Callout banner ----------------------------------------------- */
 
 .callout-banner {
