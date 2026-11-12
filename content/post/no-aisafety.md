@@ -12,7 +12,7 @@ In this post, I discuss the current pace of accelerated AI research. I want to a
 
 ---
 
-{{<dropcap>}}Kulveit et al.{{</dropcap>}}
+{{<dropcap>}}Kokotajlo et al.{{</dropcap>}}
  published a forecast called [AI 2027][0]. It predicted that we would have superhuman AI researchers by 2030. Yesterday, they said that the current rate of progress is [faster than they predicted][1]. Anthropic reports that Claude now does ~25% of AI research. Assuming an exponential trend, this is pretty damning news.
 
 The frontier labs have locked horns, racing to achieve singularity. [Singularity][3] is the point when all human labor can be automated. The lure of creating an AI has enraptured man since he first enquired about himself. To build an AI—truly in the image of man—is to first grapple with the question of man’s identity and place in the universe. Many great thinkers have thought about such an automaton and what design it might have. The one that I fondly remember from childhood is [Edgar Allan Poe’s mechanical Turk][2]. The premise made clear the next frontier of man’s achievement. To build a man in man’s own image would make man God.
